@@ -8,7 +8,7 @@ internal static class Utilities
             return;
 
         if (frameType == FrameType.Fire2Frame)
-            throw new NotSupportedException("Fire2Frame is not yet supported");
+            return;
 
         throw new NotSupportedException("Unknown frame type");
 

@@ -152,7 +152,7 @@ public class ProtoFireConnection
             ProtoFirePacket? packet = FrameType switch
             {
                 FrameType.FireFrame => await ProtoFirePacket.ReadFromAsync<FireFrame>(_stream).ConfigureAwait(false),
-                FrameType.Fire2Frame => null, //TODO: Implement Fire2Frame
+                FrameType.Fire2Frame => await ProtoFirePacket.ReadFromAsync<Fire2Frame>(_stream).ConfigureAwait(false),
                 _ => null,
             };
 

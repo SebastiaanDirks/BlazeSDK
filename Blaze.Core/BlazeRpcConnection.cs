@@ -77,7 +77,7 @@ public class BlazeRpcConnection
         IFireFrame frame = _baseConnection.FrameType switch
         {
             FrameType.FireFrame => new FireFrame(),
-            FrameType.Fire2Frame => throw new NotImplementedException("Fire2Frame not implemented"),
+            FrameType.Fire2Frame => new Fire2Frame(),
             _ => throw new InvalidOperationException("Invalid frame type")
         };
 
