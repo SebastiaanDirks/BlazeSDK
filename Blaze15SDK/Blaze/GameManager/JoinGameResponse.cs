@@ -1,0 +1,58 @@
+using EATDF;
+using EATDF.Members;
+using EATDF.Types;
+
+namespace Blaze15SDK.Blaze.GameManager;
+
+public class JoinGameResponse : Tdf
+{
+    static readonly TdfMemberInfo[] __typeInfos = [
+        new TdfMemberInfo("ExternalSessionIdentification", "mExternalSessionIdentification", 0x15324400, TdfType.Struct, 0, true), // esid
+        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
+        new TdfMemberInfo("JoinState", "mJoinState", 0x2874C000, TdfType.Enum, 2, true), // jgs
+        new TdfMemberInfo("JoinedReservedPlayerIdentifications", "mJoinedReservedPlayerIdentifications", 0x48524000, TdfType.List, 3, true), // rei
+    ];
+    private ITdfMember[] __members;
+
+    private TdfStruct<Blaze15SDK.Blaze.ExternalSessionIdentification?> _externalSessionIdentification = new(__typeInfos[0]);
+    private TdfUInt64 _gameId = new(__typeInfos[1]);
+    private TdfEnum<Blaze15SDK.Blaze.GameManager.JoinState> _joinState = new(__typeInfos[2]);
+    private TdfList<Blaze15SDK.Blaze.UserIdentification> _joinedReservedPlayerIdentifications = new(__typeInfos[3]);
+
+    public JoinGameResponse()
+    {
+        __members = [ _externalSessionIdentification, _gameId, _joinState, _joinedReservedPlayerIdentifications ];
+    }
+
+    public override Tdf CreateNew() => new JoinGameResponse();
+    public override ITdfMember[] GetMembers() => __members;
+    public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
+    public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
+    public override string GetClassName() => "JoinGameResponse";
+    public override string GetFullClassName() => "Blaze::GameManager::JoinGameResponse";
+
+    public Blaze15SDK.Blaze.ExternalSessionIdentification? ExternalSessionIdentification
+    {
+        get => _externalSessionIdentification.Value;
+        set => _externalSessionIdentification.Value = value;
+    }
+
+    public ulong GameId
+    {
+        get => _gameId.Value;
+        set => _gameId.Value = value;
+    }
+
+    public Blaze15SDK.Blaze.GameManager.JoinState JoinState
+    {
+        get => _joinState.Value;
+        set => _joinState.Value = value;
+    }
+
+    public IList<Blaze15SDK.Blaze.UserIdentification> JoinedReservedPlayerIdentifications
+    {
+        get => _joinedReservedPlayerIdentifications.Value;
+        set => _joinedReservedPlayerIdentifications.Value = value;
+    }
+
+}
