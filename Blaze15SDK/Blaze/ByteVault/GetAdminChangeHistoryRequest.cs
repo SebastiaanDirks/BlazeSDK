@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetAdminChangeHistoryRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x04434E00, TdfType.String, 0, true), // admn
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 1, true), // auth
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 2, true), // cat
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 3, true), // ctxt
-        new TdfMemberInfo("EndDate", "mEndDate", 0x14E10000, TdfType.Int64, 4, true), // end
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 5, true), // mxrc
-        new TdfMemberInfo("Offset", "mOffset", 0x3C619300, TdfType.UInt32, 6, true), // offs
-        new TdfMemberInfo("RecordName", "mRecordName", 0x4850C000, TdfType.String, 7, true), // rec
-        new TdfMemberInfo("StartDate", "mStartDate", 0x4D449400, TdfType.Int64, 8, true), // strt
-        new TdfMemberInfo("Action", "mAction", 0x51940500, TdfType.Enum, 9, true), // type
+        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x864B6E00, TdfType.String, 0, true), // Tag: ADMN
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 1, true), // Tag: AUTH
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 2, true), // Tag: CAT
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 3, true), // Tag: CTXT
+        new TdfMemberInfo("EndDate", "mEndDate", 0x96E90000, TdfType.Int64, 4, true), // Tag: END
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 5, true), // Tag: MXRC
+        new TdfMemberInfo("Offset", "mOffset", 0xBE69B300, TdfType.UInt32, 6, true), // Tag: OFFS
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA58C000, TdfType.String, 7, true), // Tag: REC
+        new TdfMemberInfo("StartDate", "mStartDate", 0xCF4CB400, TdfType.Int64, 8, true), // Tag: STRT
+        new TdfMemberInfo("Action", "mAction", 0xD39C2500, TdfType.Enum, 9, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class FetchClientConfigRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConfigSection", "mConfigSection", 0x0C624400, TdfType.String, 0, true), // cfid
+        new TdfMemberInfo("ConfigSection", "mConfigSection", 0x8E6A6400, TdfType.String, 0, true), // Tag: CFID
     ];
     private ITdfMember[] __members;
 

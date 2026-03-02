@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Util;
 public class GetTickerServerResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x04449300, TdfType.String, 0, true), // adrs
-        new TdfMemberInfo("Port", "mPort", 0x40F49400, TdfType.UInt32, 1, true), // port
-        new TdfMemberInfo("Key", "mKey", 0x4CB15900, TdfType.String, 2, true), // skey
+        new TdfMemberInfo("Address", "mAddress", 0x864CB300, TdfType.String, 0, true), // Tag: ADRS
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt32, 1, true), // Tag: PORT
+        new TdfMemberInfo("Key", "mKey", 0xCEB97900, TdfType.String, 2, true), // Tag: SKEY
     ];
     private ITdfMember[] __members;
 

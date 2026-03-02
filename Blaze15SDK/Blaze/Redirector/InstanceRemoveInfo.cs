@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class InstanceRemoveInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("InstanceId", "mInstanceId", 0x24910000, TdfType.Int32, 0, true), // iid
-        new TdfMemberInfo("InstanceName", "mInstanceName", 0x24E04D00, TdfType.String, 1, true), // inam
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4CE04D00, TdfType.String, 2, true), // snam
-        new TdfMemberInfo("ServiceNames", "mServiceNames", 0x4CE35300, TdfType.List, 3, true), // snms
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Enum, 4, true), // type
+        new TdfMemberInfo("InstanceId", "mInstanceId", 0xA6990000, TdfType.Int32, 0, true), // Tag: IID
+        new TdfMemberInfo("InstanceName", "mInstanceName", 0xA6E86D00, TdfType.String, 1, true), // Tag: INAM
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCEE86D00, TdfType.String, 2, true), // Tag: SNAM
+        new TdfMemberInfo("ServiceNames", "mServiceNames", 0xCEEB7300, TdfType.List, 3, true), // Tag: SNMS
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Enum, 4, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

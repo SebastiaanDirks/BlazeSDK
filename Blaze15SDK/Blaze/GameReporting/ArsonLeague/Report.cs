@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeague;
 public class Report : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x1C134500, TdfType.Struct, 0, true), // game
-        new TdfMemberInfo("AthleteReports", "athleteReports", 0x3C619300, TdfType.Map, 1, true), // offs
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 2, true), // plyr
+        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x9E1B6500, TdfType.Struct, 0, true), // Tag: GAME
+        new TdfMemberInfo("AthleteReports", "athleteReports", 0xBE69B300, TdfType.Map, 1, true), // Tag: OFFS
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 2, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

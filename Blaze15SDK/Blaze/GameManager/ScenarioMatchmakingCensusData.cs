@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ScenarioMatchmakingCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GlobalPlayerMatchmakingRate", "mGlobalPlayerMatchmakingRate", 0x1D035200, TdfType.Float, 0, true), // gpmr
-        new TdfMemberInfo("GlobalEstimatedTimeToMatch", "mGlobalEstimatedTimeToMatch", 0x1D450D00, TdfType.Int64, 1, true), // gttm
-        new TdfMemberInfo("MatchmakingSessionPerPingSite", "mMatchmakingSessionPerPingSite", 0x35341000, TdfType.Map, 2, true), // mspp
-        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0x39535300, TdfType.UInt32, 3, true), // nums
-        new TdfMemberInfo("PlayerMatchmakingRatePerPingsiteGroup", "mPlayerMatchmakingRatePerPingsiteGroup", 0x40D48700, TdfType.Map, 4, true), // pmrg
-        new TdfMemberInfo("EstimatedTimeToMatchPerPingsiteGroup", "mEstimatedTimeToMatchPerPingsiteGroup", 0x41450700, TdfType.Map, 5, true), // pttg
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4CE04D00, TdfType.String, 6, true), // snam
+        new TdfMemberInfo("GlobalPlayerMatchmakingRate", "mGlobalPlayerMatchmakingRate", 0x9F0B7200, TdfType.Float, 0, true), // Tag: GPMR
+        new TdfMemberInfo("GlobalEstimatedTimeToMatch", "mGlobalEstimatedTimeToMatch", 0x9F4D2D00, TdfType.Int64, 1, true), // Tag: GTTM
+        new TdfMemberInfo("MatchmakingSessionPerPingSite", "mMatchmakingSessionPerPingSite", 0xB73C3000, TdfType.Map, 2, true), // Tag: MSPP
+        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0xBB5B7300, TdfType.UInt32, 3, true), // Tag: NUMS
+        new TdfMemberInfo("PlayerMatchmakingRatePerPingsiteGroup", "mPlayerMatchmakingRatePerPingsiteGroup", 0xC2DCA700, TdfType.Map, 4, true), // Tag: PMRG
+        new TdfMemberInfo("EstimatedTimeToMatchPerPingsiteGroup", "mEstimatedTimeToMatchPerPingsiteGroup", 0xC34D2700, TdfType.Map, 5, true), // Tag: PTTG
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCEE86D00, TdfType.String, 6, true), // Tag: SNAM
     ];
     private ITdfMember[] __members;
 

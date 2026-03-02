@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class AchievementListData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AchievementList", "mAchievementList", 0x04330900, TdfType.Map, 0, true), // acli
+        new TdfMemberInfo("AchievementList", "mAchievementList", 0x863B2900, TdfType.Map, 0, true), // Tag: ACLI
     ];
     private ITdfMember[] __members;
 

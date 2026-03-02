@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TemplateAttributeDefinition : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientDefined", "mClientDefined", 0x0C414600, TdfType.Bool, 0, true), // cdef
-        new TdfMemberInfo("Default", "mDefault", 0x10518000, TdfType.Variable, 1, true), // def
-        new TdfMemberInfo("DebugOnly", "mDebugOnly", 0x1D30C300, TdfType.Bool, 2, true), // gscc
-        new TdfMemberInfo("IsOptional", "mIsOptional", 0x24F41400, TdfType.Bool, 3, true), // iopt
-        new TdfMemberInfo("AttrName", "mAttrName", 0x58148000, TdfType.String, 4, true), // var
+        new TdfMemberInfo("ClientDefined", "mClientDefined", 0x8E496600, TdfType.Bool, 0, true), // Tag: CDEF
+        new TdfMemberInfo("Default", "mDefault", 0x92598000, TdfType.Variable, 1, true), // Tag: DEF
+        new TdfMemberInfo("DebugOnly", "mDebugOnly", 0x9F38E300, TdfType.Bool, 2, true), // Tag: GSCC
+        new TdfMemberInfo("IsOptional", "mIsOptional", 0xA6FC3400, TdfType.Bool, 3, true), // Tag: IOPT
+        new TdfMemberInfo("AttrName", "mAttrName", 0xDA1C8000, TdfType.String, 4, true), // Tag: VAR
     ];
     private ITdfMember[] __members;
 

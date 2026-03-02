@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubsComponentSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AwardSettings", "mAwardSettings", 0x0574D400, TdfType.List, 0, true), // awst
-        new TdfMemberInfo("ClubDivisionSize", "mClubDivisionSize", 0x0CC11300, TdfType.UInt16, 1, true), // clds
-        new TdfMemberInfo("DomainList", "mDomainList", 0x10D39300, TdfType.List, 2, true), // dmns
-        new TdfMemberInfo("MaxEvents", "mMaxEvents", 0x35815600, TdfType.UInt16, 3, true), // mxev
-        new TdfMemberInfo("MaxRivalsPerClub", "mMaxRivalsPerClub", 0x35849600, TdfType.UInt16, 4, true), // mxrv
-        new TdfMemberInfo("PurgeHour", "mPurgeHour", 0x41521200, TdfType.UInt16, 5, true), // puhr
-        new TdfMemberInfo("RecordSettings", "mRecordSettings", 0x4854D400, TdfType.List, 6, true), // rest
-        new TdfMemberInfo("SeasonRolloverTime", "mSeasonRolloverTime", 0x4CF59200, TdfType.Int32, 7, true), // sovr
-        new TdfMemberInfo("SeasonStartTime", "mSeasonStartTime", 0x4D449400, TdfType.Int32, 8, true), // strt
+        new TdfMemberInfo("AwardSettings", "mAwardSettings", 0x877CF400, TdfType.List, 0, true), // Tag: AWST
+        new TdfMemberInfo("ClubDivisionSize", "mClubDivisionSize", 0x8EC93300, TdfType.UInt16, 1, true), // Tag: CLDS
+        new TdfMemberInfo("DomainList", "mDomainList", 0x92DBB300, TdfType.List, 2, true), // Tag: DMNS
+        new TdfMemberInfo("MaxEvents", "mMaxEvents", 0xB7897600, TdfType.UInt16, 3, true), // Tag: MXEV
+        new TdfMemberInfo("MaxRivalsPerClub", "mMaxRivalsPerClub", 0xB78CB600, TdfType.UInt16, 4, true), // Tag: MXRV
+        new TdfMemberInfo("PurgeHour", "mPurgeHour", 0xC35A3200, TdfType.UInt16, 5, true), // Tag: PUHR
+        new TdfMemberInfo("RecordSettings", "mRecordSettings", 0xCA5CF400, TdfType.List, 6, true), // Tag: REST
+        new TdfMemberInfo("SeasonRolloverTime", "mSeasonRolloverTime", 0xCEFDB200, TdfType.Int32, 7, true), // Tag: SOVR
+        new TdfMemberInfo("SeasonStartTime", "mSeasonStartTime", 0xCF4CB400, TdfType.Int32, 8, true), // Tag: STRT
     ];
     private ITdfMember[] __members;
 

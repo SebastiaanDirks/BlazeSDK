@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportViewInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 0, true), // desc
-        new TdfMemberInfo("TypeName", "mTypeName", 0x1D465000, TdfType.String, 1, true), // gtyp
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 2, true), // meta
-        new TdfMemberInfo("Name", "mName", 0x58E04D00, TdfType.String, 3, true), // vnam
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 0, true), // Tag: DESC
+        new TdfMemberInfo("TypeName", "mTypeName", 0x9F4E7000, TdfType.String, 1, true), // Tag: GTYP
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 2, true), // Tag: META
+        new TdfMemberInfo("Name", "mName", 0xDAE86D00, TdfType.String, 3, true), // Tag: VNAM
     ];
     private ITdfMember[] __members;
 

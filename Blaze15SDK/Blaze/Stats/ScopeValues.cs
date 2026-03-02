@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class ScopeValues : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("KeyScopeValues", "mKeyScopeValues", 0x2D358C00, TdfType.Map, 0, true), // ksvl
+        new TdfMemberInfo("KeyScopeValues", "mKeyScopeValues", 0xAF3DAC00, TdfType.Map, 0, true), // Tag: KSVL
     ];
     private ITdfMember[] __members;
 

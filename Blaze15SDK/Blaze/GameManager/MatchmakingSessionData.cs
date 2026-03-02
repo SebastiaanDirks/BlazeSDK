@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingSessionData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SessionDuration", "mSessionDuration", 0x11548000, TdfType.Int64, 0, true), // dur
-        new TdfMemberInfo("DebugFreezeDecay", "mDebugFreezeDecay", 0x1923DA00, TdfType.Bool, 1, true), // froz
-        new TdfMemberInfo("SessionMode", "mSessionMode", 0x34F10500, TdfType.Enum, 2, true), // mode
-        new TdfMemberInfo("ExternalMmSessionTemplateName", "mExternalMmSessionTemplateName", 0x35350E00, TdfType.String, 3, true), // mstn
-        new TdfMemberInfo("PseudoRequest", "mPseudoRequest", 0x41310F00, TdfType.Bool, 4, true), // psdo
-        new TdfMemberInfo("StartingDecayAge", "mStartingDecayAge", 0x4C414300, TdfType.Int64, 5, true), // sdec
-        new TdfMemberInfo("StartDelay", "mStartDelay", 0x4C414C00, TdfType.Int64, 6, true), // sdel
-        new TdfMemberInfo("MatchSelf", "mMatchSelf", 0x4C530600, TdfType.Bool, 7, true), // self
+        new TdfMemberInfo("SessionDuration", "mSessionDuration", 0x935C8000, TdfType.Int64, 0, true), // Tag: DUR
+        new TdfMemberInfo("DebugFreezeDecay", "mDebugFreezeDecay", 0x9B2BFA00, TdfType.Bool, 1, true), // Tag: FROZ
+        new TdfMemberInfo("SessionMode", "mSessionMode", 0xB6F92500, TdfType.Enum, 2, true), // Tag: MODE
+        new TdfMemberInfo("ExternalMmSessionTemplateName", "mExternalMmSessionTemplateName", 0xB73D2E00, TdfType.String, 3, true), // Tag: MSTN
+        new TdfMemberInfo("PseudoRequest", "mPseudoRequest", 0xC3392F00, TdfType.Bool, 4, true), // Tag: PSDO
+        new TdfMemberInfo("StartingDecayAge", "mStartingDecayAge", 0xCE496300, TdfType.Int64, 5, true), // Tag: SDEC
+        new TdfMemberInfo("StartDelay", "mStartDelay", 0xCE496C00, TdfType.Int64, 6, true), // Tag: SDEL
+        new TdfMemberInfo("MatchSelf", "mMatchSelf", 0xCE5B2600, TdfType.Bool, 7, true), // Tag: SELF
     ];
     private ITdfMember[] __members;
 

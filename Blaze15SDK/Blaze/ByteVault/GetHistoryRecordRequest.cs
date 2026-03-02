@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetHistoryRecordRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RecordAddress", "mRecordAddress", 0x04411200, TdfType.Struct, 0, true), // addr
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 1, true), // auth
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x3014D400, TdfType.Int64, 2, true), // last
-        new TdfMemberInfo("Subrecord", "mSubrecord", 0x4D509200, TdfType.String, 3, true), // subr
+        new TdfMemberInfo("RecordAddress", "mRecordAddress", 0x86493200, TdfType.Struct, 0, true), // Tag: ADDR
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 1, true), // Tag: AUTH
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xB21CF400, TdfType.Int64, 2, true), // Tag: LAST
+        new TdfMemberInfo("Subrecord", "mSubrecord", 0xCF58B200, TdfType.String, 3, true), // Tag: SUBR
     ];
     private ITdfMember[] __members;
 

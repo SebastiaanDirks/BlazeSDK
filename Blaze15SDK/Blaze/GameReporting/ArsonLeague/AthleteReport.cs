@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeague;
 public class AthleteReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DefensivePlayerStats", "defensivePlayerStats", 0x10519300, TdfType.Struct, 0, true), // defs
-        new TdfMemberInfo("OffensivePlayerStats", "offensivePlayerStats", 0x3C619300, TdfType.Struct, 1, true), // offs
+        new TdfMemberInfo("DefensivePlayerStats", "defensivePlayerStats", 0x9259B300, TdfType.Struct, 0, true), // Tag: DEFS
+        new TdfMemberInfo("OffensivePlayerStats", "offensivePlayerStats", 0xBE69B300, TdfType.Struct, 1, true), // Tag: OFFS
     ];
     private ITdfMember[] __members;
 

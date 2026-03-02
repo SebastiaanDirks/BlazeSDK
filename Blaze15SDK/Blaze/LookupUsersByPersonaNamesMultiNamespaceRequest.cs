@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class LookupUsersByPersonaNamesMultiNamespaceRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PersonaNameList", "mPersonaNameList", 0xC2CCF400, TdfType.List, 0, true), // PLST
-        new TdfMemberInfo("PrimaryNamespaceOnly", "mPrimaryNamespaceOnly", 0xC2FBAC00, TdfType.Bool, 1, true), // PONL
+        new TdfMemberInfo("PersonaNameList", "mPersonaNameList", 0xC2CCF400, TdfType.List, 0, true), // Tag: PLST
+        new TdfMemberInfo("PrimaryNamespaceOnly", "mPrimaryNamespaceOnly", 0xC2FBAC00, TdfType.Bool, 1, true), // Tag: PONL
     ];
     private ITdfMember[] __members;
 

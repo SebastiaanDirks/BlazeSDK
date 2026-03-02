@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class UserManagerCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConnectedPlayerCounts", "mConnectedPlayerCounts", 0x8F08ED00, TdfType.Map, 0, true), // CPCM
-        new TdfMemberInfo("ConnectedPlayerCountByPingSite", "mConnectedPlayerCountByPingSite", 0x8F08F000, TdfType.Map, 1, true), // CPCP
+        new TdfMemberInfo("ConnectedPlayerCounts", "mConnectedPlayerCounts", 0x8F08ED00, TdfType.Map, 0, true), // Tag: CPCM
+        new TdfMemberInfo("ConnectedPlayerCountByPingSite", "mConnectedPlayerCountByPingSite", 0x8F08F000, TdfType.Map, 1, true), // Tag: CPCP
     ];
     private ITdfMember[] __members;
 

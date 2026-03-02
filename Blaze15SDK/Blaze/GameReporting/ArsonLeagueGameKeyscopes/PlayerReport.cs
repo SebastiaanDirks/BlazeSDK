@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeagueGameKeyscopes;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Losses", "losses", 0x30F4D300, TdfType.UInt16, 0, true), // loss
-        new TdfMemberInfo("SeasonLevel", "seasonLevel", 0x4CC58C00, TdfType.UInt16, 1, true), // slvl
-        new TdfMemberInfo("Wins", "wins", 0x5C939300, TdfType.UInt16, 2, true), // wins
+        new TdfMemberInfo("Losses", "losses", 0xB2FCF300, TdfType.UInt16, 0, true), // Tag: LOSS
+        new TdfMemberInfo("SeasonLevel", "seasonLevel", 0xCECDAC00, TdfType.UInt16, 1, true), // Tag: SLVL
+        new TdfMemberInfo("Wins", "wins", 0xDE9BB300, TdfType.UInt16, 2, true), // Tag: WINS
     ];
     private ITdfMember[] __members;
 

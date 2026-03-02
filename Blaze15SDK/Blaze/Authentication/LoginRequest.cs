@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class LoginRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // AIDS
-        new TdfMemberInfo("AuthCode", "mAuthCode", 0x875D2800, TdfType.String, 1, true), // AUTH
-        new TdfMemberInfo("CrossPlatformOpt", "mCrossPlatformOpt", 0x8EFC3400, TdfType.Enum, 2, true), // COPT
-        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 3, true), // CTYP
-        new TdfMemberInfo("ExternalId", "mExternalId", 0x978D2900, TdfType.Int64, 4, true), // EXTI
-        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 5, true), // PRDT
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // Tag: AIDS
+        new TdfMemberInfo("AuthCode", "mAuthCode", 0x875D2800, TdfType.String, 1, true), // Tag: AUTH
+        new TdfMemberInfo("CrossPlatformOpt", "mCrossPlatformOpt", 0x8EFC3400, TdfType.Enum, 2, true), // Tag: COPT
+        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 3, true), // Tag: CTYP
+        new TdfMemberInfo("ExternalId", "mExternalId", 0x978D2900, TdfType.Int64, 4, true), // Tag: EXTI
+        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 5, true), // Tag: PRDT
     ];
     private ITdfMember[] __members;
 

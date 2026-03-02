@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class MetadataUnion : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MetadataString", "mMetadataString", 0x34551300, TdfType.String, 0, false), // mets
-        new TdfMemberInfo("MetadataBlob", "mMetadataBlob", 0x34550200, TdfType.Blob, 1, false), // metb
+        new TdfMemberInfo("MetadataString", "mMetadataString", 0xB65D3300, TdfType.String, 0, false), // Tag: METS
+        new TdfMemberInfo("MetadataBlob", "mMetadataBlob", 0xB65D2200, TdfType.Blob, 1, false), // Tag: METB
     ];
 
     private TdfString _metadataString = new(__typeInfos[0]);

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetDataRatesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DataRates", "mDataRates", 0x48150500, TdfType.Struct, 0, true), // rate
-        new TdfMemberInfo("DataRatesPerCategoryPerContext", "mDataRatesPerCategoryPerContext", 0x48150D00, TdfType.Map, 1, true), // ratm
+        new TdfMemberInfo("DataRates", "mDataRates", 0xCA1D2500, TdfType.Struct, 0, true), // Tag: RATE
+        new TdfMemberInfo("DataRatesPerCategoryPerContext", "mDataRatesPerCategoryPerContext", 0xCA1D2D00, TdfType.Map, 1, true), // Tag: RATM
     ];
     private ITdfMember[] __members;
 

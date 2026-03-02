@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetGameReportViewRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxRows", "mMaxRows", 0x34161200, TdfType.UInt32, 0, true), // maxr
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 1, true), // name
-        new TdfMemberInfo("QueryVarValues", "mQueryVarValues", 0x45605200, TdfType.List, 2, true), // qvar
+        new TdfMemberInfo("MaxRows", "mMaxRows", 0xB61E3200, TdfType.UInt32, 0, true), // Tag: MAXR
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
+        new TdfMemberInfo("QueryVarValues", "mQueryVarValues", 0xC7687200, TdfType.List, 2, true), // Tag: QVAR
     ];
     private ITdfMember[] __members;
 

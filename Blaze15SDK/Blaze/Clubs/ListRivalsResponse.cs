@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ListRivalsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubRivalList", "mClubRivalList", 0x48958C00, TdfType.List, 0, true), // rivl
+        new TdfMemberInfo("ClubRivalList", "mClubRivalList", 0xCA9DAC00, TdfType.List, 0, true), // Tag: RIVL
     ];
     private ITdfMember[] __members;
 

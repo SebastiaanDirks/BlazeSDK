@@ -13,11 +13,11 @@ public class GetLegalDocContentRequest : Tdf
     }
 
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Platform", "mPlatform", 0x8F09B400, TdfType.Enum, 0, true), // CPFT
-        new TdfMemberInfo("IsoCountryCode", "mIsoCountryCode", 0x8F4CB900, TdfType.String, 1, true), // CTRY
-        new TdfMemberInfo("FetchContent", "mFetchContent", 0x9B48E800, TdfType.Bool, 2, true), // FTCH
-        new TdfMemberInfo("IsoLanguage", "mIsoLanguage", 0xB21BA700, TdfType.String, 3, true), // LANG
-        new TdfMemberInfo("ContentType", "mContentType", 0xD25E3400, TdfType.Enum, 4, true), // TEXT
+        new TdfMemberInfo("Platform", "mPlatform", 0x8F09B400, TdfType.Enum, 0, true), // Tag: CPFT
+        new TdfMemberInfo("IsoCountryCode", "mIsoCountryCode", 0x8F4CB900, TdfType.String, 1, true), // Tag: CTRY
+        new TdfMemberInfo("FetchContent", "mFetchContent", 0x9B48E800, TdfType.Bool, 2, true), // Tag: FTCH
+        new TdfMemberInfo("IsoLanguage", "mIsoLanguage", 0xB21BA700, TdfType.String, 3, true), // Tag: LANG
+        new TdfMemberInfo("ContentType", "mContentType", 0xD25E3400, TdfType.Enum, 4, true), // Tag: TEXT
     ];
     private ITdfMember[] __members;
 

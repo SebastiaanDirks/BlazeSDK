@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.GameHistoryClubs_NonDerived;
 public class OffensiveAthlete : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.UInt16, 0, true), // hits
-        new TdfMemberInfo("Serves", "serves", 0x4C549600, TdfType.UInt16, 1, true), // serv
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.UInt16, 0, true), // Tag: HITS
+        new TdfMemberInfo("Serves", "serves", 0xCE5CB600, TdfType.UInt16, 1, true), // Tag: SERV
     ];
     private ITdfMember[] __members;
 

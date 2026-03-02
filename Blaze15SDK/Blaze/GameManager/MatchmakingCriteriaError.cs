@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingCriteriaError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ErrMessage", "mErrMessage", 0x3531C000, TdfType.String, 0, true), // msg
+        new TdfMemberInfo("ErrMessage", "mErrMessage", 0xB739C000, TdfType.String, 0, true), // Tag: MSG
     ];
     private ITdfMember[] __members;
 

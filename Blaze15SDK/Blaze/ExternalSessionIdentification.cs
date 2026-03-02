@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze;
 public class ExternalSessionIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Xone", "mXone", 0x60F38500, TdfType.Struct, 0, true), // xone
-        new TdfMemberInfo("Ps4", "mPs4", 0x41350000, TdfType.Struct, 1, true), // ps4
-        new TdfMemberInfo("Ps5", "mPs5", 0x41354000, TdfType.Struct, 2, true), // ps5
+        new TdfMemberInfo("Ps4", "mPs4", 0xC3350000, TdfType.Struct, 0, true), // Tag: PS4
+        new TdfMemberInfo("Ps5", "mPs5", 0xC3354000, TdfType.Struct, 1, true), // Tag: PS5
+        new TdfMemberInfo("Xone", "mXone", 0xE2FBA500, TdfType.Struct, 2, true), // Tag: XONE
     ];
     private ITdfMember[] __members;
 
-    private TdfStruct<Blaze15SDK.Blaze.XboxOneExternalSessionIdentification?> _xone = new(__typeInfos[0]);
-    private TdfStruct<Blaze15SDK.Blaze.Ps4ExternalSessionIdentification?> _ps4 = new(__typeInfos[1]);
-    private TdfStruct<Blaze15SDK.Blaze.Ps5ExternalSessionIdentification?> _ps5 = new(__typeInfos[2]);
+    private TdfStruct<Blaze15SDK.Blaze.XboxOneExternalSessionIdentification?> _xone = new(__typeInfos[2]);
+    private TdfStruct<Blaze15SDK.Blaze.Ps4ExternalSessionIdentification?> _ps4 = new(__typeInfos[0]);
+    private TdfStruct<Blaze15SDK.Blaze.Ps5ExternalSessionIdentification?> _ps5 = new(__typeInfos[1]);
 
     public ExternalSessionIdentification()
     {
         __members = [
-            _xone,
             _ps4,
             _ps5,
+            _xone,
         ];
     }
 

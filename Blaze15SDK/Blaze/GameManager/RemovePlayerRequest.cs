@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RemovePlayerRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GroupId", "mGroupId", 0x09440C00, TdfType.ObjectId, 0, true), // btpl
-        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x0CE51800, TdfType.UInt16, 1, true), // cntx
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 2, true), // gid
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 3, true), // pid
-        new TdfMemberInfo("PlayerRemovedReason", "mPlayerRemovedReason", 0x48505300, TdfType.Enum, 4, true), // reas
-        new TdfMemberInfo("TitleContextString", "mTitleContextString", 0x4C351800, TdfType.String, 5, true), // sctx
+        new TdfMemberInfo("GroupId", "mGroupId", 0x8B4C2C00, TdfType.ObjectId, 0, true), // Tag: BTPL
+        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x8EED3800, TdfType.UInt16, 1, true), // Tag: CNTX
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 2, true), // Tag: GID
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 3, true), // Tag: PID
+        new TdfMemberInfo("PlayerRemovedReason", "mPlayerRemovedReason", 0xCA587300, TdfType.Enum, 4, true), // Tag: REAS
+        new TdfMemberInfo("TitleContextString", "mTitleContextString", 0xCE3D3800, TdfType.String, 5, true), // Tag: SCTX
     ];
     private ITdfMember[] __members;
 

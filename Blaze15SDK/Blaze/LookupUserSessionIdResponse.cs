@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class LookupUserSessionIdResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UsersessionidList", "usersessionidList", 0xCE990000, TdfType.List, 0, true), // SID
+        new TdfMemberInfo("UsersessionidList", "usersessionidList", 0xCE990000, TdfType.List, 0, true), // Tag: SID
     ];
     private ITdfMember[] __members;
 

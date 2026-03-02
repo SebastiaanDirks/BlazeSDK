@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class KeyScopeChangeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityId", "mEntityId", 0x14910000, TdfType.UInt64, 0, true), // eid
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15440000, TdfType.ObjectType, 1, true), // etp
-        new TdfMemberInfo("KeyScopeName", "mKeyScopeName", 0x2D338D00, TdfType.String, 2, true), // ksnm
-        new TdfMemberInfo("NewKeyScopeValue", "mNewKeyScopeValue", 0x2D339600, TdfType.Int64, 3, true), // ksnv
-        new TdfMemberInfo("OldKeyScopeValue", "mOldKeyScopeValue", 0x2D33D600, TdfType.Int64, 4, true), // ksov
+        new TdfMemberInfo("EntityId", "mEntityId", 0x96990000, TdfType.UInt64, 0, true), // Tag: EID
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974C0000, TdfType.ObjectType, 1, true), // Tag: ETP
+        new TdfMemberInfo("KeyScopeName", "mKeyScopeName", 0xAF3BAD00, TdfType.String, 2, true), // Tag: KSNM
+        new TdfMemberInfo("NewKeyScopeValue", "mNewKeyScopeValue", 0xAF3BB600, TdfType.Int64, 3, true), // Tag: KSNV
+        new TdfMemberInfo("OldKeyScopeValue", "mOldKeyScopeValue", 0xAF3BF600, TdfType.Int64, 4, true), // Tag: KSOV
     ];
     private ITdfMember[] __members;
 

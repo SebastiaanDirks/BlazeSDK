@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardEntityCountRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 0, true), // ksum
-        new TdfMemberInfo("BoardId", "mBoardId", 0x30224400, TdfType.Int32, 1, true), // lbid
-        new TdfMemberInfo("BoardName", "mBoardName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 3, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 4, true), // prid
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 0, true), // Tag: KSUM
+        new TdfMemberInfo("BoardId", "mBoardId", 0xB22A6400, TdfType.Int32, 1, true), // Tag: LBID
+        new TdfMemberInfo("BoardName", "mBoardName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 3, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 4, true), // Tag: PRID
     ];
     private ITdfMember[] __members;
 

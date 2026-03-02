@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class CustomEvent : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EventData", "mEventData", 0x15614400, TdfType.Variable, 0, true), // eved
-        new TdfMemberInfo("EventType", "mEventType", 0x15650E00, TdfType.String, 1, true), // evtn
+        new TdfMemberInfo("EventData", "mEventData", 0x97696400, TdfType.Variable, 0, true), // Tag: EVED
+        new TdfMemberInfo("EventType", "mEventType", 0x976D2E00, TdfType.String, 1, true), // Tag: EVTN
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class FetchLastLocaleUsedAndAuthErrorRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 0, true), // ID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 0, true), // Tag: ID
     ];
     private ITdfMember[] __members;
 

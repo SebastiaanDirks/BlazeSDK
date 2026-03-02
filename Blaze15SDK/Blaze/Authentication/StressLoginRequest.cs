@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class StressLoginRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 0, true), // CTYP
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 1, true), // MAIL
-        new TdfMemberInfo("AccountId", "mAccountId", 0xBB5A6400, TdfType.Int64, 2, true), // NUID
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 3, true), // PNAM
-        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 4, true), // PRDT
+        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 0, true), // Tag: CTYP
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 1, true), // Tag: MAIL
+        new TdfMemberInfo("AccountId", "mAccountId", 0xBB5A6400, TdfType.Int64, 2, true), // Tag: NUID
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 3, true), // Tag: PNAM
+        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 4, true), // Tag: PRDT
     ];
     private ITdfMember[] __members;
 

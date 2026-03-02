@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class Club : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ClubInfo", "mClubInfo", 0x0CC24E00, TdfType.Struct, 1, true), // clin
-        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x0CC4D400, TdfType.Struct, 2, true), // clst
-        new TdfMemberInfo("TagList", "mTagList", 0x0CC50700, TdfType.List, 3, true), // cltg
-        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x10D24400, TdfType.UInt32, 4, true), // dmid
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 5, true), // name
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ClubInfo", "mClubInfo", 0x8ECA6E00, TdfType.Struct, 1, true), // Tag: CLIN
+        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x8ECCF400, TdfType.Struct, 2, true), // Tag: CLST
+        new TdfMemberInfo("TagList", "mTagList", 0x8ECD2700, TdfType.List, 3, true), // Tag: CLTG
+        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x92DA6400, TdfType.UInt32, 4, true), // Tag: DMID
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 5, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

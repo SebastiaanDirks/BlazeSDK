@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class DecrementUseCount : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UseCountConsumed", "mUseCountConsumed", 0xD63D2300, TdfType.UInt32, 0, true), // UCTC
-        new TdfMemberInfo("UseCountRemain", "mUseCountRemain", 0xD63D3200, TdfType.UInt32, 1, true), // UCTR
+        new TdfMemberInfo("UseCountConsumed", "mUseCountConsumed", 0xD63D2300, TdfType.UInt32, 0, true), // Tag: UCTC
+        new TdfMemberInfo("UseCountRemain", "mUseCountRemain", 0xD63D3200, TdfType.UInt32, 1, true), // Tag: UCTR
     ];
     private ITdfMember[] __members;
     private TdfUInt32 _useCountConsumed = new(__typeInfos[0]);

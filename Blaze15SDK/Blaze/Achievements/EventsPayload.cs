@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class EventsPayload : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Device", "mDevice", 0x10558000, TdfType.String, 0, true), // dev
-        new TdfMemberInfo("Events", "mEvents", 0x15614E00, TdfType.List, 1, true), // even
+        new TdfMemberInfo("Device", "mDevice", 0x925D8000, TdfType.String, 0, true), // Tag: DEV
+        new TdfMemberInfo("Events", "mEvents", 0x97696E00, TdfType.List, 1, true), // Tag: EVEN
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class QosPingSiteInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0xC3384000, TdfType.String, 0, true), // PSA
-        new TdfMemberInfo("Port", "mPort", 0xC33C0000, TdfType.UInt16, 1, true), // PSP
+        new TdfMemberInfo("Address", "mAddress", 0xC3384000, TdfType.String, 0, true), // Tag: PSA
+        new TdfMemberInfo("Port", "mPort", 0xC33C0000, TdfType.UInt16, 1, true), // Tag: PSP
     ];
     private ITdfMember[] __members;
 

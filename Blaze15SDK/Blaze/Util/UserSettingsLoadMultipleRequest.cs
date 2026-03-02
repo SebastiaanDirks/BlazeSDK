@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserSettingsLoadMultipleRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Keys", "mKeys", 0x2C565300, TdfType.List, 0, true), // keys
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x54910000, TdfType.Int64, 1, true), // uid
+        new TdfMemberInfo("Keys", "mKeys", 0xAE5E7300, TdfType.List, 0, true), // Tag: KEYS
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

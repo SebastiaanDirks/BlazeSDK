@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_DimensionalStats;
 public class DimStat : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DimMap", "dimMap", 0x10D38000, TdfType.Map, 0, true), // dmmp
-        new TdfMemberInfo("Value", "value", 0x4D604C00, TdfType.Int32, 1, true), // sval
+        new TdfMemberInfo("DimMap", "dimMap", 0x92DB7000, TdfType.Map, 0, true), // Tag: DMMP
+        new TdfMemberInfo("Value", "value", 0xCF686C00, TdfType.Int32, 1, true), // Tag: SVAL
     ];
     private ITdfMember[] __members;
 

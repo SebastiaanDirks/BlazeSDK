@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamMemberInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 0, true), // pid
-        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0x48F30500, TdfType.String, 1, true), // role
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 0, true), // Tag: PID
+        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0xCAFB2500, TdfType.String, 1, true), // Tag: ROLE
     ];
     private ITdfMember[] __members;
 

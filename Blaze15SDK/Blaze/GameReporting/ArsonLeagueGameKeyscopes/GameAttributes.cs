@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeagueGameKeyscopes;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LeagueId", "leagueId", 0x30504700, TdfType.UInt64, 0, true), // leag
-        new TdfMemberInfo("MapId", "mapId", 0x34140000, TdfType.UInt16, 1, true), // map
+        new TdfMemberInfo("LeagueId", "leagueId", 0xB2586700, TdfType.UInt64, 0, true), // Tag: LEAG
+        new TdfMemberInfo("MapId", "mapId", 0xB61C0000, TdfType.UInt16, 1, true), // Tag: MAP
     ];
     private ITdfMember[] __members;
 

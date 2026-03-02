@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SetGameSettingsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("GameSettings", "mGameSettings", 0x1D315400, TdfType.Enum, 1, true), // gset
-        new TdfMemberInfo("GameSettingsMask", "mGameSettingsMask", 0x1D350D00, TdfType.Enum, 2, true), // gstm
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("GameSettings", "mGameSettings", 0x9F397400, TdfType.Enum, 1, true), // Tag: GSET
+        new TdfMemberInfo("GameSettingsMask", "mGameSettingsMask", 0x9F3D2D00, TdfType.Enum, 2, true), // Tag: GSTM
     ];
     private ITdfMember[] __members;
 

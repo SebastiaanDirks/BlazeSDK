@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetNewsForClubsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x0C910C00, TdfType.List, 0, true), // cidl
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x34339400, TdfType.UInt32, 1, true), // mcnt
-        new TdfMemberInfo("SortType", "mSortType", 0x3933D400, TdfType.Enum, 2, true), // nsot
-        new TdfMemberInfo("OffSet", "mOffSet", 0x3C64D400, TdfType.UInt32, 3, true), // ofst
-        new TdfMemberInfo("TypeFilters", "mTypeFilters", 0x50624C00, TdfType.List, 4, true), // tfil
+        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x8E992C00, TdfType.List, 0, true), // Tag: CIDL
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB63BB400, TdfType.UInt32, 1, true), // Tag: MCNT
+        new TdfMemberInfo("SortType", "mSortType", 0xBB3BF400, TdfType.Enum, 2, true), // Tag: NSOT
+        new TdfMemberInfo("OffSet", "mOffSet", 0xBE6CF400, TdfType.UInt32, 3, true), // Tag: OFST
+        new TdfMemberInfo("TypeFilters", "mTypeFilters", 0xD26A6C00, TdfType.List, 4, true), // Tag: TFIL
     ];
     private ITdfMember[] __members;
 

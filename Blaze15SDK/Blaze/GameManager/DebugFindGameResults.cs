@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DebugFindGameResults : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TopResultList", "mTopResultList", 0x11448000, TdfType.List, 0, true), // dtr
-        new TdfMemberInfo("FoundGameFitScore", "mFoundGameFitScore", 0x18625400, TdfType.UInt32, 1, true), // ffit
-        new TdfMemberInfo("FoundGame", "mFoundGame", 0x18704D00, TdfType.Struct, 2, true), // fgam
-        new TdfMemberInfo("FoundGameTimeToMatch", "mFoundGameTimeToMatch", 0x19450D00, TdfType.Int64, 3, true), // fttm
-        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0x34625400, TdfType.UInt32, 4, true), // mfit
-        new TdfMemberInfo("JoinedPlayerCount", "mJoinedPlayerCount", 0x4C968500, TdfType.UInt16, 5, true), // size
+        new TdfMemberInfo("TopResultList", "mTopResultList", 0x934C8000, TdfType.List, 0, true), // Tag: DTR
+        new TdfMemberInfo("FoundGameFitScore", "mFoundGameFitScore", 0x9A6A7400, TdfType.UInt32, 1, true), // Tag: FFIT
+        new TdfMemberInfo("FoundGame", "mFoundGame", 0x9A786D00, TdfType.Struct, 2, true), // Tag: FGAM
+        new TdfMemberInfo("FoundGameTimeToMatch", "mFoundGameTimeToMatch", 0x9B4D2D00, TdfType.Int64, 3, true), // Tag: FTTM
+        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0xB66A7400, TdfType.UInt32, 4, true), // Tag: MFIT
+        new TdfMemberInfo("JoinedPlayerCount", "mJoinedPlayerCount", 0xCE9EA500, TdfType.UInt16, 5, true), // Tag: SIZE
     ];
     private ITdfMember[] __members;
 

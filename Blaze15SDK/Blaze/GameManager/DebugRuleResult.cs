@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DebugRuleResult : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Conditions", "mConditions", 0x0CF38400, TdfType.List, 0, true), // cond
-        new TdfMemberInfo("FitScore", "mFitScore", 0x18950000, TdfType.UInt32, 1, true), // fit
-        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0x34625400, TdfType.UInt32, 2, true), // mfit
-        new TdfMemberInfo("Result", "mResult", 0x4854C000, TdfType.Enum, 3, true), // res
+        new TdfMemberInfo("Conditions", "mConditions", 0x8EFBA400, TdfType.List, 0, true), // Tag: COND
+        new TdfMemberInfo("FitScore", "mFitScore", 0x9A9D0000, TdfType.UInt32, 1, true), // Tag: FIT
+        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0xB66A7400, TdfType.UInt32, 2, true), // Tag: MFIT
+        new TdfMemberInfo("Result", "mResult", 0xCA5CC000, TdfType.Enum, 3, true), // Tag: RES
     ];
     private ITdfMember[] __members;
 

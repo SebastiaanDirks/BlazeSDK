@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonMultiStatUpdatesKeyscopes;
 public class OffensiveAthlete : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.UInt16, 0, true), // hits
-        new TdfMemberInfo("PlayerId", "playerId", 0x40910000, TdfType.Int64, 1, true), // pid
-        new TdfMemberInfo("Serves", "serves", 0x4C549600, TdfType.UInt16, 2, true), // serv
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.UInt16, 0, true), // Tag: HITS
+        new TdfMemberInfo("PlayerId", "playerId", 0xC2990000, TdfType.Int64, 1, true), // Tag: PID
+        new TdfMemberInfo("Serves", "serves", 0xCE5CB600, TdfType.UInt16, 2, true), // Tag: SERV
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class JoinOrPetitionClubResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubJoinOrPetitionStatus", "mClubJoinOrPetitionStatus", 0x0CA41300, TdfType.Enum, 0, true), // cjps
+        new TdfMemberInfo("ClubJoinOrPetitionStatus", "mClubJoinOrPetitionStatus", 0x8EAC3300, TdfType.Enum, 0, true), // Tag: CJPS
     ];
     private ITdfMember[] __members;
 

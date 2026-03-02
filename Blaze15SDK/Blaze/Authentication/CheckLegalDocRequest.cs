@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class CheckLegalDocRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LegalDocUri", "mLegalDocUri", 0xD35CA900, TdfType.String, 0, true), // TURI
+        new TdfMemberInfo("LegalDocUri", "mLegalDocUri", 0xD35CA900, TdfType.String, 0, true), // Tag: TURI
     ];
     private ITdfMember[] __members;
     private TdfString _legalDocUri = new(__typeInfos[0]);

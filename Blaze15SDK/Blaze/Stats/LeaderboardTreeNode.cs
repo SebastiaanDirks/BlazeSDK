@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardTreeNode : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ChildCount", "mChildCount", 0x0C810300, TdfType.UInt32, 0, true), // chdc
-        new TdfMemberInfo("FirstChild", "mFirstChild", 0x0C811300, TdfType.UInt32, 1, true), // chds
-        new TdfMemberInfo("LastNode", "mLastNode", 0x3014D400, TdfType.Bool, 2, true), // last
-        new TdfMemberInfo("NodeName", "mNodeName", 0x38134500, TdfType.String, 3, true), // name
-        new TdfMemberInfo("NodeId", "mNodeId", 0x38424400, TdfType.UInt32, 4, true), // ndid
-        new TdfMemberInfo("RootName", "mRootName", 0x49438D00, TdfType.String, 5, true), // rtnm
-        new TdfMemberInfo("ShortDesc", "mShortDesc", 0x4C415300, TdfType.String, 6, true), // sdes
+        new TdfMemberInfo("ChildCount", "mChildCount", 0x8E892300, TdfType.UInt32, 0, true), // Tag: CHDC
+        new TdfMemberInfo("FirstChild", "mFirstChild", 0x8E893300, TdfType.UInt32, 1, true), // Tag: CHDS
+        new TdfMemberInfo("LastNode", "mLastNode", 0xB21CF400, TdfType.Bool, 2, true), // Tag: LAST
+        new TdfMemberInfo("NodeName", "mNodeName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
+        new TdfMemberInfo("NodeId", "mNodeId", 0xBA4A6400, TdfType.UInt32, 4, true), // Tag: NDID
+        new TdfMemberInfo("RootName", "mRootName", 0xCB4BAD00, TdfType.String, 5, true), // Tag: RTNM
+        new TdfMemberInfo("ShortDesc", "mShortDesc", 0xCE497300, TdfType.String, 6, true), // Tag: SDES
     ];
     private ITdfMember[] __members;
 

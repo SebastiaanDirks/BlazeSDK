@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Social.Friends;
 public class PagedListUser : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Entries", "mEntries", 0x14E51200, TdfType.List, 0, true), // entr
-        new TdfMemberInfo("PagingInfo", "mPagingInfo", 0x40938600, TdfType.Struct, 1, true), // pinf
+        new TdfMemberInfo("Entries", "mEntries", 0x96ED3200, TdfType.List, 0, true), // Tag: ENTR
+        new TdfMemberInfo("PagingInfo", "mPagingInfo", 0xC29BA600, TdfType.Struct, 1, true), // Tag: PINF
     ];
     private ITdfMember[] __members;
 

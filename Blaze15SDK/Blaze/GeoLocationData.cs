@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze;
 public class GeoLocationData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Country", "mCountry", 0x8EED3900, TdfType.String, 0, true), // CNTY
-        new TdfMemberInfo("City", "mCity", 0x8F4E4000, TdfType.String, 1, true), // CTY
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 2, true), // ID
-        new TdfMemberInfo("ISP", "mISP", 0xA73C0000, TdfType.String, 3, true), // ISP
-        new TdfMemberInfo("Latitude", "mLatitude", 0xB21D0000, TdfType.Float, 4, true), // LAT
-        new TdfMemberInfo("Longitude", "mLongitude", 0xB2FB8000, TdfType.Float, 5, true), // LON
-        new TdfMemberInfo("OptIn", "mOptIn", 0xBF0D0000, TdfType.Bool, 6, true), // OPT
-        new TdfMemberInfo("IsOverridden", "mIsOverridden", 0xBF697200, TdfType.Bool, 7, true), // OVER
-        new TdfMemberInfo("StateRegion", "mStateRegion", 0xCF400000, TdfType.String, 8, true), // ST
-        new TdfMemberInfo("TimeZone", "mTimeZone", 0xD3A00000, TdfType.String, 9, true), // TZ
+        new TdfMemberInfo("Country", "mCountry", 0x8EED3900, TdfType.String, 0, true), // Tag: CNTY
+        new TdfMemberInfo("City", "mCity", 0x8F4E4000, TdfType.String, 1, true), // Tag: CTY
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 2, true), // Tag: ID
+        new TdfMemberInfo("ISP", "mISP", 0xA73C0000, TdfType.String, 3, true), // Tag: ISP
+        new TdfMemberInfo("Latitude", "mLatitude", 0xB21D0000, TdfType.Float, 4, true), // Tag: LAT
+        new TdfMemberInfo("Longitude", "mLongitude", 0xB2FB8000, TdfType.Float, 5, true), // Tag: LON
+        new TdfMemberInfo("OptIn", "mOptIn", 0xBF0D0000, TdfType.Bool, 6, true), // Tag: OPT
+        new TdfMemberInfo("IsOverridden", "mIsOverridden", 0xBF697200, TdfType.Bool, 7, true), // Tag: OVER
+        new TdfMemberInfo("StateRegion", "mStateRegion", 0xCF400000, TdfType.String, 8, true), // Tag: ST
+        new TdfMemberInfo("TimeZone", "mTimeZone", 0xD3A00000, TdfType.String, 9, true), // Tag: TZ
     ];
     private ITdfMember[] __members;
 

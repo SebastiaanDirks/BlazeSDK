@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class SetUserInfoAttributeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttributeBits", "mAttributeBits", 0x874D3600, TdfType.UInt64, 0, true), // ATTV
-        new TdfMemberInfo("MaskBits", "mMaskBits", 0xB61CEB00, TdfType.UInt64, 1, true), // MASK
-        new TdfMemberInfo("BlazeObjectIdList", "mBlazeObjectIdList", 0xD6CCF400, TdfType.List, 2, true), // ULST
+        new TdfMemberInfo("AttributeBits", "mAttributeBits", 0x874D3600, TdfType.UInt64, 0, true), // Tag: ATTV
+        new TdfMemberInfo("MaskBits", "mMaskBits", 0xB61CEB00, TdfType.UInt64, 1, true), // Tag: MASK
+        new TdfMemberInfo("BlazeObjectIdList", "mBlazeObjectIdList", 0xD6CCF400, TdfType.List, 2, true), // Tag: ULST
     ];
     private ITdfMember[] __members;
 

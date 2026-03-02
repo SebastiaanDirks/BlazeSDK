@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Example;
 public class Nested : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("StringMap", "mStringMap", 0xBADC2100, TdfType.Map, 0, true), // NMPA
-        new TdfMemberInfo("Num", "mNum", 0xBB5B4000, TdfType.Int32, 1, true), // NUM
-        new TdfMemberInfo("Text", "mText", 0xD25E3400, TdfType.String, 2, true), // TEXT
+        new TdfMemberInfo("StringMap", "mStringMap", 0xBADC2100, TdfType.Map, 0, true), // Tag: NMPA
+        new TdfMemberInfo("Num", "mNum", 0xBB5B4000, TdfType.Int32, 1, true), // Tag: NUM
+        new TdfMemberInfo("Text", "mText", 0xD25E3400, TdfType.String, 2, true), // Tag: TEXT
     ];
     private ITdfMember[] __members;
 

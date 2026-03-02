@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetPersonaResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PersonaInfo", "mPersonaInfo", 0xC29BA600, TdfType.Struct, 0, true), // PINF
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 1, true), // UID
+        new TdfMemberInfo("PersonaInfo", "mPersonaInfo", 0xC29BA600, TdfType.Struct, 0, true), // Tag: PINF
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

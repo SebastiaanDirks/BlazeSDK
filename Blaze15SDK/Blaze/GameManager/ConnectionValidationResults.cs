@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ConnectionValidationResults : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AvoidPlayerIdList", "mAvoidPlayerIdList", 0x04C4D400, TdfType.List, 0, true), // alst
-        new TdfMemberInfo("FailCount", "mFailCount", 0x18339400, TdfType.UInt16, 1, true), // fcnt
-        new TdfMemberInfo("AvoidGameIdList", "mAvoidGameIdList", 0x1C910C00, TdfType.List, 2, true), // gidl
-        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0x3943D000, TdfType.Enum, 3, true), // ntop
-        new TdfMemberInfo("Tier", "mTier", 0x50915200, TdfType.UInt16, 4, true), // tier
+        new TdfMemberInfo("AvoidPlayerIdList", "mAvoidPlayerIdList", 0x86CCF400, TdfType.List, 0, true), // Tag: ALST
+        new TdfMemberInfo("FailCount", "mFailCount", 0x9A3BB400, TdfType.UInt16, 1, true), // Tag: FCNT
+        new TdfMemberInfo("AvoidGameIdList", "mAvoidGameIdList", 0x9E992C00, TdfType.List, 2, true), // Tag: GIDL
+        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0xBB4BF000, TdfType.Enum, 3, true), // Tag: NTOP
+        new TdfMemberInfo("Tier", "mTier", 0xD2997200, TdfType.UInt16, 4, true), // Tag: TIER
     ];
     private ITdfMember[] __members;
 

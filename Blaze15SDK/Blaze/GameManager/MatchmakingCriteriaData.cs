@@ -7,37 +7,37 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingCriteriaData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AvoidGamesRuleCriteria", "mAvoidGamesRuleCriteria", 0x04704D00, TdfType.Struct, 0, true), // agam
-        new TdfMemberInfo("AvoidPlayersRuleCriteria", "mAvoidPlayersRuleCriteria", 0x05031200, TdfType.Struct, 1, true), // aplr
-        new TdfMemberInfo("VariableCustomRulePrefs", "mVariableCustomRulePrefs", 0x0D605200, TdfType.Map, 2, true), // cvar
-        new TdfMemberInfo("DedicatedServerAttributeRuleCriteriaMap", "mDedicatedServerAttributeRuleCriteriaMap", 0x11348300, TdfType.Map, 3, true), // dsrc
-        new TdfMemberInfo("ExpandedPingSiteRuleCriteria", "mExpandedPingSiteRuleCriteria", 0x1504D200, TdfType.Struct, 4, true), // epsr
-        new TdfMemberInfo("FreePlayerSlotsRuleCriteria", "mFreePlayerSlotsRuleCriteria", 0x19215300, TdfType.Struct, 5, true), // fres
-        new TdfMemberInfo("GameAttributeRuleCriteriaMap", "mGameAttributeRuleCriteriaMap", 0x1C148300, TdfType.Map, 6, true), // garc
-        new TdfMemberInfo("GeoLocationRuleCriteria", "mGeoLocationRuleCriteria", 0x1C53C000, TdfType.Struct, 7, true), // geo
-        new TdfMemberInfo("GameNameRuleCriteria", "mGameNameRuleCriteria", 0x1CE04D00, TdfType.Struct, 8, true), // gnam
-        new TdfMemberInfo("ModRuleCriteria", "mModRuleCriteria", 0x34F11200, TdfType.Struct, 9, true), // modr
-        new TdfMemberInfo("HostBalancingRulePrefs", "mHostBalancingRulePrefs", 0x38150000, TdfType.Struct, 10, true), // nat
-        new TdfMemberInfo("PlayerAttributeRuleCriteriaMap", "mPlayerAttributeRuleCriteriaMap", 0x40148300, TdfType.Map, 11, true), // parc
-        new TdfMemberInfo("PlayerCountRuleCriteria", "mPlayerCountRuleCriteria", 0x40339400, TdfType.Struct, 12, true), // pcnt
-        new TdfMemberInfo("PlayerSlotUtilizationRuleCriteria", "mPlayerSlotUtilizationRuleCriteria", 0x40350600, TdfType.Struct, 13, true), // pctf
-        new TdfMemberInfo("PreferredGamesRuleCriteria", "mPreferredGamesRuleCriteria", 0x40748000, TdfType.Struct, 14, true), // pgr
-        new TdfMemberInfo("PreferredPlayersRuleCriteria", "mPreferredPlayersRuleCriteria", 0x41031200, TdfType.Struct, 15, true), // pplr
-        new TdfMemberInfo("PlatformRuleCriteria", "mPlatformRuleCriteria", 0x4120C000, TdfType.Struct, 16, true), // prc
-        new TdfMemberInfo("RankedGameRulePrefs", "mRankedGameRulePrefs", 0x48138B00, TdfType.Struct, 17, true), // rank
-        new TdfMemberInfo("ReputationRulePrefs", "mReputationRulePrefs", 0x48540000, TdfType.Struct, 18, true), // rep
-        new TdfMemberInfo("RosterSizeRulePrefs", "mRosterSizeRulePrefs", 0x49369200, TdfType.Struct, 19, true), // rszr
-        new TdfMemberInfo("TeamBalanceRulePrefs", "mTeamBalanceRulePrefs", 0x50248000, TdfType.Struct, 20, true), // tbr
-        new TdfMemberInfo("TeamCountRulePrefs", "mTeamCountRulePrefs", 0x50339200, TdfType.Struct, 21, true), // tcnr
-        new TdfMemberInfo("TeamCompositionRulePrefs", "mTeamCompositionRulePrefs", 0x50348000, TdfType.Struct, 22, true), // tcr
-        new TdfMemberInfo("TeamMinSizeRulePrefs", "mTeamMinSizeRulePrefs", 0x50D4D200, TdfType.Struct, 23, true), // tmsr
-        new TdfMemberInfo("TotalPlayerSlotsRuleCriteria", "mTotalPlayerSlotsRuleCriteria", 0x50F51300, TdfType.Struct, 24, true), // tots
-        new TdfMemberInfo("TeamUEDPositionParityRulePrefs", "mTeamUEDPositionParityRulePrefs", 0x51041500, TdfType.Struct, 25, true), // tppu
-        new TdfMemberInfo("TeamUEDBalanceRulePrefs", "mTeamUEDBalanceRulePrefs", 0x51548000, TdfType.Struct, 26, true), // tur
-        new TdfMemberInfo("UEDRuleCriteriaMap", "mUEDRuleCriteriaMap", 0x54510000, TdfType.Map, 27, true), // ued
-        new TdfMemberInfo("HostViabilityRulePrefs", "mHostViabilityRulePrefs", 0x58904200, TdfType.Struct, 28, true), // viab
-        new TdfMemberInfo("VirtualGameRulePrefs", "mVirtualGameRulePrefs", 0x58949400, TdfType.Struct, 29, true), // virt
-        new TdfMemberInfo("XblBlockPlayersRuleCriteria", "mXblBlockPlayersRuleCriteria", 0x61031200, TdfType.Struct, 30, true), // xplr
+        new TdfMemberInfo("AvoidGamesRuleCriteria", "mAvoidGamesRuleCriteria", 0x86786D00, TdfType.Struct, 0, true), // Tag: AGAM
+        new TdfMemberInfo("AvoidPlayersRuleCriteria", "mAvoidPlayersRuleCriteria", 0x870B3200, TdfType.Struct, 1, true), // Tag: APLR
+        new TdfMemberInfo("VariableCustomRulePrefs", "mVariableCustomRulePrefs", 0x8F687200, TdfType.Map, 2, true), // Tag: CVAR
+        new TdfMemberInfo("DedicatedServerAttributeRuleCriteriaMap", "mDedicatedServerAttributeRuleCriteriaMap", 0x933CA300, TdfType.Map, 3, true), // Tag: DSRC
+        new TdfMemberInfo("ExpandedPingSiteRuleCriteria", "mExpandedPingSiteRuleCriteria", 0x970CF200, TdfType.Struct, 4, true), // Tag: EPSR
+        new TdfMemberInfo("FreePlayerSlotsRuleCriteria", "mFreePlayerSlotsRuleCriteria", 0x9B297300, TdfType.Struct, 5, true), // Tag: FRES
+        new TdfMemberInfo("GameAttributeRuleCriteriaMap", "mGameAttributeRuleCriteriaMap", 0x9E1CA300, TdfType.Map, 6, true), // Tag: GARC
+        new TdfMemberInfo("GeoLocationRuleCriteria", "mGeoLocationRuleCriteria", 0x9E5BC000, TdfType.Struct, 7, true), // Tag: GEO
+        new TdfMemberInfo("GameNameRuleCriteria", "mGameNameRuleCriteria", 0x9EE86D00, TdfType.Struct, 8, true), // Tag: GNAM
+        new TdfMemberInfo("ModRuleCriteria", "mModRuleCriteria", 0xB6F93200, TdfType.Struct, 9, true), // Tag: MODR
+        new TdfMemberInfo("HostBalancingRulePrefs", "mHostBalancingRulePrefs", 0xBA1D0000, TdfType.Struct, 10, true), // Tag: NAT
+        new TdfMemberInfo("PlayerAttributeRuleCriteriaMap", "mPlayerAttributeRuleCriteriaMap", 0xC21CA300, TdfType.Map, 11, true), // Tag: PARC
+        new TdfMemberInfo("PlayerCountRuleCriteria", "mPlayerCountRuleCriteria", 0xC23BB400, TdfType.Struct, 12, true), // Tag: PCNT
+        new TdfMemberInfo("PlayerSlotUtilizationRuleCriteria", "mPlayerSlotUtilizationRuleCriteria", 0xC23D2600, TdfType.Struct, 13, true), // Tag: PCTF
+        new TdfMemberInfo("PreferredGamesRuleCriteria", "mPreferredGamesRuleCriteria", 0xC27C8000, TdfType.Struct, 14, true), // Tag: PGR
+        new TdfMemberInfo("PreferredPlayersRuleCriteria", "mPreferredPlayersRuleCriteria", 0xC30B3200, TdfType.Struct, 15, true), // Tag: PPLR
+        new TdfMemberInfo("PlatformRuleCriteria", "mPlatformRuleCriteria", 0xC328C000, TdfType.Struct, 16, true), // Tag: PRC
+        new TdfMemberInfo("RankedGameRulePrefs", "mRankedGameRulePrefs", 0xCA1BAB00, TdfType.Struct, 17, true), // Tag: RANK
+        new TdfMemberInfo("ReputationRulePrefs", "mReputationRulePrefs", 0xCA5C0000, TdfType.Struct, 18, true), // Tag: REP
+        new TdfMemberInfo("RosterSizeRulePrefs", "mRosterSizeRulePrefs", 0xCB3EB200, TdfType.Struct, 19, true), // Tag: RSZR
+        new TdfMemberInfo("TeamBalanceRulePrefs", "mTeamBalanceRulePrefs", 0xD22C8000, TdfType.Struct, 20, true), // Tag: TBR
+        new TdfMemberInfo("TeamCountRulePrefs", "mTeamCountRulePrefs", 0xD23BB200, TdfType.Struct, 21, true), // Tag: TCNR
+        new TdfMemberInfo("TeamCompositionRulePrefs", "mTeamCompositionRulePrefs", 0xD23C8000, TdfType.Struct, 22, true), // Tag: TCR
+        new TdfMemberInfo("TeamMinSizeRulePrefs", "mTeamMinSizeRulePrefs", 0xD2DCF200, TdfType.Struct, 23, true), // Tag: TMSR
+        new TdfMemberInfo("TotalPlayerSlotsRuleCriteria", "mTotalPlayerSlotsRuleCriteria", 0xD2FD3300, TdfType.Struct, 24, true), // Tag: TOTS
+        new TdfMemberInfo("TeamUEDPositionParityRulePrefs", "mTeamUEDPositionParityRulePrefs", 0xD30C3500, TdfType.Struct, 25, true), // Tag: TPPU
+        new TdfMemberInfo("TeamUEDBalanceRulePrefs", "mTeamUEDBalanceRulePrefs", 0xD35C8000, TdfType.Struct, 26, true), // Tag: TUR
+        new TdfMemberInfo("UEDRuleCriteriaMap", "mUEDRuleCriteriaMap", 0xD6590000, TdfType.Map, 27, true), // Tag: UED
+        new TdfMemberInfo("HostViabilityRulePrefs", "mHostViabilityRulePrefs", 0xDA986200, TdfType.Struct, 28, true), // Tag: VIAB
+        new TdfMemberInfo("VirtualGameRulePrefs", "mVirtualGameRulePrefs", 0xDA9CB400, TdfType.Struct, 29, true), // Tag: VIRT
+        new TdfMemberInfo("XblBlockPlayersRuleCriteria", "mXblBlockPlayersRuleCriteria", 0xE30B3200, TdfType.Struct, 30, true), // Tag: XPLR
     ];
     private ITdfMember[] __members;
 

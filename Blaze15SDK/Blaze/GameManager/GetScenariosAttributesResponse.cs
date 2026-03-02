@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetScenariosAttributesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0x35324400, TdfType.Map, 0, true), // msid
+        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0xB73A6400, TdfType.Map, 0, true), // Tag: MSID
     ];
     private ITdfMember[] __members;
 

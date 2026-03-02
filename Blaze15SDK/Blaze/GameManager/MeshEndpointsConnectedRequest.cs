@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MeshEndpointsConnectedRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerNetConnectionFlags", "mPlayerNetConnectionFlags", 0x18C1D300, TdfType.Enum, 0, true), // flgs
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("QosInfo", "mQosInfo", 0x44F4C900, TdfType.Struct, 2, true), // qosi
-        new TdfMemberInfo("TargetGroupId", "mTargetGroupId", 0x5031C000, TdfType.ObjectId, 3, true), // tcg
+        new TdfMemberInfo("PlayerNetConnectionFlags", "mPlayerNetConnectionFlags", 0x9AC9F300, TdfType.Enum, 0, true), // Tag: FLGS
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("QosInfo", "mQosInfo", 0xC6FCE900, TdfType.Struct, 2, true), // Tag: QOSI
+        new TdfMemberInfo("TargetGroupId", "mTargetGroupId", 0xD239C000, TdfType.ObjectId, 3, true), // Tag: TCG
     ];
     private ITdfMember[] __members;
 

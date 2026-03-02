@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class LoginResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsAnonymous", "mIsAnonymous", 0x86EBEE00, TdfType.Bool, 0, true), // ANON
-        new TdfMemberInfo("UserLoginInfo", "mUserLoginInfo", 0xCE5CF300, TdfType.Struct, 1, true), // SESS
-        new TdfMemberInfo("IsOfLegalContactAge", "mIsOfLegalContactAge", 0xCF086D00, TdfType.Bool, 2, true), // SPAM
-        new TdfMemberInfo("IsUnderage", "mIsUnderage", 0xD6E93200, TdfType.Bool, 3, true), // UNDR
+        new TdfMemberInfo("IsAnonymous", "mIsAnonymous", 0x86EBEE00, TdfType.Bool, 0, true), // Tag: ANON
+        new TdfMemberInfo("UserLoginInfo", "mUserLoginInfo", 0xCE5CF300, TdfType.Struct, 1, true), // Tag: SESS
+        new TdfMemberInfo("IsOfLegalContactAge", "mIsOfLegalContactAge", 0xCF086D00, TdfType.Bool, 2, true), // Tag: SPAM
+        new TdfMemberInfo("IsUnderage", "mIsUnderage", 0xD6E93200, TdfType.Bool, 3, true), // Tag: UNDR
     ];
     private ITdfMember[] __members;
 

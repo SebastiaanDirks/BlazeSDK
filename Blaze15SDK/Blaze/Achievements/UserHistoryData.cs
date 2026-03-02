@@ -7,18 +7,18 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class UserHistoryData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("A", "mA", 0x04824400, TdfType.String, 0, true), // ahid
-        new TdfMemberInfo("C", "mC", 0x0CE50000, TdfType.UInt32, 1, true), // cnt
-        new TdfMemberInfo("D", "mD", 0x10558300, TdfType.String, 2, true), // devc
-        new TdfMemberInfo("G", "mG", 0x4123C400, TdfType.String, 3, true), // prod
-        new TdfMemberInfo("P", "mP", 0x4144C000, TdfType.Int64, 4, true), // pts
-        new TdfMemberInfo("Requirements", "mRequirements", 0x48544C00, TdfType.List, 5, true), // reql
-        new TdfMemberInfo("R", "mR", 0x48558000, TdfType.String, 6, true), // rev
-        new TdfMemberInfo("Rp", "mRp", 0x49051300, TdfType.Int64, 7, true), // rpts
-        new TdfMemberInfo("Ti", "mTi", 0x50915200, TdfType.Int8, 8, true), // tier
-        new TdfMemberInfo("T", "mT", 0x50934500, TdfType.Int64, 9, true), // time
-        new TdfMemberInfo("Xpack", "mXpack", 0x61004300, TdfType.Struct, 10, true), // xpac
-        new TdfMemberInfo("Xp", "mXp", 0x61051300, TdfType.Int64, 11, true), // xpts
+        new TdfMemberInfo("A", "mA", 0x868A6400, TdfType.String, 0, true), // Tag: AHID
+        new TdfMemberInfo("C", "mC", 0x8EED0000, TdfType.UInt32, 1, true), // Tag: CNT
+        new TdfMemberInfo("D", "mD", 0x925DA300, TdfType.String, 2, true), // Tag: DEVC
+        new TdfMemberInfo("G", "mG", 0xC32BE400, TdfType.String, 3, true), // Tag: PROD
+        new TdfMemberInfo("P", "mP", 0xC34CC000, TdfType.Int64, 4, true), // Tag: PTS
+        new TdfMemberInfo("Requirements", "mRequirements", 0xCA5C6C00, TdfType.List, 5, true), // Tag: REQL
+        new TdfMemberInfo("R", "mR", 0xCA5D8000, TdfType.String, 6, true), // Tag: REV
+        new TdfMemberInfo("Rp", "mRp", 0xCB0D3300, TdfType.Int64, 7, true), // Tag: RPTS
+        new TdfMemberInfo("Ti", "mTi", 0xD2997200, TdfType.Int8, 8, true), // Tag: TIER
+        new TdfMemberInfo("T", "mT", 0xD29B6500, TdfType.Int64, 9, true), // Tag: TIME
+        new TdfMemberInfo("Xpack", "mXpack", 0xE3086300, TdfType.Struct, 10, true), // Tag: XPAC
+        new TdfMemberInfo("Xp", "mXp", 0xE30D3300, TdfType.Int64, 11, true), // Tag: XPTS
     ];
     private ITdfMember[] __members;
 

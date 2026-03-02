@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.SampleBase;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MapId", "mapId", 0x34140000, TdfType.Int32, 0, true), // map
-        new TdfMemberInfo("Mode", "mode", 0x34F10500, TdfType.Int32, 1, true), // mode
+        new TdfMemberInfo("MapId", "mapId", 0xB61C0000, TdfType.Int32, 0, true), // Tag: MAP
+        new TdfMemberInfo("Mode", "mode", 0xB6F92500, TdfType.Int32, 1, true), // Tag: MODE
     ];
     private ITdfMember[] __members;
 

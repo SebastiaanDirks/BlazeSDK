@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertCategoryRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 1, true), // cat
-        new TdfMemberInfo("Configuration", "mConfiguration", 0x0CF38600, TdfType.Struct, 2, true), // conf
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 3, true), // ctxt
-        new TdfMemberInfo("Description", "mDescription", 0x1054C300, TdfType.String, 4, true), // desc
-        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0x5124D400, TdfType.List, 5, true), // trst
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 1, true), // Tag: CAT
+        new TdfMemberInfo("Configuration", "mConfiguration", 0x8EFBA600, TdfType.Struct, 2, true), // Tag: CONF
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 3, true), // Tag: CTXT
+        new TdfMemberInfo("Description", "mDescription", 0x925CE300, TdfType.String, 4, true), // Tag: DESC
+        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0xD32CF400, TdfType.List, 5, true), // Tag: TRST
     ];
     private ITdfMember[] __members;
 

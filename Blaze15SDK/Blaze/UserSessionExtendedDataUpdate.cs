@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class UserSessionExtendedDataUpdate : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x921D2100, TdfType.Struct, 0, true), // DATA
-        new TdfMemberInfo("Subscribed", "mSubscribed", 0xCF58B300, TdfType.Bool, 1, true), // SUBS
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD73A6400, TdfType.Int64, 2, true), // USID
+        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x921D2100, TdfType.Struct, 0, true), // Tag: DATA
+        new TdfMemberInfo("Subscribed", "mSubscribed", 0xCF58B300, TdfType.Bool, 1, true), // Tag: SUBS
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD73A6400, TdfType.Int64, 2, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

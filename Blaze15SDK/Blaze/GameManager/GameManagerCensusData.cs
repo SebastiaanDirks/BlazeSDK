@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameManagerCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NumOfActiveGame", "mNumOfActiveGame", 0x04738000, TdfType.UInt32, 0, true), // agn
-        new TdfMemberInfo("NumOfActiveGamePerPingSite", "mNumOfActiveGamePerPingSite", 0x04741300, TdfType.Map, 1, true), // agps
-        new TdfMemberInfo("GameAttributesData", "mGameAttributesData", 0x1C10C400, TdfType.List, 2, true), // gacd
-        new TdfMemberInfo("NumOfGameGroup", "mNumOfGameGroup", 0x1C738000, TdfType.UInt32, 3, true), // ggn
-        new TdfMemberInfo("NumOfJoinedPlayer", "mNumOfJoinedPlayer", 0x29038000, TdfType.UInt32, 4, true), // jpn
-        new TdfMemberInfo("NumOfJoinedPlayerPerPingSite", "mNumOfJoinedPlayerPerPingSite", 0x29041300, TdfType.Map, 5, true), // jpps
-        new TdfMemberInfo("NumOfLoggedSession", "mNumOfLoggedSession", 0x31338000, TdfType.UInt32, 6, true), // lsn
-        new TdfMemberInfo("MatchmakingCensusData", "mMatchmakingCensusData", 0x34D0C400, TdfType.Struct, 7, true), // mmcd
-        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0x34D4CE00, TdfType.UInt32, 8, true), // mmsn
-        new TdfMemberInfo("NumOfMatchmakingUsers", "mNumOfMatchmakingUsers", 0x39534D00, TdfType.UInt32, 9, true), // numm
-        new TdfMemberInfo("NumOfPlayersInGameGroup", "mNumOfPlayersInGameGroup", 0x4091C700, TdfType.UInt32, 10, true), // pigg
+        new TdfMemberInfo("NumOfActiveGame", "mNumOfActiveGame", 0x867B8000, TdfType.UInt32, 0, true), // Tag: AGN
+        new TdfMemberInfo("NumOfActiveGamePerPingSite", "mNumOfActiveGamePerPingSite", 0x867C3300, TdfType.Map, 1, true), // Tag: AGPS
+        new TdfMemberInfo("GameAttributesData", "mGameAttributesData", 0x9E18E400, TdfType.List, 2, true), // Tag: GACD
+        new TdfMemberInfo("NumOfGameGroup", "mNumOfGameGroup", 0x9E7B8000, TdfType.UInt32, 3, true), // Tag: GGN
+        new TdfMemberInfo("NumOfJoinedPlayer", "mNumOfJoinedPlayer", 0xAB0B8000, TdfType.UInt32, 4, true), // Tag: JPN
+        new TdfMemberInfo("NumOfJoinedPlayerPerPingSite", "mNumOfJoinedPlayerPerPingSite", 0xAB0C3300, TdfType.Map, 5, true), // Tag: JPPS
+        new TdfMemberInfo("NumOfLoggedSession", "mNumOfLoggedSession", 0xB33B8000, TdfType.UInt32, 6, true), // Tag: LSN
+        new TdfMemberInfo("MatchmakingCensusData", "mMatchmakingCensusData", 0xB6D8E400, TdfType.Struct, 7, true), // Tag: MMCD
+        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0xB6DCEE00, TdfType.UInt32, 8, true), // Tag: MMSN
+        new TdfMemberInfo("NumOfMatchmakingUsers", "mNumOfMatchmakingUsers", 0xBB5B6D00, TdfType.UInt32, 9, true), // Tag: NUMM
+        new TdfMemberInfo("NumOfPlayersInGameGroup", "mNumOfPlayersInGameGroup", 0xC299E700, TdfType.UInt32, 10, true), // Tag: PIGG
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubTickerMessage : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Metadata", "mMetadata", 0x50934400, TdfType.String, 0, true), // timd
-        new TdfMemberInfo("Text", "mText", 0x50951800, TdfType.String, 1, true), // titx
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x51350D00, TdfType.UInt32, 2, true), // tstm
+        new TdfMemberInfo("Metadata", "mMetadata", 0xD29B6400, TdfType.String, 0, true), // Tag: TIMD
+        new TdfMemberInfo("Text", "mText", 0xD29D3800, TdfType.String, 1, true), // Tag: TITX
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD33D2D00, TdfType.UInt32, 2, true), // Tag: TSTM
     ];
     private ITdfMember[] __members;
 

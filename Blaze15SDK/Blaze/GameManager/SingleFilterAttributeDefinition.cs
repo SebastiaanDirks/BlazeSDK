@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SingleFilterAttributeDefinition : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttrName", "mAttrName", 0x05451200, TdfType.String, 0, true), // attr
-        new TdfMemberInfo("Default", "mDefault", 0x10518000, TdfType.String, 1, true), // def
+        new TdfMemberInfo("AttrName", "mAttrName", 0x874D3200, TdfType.String, 0, true), // Tag: ATTR
+        new TdfMemberInfo("Default", "mDefault", 0x92598000, TdfType.String, 1, true), // Tag: DEF
     ];
     private ITdfMember[] __members;
 

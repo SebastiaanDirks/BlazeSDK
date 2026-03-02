@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class Record : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x10531400, TdfType.Int64, 0, true), // delt
-        new TdfMemberInfo("Info", "mInfo", 0x24E18F00, TdfType.Struct, 1, true), // info
-        new TdfMemberInfo("Payload", "mPayload", 0x30F04400, TdfType.Struct, 2, true), // load
+        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x925B3400, TdfType.Int64, 0, true), // Tag: DELT
+        new TdfMemberInfo("Info", "mInfo", 0xA6E9AF00, TdfType.Struct, 1, true), // Tag: INFO
+        new TdfMemberInfo("Payload", "mPayload", 0xB2F86400, TdfType.Struct, 2, true), // Tag: LOAD
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class UpdateClubSettingsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x0CC4D400, TdfType.Struct, 1, true), // clst
-        new TdfMemberInfo("TagList", "mTagList", 0x0CC50700, TdfType.List, 2, true), // cltg
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x8ECCF400, TdfType.Struct, 1, true), // Tag: CLST
+        new TdfMemberInfo("TagList", "mTagList", 0x8ECD2700, TdfType.List, 2, true), // Tag: CLTG
     ];
     private ITdfMember[] __members;
 

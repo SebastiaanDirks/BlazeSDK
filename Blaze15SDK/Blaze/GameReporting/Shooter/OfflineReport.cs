@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.Shooter;
 public class OfflineReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NationReports", "nationReports", 0x38150E00, TdfType.Map, 0, true), // natn
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 1, true), // plyr
+        new TdfMemberInfo("NationReports", "nationReports", 0xBA1D2E00, TdfType.Map, 0, true), // Tag: NATN
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 1, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

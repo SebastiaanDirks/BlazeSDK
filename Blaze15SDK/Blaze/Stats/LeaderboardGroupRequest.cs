@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardGroupRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BoardId", "mBoardId", 0x30224400, TdfType.Int32, 0, true), // lbid
-        new TdfMemberInfo("BoardName", "mBoardName", 0x38134500, TdfType.String, 1, true), // name
+        new TdfMemberInfo("BoardId", "mBoardId", 0xB22A6400, TdfType.Int32, 0, true), // Tag: LBID
+        new TdfMemberInfo("BoardName", "mBoardName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

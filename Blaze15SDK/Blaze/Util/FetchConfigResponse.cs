@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class FetchConfigResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Config", "mConfig", 0x0CF38600, TdfType.Map, 0, true), // conf
+        new TdfMemberInfo("Config", "mConfig", 0x8EFBA600, TdfType.Map, 0, true), // Tag: CONF
     ];
     private ITdfMember[] __members;
 

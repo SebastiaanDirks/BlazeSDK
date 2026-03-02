@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamMinSizeRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TeamMinSizeAccepted", "mTeamMinSizeAccepted", 0x40339400, TdfType.UInt16, 0, true), // pcnt
+        new TdfMemberInfo("TeamMinSizeAccepted", "mTeamMinSizeAccepted", 0xC23BB400, TdfType.UInt16, 0, true), // Tag: PCNT
     ];
     private ITdfMember[] __members;
 

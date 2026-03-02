@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameListRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 0, true), // cmgd
-        new TdfMemberInfo("ListConfigName", "mListConfigName", 0x10E04D00, TdfType.String, 1, true), // dnam
-        new TdfMemberInfo("IgnoreGameEntryCriteria", "mIgnoreGameEntryCriteria", 0x24738F00, TdfType.Bool, 2, true), // igno
-        new TdfMemberInfo("ListCapacity", "mListCapacity", 0x30305000, TdfType.UInt32, 3, true), // lcap
-        new TdfMemberInfo("ListCriteria", "mListCriteria", 0x34D30300, TdfType.Struct, 4, true), // mmlc
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 5, true), // pljd
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 0, true), // Tag: CMGD
+        new TdfMemberInfo("ListConfigName", "mListConfigName", 0x92E86D00, TdfType.String, 1, true), // Tag: DNAM
+        new TdfMemberInfo("IgnoreGameEntryCriteria", "mIgnoreGameEntryCriteria", 0xA67BAF00, TdfType.Bool, 2, true), // Tag: IGNO
+        new TdfMemberInfo("ListCapacity", "mListCapacity", 0xB2387000, TdfType.UInt32, 3, true), // Tag: LCAP
+        new TdfMemberInfo("ListCriteria", "mListCriteria", 0xB6DB2300, TdfType.Struct, 4, true), // Tag: MMLC
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 5, true), // Tag: PLJD
     ];
     private ITdfMember[] __members;
 

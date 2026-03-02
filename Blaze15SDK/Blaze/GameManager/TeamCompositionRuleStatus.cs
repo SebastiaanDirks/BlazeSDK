@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamCompositionRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AcceptableCompositionsForMyTeam", "mAcceptableCompositionsForMyTeam", 0x35950D00, TdfType.List, 0, true), // mytm
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 1, true), // name
-        new TdfMemberInfo("AcceptableCompositionsForOtherTeams", "mAcceptableCompositionsForOtherTeams", 0x3D450D00, TdfType.List, 2, true), // ottm
+        new TdfMemberInfo("AcceptableCompositionsForMyTeam", "mAcceptableCompositionsForMyTeam", 0xB79D2D00, TdfType.List, 0, true), // Tag: MYTM
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
+        new TdfMemberInfo("AcceptableCompositionsForOtherTeams", "mAcceptableCompositionsForOtherTeams", 0xBF4D2D00, TdfType.List, 2, true), // Tag: OTTM
     ];
     private ITdfMember[] __members;
 

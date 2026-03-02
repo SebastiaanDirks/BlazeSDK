@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class DisableUserAuditLoggingRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeIdList", "mBlazeIdList", 0xD6CCF400, TdfType.List, 0, true), // ULST
+        new TdfMemberInfo("BlazeIdList", "mBlazeIdList", 0xD6CCF400, TdfType.List, 0, true), // Tag: ULST
     ];
     private ITdfMember[] __members;
 

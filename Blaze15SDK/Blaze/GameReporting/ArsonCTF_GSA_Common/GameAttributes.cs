@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_GSA_Common;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DurationSec", "durationSec", 0x11548000, TdfType.Float, 0, true), // dur
-        new TdfMemberInfo("GameName", "gameName", 0x1CE04D00, TdfType.String, 1, true), // gnam
-        new TdfMemberInfo("ProgressPercentage", "progressPercentage", 0x1D108000, TdfType.Float, 2, true), // gprp
-        new TdfMemberInfo("MapName", "mapName", 0x34140000, TdfType.String, 3, true), // map
-        new TdfMemberInfo("Rating", "rating", 0x48151700, TdfType.Int32, 4, true), // ratg
-        new TdfMemberInfo("ReplayTimes", "replayTimes", 0x50934500, TdfType.UInt32, 5, true), // time
+        new TdfMemberInfo("DurationSec", "durationSec", 0x935C8000, TdfType.Float, 0, true), // Tag: DUR
+        new TdfMemberInfo("GameName", "gameName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
+        new TdfMemberInfo("ProgressPercentage", "progressPercentage", 0x9F0CB000, TdfType.Float, 2, true), // Tag: GPRP
+        new TdfMemberInfo("MapName", "mapName", 0xB61C0000, TdfType.String, 3, true), // Tag: MAP
+        new TdfMemberInfo("Rating", "rating", 0xCA1D2700, TdfType.Int32, 4, true), // Tag: RATG
+        new TdfMemberInfo("ReplayTimes", "replayTimes", 0xD29B6500, TdfType.UInt32, 5, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

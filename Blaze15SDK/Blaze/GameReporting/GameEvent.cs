@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameEvent : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameEventData", "gameEventData", 0x10150100, TdfType.Variable, 0, true), // data
-        new TdfMemberInfo("GameEventType", "gameEventType", 0x1CD15400, TdfType.UInt32, 1, true), // gmet
+        new TdfMemberInfo("GameEventData", "gameEventData", 0x921D2100, TdfType.Variable, 0, true), // Tag: DATA
+        new TdfMemberInfo("GameEventType", "gameEventType", 0x9ED97400, TdfType.UInt32, 1, true), // Tag: GMET
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.CensusData;
 public class RegionCounts : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NumOfUsersByRegion", "mNumOfUsersByRegion", 0x0CE3D500, TdfType.Map, 0, true), // cnou
+        new TdfMemberInfo("NumOfUsersByRegion", "mNumOfUsersByRegion", 0x8EEBF500, TdfType.Map, 0, true), // Tag: CNOU
     ];
     private ITdfMember[] __members;
 

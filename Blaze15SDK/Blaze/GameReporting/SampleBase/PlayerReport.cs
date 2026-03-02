@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.SampleBase;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Country", "country", 0x0D449900, TdfType.String, 0, true), // ctry
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.UInt16, 1, true), // deth
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.UInt16, 2, true), // kill
-        new TdfMemberInfo("Money", "money", 0x34F39900, TdfType.UInt32, 3, true), // mony
-        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0x50131600, TdfType.UInt32, 4, true), // talv
+        new TdfMemberInfo("Country", "country", 0x8F4CB900, TdfType.String, 0, true), // Tag: CTRY
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.UInt16, 1, true), // Tag: DETH
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.UInt16, 2, true), // Tag: KILL
+        new TdfMemberInfo("Money", "money", 0xB6FBB900, TdfType.UInt32, 3, true), // Tag: MONY
+        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0xD21B3600, TdfType.UInt32, 4, true), // Tag: TALV
     ];
     private ITdfMember[] __members;
 

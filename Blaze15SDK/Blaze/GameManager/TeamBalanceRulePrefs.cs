@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamBalanceRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxTeamSizeDifferenceAllowed", "mMaxTeamSizeDifferenceAllowed", 0x4C424600, TdfType.UInt16, 0, true), // sdif
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 1, true), // thld
+        new TdfMemberInfo("MaxTeamSizeDifferenceAllowed", "mMaxTeamSizeDifferenceAllowed", 0xCE4A6600, TdfType.UInt16, 0, true), // Tag: SDIF
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 1, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

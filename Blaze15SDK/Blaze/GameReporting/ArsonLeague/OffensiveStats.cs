@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeague;
 public class OffensiveStats : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Games", "games", 0x1C134500, TdfType.UInt32, 0, true), // game
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.UInt32, 1, true), // hits
-        new TdfMemberInfo("Pf", "pf", 0x40600000, TdfType.UInt32, 2, true), // pf
-        new TdfMemberInfo("Serves", "serves", 0x4C549600, TdfType.UInt32, 3, true), // serv
-        new TdfMemberInfo("Time", "time", 0x50934500, TdfType.UInt32, 4, true), // time
+        new TdfMemberInfo("Games", "games", 0x9E1B6500, TdfType.UInt32, 0, true), // Tag: GAME
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.UInt32, 1, true), // Tag: HITS
+        new TdfMemberInfo("Pf", "pf", 0xC2600000, TdfType.UInt32, 2, true), // Tag: PF
+        new TdfMemberInfo("Serves", "serves", 0xCE5CB600, TdfType.UInt32, 3, true), // Tag: SERV
+        new TdfMemberInfo("Time", "time", 0xD29B6500, TdfType.UInt32, 4, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Social.Friends;
 public class User : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DisplayName", "mDisplayName", 0x11038D00, TdfType.String, 0, true), // dpnm
-        new TdfMemberInfo("DateTime", "mDateTime", 0x11450D00, TdfType.String, 1, true), // dttm
-        new TdfMemberInfo("FriendType", "mFriendType", 0x19465000, TdfType.String, 2, true), // ftyp
-        new TdfMemberInfo("Favorite", "mFavorite", 0x19649400, TdfType.Bool, 3, true), // fvrt
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0x40E24400, TdfType.Int64, 4, true), // pnid
-        new TdfMemberInfo("Source", "mSource", 0x4CF48300, TdfType.String, 5, true), // sorc
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50D4D400, TdfType.Int64, 6, true), // tmst
-        new TdfMemberInfo("UserId", "mUserId", 0x54E24400, TdfType.Int64, 7, true), // unid
+        new TdfMemberInfo("DisplayName", "mDisplayName", 0x930BAD00, TdfType.String, 0, true), // Tag: DPNM
+        new TdfMemberInfo("DateTime", "mDateTime", 0x934D2D00, TdfType.String, 1, true), // Tag: DTTM
+        new TdfMemberInfo("FriendType", "mFriendType", 0x9B4E7000, TdfType.String, 2, true), // Tag: FTYP
+        new TdfMemberInfo("Favorite", "mFavorite", 0x9B6CB400, TdfType.Bool, 3, true), // Tag: FVRT
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2EA6400, TdfType.Int64, 4, true), // Tag: PNID
+        new TdfMemberInfo("Source", "mSource", 0xCEFCA300, TdfType.String, 5, true), // Tag: SORC
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD2DCF400, TdfType.Int64, 6, true), // Tag: TMST
+        new TdfMemberInfo("UserId", "mUserId", 0xD6EA6400, TdfType.Int64, 7, true), // Tag: UNID
     ];
     private ITdfMember[] __members;
 

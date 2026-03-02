@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class GetAchievementsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x05560100, TdfType.Struct, 0, true), // auxa
-        new TdfMemberInfo("Filtered", "mFiltered", 0x18931400, TdfType.Bool, 1, true), // filt
-        new TdfMemberInfo("Language", "mLanguage", 0x30138700, TdfType.String, 2, true), // lang
-        new TdfMemberInfo("Limit", "mLimit", 0x30934900, TdfType.Enum, 3, true), // limi
-        new TdfMemberInfo("IncludeMetadata", "mIncludeMetadata", 0x34550100, TdfType.Bool, 4, true), // meta
-        new TdfMemberInfo("ProductId", "mProductId", 0x4123C400, TdfType.String, 5, true), // prod
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 6, true), // user
+        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x875E2100, TdfType.Struct, 0, true), // Tag: AUXA
+        new TdfMemberInfo("Filtered", "mFiltered", 0x9A9B3400, TdfType.Bool, 1, true), // Tag: FILT
+        new TdfMemberInfo("Language", "mLanguage", 0xB21BA700, TdfType.String, 2, true), // Tag: LANG
+        new TdfMemberInfo("Limit", "mLimit", 0xB29B6900, TdfType.Enum, 3, true), // Tag: LIMI
+        new TdfMemberInfo("IncludeMetadata", "mIncludeMetadata", 0xB65D2100, TdfType.Bool, 4, true), // Tag: META
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32BE400, TdfType.String, 5, true), // Tag: PROD
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 6, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

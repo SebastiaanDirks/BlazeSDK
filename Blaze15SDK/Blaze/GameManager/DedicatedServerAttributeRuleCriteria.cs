@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DedicatedServerAttributeRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MinFitThresholdValue", "mMinFitThresholdValue", 0x50830400, TdfType.Float, 0, true), // thld
-        new TdfMemberInfo("DesiredValue", "mDesiredValue", 0x58131500, TdfType.String, 1, true), // valu
+        new TdfMemberInfo("MinFitThresholdValue", "mMinFitThresholdValue", 0xD28B2400, TdfType.Float, 0, true), // Tag: THLD
+        new TdfMemberInfo("DesiredValue", "mDesiredValue", 0xDA1B3500, TdfType.String, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class StartMatchmakingScenarioRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 0, true), // cmgd
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 1, true), // pljd
-        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0x4C338100, TdfType.Map, 2, true), // scna
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C338D00, TdfType.String, 3, true), // scnm
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 0, true), // Tag: CMGD
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 1, true), // Tag: PLJD
+        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0xCE3BA100, TdfType.Map, 2, true), // Tag: SCNA
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE3BAD00, TdfType.String, 3, true), // Tag: SCNM
     ];
     private ITdfMember[] __members;
 

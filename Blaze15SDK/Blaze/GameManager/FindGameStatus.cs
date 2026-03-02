@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class FindGameStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NumOfGames", "mNumOfGames", 0x1CE54D00, TdfType.UInt32, 0, true), // gnum
+        new TdfMemberInfo("NumOfGames", "mNumOfGames", 0x9EED6D00, TdfType.UInt32, 0, true), // Tag: GNUM
     ];
     private ITdfMember[] __members;
 

@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SwapPlayersErrorInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ErrMessage", "mErrMessage", 0x3531C000, TdfType.String, 0, true), // msg
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 1, true), // pid
-        new TdfMemberInfo("RoleName", "mRoleName", 0x48F30500, TdfType.String, 2, true), // role
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4D465000, TdfType.Enum, 3, true), // styp
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 4, true), // tidx
+        new TdfMemberInfo("ErrMessage", "mErrMessage", 0xB739C000, TdfType.String, 0, true), // Tag: MSG
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 1, true), // Tag: PID
+        new TdfMemberInfo("RoleName", "mRoleName", 0xCAFB2500, TdfType.String, 2, true), // Tag: ROLE
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCF4E7000, TdfType.Enum, 3, true), // Tag: STYP
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 4, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

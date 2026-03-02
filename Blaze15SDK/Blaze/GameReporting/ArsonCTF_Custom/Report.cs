@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_Custom;
 public class Report : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x1C134500, TdfType.Struct, 0, true), // game
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 1, true), // plyr
+        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x9E1B6500, TdfType.Struct, 0, true), // Tag: GAME
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 1, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

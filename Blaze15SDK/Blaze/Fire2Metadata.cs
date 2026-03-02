@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze;
 public class Fire2Metadata : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Context", "context", 0x8EED3800, TdfType.UInt64, 0, true), // CNTX
-        new TdfMemberInfo("ErrorCode", "errorCode", 0x972CA300, TdfType.Int32, 1, true), // ERRC
-        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 2, true), // FLAG
-        new TdfMemberInfo("LogContext", "mLogContext", 0xB23D3800, TdfType.Struct, 3, true), // LCTX
-        new TdfMemberInfo("MovedToAddr", "movedToAddr", 0xB6193200, TdfType.Struct, 4, true), // MADR
-        new TdfMemberInfo("MovedTo", "movedTo", 0xB69A6400, TdfType.UInt16, 5, true), // MIID
-        new TdfMemberInfo("MovedToHostName", "movedToHostName", 0xBA1B6500, TdfType.String, 6, true), // NAME
-        new TdfMemberInfo("SliverIdentity", "sliverIdentity", 0xCE992E00, TdfType.UInt32, 7, true), // SIDN
-        new TdfMemberInfo("SessionKey", "sessionKey", 0xCEB97900, TdfType.String, 8, true), // SKEY
+        new TdfMemberInfo("Context", "context", 0x8EED3800, TdfType.UInt64, 0, true), // Tag: CNTX
+        new TdfMemberInfo("ErrorCode", "errorCode", 0x972CA300, TdfType.Int32, 1, true), // Tag: ERRC
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 2, true), // Tag: FLAG
+        new TdfMemberInfo("LogContext", "mLogContext", 0xB23D3800, TdfType.Struct, 3, true), // Tag: LCTX
+        new TdfMemberInfo("MovedToAddr", "movedToAddr", 0xB6193200, TdfType.Struct, 4, true), // Tag: MADR
+        new TdfMemberInfo("MovedTo", "movedTo", 0xB69A6400, TdfType.UInt16, 5, true), // Tag: MIID
+        new TdfMemberInfo("MovedToHostName", "movedToHostName", 0xBA1B6500, TdfType.String, 6, true), // Tag: NAME
+        new TdfMemberInfo("SliverIdentity", "sliverIdentity", 0xCE992E00, TdfType.UInt32, 7, true), // Tag: SIDN
+        new TdfMemberInfo("SessionKey", "sessionKey", 0xCEB97900, TdfType.String, 8, true), // Tag: SKEY
     ];
     private ITdfMember[] __members;
 

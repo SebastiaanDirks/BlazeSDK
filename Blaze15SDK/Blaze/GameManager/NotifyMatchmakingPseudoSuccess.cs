@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyMatchmakingPseudoSuccess : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CreateGameResults", "mCreateGameResults", 0x1031D200, TdfType.Struct, 0, true), // dcgr
-        new TdfMemberInfo("FindGameResults", "mFindGameResults", 0x1061D200, TdfType.Struct, 1, true), // dfgr
-        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0x34D48000, TdfType.Enum, 2, true), // mmr
-        new TdfMemberInfo("SessionId", "mSessionId", 0x34D4C900, TdfType.UInt64, 3, true), // mmsi
-        new TdfMemberInfo("ScenarioId", "mScenarioId", 0x3530C900, TdfType.UInt64, 4, true), // msci
-        new TdfMemberInfo("SubSessionName", "mSubSessionName", 0x4D508E00, TdfType.String, 5, true), // subn
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 6, true), // usid
+        new TdfMemberInfo("CreateGameResults", "mCreateGameResults", 0x9239F200, TdfType.Struct, 0, true), // Tag: DCGR
+        new TdfMemberInfo("FindGameResults", "mFindGameResults", 0x9269F200, TdfType.Struct, 1, true), // Tag: DFGR
+        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0xB6DC8000, TdfType.Enum, 2, true), // Tag: MMR
+        new TdfMemberInfo("SessionId", "mSessionId", 0xB6DCE900, TdfType.UInt64, 3, true), // Tag: MMSI
+        new TdfMemberInfo("ScenarioId", "mScenarioId", 0xB738E900, TdfType.UInt64, 4, true), // Tag: MSCI
+        new TdfMemberInfo("SubSessionName", "mSubSessionName", 0xCF58AE00, TdfType.String, 5, true), // Tag: SUBN
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 6, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class AccessPermission : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Others", "mOthers", 0x3D421200, TdfType.Enum, 0, true), // othr
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.Enum, 1, true), // ownr
-        new TdfMemberInfo("Trusted", "mTrusted", 0x5124D400, TdfType.Enum, 2, true), // trst
+        new TdfMemberInfo("Others", "mOthers", 0xBF4A3200, TdfType.Enum, 0, true), // Tag: OTHR
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.Enum, 1, true), // Tag: OWNR
+        new TdfMemberInfo("Trusted", "mTrusted", 0xD32CF400, TdfType.Enum, 2, true), // Tag: TRST
     ];
     private ITdfMember[] __members;
 

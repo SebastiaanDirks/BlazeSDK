@@ -7,19 +7,19 @@ namespace Blaze15SDK.Blaze;
 public class ExternalSessionStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UnlocalizedValue", "mUnlocalizedValue", 0x54E30F00, TdfType.String, 0, true), // unlo
-        new TdfMemberInfo("LangMap", "mLangMap", 0x30F0CC00, TdfType.Map, 1, true), // locl
+        new TdfMemberInfo("LangMap", "mLangMap", 0xB2F8EC00, TdfType.Map, 0, true), // Tag: LOCL
+        new TdfMemberInfo("UnlocalizedValue", "mUnlocalizedValue", 0xD6EB2F00, TdfType.String, 1, true), // Tag: UNLO
     ];
     private ITdfMember[] __members;
 
-    private TdfString _unlocalizedValue = new(__typeInfos[0]);
+    private TdfString _unlocalizedValue = new(__typeInfos[1]);
     private TdfMap<string, string> _langMap = new(__typeInfos[1]);
 
     public ExternalSessionStatus()
     {
         __members = [
-            _unlocalizedValue,
             _langMap,
+            _unlocalizedValue,
         ];
     }
 

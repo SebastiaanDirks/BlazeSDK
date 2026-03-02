@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ChangeTeamIdRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("NewTeamId", "mNewTeamId", 0x39424400, TdfType.UInt16, 1, true), // ntid
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 2, true), // tidx
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("NewTeamId", "mNewTeamId", 0xBB4A6400, TdfType.UInt16, 1, true), // Tag: NTID
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 2, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Logging;
 public class LogContext : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8ACA6400, TdfType.Int64, 0, true), // BLID
-        new TdfMemberInfo("ClientIp", "mClientIp", 0x8ECA7000, TdfType.Struct, 1, true), // CLIP
-        new TdfMemberInfo("DeviceId", "mDeviceId", 0x936A6400, TdfType.String, 2, true), // DVID
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 3, true), // PNAM
-        new TdfMemberInfo("SlaveSessionId", "mSlaveSessionId", 0xCF3A6400, TdfType.UInt64, 4, true), // SSID
-        new TdfMemberInfo("NucleusAccountId", "mNucleusAccountId", 0xD61A6400, TdfType.Int64, 5, true), // UAID
-        new TdfMemberInfo("Platform", "mPlatform", 0xD70B3400, TdfType.Enum, 6, true), // UPLT
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 7, true), // USID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8ACA6400, TdfType.Int64, 0, true), // Tag: BLID
+        new TdfMemberInfo("ClientIp", "mClientIp", 0x8ECA7000, TdfType.Struct, 1, true), // Tag: CLIP
+        new TdfMemberInfo("DeviceId", "mDeviceId", 0x936A6400, TdfType.String, 2, true), // Tag: DVID
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 3, true), // Tag: PNAM
+        new TdfMemberInfo("SlaveSessionId", "mSlaveSessionId", 0xCF3A6400, TdfType.UInt64, 4, true), // Tag: SSID
+        new TdfMemberInfo("NucleusAccountId", "mNucleusAccountId", 0xD61A6400, TdfType.Int64, 5, true), // Tag: UAID
+        new TdfMemberInfo("Platform", "mPlatform", 0xD70B3400, TdfType.Enum, 6, true), // Tag: UPLT
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 7, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

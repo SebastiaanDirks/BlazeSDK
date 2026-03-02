@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SwapPlayerData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 0, true), // pid
-        new TdfMemberInfo("RoleName", "mRoleName", 0x48F30500, TdfType.String, 1, true), // role
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4CC3D400, TdfType.Enum, 2, true), // slot
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 3, true), // tidx
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 0, true), // Tag: PID
+        new TdfMemberInfo("RoleName", "mRoleName", 0xCAFB2500, TdfType.String, 1, true), // Tag: ROLE
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCECBF400, TdfType.Enum, 2, true), // Tag: SLOT
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 3, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

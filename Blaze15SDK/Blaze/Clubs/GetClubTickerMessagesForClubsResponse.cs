@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubTickerMessagesForClubsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MsgListMap", "mMsgListMap", 0x34F34C00, TdfType.Struct, 0, true), // moml
+        new TdfMemberInfo("MsgListMap", "mMsgListMap", 0xB6FB6C00, TdfType.Struct, 0, true), // Tag: MOML
     ];
     private ITdfMember[] __members;
 

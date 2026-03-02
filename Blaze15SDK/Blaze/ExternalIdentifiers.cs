@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze;
 public class ExternalIdentifiers : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PsnAccountId", "mPsnAccountId", 0xC33A6400, TdfType.UInt64, 0, true), // PSID
-        new TdfMemberInfo("StadiaAccountId", "mStadiaAccountId", 0xCE1A6400, TdfType.UInt64, 1, true), // SAID
-        new TdfMemberInfo("SteamAccountId", "mSteamAccountId", 0xCF4A6400, TdfType.UInt64, 2, true), // STID
-        new TdfMemberInfo("SwitchId", "mSwitchId", 0xCF7A6400, TdfType.String, 3, true), // SWID
-        new TdfMemberInfo("XblAccountId", "mXblAccountId", 0xE22A6400, TdfType.UInt64, 4, true), // XBID
+        new TdfMemberInfo("PsnAccountId", "mPsnAccountId", 0xC33A6400, TdfType.UInt64, 0, true), // Tag: PSID
+        new TdfMemberInfo("StadiaAccountId", "mStadiaAccountId", 0xCE1A6400, TdfType.UInt64, 1, true), // Tag: SAID
+        new TdfMemberInfo("SteamAccountId", "mSteamAccountId", 0xCF4A6400, TdfType.UInt64, 2, true), // Tag: STID
+        new TdfMemberInfo("SwitchId", "mSwitchId", 0xCF7A6400, TdfType.String, 3, true), // Tag: SWID
+        new TdfMemberInfo("XblAccountId", "mXblAccountId", 0xE22A6400, TdfType.UInt64, 4, true), // Tag: XBID
     ];
     private ITdfMember[] __members;
 

@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Association;
 public class GetListForUserRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("ListIdentification", "mListIdentification", 0x30910000, TdfType.Struct, 1, true), // lid
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 2, true), // mxrc
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 3, true), // ofrc
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("ListIdentification", "mListIdentification", 0xB2990000, TdfType.Struct, 1, true), // Tag: LID
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 2, true), // Tag: MXRC
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 3, true), // Tag: OFRC
     ];
     private ITdfMember[] __members;
 

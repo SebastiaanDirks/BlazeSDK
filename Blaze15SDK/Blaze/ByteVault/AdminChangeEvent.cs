@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class AdminChangeEvent : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x04434E00, TdfType.String, 0, true), // admn
-        new TdfMemberInfo("After", "mAfter", 0x04651200, TdfType.Variable, 1, true), // aftr
-        new TdfMemberInfo("Before", "mBefore", 0x08519200, TdfType.Variable, 2, true), // befr
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 3, true), // cat
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 4, true), // ctxt
-        new TdfMemberInfo("AdminIp", "mAdminIp", 0x25000000, TdfType.String, 5, true), // ip
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50934500, TdfType.Int64, 6, true), // time
-        new TdfMemberInfo("ActionType", "mActionType", 0x51940500, TdfType.Enum, 7, true), // type
+        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x864B6E00, TdfType.String, 0, true), // Tag: ADMN
+        new TdfMemberInfo("After", "mAfter", 0x866D3200, TdfType.Variable, 1, true), // Tag: AFTR
+        new TdfMemberInfo("Before", "mBefore", 0x8A59B200, TdfType.Variable, 2, true), // Tag: BEFR
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 3, true), // Tag: CAT
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 4, true), // Tag: CTXT
+        new TdfMemberInfo("AdminIp", "mAdminIp", 0xA7000000, TdfType.String, 5, true), // Tag: IP
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD29B6500, TdfType.Int64, 6, true), // Tag: TIME
+        new TdfMemberInfo("ActionType", "mActionType", 0xD39C2500, TdfType.Enum, 7, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

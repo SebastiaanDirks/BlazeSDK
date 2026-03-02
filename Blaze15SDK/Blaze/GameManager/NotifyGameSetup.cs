@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameSetup : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameData", "mGameData", 0x1C134500, TdfType.Struct, 0, true), // game
-        new TdfMemberInfo("IsLockableForPreferredJoins", "mIsLockableForPreferredJoins", 0x30640A00, TdfType.Bool, 1, true), // lfpj
-        new TdfMemberInfo("GameRoster", "mGameRoster", 0x4123D300, TdfType.List, 2, true), // pros
-        new TdfMemberInfo("QosSettings", "mQosSettings", 0x44F4D300, TdfType.Struct, 3, true), // qoss
-        new TdfMemberInfo("PerformQosValidation", "mPerformQosValidation", 0x44F4D600, TdfType.Bool, 4, true), // qosv
-        new TdfMemberInfo("GameQueue", "mGameQueue", 0x45515500, TdfType.List, 5, true), // queu
-        new TdfMemberInfo("GameSetupReason", "gameSetupReason", 0x48505300, TdfType.Struct, 6, true), // reas
-        new TdfMemberInfo("QosTelemetryInterval", "mQosTelemetryInterval", 0x50530D00, TdfType.Int64, 7, true), // telm
+        new TdfMemberInfo("GameData", "mGameData", 0x9E1B6500, TdfType.Struct, 0, true), // Tag: GAME
+        new TdfMemberInfo("IsLockableForPreferredJoins", "mIsLockableForPreferredJoins", 0xB26C2A00, TdfType.Bool, 1, true), // Tag: LFPJ
+        new TdfMemberInfo("GameRoster", "mGameRoster", 0xC32BF300, TdfType.List, 2, true), // Tag: PROS
+        new TdfMemberInfo("QosSettings", "mQosSettings", 0xC6FCF300, TdfType.Struct, 3, true), // Tag: QOSS
+        new TdfMemberInfo("PerformQosValidation", "mPerformQosValidation", 0xC6FCF600, TdfType.Bool, 4, true), // Tag: QOSV
+        new TdfMemberInfo("GameQueue", "mGameQueue", 0xC7597500, TdfType.List, 5, true), // Tag: QUEU
+        new TdfMemberInfo("GameSetupReason", "gameSetupReason", 0xCA587300, TdfType.Struct, 6, true), // Tag: REAS
+        new TdfMemberInfo("QosTelemetryInterval", "mQosTelemetryInterval", 0xD25B2D00, TdfType.Int64, 7, true), // Tag: TELM
     ];
     private ITdfMember[] __members;
 

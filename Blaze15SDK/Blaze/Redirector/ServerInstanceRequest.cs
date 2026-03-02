@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInstanceRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeSDKVersion", "mBlazeSDKVersion", 0x09310B00, TdfType.String, 0, true), // bsdk
-        new TdfMemberInfo("BlazeSDKBuildDate", "mBlazeSDKBuildDate", 0x09424D00, TdfType.String, 1, true), // btim
-        new TdfMemberInfo("ClientName", "mClientName", 0x0CC39400, TdfType.String, 2, true), // clnt
-        new TdfMemberInfo("ClientType", "mClientType", 0x0CC51000, TdfType.Enum, 3, true), // cltp
-        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0x0D031400, TdfType.Enum, 4, true), // cplt
-        new TdfMemberInfo("ClientSkuId", "mClientSkuId", 0x0D32D500, TdfType.String, 5, true), // csku
-        new TdfMemberInfo("ClientVersion", "mClientVersion", 0x0D615200, TdfType.String, 6, true), // cver
-        new TdfMemberInfo("DirtySDKVersion", "mDirtySDKVersion", 0x11310B00, TdfType.String, 7, true), // dsdk
-        new TdfMemberInfo("Environment", "mEnvironment", 0x14E58000, TdfType.String, 8, true), // env
-        new TdfMemberInfo("FirstPartyId", "mFirstPartyId", 0x19024400, TdfType.Struct, 9, true), // fpid
-        new TdfMemberInfo("ClientLocale", "mClientLocale", 0x30F0C000, TdfType.UInt32, 10, true), // loc
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 11, true), // name
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.String, 12, true), // plat
-        new TdfMemberInfo("ConnectionProfile", "mConnectionProfile", 0x4123C600, TdfType.String, 13, true), // prof
-        new TdfMemberInfo("IsTrial", "isTrial", 0x51224100, TdfType.Bool, 14, true), // tria
-        new TdfMemberInfo("TimeZoneOffset", "mTimeZoneOffset", 0x51A3C600, TdfType.Int32, 15, true), // tzof
+        new TdfMemberInfo("BlazeSDKVersion", "mBlazeSDKVersion", 0x8B392B00, TdfType.String, 0, true), // Tag: BSDK
+        new TdfMemberInfo("BlazeSDKBuildDate", "mBlazeSDKBuildDate", 0x8B4A6D00, TdfType.String, 1, true), // Tag: BTIM
+        new TdfMemberInfo("ClientName", "mClientName", 0x8ECBB400, TdfType.String, 2, true), // Tag: CLNT
+        new TdfMemberInfo("ClientType", "mClientType", 0x8ECD3000, TdfType.Enum, 3, true), // Tag: CLTP
+        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0x8F0B3400, TdfType.Enum, 4, true), // Tag: CPLT
+        new TdfMemberInfo("ClientSkuId", "mClientSkuId", 0x8F3AF500, TdfType.String, 5, true), // Tag: CSKU
+        new TdfMemberInfo("ClientVersion", "mClientVersion", 0x8F697200, TdfType.String, 6, true), // Tag: CVER
+        new TdfMemberInfo("DirtySDKVersion", "mDirtySDKVersion", 0x93392B00, TdfType.String, 7, true), // Tag: DSDK
+        new TdfMemberInfo("Environment", "mEnvironment", 0x96ED8000, TdfType.String, 8, true), // Tag: ENV
+        new TdfMemberInfo("FirstPartyId", "mFirstPartyId", 0x9B0A6400, TdfType.Struct, 9, true), // Tag: FPID
+        new TdfMemberInfo("ClientLocale", "mClientLocale", 0xB2F8C000, TdfType.UInt32, 10, true), // Tag: LOC
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 11, true), // Tag: NAME
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.String, 12, true), // Tag: PLAT
+        new TdfMemberInfo("ConnectionProfile", "mConnectionProfile", 0xC32BE600, TdfType.String, 13, true), // Tag: PROF
+        new TdfMemberInfo("IsTrial", "isTrial", 0xD32A6100, TdfType.Bool, 14, true), // Tag: TRIA
+        new TdfMemberInfo("TimeZoneOffset", "mTimeZoneOffset", 0xD3ABE600, TdfType.Int32, 15, true), // Tag: TZOF
     ];
     private ITdfMember[] __members;
 

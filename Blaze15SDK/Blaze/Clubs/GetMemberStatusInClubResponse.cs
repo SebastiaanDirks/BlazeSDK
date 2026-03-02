@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetMemberStatusInClubResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Status", "mStatus", 0x3534D300, TdfType.Map, 0, true), // msss
+        new TdfMemberInfo("Status", "mStatus", 0xB73CF300, TdfType.Map, 0, true), // Tag: MSSS
     ];
     private ITdfMember[] __members;
 

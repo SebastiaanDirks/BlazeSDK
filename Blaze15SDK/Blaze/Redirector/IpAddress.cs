@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class IpAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Hostname", "mHostname", 0x20F4D400, TdfType.String, 0, true), // host
-        new TdfMemberInfo("Ip", "mIp", 0x25000000, TdfType.UInt32, 1, true), // ip
-        new TdfMemberInfo("Port", "mPort", 0x40F49400, TdfType.UInt16, 2, true), // port
+        new TdfMemberInfo("Hostname", "mHostname", 0xA2FCF400, TdfType.String, 0, true), // Tag: HOST
+        new TdfMemberInfo("Ip", "mIp", 0xA7000000, TdfType.UInt32, 1, true), // Tag: IP
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 2, true), // Tag: PORT
     ];
     private ITdfMember[] __members;
 

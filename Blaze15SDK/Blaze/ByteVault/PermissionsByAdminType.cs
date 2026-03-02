@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class PermissionsByAdminType : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PermissionsByAdminTypeMap", "mPermissionsByAdminTypeMap", 0x40548D00, TdfType.Map, 0, true), // perm
+        new TdfMemberInfo("PermissionsByAdminTypeMap", "mPermissionsByAdminTypeMap", 0xC25CAD00, TdfType.Map, 0, true), // Tag: PERM
     ];
     private ITdfMember[] __members;
 

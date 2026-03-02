@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze.Stats;
 public class FilteredLeaderboardStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EnforceCutoffStatValue", "mEnforceCutoffStatValue", 0x0CF19600, TdfType.Bool, 0, true), // cofv
-        new TdfMemberInfo("IncludeStatlessEntities", "mIncludeStatlessEntities", 0x18931400, TdfType.Bool, 1, true), // filt
-        new TdfMemberInfo("ListOfIds", "mListOfIds", 0x24431300, TdfType.List, 2, true), // idls
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 3, true), // ksum
-        new TdfMemberInfo("BoardId", "mBoardId", 0x30224400, TdfType.Int32, 4, true), // lbid
-        new TdfMemberInfo("Limit", "mLimit", 0x30935400, TdfType.UInt32, 5, true), // limt
-        new TdfMemberInfo("BoardName", "mBoardName", 0x38134500, TdfType.String, 6, true), // name
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 7, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 8, true), // prid
-        new TdfMemberInfo("Time", "mTime", 0x50934500, TdfType.Int32, 9, true), // time
-        new TdfMemberInfo("UserSetId", "mUserSetId", 0x55315400, TdfType.ObjectId, 10, true), // uset
+        new TdfMemberInfo("EnforceCutoffStatValue", "mEnforceCutoffStatValue", 0x8EF9B600, TdfType.Bool, 0, true), // Tag: COFV
+        new TdfMemberInfo("IncludeStatlessEntities", "mIncludeStatlessEntities", 0x9A9B3400, TdfType.Bool, 1, true), // Tag: FILT
+        new TdfMemberInfo("ListOfIds", "mListOfIds", 0xA64B3300, TdfType.List, 2, true), // Tag: IDLS
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 3, true), // Tag: KSUM
+        new TdfMemberInfo("BoardId", "mBoardId", 0xB22A6400, TdfType.Int32, 4, true), // Tag: LBID
+        new TdfMemberInfo("Limit", "mLimit", 0xB29B7400, TdfType.UInt32, 5, true), // Tag: LIMT
+        new TdfMemberInfo("BoardName", "mBoardName", 0xBA1B6500, TdfType.String, 6, true), // Tag: NAME
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 7, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 8, true), // Tag: PRID
+        new TdfMemberInfo("Time", "mTime", 0xD29B6500, TdfType.Int32, 9, true), // Tag: TIME
+        new TdfMemberInfo("UserSetId", "mUserSetId", 0xD7397400, TdfType.ObjectId, 10, true), // Tag: USET
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class OptInValue : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("OptInValue", "mOptInValue", 0xDA1B3500, TdfType.Bool, 0, true), // VALU
+        new TdfMemberInfo("OptInValue", "mOptInValue", 0xDA1B3500, TdfType.Bool, 0, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
     private TdfBool _optInValue = new(__typeInfos[0]);

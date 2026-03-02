@@ -7,20 +7,20 @@ namespace Blaze15SDK.Blaze.Stats;
 public class PeriodIds : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DailyBuffer", "mDailyBuffer", 0x10254600, TdfType.Int32, 0, true), // dbuf
-        new TdfMemberInfo("DailyHour", "mDailyHour", 0x1083D500, TdfType.Int32, 1, true), // dhou
-        new TdfMemberInfo("CurrentDailyPeriodId", "mCurrentDailyPeriodId", 0x10C64000, TdfType.Int32, 2, true), // dly
-        new TdfMemberInfo("DailyRetention", "mDailyRetention", 0x11215400, TdfType.Int32, 3, true), // dret
-        new TdfMemberInfo("MonthlyBuffer", "mMonthlyBuffer", 0x34254600, TdfType.Int32, 4, true), // mbuf
-        new TdfMemberInfo("MonthlyDay", "mMonthlyDay", 0x34405900, TdfType.Int32, 5, true), // mday
-        new TdfMemberInfo("MonthlyHour", "mMonthlyHour", 0x3483D500, TdfType.Int32, 6, true), // mhou
-        new TdfMemberInfo("CurrentMonthlyPeriodId", "mCurrentMonthlyPeriodId", 0x34C64000, TdfType.Int32, 7, true), // mly
-        new TdfMemberInfo("MonthlyRetention", "mMonthlyRetention", 0x35215400, TdfType.Int32, 8, true), // mret
-        new TdfMemberInfo("WeeklyBuffer", "mWeeklyBuffer", 0x5C254600, TdfType.Int32, 9, true), // wbuf
-        new TdfMemberInfo("WeeklyDay", "mWeeklyDay", 0x5C405900, TdfType.Int32, 10, true), // wday
-        new TdfMemberInfo("WeeklyHour", "mWeeklyHour", 0x5C83D500, TdfType.Int32, 11, true), // whou
-        new TdfMemberInfo("CurrentWeeklyPeriodId", "mCurrentWeeklyPeriodId", 0x5CC64000, TdfType.Int32, 12, true), // wly
-        new TdfMemberInfo("WeeklyRetention", "mWeeklyRetention", 0x5D215400, TdfType.Int32, 13, true), // wret
+        new TdfMemberInfo("DailyBuffer", "mDailyBuffer", 0x922D6600, TdfType.Int32, 0, true), // Tag: DBUF
+        new TdfMemberInfo("DailyHour", "mDailyHour", 0x928BF500, TdfType.Int32, 1, true), // Tag: DHOU
+        new TdfMemberInfo("CurrentDailyPeriodId", "mCurrentDailyPeriodId", 0x92CE4000, TdfType.Int32, 2, true), // Tag: DLY
+        new TdfMemberInfo("DailyRetention", "mDailyRetention", 0x93297400, TdfType.Int32, 3, true), // Tag: DRET
+        new TdfMemberInfo("MonthlyBuffer", "mMonthlyBuffer", 0xB62D6600, TdfType.Int32, 4, true), // Tag: MBUF
+        new TdfMemberInfo("MonthlyDay", "mMonthlyDay", 0xB6487900, TdfType.Int32, 5, true), // Tag: MDAY
+        new TdfMemberInfo("MonthlyHour", "mMonthlyHour", 0xB68BF500, TdfType.Int32, 6, true), // Tag: MHOU
+        new TdfMemberInfo("CurrentMonthlyPeriodId", "mCurrentMonthlyPeriodId", 0xB6CE4000, TdfType.Int32, 7, true), // Tag: MLY
+        new TdfMemberInfo("MonthlyRetention", "mMonthlyRetention", 0xB7297400, TdfType.Int32, 8, true), // Tag: MRET
+        new TdfMemberInfo("WeeklyBuffer", "mWeeklyBuffer", 0xDE2D6600, TdfType.Int32, 9, true), // Tag: WBUF
+        new TdfMemberInfo("WeeklyDay", "mWeeklyDay", 0xDE487900, TdfType.Int32, 10, true), // Tag: WDAY
+        new TdfMemberInfo("WeeklyHour", "mWeeklyHour", 0xDE8BF500, TdfType.Int32, 11, true), // Tag: WHOU
+        new TdfMemberInfo("CurrentWeeklyPeriodId", "mCurrentWeeklyPeriodId", 0xDECE4000, TdfType.Int32, 12, true), // Tag: WLY
+        new TdfMemberInfo("WeeklyRetention", "mWeeklyRetention", 0xDF297400, TdfType.Int32, 13, true), // Tag: WRET
     ];
     private ITdfMember[] __members;
 

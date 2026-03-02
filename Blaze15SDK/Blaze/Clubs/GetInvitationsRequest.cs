@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetInvitationsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("InvitationsType", "mInvitationsType", 0x24E59400, TdfType.Enum, 1, true), // invt
-        new TdfMemberInfo("SortType", "mSortType", 0x3933D400, TdfType.Enum, 2, true), // nsot
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("InvitationsType", "mInvitationsType", 0xA6EDB400, TdfType.Enum, 1, true), // Tag: INVT
+        new TdfMemberInfo("SortType", "mSortType", 0xBB3BF400, TdfType.Enum, 2, true), // Tag: NSOT
     ];
     private ITdfMember[] __members;
 

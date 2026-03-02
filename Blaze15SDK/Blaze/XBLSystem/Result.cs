@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.XBLSystem;
 public class Result : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ResultCode", "mResultCode", 0x0CF10500, TdfType.UInt16, 0, true), // code
-        new TdfMemberInfo("OffendingString", "mOffendingString", 0x3C619300, TdfType.String, 1, true), // offs
+        new TdfMemberInfo("ResultCode", "mResultCode", 0x8EF92500, TdfType.UInt16, 0, true), // Tag: CODE
+        new TdfMemberInfo("OffendingString", "mOffendingString", 0xBE69B300, TdfType.String, 1, true), // Tag: OFFS
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.XBLSystem;
 public class StringList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("StringstoVerify", "mStringstoVerify", 0x4D448C00, TdfType.List, 0, true), // strl
+        new TdfMemberInfo("StringstoVerify", "mStringstoVerify", 0xCF4CAC00, TdfType.List, 0, true), // Tag: STRL
     ];
     private ITdfMember[] __members;
 

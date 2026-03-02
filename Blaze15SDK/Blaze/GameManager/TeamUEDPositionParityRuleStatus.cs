@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamUEDPositionParityRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxUEDDifferenceAcceptedBottomPlayers", "mMaxUEDDifferenceAcceptedBottomPlayers", 0x08424600, TdfType.UInt64, 0, true), // bdif
-        new TdfMemberInfo("BottomPlayersCounted", "mBottomPlayersCounted", 0x08F50E00, TdfType.UInt16, 1, true), // botn
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("MaxUEDDifferenceAcceptedTopPlayers", "mMaxUEDDifferenceAcceptedTopPlayers", 0x50424600, TdfType.UInt64, 3, true), // tdif
-        new TdfMemberInfo("TopPlayersCounted", "mTopPlayersCounted", 0x50F40E00, TdfType.UInt16, 4, true), // topn
+        new TdfMemberInfo("MaxUEDDifferenceAcceptedBottomPlayers", "mMaxUEDDifferenceAcceptedBottomPlayers", 0x8A4A6600, TdfType.UInt64, 0, true), // Tag: BDIF
+        new TdfMemberInfo("BottomPlayersCounted", "mBottomPlayersCounted", 0x8AFD2E00, TdfType.UInt16, 1, true), // Tag: BOTN
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("MaxUEDDifferenceAcceptedTopPlayers", "mMaxUEDDifferenceAcceptedTopPlayers", 0xD24A6600, TdfType.UInt64, 3, true), // Tag: TDIF
+        new TdfMemberInfo("TopPlayersCounted", "mTopPlayersCounted", 0xD2FC2E00, TdfType.UInt16, 4, true), // Tag: TOPN
     ];
     private ITdfMember[] __members;
 

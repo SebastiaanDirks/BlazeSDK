@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserSettingsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Data", "mData", 0x10150100, TdfType.String, 0, true), // data
-        new TdfMemberInfo("Key", "mKey", 0x2C564000, TdfType.String, 1, true), // key
+        new TdfMemberInfo("Data", "mData", 0x921D2100, TdfType.String, 0, true), // Tag: DATA
+        new TdfMemberInfo("Key", "mKey", 0xAE5E4000, TdfType.String, 1, true), // Tag: KEY
     ];
     private ITdfMember[] __members;
 

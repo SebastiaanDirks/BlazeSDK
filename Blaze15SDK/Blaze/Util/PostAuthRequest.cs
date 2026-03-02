@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Util;
 public class PostAuthRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DirtySockUserIndex", "mDirtySockUserIndex", 0x11354900, TdfType.Int32, 0, true), // dsui
-        new TdfMemberInfo("UseKey2", "mUseKey2", 0x2C565200, TdfType.Bool, 1, true), // key2
-        new TdfMemberInfo("UniqueDeviceId", "mUniqueDeviceId", 0x54424400, TdfType.String, 2, true), // udid
+        new TdfMemberInfo("DirtySockUserIndex", "mDirtySockUserIndex", 0x933D6900, TdfType.Int32, 0, true), // Tag: DSUI
+        new TdfMemberInfo("UseKey2", "mUseKey2", 0xAE5E5200, TdfType.Bool, 1, true), // Tag: KEY2
+        new TdfMemberInfo("UniqueDeviceId", "mUniqueDeviceId", 0xD64A6400, TdfType.String, 2, true), // Tag: UDID
     ];
     private ITdfMember[] __members;
 

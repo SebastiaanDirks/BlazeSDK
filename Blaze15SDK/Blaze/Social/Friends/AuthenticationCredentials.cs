@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Social.Friends;
 public class AuthenticationCredentials : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ApiVersion", "mApiVersion", 0x05025600, TdfType.String, 0, true), // apiv
-        new TdfMemberInfo("ApplicationKey", "mApplicationKey", 0x05040B00, TdfType.String, 1, true), // appk
-        new TdfMemberInfo("Authorization", "mAuthorization", 0x0810D400, TdfType.String, 2, true), // bact
+        new TdfMemberInfo("ApiVersion", "mApiVersion", 0x870A7600, TdfType.String, 0, true), // Tag: APIV
+        new TdfMemberInfo("ApplicationKey", "mApplicationKey", 0x870C2B00, TdfType.String, 1, true), // Tag: APPK
+        new TdfMemberInfo("Authorization", "mAuthorization", 0x8A18F400, TdfType.String, 2, true), // Tag: BACT
     ];
     private ITdfMember[] __members;
 

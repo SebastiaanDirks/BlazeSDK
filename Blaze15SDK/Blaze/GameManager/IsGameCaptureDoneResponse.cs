@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class IsGameCaptureDoneResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsRedisDone", "mIsRedisDone", 0x25210000, TdfType.Bool, 0, true), // ird
+        new TdfMemberInfo("IsRedisDone", "mIsRedisDone", 0xA7290000, TdfType.Bool, 0, true), // Tag: IRD
     ];
     private ITdfMember[] __members;
 

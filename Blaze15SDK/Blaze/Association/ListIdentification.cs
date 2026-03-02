@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListName", "mListName", 0x30E34000, TdfType.String, 0, true), // lnm
-        new TdfMemberInfo("ListType", "mListType", 0x51940500, TdfType.UInt16, 1, true), // type
+        new TdfMemberInfo("ListName", "mListName", 0xB2EB4000, TdfType.String, 0, true), // Tag: LNM
+        new TdfMemberInfo("ListType", "mListType", 0xD39C2500, TdfType.UInt16, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

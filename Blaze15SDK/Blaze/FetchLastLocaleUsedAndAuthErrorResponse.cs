@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class FetchLastLocaleUsedAndAuthErrorResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LastAuthError", "mLastAuthError", 0xB21A2500, TdfType.String, 0, true), // LAHE
-        new TdfMemberInfo("LastLocaleUsed", "mLastLocaleUsed", 0xB2CD6400, TdfType.String, 1, true), // LLUD
+        new TdfMemberInfo("LastAuthError", "mLastAuthError", 0xB21A2500, TdfType.String, 0, true), // Tag: LAHE
+        new TdfMemberInfo("LastLocaleUsed", "mLastLocaleUsed", 0xB2CD6400, TdfType.String, 1, true), // Tag: LLUD
     ];
     private ITdfMember[] __members;
 

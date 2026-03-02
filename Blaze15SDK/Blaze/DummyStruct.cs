@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class DummyStruct : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // MACI
-        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 1, true), // PORT
-        new TdfMemberInfo("SiteName", "mSiteName", 0xCE9D2500, TdfType.String, 2, true), // SITE
-        new TdfMemberInfo("Sid", "mSid", 0xCF6A6400, TdfType.UInt32, 3, true), // SVID
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // Tag: MACI
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 1, true), // Tag: PORT
+        new TdfMemberInfo("SiteName", "mSiteName", 0xCE9D2500, TdfType.String, 2, true), // Tag: SITE
+        new TdfMemberInfo("Sid", "mSid", 0xCF6A6400, TdfType.UInt32, 3, true), // Tag: SVID
     ];
     private ITdfMember[] __members;
 

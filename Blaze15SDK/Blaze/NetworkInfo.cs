@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class NetworkInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Union, 0, true), // ADDR
-        new TdfMemberInfo("PingSiteLatencyByAliasMap", "mPingSiteLatencyByAliasMap", 0xBACB7000, TdfType.Map, 1, true), // NLMP
-        new TdfMemberInfo("QosData", "mQosData", 0xBB1BF300, TdfType.Struct, 2, true), // NQOS
+        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Union, 0, true), // Tag: ADDR
+        new TdfMemberInfo("PingSiteLatencyByAliasMap", "mPingSiteLatencyByAliasMap", 0xBACB7000, TdfType.Map, 1, true), // Tag: NLMP
+        new TdfMemberInfo("QosData", "mQosData", 0xBB1BF300, TdfType.Struct, 2, true), // Tag: NQOS
     ];
     private ITdfMember[] __members;
 

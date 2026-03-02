@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_KS_NonDerived;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.UInt16, 0, true), // deth
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 1, true), // fcap
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.UInt16, 2, true), // kill
-        new TdfMemberInfo("ResultMap", "resultMap", 0x49335000, TdfType.Map, 3, true), // rsmp
-        new TdfMemberInfo("Weapon", "weapon", 0x5C540E00, TdfType.Int32, 4, true), // wepn
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.UInt16, 0, true), // Tag: DETH
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 1, true), // Tag: FCAP
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.UInt16, 2, true), // Tag: KILL
+        new TdfMemberInfo("ResultMap", "resultMap", 0xCB3B7000, TdfType.Map, 3, true), // Tag: RSMP
+        new TdfMemberInfo("Weapon", "weapon", 0xDE5C2E00, TdfType.Int32, 4, true), // Tag: WEPN
     ];
     private ITdfMember[] __members;
 

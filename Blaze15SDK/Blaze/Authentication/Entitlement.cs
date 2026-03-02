@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class Entitlement : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DeviceUri", "mDeviceUri", 0x925DA900, TdfType.String, 0, true), // DEVI
-        new TdfMemberInfo("GrantDate", "mGrantDate", 0x9E487900, TdfType.String, 1, true), // GDAY
-        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 2, true), // GNAM
-        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.UInt64, 3, true), // ID
-        new TdfMemberInfo("IsConsumable", "mIsConsumable", 0xA738EF00, TdfType.Bool, 4, true), // ISCO
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 5, true), // PID
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 6, true), // PJID
-        new TdfMemberInfo("ProductCatalog", "mProductCatalog", 0xC328E100, TdfType.Enum, 7, true), // PRCA
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 8, true), // PRID
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 9, true), // STAT
-        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 10, true), // STRC
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 11, true), // TAG
-        new TdfMemberInfo("TerminationDate", "mTerminationDate", 0xD2487900, TdfType.String, 12, true), // TDAY
-        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 13, true), // TYPE
-        new TdfMemberInfo("UseCount", "mUseCount", 0xD63BB400, TdfType.UInt32, 14, true), // UCNT
-        new TdfMemberInfo("Version", "mVersion", 0xDA5C8000, TdfType.UInt32, 15, true), // VER
+        new TdfMemberInfo("DeviceUri", "mDeviceUri", 0x925DA900, TdfType.String, 0, true), // Tag: DEVI
+        new TdfMemberInfo("GrantDate", "mGrantDate", 0x9E487900, TdfType.String, 1, true), // Tag: GDAY
+        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 2, true), // Tag: GNAM
+        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.UInt64, 3, true), // Tag: ID
+        new TdfMemberInfo("IsConsumable", "mIsConsumable", 0xA738EF00, TdfType.Bool, 4, true), // Tag: ISCO
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 5, true), // Tag: PID
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 6, true), // Tag: PJID
+        new TdfMemberInfo("ProductCatalog", "mProductCatalog", 0xC328E100, TdfType.Enum, 7, true), // Tag: PRCA
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 8, true), // Tag: PRID
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 9, true), // Tag: STAT
+        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 10, true), // Tag: STRC
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 11, true), // Tag: TAG
+        new TdfMemberInfo("TerminationDate", "mTerminationDate", 0xD2487900, TdfType.String, 12, true), // Tag: TDAY
+        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 13, true), // Tag: TYPE
+        new TdfMemberInfo("UseCount", "mUseCount", 0xD63BB400, TdfType.UInt32, 14, true), // Tag: UCNT
+        new TdfMemberInfo("Version", "mVersion", 0xDA5C8000, TdfType.UInt32, 15, true), // Tag: VER
     ];
     private ITdfMember[] __members;
 
@@ -46,9 +46,22 @@ public class Entitlement : Tdf
     public Entitlement()
     {
         __members = [
-            _deviceUri, _grantDate, _groupName, _id, _isConsumable, _personaId,
-            _projectId, _productCatalog, _productId, _status, _statusReasonCode,
-            _entitlementTag, _terminationDate, _entitlementType, _useCount, _version,
+            _deviceUri,
+            _grantDate,
+            _groupName,
+            _id,
+            _isConsumable,
+            _personaId,
+            _projectId,
+            _productCatalog,
+            _productId,
+            _status,
+            _statusReasonCode,
+            _entitlementTag,
+            _terminationDate,
+            _entitlementType,
+            _useCount,
+            _version,
         ];
     }
 

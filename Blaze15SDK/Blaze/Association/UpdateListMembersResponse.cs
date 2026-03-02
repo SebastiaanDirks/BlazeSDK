@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Association;
 public class UpdateListMembersResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("OwnerId", "mOwnerId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("ListMemberInfoVector", "mListMemberInfoVector", 0x30D24400, TdfType.List, 1, true), // lmid
-        new TdfMemberInfo("RemovedListMemberIdVector", "mRemovedListMemberIdVector", 0x48534000, TdfType.List, 2, true), // rem
-        new TdfMemberInfo("ListType", "mListType", 0x51940500, TdfType.UInt16, 3, true), // type
+        new TdfMemberInfo("OwnerId", "mOwnerId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("ListMemberInfoVector", "mListMemberInfoVector", 0xB2DA6400, TdfType.List, 1, true), // Tag: LMID
+        new TdfMemberInfo("RemovedListMemberIdVector", "mRemovedListMemberIdVector", 0xCA5B4000, TdfType.List, 2, true), // Tag: REM
+        new TdfMemberInfo("ListType", "mListType", 0xD39C2500, TdfType.UInt16, 3, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

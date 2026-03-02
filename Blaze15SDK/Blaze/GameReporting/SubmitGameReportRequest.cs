@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class SubmitGameReportRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FinishedStatus", "finishedStatus", 0x18E4C800, TdfType.Enum, 0, true), // fnsh
-        new TdfMemberInfo("PrivateReport", "privateReport", 0x41259400, TdfType.Variable, 1, true), // prvt
-        new TdfMemberInfo("GameReport", "gameReport", 0x49049400, TdfType.Struct, 2, true), // rprt
+        new TdfMemberInfo("FinishedStatus", "finishedStatus", 0x9AECE800, TdfType.Enum, 0, true), // Tag: FNSH
+        new TdfMemberInfo("PrivateReport", "privateReport", 0xC32DB400, TdfType.Variable, 1, true), // Tag: PRVT
+        new TdfMemberInfo("GameReport", "gameReport", 0xCB0CB400, TdfType.Struct, 2, true), // Tag: RPRT
     ];
     private ITdfMember[] __members;
 

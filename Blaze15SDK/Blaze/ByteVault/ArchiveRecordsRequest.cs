@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class ArchiveRecordsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 1, true), // cat
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 2, true), // ctxt
-        new TdfMemberInfo("Record", "mRecord", 0x38134500, TdfType.String, 3, true), // name
-        new TdfMemberInfo("Owners", "mOwners", 0x3D739200, TdfType.List, 4, true), // ownr
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 1, true), // Tag: CAT
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 2, true), // Tag: CTXT
+        new TdfMemberInfo("Record", "mRecord", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
+        new TdfMemberInfo("Owners", "mOwners", 0xBF7BB200, TdfType.List, 4, true), // Tag: OWNR
     ];
     private ITdfMember[] __members;
 

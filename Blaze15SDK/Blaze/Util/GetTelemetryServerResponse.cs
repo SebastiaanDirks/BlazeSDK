@@ -7,25 +7,25 @@ namespace Blaze15SDK.Blaze.Util;
 public class GetTelemetryServerResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x04449300, TdfType.String, 0, true), // adrs
-        new TdfMemberInfo("IsAnonymous", "mIsAnonymous", 0x04E3CE00, TdfType.Bool, 1, true), // anon
-        new TdfMemberInfo("Key2", "mKey2", 0x08B15900, TdfType.Blob, 2, true), // bkey
-        new TdfMemberInfo("Country", "mCountry", 0x0D449900, TdfType.UInt32, 3, true), // ctry
-        new TdfMemberInfo("Disable", "mDisable", 0x1094C100, TdfType.String, 4, true), // disa
-        new TdfMemberInfo("EnableDisconnectTelemetry", "mEnableDisconnectTelemetry", 0x1440D400, TdfType.Bool, 5, true), // edct
-        new TdfMemberInfo("Filter", "mFilter", 0x18931400, TdfType.String, 6, true), // filt
-        new TdfMemberInfo("Locale", "mLocale", 0x30F0C000, TdfType.UInt32, 7, true), // loc
-        new TdfMemberInfo("Underage", "mUnderage", 0x34939200, TdfType.Bool, 8, true), // minr
-        new TdfMemberInfo("NoToggleOk", "mNoToggleOk", 0x38F3CB00, TdfType.String, 9, true), // nook
-        new TdfMemberInfo("PinEnvironment", "mPinEnvironment", 0x40539600, TdfType.String, 10, true), // penv
-        new TdfMemberInfo("Port", "mPort", 0x40F49400, TdfType.UInt32, 11, true), // port
-        new TdfMemberInfo("PinUrl", "mPinUrl", 0x41548C00, TdfType.String, 12, true), // purl
-        new TdfMemberInfo("SendDelay", "mSendDelay", 0x4C431900, TdfType.UInt32, 13, true), // sdly
-        new TdfMemberInfo("SessionID", "mSessionID", 0x4C54D300, TdfType.String, 14, true), // sess
-        new TdfMemberInfo("Key", "mKey", 0x4CB15900, TdfType.String, 15, true), // skey
-        new TdfMemberInfo("SendPercentage", "mSendPercentage", 0x4D00D400, TdfType.UInt32, 16, true), // spct
-        new TdfMemberInfo("UseServerTime", "mUseServerTime", 0x4D424D00, TdfType.String, 17, true), // stim
-        new TdfMemberInfo("TelemetryServiceName", "mTelemetryServiceName", 0x4D638D00, TdfType.String, 18, true), // svnm
+        new TdfMemberInfo("Address", "mAddress", 0x864CB300, TdfType.String, 0, true), // Tag: ADRS
+        new TdfMemberInfo("IsAnonymous", "mIsAnonymous", 0x86EBEE00, TdfType.Bool, 1, true), // Tag: ANON
+        new TdfMemberInfo("Key2", "mKey2", 0x8AB97900, TdfType.Blob, 2, true), // Tag: BKEY
+        new TdfMemberInfo("Country", "mCountry", 0x8F4CB900, TdfType.UInt32, 3, true), // Tag: CTRY
+        new TdfMemberInfo("Disable", "mDisable", 0x929CE100, TdfType.String, 4, true), // Tag: DISA
+        new TdfMemberInfo("EnableDisconnectTelemetry", "mEnableDisconnectTelemetry", 0x9648F400, TdfType.Bool, 5, true), // Tag: EDCT
+        new TdfMemberInfo("Filter", "mFilter", 0x9A9B3400, TdfType.String, 6, true), // Tag: FILT
+        new TdfMemberInfo("Locale", "mLocale", 0xB2F8C000, TdfType.UInt32, 7, true), // Tag: LOC
+        new TdfMemberInfo("Underage", "mUnderage", 0xB69BB200, TdfType.Bool, 8, true), // Tag: MINR
+        new TdfMemberInfo("NoToggleOk", "mNoToggleOk", 0xBAFBEB00, TdfType.String, 9, true), // Tag: NOOK
+        new TdfMemberInfo("PinEnvironment", "mPinEnvironment", 0xC25BB600, TdfType.String, 10, true), // Tag: PENV
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt32, 11, true), // Tag: PORT
+        new TdfMemberInfo("PinUrl", "mPinUrl", 0xC35CAC00, TdfType.String, 12, true), // Tag: PURL
+        new TdfMemberInfo("SendDelay", "mSendDelay", 0xCE4B3900, TdfType.UInt32, 13, true), // Tag: SDLY
+        new TdfMemberInfo("SessionID", "mSessionID", 0xCE5CF300, TdfType.String, 14, true), // Tag: SESS
+        new TdfMemberInfo("Key", "mKey", 0xCEB97900, TdfType.String, 15, true), // Tag: SKEY
+        new TdfMemberInfo("SendPercentage", "mSendPercentage", 0xCF08F400, TdfType.UInt32, 16, true), // Tag: SPCT
+        new TdfMemberInfo("UseServerTime", "mUseServerTime", 0xCF4A6D00, TdfType.String, 17, true), // Tag: STIM
+        new TdfMemberInfo("TelemetryServiceName", "mTelemetryServiceName", 0xCF6BAD00, TdfType.String, 18, true), // Tag: SVNM
     ];
     private ITdfMember[] __members;
 

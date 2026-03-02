@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetEntityCountRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 1, true), // ksum
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 2, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 3, true), // prid
-        new TdfMemberInfo("PeriodType", "mPeriodType", 0x41465000, TdfType.Int32, 4, true), // ptyp
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 1, true), // Tag: KSUM
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 2, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 3, true), // Tag: PRID
+        new TdfMemberInfo("PeriodType", "mPeriodType", 0xC34E7000, TdfType.Int32, 4, true), // Tag: PTYP
     ];
     private ITdfMember[] __members;
 

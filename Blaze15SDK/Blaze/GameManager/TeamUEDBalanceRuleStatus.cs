@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamUEDBalanceRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MyUEDValue", "mMyUEDValue", 0x35514400, TdfType.Int64, 0, true), // mued
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 1, true), // name
-        new TdfMemberInfo("MaxTeamUEDDifferenceAccepted", "mMaxTeamUEDDifferenceAccepted", 0x4C424600, TdfType.UInt64, 2, true), // sdif
+        new TdfMemberInfo("MyUEDValue", "mMyUEDValue", 0xB7596400, TdfType.Int64, 0, true), // Tag: MUED
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
+        new TdfMemberInfo("MaxTeamUEDDifferenceAccepted", "mMaxTeamUEDDifferenceAccepted", 0xCE4A6600, TdfType.UInt64, 2, true), // Tag: SDIF
     ];
     private ITdfMember[] __members;
 

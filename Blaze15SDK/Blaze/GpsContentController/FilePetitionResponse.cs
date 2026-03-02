@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GpsContentController;
 public class FilePetitionResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PetitionGuid", "mPetitionGuid", 0x1D524400, TdfType.String, 0, true), // guid
+        new TdfMemberInfo("PetitionGuid", "mPetitionGuid", 0x9F5A6400, TdfType.String, 0, true), // Tag: GUID
     ];
     private ITdfMember[] __members;
 

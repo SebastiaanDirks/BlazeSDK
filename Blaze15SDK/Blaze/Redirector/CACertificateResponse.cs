@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class CACertificateResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CertificateList", "mCertificateList", 0x0C549400, TdfType.List, 0, true), // cert
+        new TdfMemberInfo("CertificateList", "mCertificateList", 0x8E5CB400, TdfType.List, 0, true), // Tag: CERT
     ];
     private ITdfMember[] __members;
 

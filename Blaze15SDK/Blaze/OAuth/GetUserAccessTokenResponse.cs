@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetUserAccessTokenResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AccessToken", "mAccessToken", 0x0543CB00, TdfType.String, 0, true), // atok
-        new TdfMemberInfo("ClientId", "mClientId", 0x0CC24400, TdfType.String, 1, true), // clid
-        new TdfMemberInfo("ValidUntil", "mValidUntil", 0x58130900, TdfType.TimeValue, 2, true), // vali
+        new TdfMemberInfo("AccessToken", "mAccessToken", 0x874BEB00, TdfType.String, 0, true), // Tag: ATOK
+        new TdfMemberInfo("ClientId", "mClientId", 0x8ECA6400, TdfType.String, 1, true), // Tag: CLID
+        new TdfMemberInfo("ValidUntil", "mValidUntil", 0xDA1B2900, TdfType.TimeValue, 2, true), // Tag: VALI
     ];
     private ITdfMember[] __members;
 

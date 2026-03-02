@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class Entitlements : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntitlementsList", "mEntitlements", 0xBACCF400, TdfType.List, 0, true), // NLST
+        new TdfMemberInfo("EntitlementsList", "mEntitlements", 0xBACCF400, TdfType.List, 0, true), // Tag: NLST
     ];
     private ITdfMember[] __members;
 

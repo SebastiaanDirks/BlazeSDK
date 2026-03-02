@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class UpdateExtendedDataAttributeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Component", "mComponent", 0x8EFB7000, TdfType.UInt16, 0, true), // COMP
-        new TdfMemberInfo("Key", "mKey", 0xAE5E4000, TdfType.UInt16, 1, true), // KEY
-        new TdfMemberInfo("Remove", "mRemove", 0xBF097200, TdfType.Bool, 2, true), // OPER
-        new TdfMemberInfo("Value", "mValue", 0xDA1B3500, TdfType.Int64, 3, true), // VALU
+        new TdfMemberInfo("Component", "mComponent", 0x8EFB7000, TdfType.UInt16, 0, true), // Tag: COMP
+        new TdfMemberInfo("Key", "mKey", 0xAE5E4000, TdfType.UInt16, 1, true), // Tag: KEY
+        new TdfMemberInfo("Remove", "mRemove", 0xBF097200, TdfType.Bool, 2, true), // Tag: OPER
+        new TdfMemberInfo("Value", "mValue", 0xDA1B3500, TdfType.Int64, 3, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SetPlayerCapacityRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0x40305000, TdfType.List, 1, true), // pcap
-        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0x48E18F00, TdfType.Struct, 2, true), // rnfo
-        new TdfMemberInfo("TeamDetailsList", "mTeamDetailsList", 0x50C4D400, TdfType.List, 3, true), // tlst
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0xC2387000, TdfType.List, 1, true), // Tag: PCAP
+        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0xCAE9AF00, TdfType.Struct, 2, true), // Tag: RNFO
+        new TdfMemberInfo("TeamDetailsList", "mTeamDetailsList", 0xD2CCF400, TdfType.List, 3, true), // Tag: TLST
     ];
     private ITdfMember[] __members;
 

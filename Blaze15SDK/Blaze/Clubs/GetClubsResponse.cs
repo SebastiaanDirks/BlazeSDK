@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubList", "mClubList", 0x0CC4D400, TdfType.List, 0, true), // clst
-        new TdfMemberInfo("TotalCount", "mTotalCount", 0x0D40D400, TdfType.UInt32, 1, true), // ctct
+        new TdfMemberInfo("ClubList", "mClubList", 0x8ECCF400, TdfType.List, 0, true), // Tag: CLST
+        new TdfMemberInfo("TotalCount", "mTotalCount", 0x8F48F400, TdfType.UInt32, 1, true), // Tag: CTCT
     ];
     private ITdfMember[] __members;
 

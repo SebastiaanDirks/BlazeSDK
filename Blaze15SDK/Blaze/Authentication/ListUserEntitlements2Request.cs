@@ -7,21 +7,21 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class ListUserEntitlements2Request : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // BUID
-        new TdfMemberInfo("EndGrantDate", "mEndGrantDate", 0x96792100, TdfType.String, 1, true), // EGDA
-        new TdfMemberInfo("PageNo", "mPageNo", 0x970CEE00, TdfType.UInt16, 2, true), // EPSN
-        new TdfMemberInfo("PageSize", "mPageSize", 0x970CFA00, TdfType.UInt16, 3, true), // EPSZ
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 4, true), // ETAG
-        new TdfMemberInfo("EndTerminationDate", "mEndTerminationDate", 0x97492100, TdfType.String, 5, true), // ETDA
-        new TdfMemberInfo("GroupNameList", "mGroupNameList", 0x9EE8CC00, TdfType.List, 6, true), // GNLS
-        new TdfMemberInfo("HasAuthorizedPersona", "mHasAuthorizedPersona", 0xA21D7000, TdfType.Bool, 7, true), // HAUP
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 8, true), // PJID
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 9, true), // PRID
-        new TdfMemberInfo("RecursiveSearch", "mRecursiveSearch", 0xCA58F500, TdfType.Bool, 10, true), // RECU
-        new TdfMemberInfo("StartGrantDate", "mStartGrantDate", 0xCE792100, TdfType.String, 11, true), // SGDA
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 12, true), // STAT
-        new TdfMemberInfo("StartTerminationDate", "mStartTerminationDate", 0xCF492100, TdfType.String, 13, true), // STDA
-        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 14, true), // TYPE
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // Tag: BUID
+        new TdfMemberInfo("EndGrantDate", "mEndGrantDate", 0x96792100, TdfType.String, 1, true), // Tag: EGDA
+        new TdfMemberInfo("PageNo", "mPageNo", 0x970CEE00, TdfType.UInt16, 2, true), // Tag: EPSN
+        new TdfMemberInfo("PageSize", "mPageSize", 0x970CFA00, TdfType.UInt16, 3, true), // Tag: EPSZ
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 4, true), // Tag: ETAG
+        new TdfMemberInfo("EndTerminationDate", "mEndTerminationDate", 0x97492100, TdfType.String, 5, true), // Tag: ETDA
+        new TdfMemberInfo("GroupNameList", "mGroupNameList", 0x9EEB3300, TdfType.List, 6, true), // Tag: GNLS
+        new TdfMemberInfo("HasAuthorizedPersona", "mHasAuthorizedPersona", 0xA21D7000, TdfType.Bool, 7, true), // Tag: HAUP
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 8, true), // Tag: PJID
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 9, true), // Tag: PRID
+        new TdfMemberInfo("RecursiveSearch", "mRecursiveSearch", 0xCA58F500, TdfType.Bool, 10, true), // Tag: RECU
+        new TdfMemberInfo("StartGrantDate", "mStartGrantDate", 0xCE792100, TdfType.String, 11, true), // Tag: SGDA
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 12, true), // Tag: STAT
+        new TdfMemberInfo("StartTerminationDate", "mStartTerminationDate", 0xCF492100, TdfType.String, 13, true), // Tag: STDA
+        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 14, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 
@@ -44,9 +44,20 @@ public class ListUserEntitlements2Request : Tdf
     public ListUserEntitlements2Request()
     {
         __members = [
-            _blazeId, _endGrantDate, _pageNo, _pageSize, _entitlementTag,
-            _endTerminationDate, _groupNameList, _hasAuthorizedPersona, _projectId,
-            _productId, _recursiveSearch, _startGrantDate, _status, _startTerminationDate,
+            _blazeId,
+            _endGrantDate,
+            _pageNo,
+            _pageSize,
+            _entitlementTag,
+            _endTerminationDate,
+            _groupNameList,
+            _hasAuthorizedPersona,
+            _projectId,
+            _productId,
+            _recursiveSearch,
+            _startGrantDate,
+            _status,
+            _startTerminationDate,
             _entitlementType,
         ];
     }

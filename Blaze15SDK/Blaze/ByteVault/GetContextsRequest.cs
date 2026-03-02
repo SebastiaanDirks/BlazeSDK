@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetContextsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 1, true), // ctxt
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 2, true), // mxrc
-        new TdfMemberInfo("Offset", "mOffset", 0x3C619300, TdfType.UInt32, 3, true), // offs
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 1, true), // Tag: CTXT
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 2, true), // Tag: MXRC
+        new TdfMemberInfo("Offset", "mOffset", 0xBE69B300, TdfType.UInt32, 3, true), // Tag: OFFS
     ];
     private ITdfMember[] __members;
 

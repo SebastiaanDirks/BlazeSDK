@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertCategoryResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150000, TdfType.Struct, 0, true), // cat
-        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0x48348500, TdfType.Bool, 1, true), // rcre
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D0000, TdfType.Struct, 0, true), // Tag: CAT
+        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0xCA3CA500, TdfType.Bool, 1, true), // Tag: RCRE
     ];
     private ITdfMember[] __members;
 

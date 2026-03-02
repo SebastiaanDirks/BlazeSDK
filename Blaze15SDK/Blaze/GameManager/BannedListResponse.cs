@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class BannedListResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BannedMembers", "mBannedMembers", 0x08138D00, TdfType.List, 0, true), // banm
+        new TdfMemberInfo("BannedMembers", "mBannedMembers", 0x8A1BAD00, TdfType.List, 0, true), // Tag: BANM
     ];
     private ITdfMember[] __members;
 

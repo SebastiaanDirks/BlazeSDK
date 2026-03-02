@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class XboxClientAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // MACI
-        new TdfMemberInfo("XnAddr", "mXnAddr", 0xE2493200, TdfType.Blob, 1, true), // XDDR
-        new TdfMemberInfo("Xuid", "mXuid", 0xE35A6400, TdfType.UInt64, 2, true), // XUID
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // Tag: MACI
+        new TdfMemberInfo("XnAddr", "mXnAddr", 0xE2493200, TdfType.Blob, 1, true), // Tag: XDDR
+        new TdfMemberInfo("Xuid", "mXuid", 0xE35A6400, TdfType.UInt64, 2, true), // Tag: XUID
     ];
     private ITdfMember[] __members;
 

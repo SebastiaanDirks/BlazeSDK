@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class LookupUsersByPrefixRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x8E1C0000, TdfType.UInt32, 0, true), // CAP
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 1, true), // NASP
-        new TdfMemberInfo("PrimaryNamespaceOnly", "mPrimaryNamespaceOnly", 0xC2FBAC00, TdfType.Bool, 2, true), // PONL
-        new TdfMemberInfo("PrefixName", "mPrefixName", 0xC3296600, TdfType.String, 3, true), // PREF
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x8E1C0000, TdfType.UInt32, 0, true), // Tag: CAP
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 1, true), // Tag: NASP
+        new TdfMemberInfo("PrimaryNamespaceOnly", "mPrimaryNamespaceOnly", 0xC2FBAC00, TdfType.Bool, 2, true), // Tag: PONL
+        new TdfMemberInfo("PrefixName", "mPrefixName", 0xC3296600, TdfType.String, 3, true), // Tag: PREF
     ];
     private ITdfMember[] __members;
 

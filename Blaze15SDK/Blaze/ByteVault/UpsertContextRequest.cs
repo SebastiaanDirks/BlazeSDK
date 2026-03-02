@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertContextRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 1, true), // ctxt
-        new TdfMemberInfo("Description", "mDescription", 0x1054C300, TdfType.String, 2, true), // desc
-        new TdfMemberInfo("Label", "mLabel", 0x30108C00, TdfType.String, 3, true), // labl
-        new TdfMemberInfo("Version", "mVersion", 0x58549300, TdfType.UInt32, 4, true), // vers
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 1, true), // Tag: CTXT
+        new TdfMemberInfo("Description", "mDescription", 0x925CE300, TdfType.String, 2, true), // Tag: DESC
+        new TdfMemberInfo("Label", "mLabel", 0xB218AC00, TdfType.String, 3, true), // Tag: LABL
+        new TdfMemberInfo("Version", "mVersion", 0xDA5CB300, TdfType.UInt32, 4, true), // Tag: VERS
     ];
     private ITdfMember[] __members;
 

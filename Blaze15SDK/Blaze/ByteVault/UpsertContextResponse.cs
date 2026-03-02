@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertContextResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.Struct, 0, true), // ctxt
-        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0x48348500, TdfType.Bool, 1, true), // rcre
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.Struct, 0, true), // Tag: CTXT
+        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0xCA3CA500, TdfType.Bool, 1, true), // Tag: RCRE
     ];
     private ITdfMember[] __members;
 

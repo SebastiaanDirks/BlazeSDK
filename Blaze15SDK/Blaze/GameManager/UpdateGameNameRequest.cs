@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateGameNameRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("GameName", "mGameName", 0x1CE04D00, TdfType.String, 1, true), // gnam
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("GameName", "mGameName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
     ];
     private ITdfMember[] __members;
 

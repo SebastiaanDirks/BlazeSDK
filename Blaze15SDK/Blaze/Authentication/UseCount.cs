@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class UseCount : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UseCount", "mUseCount", 0xD63BB400, TdfType.UInt32, 0, true), // UCNT
+        new TdfMemberInfo("UseCount", "mUseCount", 0xD63BB400, TdfType.UInt32, 0, true), // Tag: UCNT
     ];
     private ITdfMember[] __members;
     private TdfUInt32 _useCount = new(__typeInfos[0]);

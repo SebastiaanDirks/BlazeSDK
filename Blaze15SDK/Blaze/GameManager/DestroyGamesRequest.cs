@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DestroyGamesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameIdList", "mGameIdList", 0x1C910C00, TdfType.List, 0, true), // gidl
-        new TdfMemberInfo("DestructionReason", "mDestructionReason", 0x48505300, TdfType.Enum, 1, true), // reas
+        new TdfMemberInfo("GameIdList", "mGameIdList", 0x9E992C00, TdfType.List, 0, true), // Tag: GIDL
+        new TdfMemberInfo("DestructionReason", "mDestructionReason", 0xCA587300, TdfType.Enum, 1, true), // Tag: REAS
     ];
     private ITdfMember[] __members;
 

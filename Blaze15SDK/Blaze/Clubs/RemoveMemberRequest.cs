@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class RemoveMemberRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08C24400, TdfType.Int64, 0, true), // blid
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 1, true), // clid
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8ACA6400, TdfType.Int64, 0, true), // Tag: BLID
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 1, true), // Tag: CLID
     ];
     private ITdfMember[] __members;
 

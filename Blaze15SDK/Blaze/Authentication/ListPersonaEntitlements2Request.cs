@@ -7,20 +7,20 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class ListPersonaEntitlements2Request : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EndGrantDate", "mEndGrantDate", 0x96792100, TdfType.String, 0, true), // EGDA
-        new TdfMemberInfo("PageNo", "mPageNo", 0x970CEE00, TdfType.UInt16, 1, true), // EPSN
-        new TdfMemberInfo("PageSize", "mPageSize", 0x970CFA00, TdfType.UInt16, 2, true), // EPSZ
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 3, true), // ETAG
-        new TdfMemberInfo("EndTerminationDate", "mEndTerminationDate", 0x97492100, TdfType.String, 4, true), // ETDA
-        new TdfMemberInfo("GroupNameList", "mGroupNameList", 0x9EE8CC00, TdfType.List, 5, true), // GNLS
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 6, true), // PID
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 7, true), // PJID
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 8, true), // PRID
-        new TdfMemberInfo("RecursiveSearch", "mRecursiveSearch", 0xCA58F500, TdfType.Bool, 9, true), // RECU
-        new TdfMemberInfo("StartGrantDate", "mStartGrantDate", 0xCE792100, TdfType.String, 10, true), // SGDA
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 11, true), // STAT
-        new TdfMemberInfo("StartTerminationDate", "mStartTerminationDate", 0xCF492100, TdfType.String, 12, true), // STDA
-        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 13, true), // TYPE
+        new TdfMemberInfo("EndGrantDate", "mEndGrantDate", 0x96792100, TdfType.String, 0, true), // Tag: EGDA
+        new TdfMemberInfo("PageNo", "mPageNo", 0x970CEE00, TdfType.UInt16, 1, true), // Tag: EPSN
+        new TdfMemberInfo("PageSize", "mPageSize", 0x970CFA00, TdfType.UInt16, 2, true), // Tag: EPSZ
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 3, true), // Tag: ETAG
+        new TdfMemberInfo("EndTerminationDate", "mEndTerminationDate", 0x97492100, TdfType.String, 4, true), // Tag: ETDA
+        new TdfMemberInfo("GroupNameList", "mGroupNameList", 0x9EEB3300, TdfType.List, 5, true), // Tag: GNLS
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 6, true), // Tag: PID
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 7, true), // Tag: PJID
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 8, true), // Tag: PRID
+        new TdfMemberInfo("RecursiveSearch", "mRecursiveSearch", 0xCA58F500, TdfType.Bool, 9, true), // Tag: RECU
+        new TdfMemberInfo("StartGrantDate", "mStartGrantDate", 0xCE792100, TdfType.String, 10, true), // Tag: SGDA
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 11, true), // Tag: STAT
+        new TdfMemberInfo("StartTerminationDate", "mStartTerminationDate", 0xCF492100, TdfType.String, 12, true), // Tag: STDA
+        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 13, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 
@@ -42,9 +42,20 @@ public class ListPersonaEntitlements2Request : Tdf
     public ListPersonaEntitlements2Request()
     {
         __members = [
-            _endGrantDate, _pageNo, _pageSize, _entitlementTag, _endTerminationDate,
-            _groupNameList, _personaId, _projectId, _productId, _recursiveSearch,
-            _startGrantDate, _status, _startTerminationDate, _entitlementType,
+            _endGrantDate,
+            _pageNo,
+            _pageSize,
+            _entitlementTag,
+            _endTerminationDate,
+            _groupNameList,
+            _personaId,
+            _projectId,
+            _productId,
+            _recursiveSearch,
+            _startGrantDate,
+            _status,
+            _startTerminationDate,
+            _entitlementType,
         ];
     }
 

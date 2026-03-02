@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetMemberOnlineStatusResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Status", "mStatus", 0x34F4CD00, TdfType.Map, 0, true), // mosm
+        new TdfMemberInfo("Status", "mStatus", 0xB6FCED00, TdfType.Map, 0, true), // Tag: MOSM
     ];
     private ITdfMember[] __members;
 

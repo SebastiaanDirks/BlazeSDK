@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class SendMessageResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MessageId", "mMessageId", 0x34724400, TdfType.UInt64, 0, true), // mgid
-        new TdfMemberInfo("MessageIds", "mMessageIds", 0x34911300, TdfType.List, 1, true), // mids
+        new TdfMemberInfo("MessageId", "mMessageId", 0xB67A6400, TdfType.UInt64, 0, true), // Tag: MGID
+        new TdfMemberInfo("MessageIds", "mMessageIds", 0xB6993300, TdfType.List, 1, true), // Tag: MIDS
     ];
     private ITdfMember[] __members;
 

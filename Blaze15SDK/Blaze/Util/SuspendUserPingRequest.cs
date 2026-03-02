@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class SuspendUserPingRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SuspendTime", "suspendTime", 0x51604C00, TdfType.Int64, 0, true), // tval
+        new TdfMemberInfo("SuspendTime", "suspendTime", 0xD3686C00, TdfType.Int64, 0, true), // Tag: TVAL
     ];
     private ITdfMember[] __members;
 

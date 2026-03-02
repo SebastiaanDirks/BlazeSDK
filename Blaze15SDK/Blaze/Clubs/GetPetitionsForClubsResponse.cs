@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetPetitionsForClubsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubPetitionListMap", "mClubPetitionListMap", 0x31035000, TdfType.Struct, 0, true), // lpmp
+        new TdfMemberInfo("ClubPetitionListMap", "mClubPetitionListMap", 0xB30B7000, TdfType.Struct, 0, true), // Tag: LPMP
     ];
     private ITdfMember[] __members;
 

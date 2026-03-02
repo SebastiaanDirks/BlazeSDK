@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.CensusData;
 public class NotifyServerCensusDataItem : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Tdf", "mTdf", 0x50418000, TdfType.Variable, 0, true), // tdf
+        new TdfMemberInfo("Tdf", "mTdf", 0xD2498000, TdfType.Variable, 0, true), // Tag: TDF
     ];
     private ITdfMember[] __members;
 

@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze;
 public class ClientMetrics : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeFlags", "mBlazeFlags", 0xD629AC00, TdfType.Enum, 0, true), // UBFL
-        new TdfMemberInfo("DeviceInfo", "mDeviceInfo", 0xD6497600, TdfType.String, 1, true), // UDEV
-        new TdfMemberInfo("Flags", "mFlags", 0xD66B2700, TdfType.UInt16, 2, true), // UFLG
-        new TdfMemberInfo("LastRsltCode", "mLastRsltCode", 0xD6CCA300, TdfType.Int32, 3, true), // ULRC
-        new TdfMemberInfo("NatType", "mNatType", 0xD6E87400, TdfType.UInt16, 4, true), // UNAT
-        new TdfMemberInfo("Status", "mStatus", 0xD73D2100, TdfType.Enum, 5, true), // USTA
+        new TdfMemberInfo("BlazeFlags", "mBlazeFlags", 0xD629AC00, TdfType.Enum, 0, true), // Tag: UBFL
+        new TdfMemberInfo("DeviceInfo", "mDeviceInfo", 0xD6497600, TdfType.String, 1, true), // Tag: UDEV
+        new TdfMemberInfo("Flags", "mFlags", 0xD66B2700, TdfType.UInt16, 2, true), // Tag: UFLG
+        new TdfMemberInfo("LastRsltCode", "mLastRsltCode", 0xD6CCA300, TdfType.Int32, 3, true), // Tag: ULRC
+        new TdfMemberInfo("NatType", "mNatType", 0xD6E87400, TdfType.UInt16, 4, true), // Tag: UNAT
+        new TdfMemberInfo("Status", "mStatus", 0xD73D2100, TdfType.Enum, 5, true), // Tag: USTA
     ];
     private ITdfMember[] __members;
 

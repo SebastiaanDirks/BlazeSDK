@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatGroupSummary : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 0, true), // desc
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 1, true), // ksum
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 2, true), // meta
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 3, true), // name
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 0, true), // Tag: DESC
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 1, true), // Tag: KSUM
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 2, true), // Tag: META
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

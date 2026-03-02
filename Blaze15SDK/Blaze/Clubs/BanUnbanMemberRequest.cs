@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class BanUnbanMemberRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x54910000, TdfType.Int64, 1, true), // uid
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

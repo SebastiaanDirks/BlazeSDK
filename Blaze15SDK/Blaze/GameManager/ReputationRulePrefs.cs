@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ReputationRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ReputationRequirement", "mReputationRequirement", 0x48541200, TdfType.Enum, 0, true), // repr
+        new TdfMemberInfo("ReputationRequirement", "mReputationRequirement", 0xCA5C3200, TdfType.Enum, 0, true), // Tag: REPR
     ];
     private ITdfMember[] __members;
 

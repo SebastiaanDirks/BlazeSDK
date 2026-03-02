@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserSettingsLoadAllResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DataMap", "mDataMap", 0x4CD05000, TdfType.Map, 0, true), // smap
+        new TdfMemberInfo("DataMap", "mDataMap", 0xCED87000, TdfType.Map, 0, true), // Tag: SMAP
     ];
     private ITdfMember[] __members;
 

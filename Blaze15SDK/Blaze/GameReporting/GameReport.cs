@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Report", "report", 0x1C134500, TdfType.Variable, 0, true), // game
-        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x1D224400, TdfType.UInt64, 1, true), // grid
-        new TdfMemberInfo("GameReportName", "gameReportName", 0x1D465000, TdfType.String, 2, true), // gtyp
-        new TdfMemberInfo("OfflineParticipantList", "offlineParticipantList", 0x40149400, TdfType.List, 3, true), // part
+        new TdfMemberInfo("Report", "report", 0x9E1B6500, TdfType.Variable, 0, true), // Tag: GAME
+        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x9F2A6400, TdfType.UInt64, 1, true), // Tag: GRID
+        new TdfMemberInfo("GameReportName", "gameReportName", 0x9F4E7000, TdfType.String, 2, true), // Tag: GTYP
+        new TdfMemberInfo("OfflineParticipantList", "offlineParticipantList", 0xC21CB400, TdfType.List, 3, true), // Tag: PART
     ];
     private ITdfMember[] __members;
 

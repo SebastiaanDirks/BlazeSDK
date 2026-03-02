@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GpsContentController;
 public class ShowContentRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ContentId", "mContentId", 0x0CF24400, TdfType.ObjectId, 0, true), // coid
-        new TdfMemberInfo("Show", "mShow", 0x4C83D700, TdfType.Bool, 1, true), // show
+        new TdfMemberInfo("ContentId", "mContentId", 0x8EFA6400, TdfType.ObjectId, 0, true), // Tag: COID
+        new TdfMemberInfo("Show", "mShow", 0xCE8BF700, TdfType.Bool, 1, true), // Tag: SHOW
     ];
     private ITdfMember[] __members;
 

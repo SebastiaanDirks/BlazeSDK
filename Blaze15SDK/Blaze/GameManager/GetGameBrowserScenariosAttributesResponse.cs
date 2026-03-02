@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameBrowserScenariosAttributesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameBrowserScenarioAttributes", "mGameBrowserScenarioAttributes", 0x1C248100, TdfType.Map, 0, true), // gbra
+        new TdfMemberInfo("GameBrowserScenarioAttributes", "mGameBrowserScenarioAttributes", 0x9E2CA100, TdfType.Map, 0, true), // Tag: GBRA
     ];
     private ITdfMember[] __members;
 

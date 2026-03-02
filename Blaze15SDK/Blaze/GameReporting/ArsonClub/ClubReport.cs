@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonClub;
 public class ClubReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubRegion", "clubRegion", 0x0D214700, TdfType.UInt32, 0, true), // creg
-        new TdfMemberInfo("Losses", "losses", 0x30F4D300, TdfType.UInt16, 1, true), // loss
-        new TdfMemberInfo("Points", "points", 0x40E51300, TdfType.UInt16, 2, true), // pnts
-        new TdfMemberInfo("RivalLosses", "rivalLosses", 0x48C3D300, TdfType.UInt16, 3, true), // rlos
-        new TdfMemberInfo("RivalPoints", "rivalPoints", 0x49051300, TdfType.UInt16, 4, true), // rpts
-        new TdfMemberInfo("RivalTies", "rivalTies", 0x49424500, TdfType.UInt16, 5, true), // rtie
-        new TdfMemberInfo("RivalWins", "rivalWins", 0x49724E00, TdfType.UInt16, 6, true), // rwin
-        new TdfMemberInfo("SeasonLevel", "seasonLevel", 0x4CC58C00, TdfType.UInt32, 7, true), // slvl
-        new TdfMemberInfo("Ties", "ties", 0x50915300, TdfType.UInt16, 8, true), // ties
-        new TdfMemberInfo("Wins", "wins", 0x5C939300, TdfType.UInt16, 9, true), // wins
+        new TdfMemberInfo("ClubRegion", "clubRegion", 0x8F296700, TdfType.UInt32, 0, true), // Tag: CREG
+        new TdfMemberInfo("Losses", "losses", 0xB2FCF300, TdfType.UInt16, 1, true), // Tag: LOSS
+        new TdfMemberInfo("Points", "points", 0xC2ED3300, TdfType.UInt16, 2, true), // Tag: PNTS
+        new TdfMemberInfo("RivalLosses", "rivalLosses", 0xCACBF300, TdfType.UInt16, 3, true), // Tag: RLOS
+        new TdfMemberInfo("RivalPoints", "rivalPoints", 0xCB0D3300, TdfType.UInt16, 4, true), // Tag: RPTS
+        new TdfMemberInfo("RivalTies", "rivalTies", 0xCB4A6500, TdfType.UInt16, 5, true), // Tag: RTIE
+        new TdfMemberInfo("RivalWins", "rivalWins", 0xCB7A6E00, TdfType.UInt16, 6, true), // Tag: RWIN
+        new TdfMemberInfo("SeasonLevel", "seasonLevel", 0xCECDAC00, TdfType.UInt32, 7, true), // Tag: SLVL
+        new TdfMemberInfo("Ties", "ties", 0xD2997300, TdfType.UInt16, 8, true), // Tag: TIES
+        new TdfMemberInfo("Wins", "wins", 0xDE9BB300, TdfType.UInt16, 9, true), // Tag: WINS
     ];
     private ITdfMember[] __members;
 

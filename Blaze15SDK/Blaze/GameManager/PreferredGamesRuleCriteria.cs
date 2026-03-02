@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PreferredGamesRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PreferredList", "mPreferredList", 0x40C4D400, TdfType.List, 0, true), // plst
-        new TdfMemberInfo("RequirePreferredGame", "mRequirePreferredGame", 0x48545000, TdfType.Bool, 1, true), // reqp
+        new TdfMemberInfo("PreferredList", "mPreferredList", 0xC2CCF400, TdfType.List, 0, true), // Tag: PLST
+        new TdfMemberInfo("RequirePreferredGame", "mRequirePreferredGame", 0xCA5C7000, TdfType.Bool, 1, true), // Tag: REQP
     ];
     private ITdfMember[] __members;
 

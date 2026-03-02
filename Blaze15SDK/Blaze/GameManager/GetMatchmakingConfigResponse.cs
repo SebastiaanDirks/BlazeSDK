@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetMatchmakingConfigResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GenericRules", "mGenericRules", 0x1CC4D400, TdfType.List, 0, true), // glst
-        new TdfMemberInfo("PredefinedRules", "mPredefinedRules", 0x48C4D400, TdfType.List, 1, true), // rlst
+        new TdfMemberInfo("GenericRules", "mGenericRules", 0x9ECCF400, TdfType.List, 0, true), // Tag: GLST
+        new TdfMemberInfo("PredefinedRules", "mPredefinedRules", 0xCACCF400, TdfType.List, 1, true), // Tag: RLST
     ];
     private ITdfMember[] __members;
 

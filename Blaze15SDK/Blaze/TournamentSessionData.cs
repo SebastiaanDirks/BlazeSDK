@@ -7,25 +7,25 @@ namespace Blaze15SDK.Blaze;
 public class TournamentSessionData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ScheduledStartTime", "mScheduledStartTime", 0x51350100, TdfType.String, 0, true), // tsta
-        new TdfMemberInfo("ArbitrationTimeout", "mArbitrationTimeout", 0x05250F00, TdfType.TimeValue, 1, true), // arto
-        new TdfMemberInfo("ForfeitTimeout", "mForfeitTimeout", 0x19250F00, TdfType.TimeValue, 2, true), // frto
-        new TdfMemberInfo("TournamentDefinition", "mTournamentDefinition", 0x50414600, TdfType.String, 3, true), // tdef
+        new TdfMemberInfo("ArbitrationTimeout", "mArbitrationTimeout", 0x872D2F00, TdfType.TimeValue, 0, true), // Tag: ARTO
+        new TdfMemberInfo("ForfeitTimeout", "mForfeitTimeout", 0x9B2D2F00, TdfType.TimeValue, 1, true), // Tag: FRTO
+        new TdfMemberInfo("TournamentDefinition", "mTournamentDefinition", 0xD2496600, TdfType.String, 2, true), // Tag: TDEF
+        new TdfMemberInfo("ScheduledStartTime", "mScheduledStartTime", 0xD33D2100, TdfType.String, 3, true), // Tag: TSTA
     ];
     private ITdfMember[] __members;
 
-    private TdfString _scheduledStartTime = new(__typeInfos[0]);
-    private TdfTimeValue _arbitrationTimeout = new(__typeInfos[1]);
-    private TdfTimeValue _forfeitTimeout = new(__typeInfos[2]);
-    private TdfString _tournamentDefinition = new(__typeInfos[3]);
+    private TdfString _scheduledStartTime = new(__typeInfos[3]);
+    private TdfTimeValue _arbitrationTimeout = new(__typeInfos[0]);
+    private TdfTimeValue _forfeitTimeout = new(__typeInfos[1]);
+    private TdfString _tournamentDefinition = new(__typeInfos[2]);
 
     public TournamentSessionData()
     {
         __members = [
-            _scheduledStartTime,
             _arbitrationTimeout,
             _forfeitTimeout,
             _tournamentDefinition,
+            _scheduledStartTime,
         ];
     }
 

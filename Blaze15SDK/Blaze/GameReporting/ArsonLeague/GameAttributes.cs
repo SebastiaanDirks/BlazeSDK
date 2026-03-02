@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeague;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsSim", "isSim", 0x25324D00, TdfType.Int32, 0, true), // isim
-        new TdfMemberInfo("LeagueId", "leagueId", 0x30724400, TdfType.UInt64, 1, true), // lgid
+        new TdfMemberInfo("IsSim", "isSim", 0xA73A6D00, TdfType.Int32, 0, true), // Tag: ISIM
+        new TdfMemberInfo("LeagueId", "leagueId", 0xB27A6400, TdfType.UInt64, 1, true), // Tag: LGID
     ];
     private ITdfMember[] __members;
 

@@ -7,20 +7,20 @@ namespace Blaze15SDK.Blaze;
 public class UserSessionExtendedData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Union, 0, true), // ADDR
-        new TdfMemberInfo("BestPingSiteAlias", "mBestPingSiteAlias", 0x8B0CC000, TdfType.String, 1, true), // BPS
-        new TdfMemberInfo("Country", "mCountry", 0x8F4E4000, TdfType.String, 2, true), // CTY
-        new TdfMemberInfo("ClientData", "mClientData", 0x8F687200, TdfType.Variable, 3, true), // CVAR
-        new TdfMemberInfo("DataMap", "mDataMap", 0x92D87000, TdfType.Map, 4, true), // DMAP
-        new TdfMemberInfo("HardwareFlags", "mHardwareFlags", 0xA379A700, TdfType.Enum, 5, true), // HWFG
-        new TdfMemberInfo("ISP", "mISP", 0xA73C0000, TdfType.String, 6, true), // ISP
-        new TdfMemberInfo("LatencyList", "mLatencyList", 0xC33B2D00, TdfType.List, 7, true), // PSLM
-        new TdfMemberInfo("LatencyMap", "mLatencyMap", 0xC33B4000, TdfType.Map, 8, true), // PSM
-        new TdfMemberInfo("QosData", "mQosData", 0xC6487400, TdfType.Struct, 9, true), // QDAT
-        new TdfMemberInfo("TimeZone", "mTimeZone", 0xD3A00000, TdfType.String, 10, true), // TZ
-        new TdfMemberInfo("UserInfoAttribute", "mUserInfoAttribute", 0xD61D3400, TdfType.UInt64, 11, true), // UATT
-        new TdfMemberInfo("BlazeObjectIdList", "mBlazeObjectIdList", 0xD6CCF400, TdfType.List, 12, true), // ULST
-        new TdfMemberInfo("CrossPlatformOptIn", "mCrossPlatformOptIn", 0xE30B3400, TdfType.Bool, 13, true), // XPLT
+        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Union, 0, true), // Tag: ADDR
+        new TdfMemberInfo("BestPingSiteAlias", "mBestPingSiteAlias", 0x8B0CC000, TdfType.String, 1, true), // Tag: BPS
+        new TdfMemberInfo("Country", "mCountry", 0x8F4E4000, TdfType.String, 2, true), // Tag: CTY
+        new TdfMemberInfo("ClientData", "mClientData", 0x8F687200, TdfType.Variable, 3, true), // Tag: CVAR
+        new TdfMemberInfo("DataMap", "mDataMap", 0x92D87000, TdfType.Map, 4, true), // Tag: DMAP
+        new TdfMemberInfo("HardwareFlags", "mHardwareFlags", 0xA379A700, TdfType.Enum, 5, true), // Tag: HWFG
+        new TdfMemberInfo("ISP", "mISP", 0xA73C0000, TdfType.String, 6, true), // Tag: ISP
+        new TdfMemberInfo("LatencyList", "mLatencyList", 0xC33B2D00, TdfType.List, 7, true), // Tag: PSLM
+        new TdfMemberInfo("LatencyMap", "mLatencyMap", 0xC33B4000, TdfType.Map, 8, true), // Tag: PSM
+        new TdfMemberInfo("QosData", "mQosData", 0xC6487400, TdfType.Struct, 9, true), // Tag: QDAT
+        new TdfMemberInfo("TimeZone", "mTimeZone", 0xD3A00000, TdfType.String, 10, true), // Tag: TZ
+        new TdfMemberInfo("UserInfoAttribute", "mUserInfoAttribute", 0xD61D3400, TdfType.UInt64, 11, true), // Tag: UATT
+        new TdfMemberInfo("BlazeObjectIdList", "mBlazeObjectIdList", 0xD6CCF400, TdfType.List, 12, true), // Tag: ULST
+        new TdfMemberInfo("CrossPlatformOptIn", "mCrossPlatformOptIn", 0xE30B3400, TdfType.Bool, 13, true), // Tag: XPLT
     ];
     private ITdfMember[] __members;
 

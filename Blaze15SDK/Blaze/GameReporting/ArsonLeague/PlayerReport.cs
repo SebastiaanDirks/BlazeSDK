@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeague;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Blocks", "blocks", 0x08C2D300, TdfType.Int32, 0, true), // blks
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.Int32, 1, true), // hits
-        new TdfMemberInfo("Misses", "misses", 0x3494D300, TdfType.Int32, 2, true), // miss
-        new TdfMemberInfo("Rebs", "rebs", 0x48509300, TdfType.Int32, 3, true), // rebs
-        new TdfMemberInfo("Score", "score", 0x4C33D200, TdfType.Int32, 4, true), // scor
-        new TdfMemberInfo("Serves", "serves", 0x4C549600, TdfType.Int32, 5, true), // serv
+        new TdfMemberInfo("Blocks", "blocks", 0x8ACAF300, TdfType.Int32, 0, true), // Tag: BLKS
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.Int32, 1, true), // Tag: HITS
+        new TdfMemberInfo("Misses", "misses", 0xB69CF300, TdfType.Int32, 2, true), // Tag: MISS
+        new TdfMemberInfo("Rebs", "rebs", 0xCA58B300, TdfType.Int32, 3, true), // Tag: REBS
+        new TdfMemberInfo("Score", "score", 0xCE3BF200, TdfType.Int32, 4, true), // Tag: SCOR
+        new TdfMemberInfo("Serves", "serves", 0xCE5CB600, TdfType.Int32, 5, true), // Tag: SERV
     ];
     private ITdfMember[] __members;
 

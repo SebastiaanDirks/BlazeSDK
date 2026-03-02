@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportQueriesList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Queries", "mQueries", 0x45515200, TdfType.List, 0, true), // quer
+        new TdfMemberInfo("Queries", "mQueries", 0xC7597200, TdfType.List, 0, true), // Tag: QUER
     ];
     private ITdfMember[] __members;
 

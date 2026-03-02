@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Stats;
 public class KeyScopeItem : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AggregateKeyValue", "mAggregateKeyValue", 0x0472D900, TdfType.Int64, 0, true), // agky
-        new TdfMemberInfo("EnableAggregation", "mEnableAggregation", 0x14E04700, TdfType.Bool, 1, true), // enag
-        new TdfMemberInfo("KeyScopeValues", "mKeyScopeValues", 0x2D358C00, TdfType.Map, 2, true), // ksvl
+        new TdfMemberInfo("AggregateKeyValue", "mAggregateKeyValue", 0x867AF900, TdfType.Int64, 0, true), // Tag: AGKY
+        new TdfMemberInfo("EnableAggregation", "mEnableAggregation", 0x96E86700, TdfType.Bool, 1, true), // Tag: ENAG
+        new TdfMemberInfo("KeyScopeValues", "mKeyScopeValues", 0xAF3DAC00, TdfType.Map, 2, true), // Tag: KSVL
     ];
     private ITdfMember[] __members;
 

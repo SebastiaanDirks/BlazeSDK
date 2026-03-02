@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetErrorRatesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ErrorsPerCategoryPerContext", "mErrorsPerCategoryPerContext", 0x48150D00, TdfType.Map, 0, true), // ratm
+        new TdfMemberInfo("ErrorsPerCategoryPerContext", "mErrorsPerCategoryPerContext", 0xCA1D2D00, TdfType.Map, 0, true), // Tag: RATM
     ];
     private ITdfMember[] __members;
 

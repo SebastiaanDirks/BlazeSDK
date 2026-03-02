@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_DimensionalStats;
 public class DimList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DimList", "dimList", 0x11451C00, TdfType.List, 0, true), // dstl
+        new TdfMemberInfo("DimList", "dimList", 0x933D2C00, TdfType.List, 0, true), // Tag: DSTL
     ];
     private ITdfMember[] __members;
 

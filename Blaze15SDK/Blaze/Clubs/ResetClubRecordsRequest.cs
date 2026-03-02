@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ResetClubRecordsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("RecordIdList", "mRecordIdList", 0x48324400, TdfType.List, 1, true), // rcid
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("RecordIdList", "mRecordIdList", 0xCA3A6400, TdfType.List, 1, true), // Tag: RCID
     ];
     private ITdfMember[] __members;
 

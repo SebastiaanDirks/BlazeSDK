@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class CategoryHistory : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("Configuration", "mConfiguration", 0x0CF38600, TdfType.Struct, 1, true), // conf
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D214100, TdfType.Int64, 2, true), // crea
-        new TdfMemberInfo("Deleted", "mDeleted", 0x10530000, TdfType.Bool, 3, true), // del
-        new TdfMemberInfo("Description", "mDescription", 0x1054C300, TdfType.String, 4, true), // desc
-        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0x5124D400, TdfType.List, 5, true), // trst
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 6, true), // updt
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("Configuration", "mConfiguration", 0x8EFBA600, TdfType.Struct, 1, true), // Tag: CONF
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F296100, TdfType.Int64, 2, true), // Tag: CREA
+        new TdfMemberInfo("Deleted", "mDeleted", 0x925B0000, TdfType.Bool, 3, true), // Tag: DEL
+        new TdfMemberInfo("Description", "mDescription", 0x925CE300, TdfType.String, 4, true), // Tag: DESC
+        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0xD32CF400, TdfType.List, 5, true), // Tag: TRST
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 6, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubBansResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeIdToBanStatusMap", "mBlazeIdToBanStatusMap", 0x08139300, TdfType.Map, 0, true), // bans
+        new TdfMemberInfo("BlazeIdToBanStatusMap", "mBlazeIdToBanStatusMap", 0x8A1BB300, TdfType.Map, 0, true), // Tag: BANS
     ];
     private ITdfMember[] __members;
 

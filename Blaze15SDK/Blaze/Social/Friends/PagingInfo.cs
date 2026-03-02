@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Social.Friends;
 public class PagingInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Offset", "mOffset", 0x3C64D400, TdfType.Int32, 0, true), // ofst
-        new TdfMemberInfo("Size", "mSize", 0x4C968500, TdfType.Int32, 1, true), // size
-        new TdfMemberInfo("TotalSize", "mTotalSize", 0x5124DA00, TdfType.Int32, 2, true), // trsz
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CF400, TdfType.Int32, 0, true), // Tag: OFST
+        new TdfMemberInfo("Size", "mSize", 0xCE9EA500, TdfType.Int32, 1, true), // Tag: SIZE
+        new TdfMemberInfo("TotalSize", "mTotalSize", 0xD32CFA00, TdfType.Int32, 2, true), // Tag: TRSZ
     ];
     private ITdfMember[] __members;
 

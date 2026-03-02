@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class EntitiesLookupByIdsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityIds", "mEntityIds", 0x96990000, TdfType.List, 0, true), // EID
-        new TdfMemberInfo("BlazeObjectType", "mBlazeObjectType", 0xD39C2500, TdfType.ObjectType, 1, true), // TYPE
+        new TdfMemberInfo("EntityIds", "mEntityIds", 0x96990000, TdfType.List, 0, true), // Tag: EID
+        new TdfMemberInfo("BlazeObjectType", "mBlazeObjectType", 0xD39C2500, TdfType.ObjectType, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

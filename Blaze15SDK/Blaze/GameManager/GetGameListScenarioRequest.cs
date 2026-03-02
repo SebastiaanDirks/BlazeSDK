@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameListScenarioRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 0, true), // cmgd
-        new TdfMemberInfo("GameBrowserScenarioAttributes", "mGameBrowserScenarioAttributes", 0x1C24C100, TdfType.Map, 1, true), // gbsa
-        new TdfMemberInfo("GameBrowserScenarioName", "mGameBrowserScenarioName", 0x1CE4CE00, TdfType.String, 2, true), // gnsn
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 3, true), // pljd
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 0, true), // Tag: CMGD
+        new TdfMemberInfo("GameBrowserScenarioAttributes", "mGameBrowserScenarioAttributes", 0x9E2CE100, TdfType.Map, 1, true), // Tag: GBSA
+        new TdfMemberInfo("GameBrowserScenarioName", "mGameBrowserScenarioName", 0x9EECEE00, TdfType.String, 2, true), // Tag: GNSN
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 3, true), // Tag: PLJD
     ];
     private ITdfMember[] __members;
 

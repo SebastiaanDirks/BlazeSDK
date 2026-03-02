@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DatalessSetupContext : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SetupContext", "setupContext", 0x10351800, TdfType.Enum, 0, true), // dctx
+        new TdfMemberInfo("SetupContext", "setupContext", 0x923D3800, TdfType.Enum, 0, true), // Tag: DCTX
     ];
     private ITdfMember[] __members;
 

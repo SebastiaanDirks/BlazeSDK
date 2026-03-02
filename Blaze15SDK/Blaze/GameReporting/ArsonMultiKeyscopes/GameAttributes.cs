@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonMultiKeyscopes;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Level", "level", 0x31630000, TdfType.UInt16, 0, true), // lvl
+        new TdfMemberInfo("Level", "level", 0xB36B0000, TdfType.UInt16, 0, true), // Tag: LVL
     ];
     private ITdfMember[] __members;
 

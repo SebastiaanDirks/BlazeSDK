@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UEDRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxUEDAccepted", "mMaxUEDAccepted", 0x04D05800, TdfType.Int64, 0, true), // amax
-        new TdfMemberInfo("MinUEDAccepted", "mMinUEDAccepted", 0x04D24E00, TdfType.Int64, 1, true), // amin
-        new TdfMemberInfo("MyUEDValue", "mMyUEDValue", 0x35514400, TdfType.Int64, 2, true), // mued
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 3, true), // name
+        new TdfMemberInfo("MaxUEDAccepted", "mMaxUEDAccepted", 0x86D87800, TdfType.Int64, 0, true), // Tag: AMAX
+        new TdfMemberInfo("MinUEDAccepted", "mMinUEDAccepted", 0x86DA6E00, TdfType.Int64, 1, true), // Tag: AMIN
+        new TdfMemberInfo("MyUEDValue", "mMyUEDValue", 0xB7596400, TdfType.Int64, 2, true), // Tag: MUED
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

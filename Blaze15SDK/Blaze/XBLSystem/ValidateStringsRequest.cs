@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.XBLSystem;
 public class ValidateStringsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthToken", "mAuthToken", 0x0542CE00, TdfType.String, 0, true), // atkn
-        new TdfMemberInfo("Payload", "mPayload", 0x08F11900, TdfType.Struct, 1, true), // body
+        new TdfMemberInfo("AuthToken", "mAuthToken", 0x874AEE00, TdfType.String, 0, true), // Tag: ATKN
+        new TdfMemberInfo("Payload", "mPayload", 0x8AF93900, TdfType.Struct, 1, true), // Tag: BODY
     ];
     private ITdfMember[] __members;
 

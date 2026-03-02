@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetContextsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Contexts", "mContexts", 0x3094D400, TdfType.List, 0, true), // list
+        new TdfMemberInfo("Contexts", "mContexts", 0xB29CF400, TdfType.List, 0, true), // Tag: LIST
     ];
     private ITdfMember[] __members;
 

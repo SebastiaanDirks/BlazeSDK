@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class ContextHistory : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D214100, TdfType.Int64, 0, true), // crea
-        new TdfMemberInfo("Deleted", "mDeleted", 0x10530000, TdfType.Bool, 1, true), // del
-        new TdfMemberInfo("Description", "mDescription", 0x1054C300, TdfType.String, 2, true), // desc
-        new TdfMemberInfo("Label", "mLabel", 0x30108C00, TdfType.String, 3, true), // labl
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 4, true), // name
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 5, true), // updt
-        new TdfMemberInfo("Version", "mVersion", 0x58549300, TdfType.UInt32, 6, true), // vers
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F296100, TdfType.Int64, 0, true), // Tag: CREA
+        new TdfMemberInfo("Deleted", "mDeleted", 0x925B0000, TdfType.Bool, 1, true), // Tag: DEL
+        new TdfMemberInfo("Description", "mDescription", 0x925CE300, TdfType.String, 2, true), // Tag: DESC
+        new TdfMemberInfo("Label", "mLabel", 0xB218AC00, TdfType.String, 3, true), // Tag: LABL
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 4, true), // Tag: NAME
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 5, true), // Tag: UPDT
+        new TdfMemberInfo("Version", "mVersion", 0xDA5CB300, TdfType.UInt32, 6, true), // Tag: VERS
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class FirstPartyId : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PS3Ticket", "mPS3Ticket", 0xDA1B3500, TdfType.Blob, 0, true), // VALU
-        new TdfMemberInfo("XboxId", "mXboxId", 0xDA1B3500, TdfType.Struct, 1, true), // VALU
-        new TdfMemberInfo("Persona", "mPersona", 0xDA1B3500, TdfType.String, 2, true), // VALU
+        new TdfMemberInfo("PS3Ticket", "mPS3Ticket", 0xDA1B3500, TdfType.Blob, 0, true), // Tag: VALU
+        new TdfMemberInfo("XboxId", "mXboxId", 0xDA1B3500, TdfType.Struct, 1, true), // Tag: VALU
+        new TdfMemberInfo("Persona", "mPersona", 0xDA1B3500, TdfType.String, 2, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class LogEventRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0C224400, TdfType.UInt64, 0, true), // cbid
-        new TdfMemberInfo("EventKeyType", "mEventKeyType", 0x3052D900, TdfType.Enum, 1, true), // leky
-        new TdfMemberInfo("EventParams", "mEventParams", 0x30541600, TdfType.Map, 2, true), // lepv
+        new TdfMemberInfo("ClubId", "mClubId", 0x8E2A6400, TdfType.UInt64, 0, true), // Tag: CBID
+        new TdfMemberInfo("EventKeyType", "mEventKeyType", 0xB25AF900, TdfType.Enum, 1, true), // Tag: LEKY
+        new TdfMemberInfo("EventParams", "mEventParams", 0xB25C3600, TdfType.Map, 2, true), // Tag: LEPV
     ];
     private ITdfMember[] __members;
 

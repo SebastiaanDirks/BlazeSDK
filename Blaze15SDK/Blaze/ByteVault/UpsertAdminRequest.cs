@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertAdminRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x04434E00, TdfType.String, 0, true), // admn
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 1, true), // auth
-        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0x34140000, TdfType.Map, 2, true), // map
+        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x864B6E00, TdfType.String, 0, true), // Tag: ADMN
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 1, true), // Tag: AUTH
+        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0xB61C0000, TdfType.Map, 2, true), // Tag: MAP
     ];
     private ITdfMember[] __members;
 

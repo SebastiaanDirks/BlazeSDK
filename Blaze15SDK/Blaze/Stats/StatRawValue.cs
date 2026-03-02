@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatRawValue : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FloatValue", "floatValue", 0x18C3D400, TdfType.Float, 0, true), // flot
-        new TdfMemberInfo("IntValue", "intValue", 0x24E50000, TdfType.Int64, 1, true), // int
-        new TdfMemberInfo("StringValue", "stringValue", 0x4D448000, TdfType.String, 2, true), // str
+        new TdfMemberInfo("FloatValue", "floatValue", 0x9ACBF400, TdfType.Float, 0, true), // Tag: FLOT
+        new TdfMemberInfo("IntValue", "intValue", 0xA6ED0000, TdfType.Int64, 1, true), // Tag: INT
+        new TdfMemberInfo("StringValue", "stringValue", 0xCF4C8000, TdfType.String, 2, true), // Tag: STR
     ];
     private ITdfMember[] __members;
 

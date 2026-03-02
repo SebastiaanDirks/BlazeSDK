@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameBrowserTeamInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RoleSizeMap", "mRoleSizeMap", 0x48D05000, TdfType.Map, 0, true), // rmap
-        new TdfMemberInfo("TeamId", "mTeamId", 0x50910000, TdfType.UInt16, 1, true), // tid
-        new TdfMemberInfo("TeamSize", "mTeamSize", 0x51368500, TdfType.UInt16, 2, true), // tsze
+        new TdfMemberInfo("RoleSizeMap", "mRoleSizeMap", 0xCAD87000, TdfType.Map, 0, true), // Tag: RMAP
+        new TdfMemberInfo("TeamId", "mTeamId", 0xD2990000, TdfType.UInt16, 1, true), // Tag: TID
+        new TdfMemberInfo("TeamSize", "mTeamSize", 0xD33EA500, TdfType.UInt16, 2, true), // Tag: TSZE
     ];
     private ITdfMember[] __members;
 

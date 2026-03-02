@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MeshConnectionQosInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PacketLoss", "mPacketLoss", 0x30F4D300, TdfType.Float, 0, true), // loss
-        new TdfMemberInfo("LatencyMs", "mLatencyMs", 0x40938700, TdfType.UInt32, 1, true), // ping
+        new TdfMemberInfo("PacketLoss", "mPacketLoss", 0xB2FCF300, TdfType.Float, 0, true), // Tag: LOSS
+        new TdfMemberInfo("LatencyMs", "mLatencyMs", 0xC29BA700, TdfType.UInt32, 1, true), // Tag: PING
     ];
     private ITdfMember[] __members;
 

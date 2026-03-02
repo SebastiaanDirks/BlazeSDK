@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class DeletedRecordInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D214100, TdfType.Int64, 0, true), // crea
-        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x10531400, TdfType.Int64, 1, true), // delt
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.Struct, 2, true), // ownr
-        new TdfMemberInfo("RecordName", "mRecordName", 0x4850C000, TdfType.String, 3, true), // rec
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 4, true), // updt
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F296100, TdfType.Int64, 0, true), // Tag: CREA
+        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x925B3400, TdfType.Int64, 1, true), // Tag: DELT
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.Struct, 2, true), // Tag: OWNR
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA58C000, TdfType.String, 3, true), // Tag: REC
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 4, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class ExternalSessionBlazeSpecifiedCustomDataPs5 : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("Mode", "mMode", 0x1CD10000, TdfType.String, 1, true), // gmd
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("Mode", "mMode", 0x9ED90000, TdfType.String, 1, true), // Tag: GMD
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class UpdateMetricRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MetricName", "metricName", 0x34551200, TdfType.String, 0, true), // metr
-        new TdfMemberInfo("Value", "value", 0x58131500, TdfType.Int64, 1, true), // valu
+        new TdfMemberInfo("MetricName", "metricName", 0xB65D3200, TdfType.String, 0, true), // Tag: METR
+        new TdfMemberInfo("Value", "value", 0xDA1B3500, TdfType.Int64, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

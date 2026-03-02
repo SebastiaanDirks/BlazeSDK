@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameNameRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SearchString", "mSearchString", 0x4D509300, TdfType.String, 0, true), // subs
+        new TdfMemberInfo("SearchString", "mSearchString", 0xCF58B300, TdfType.String, 0, true), // Tag: SUBS
     ];
     private ITdfMember[] __members;
 

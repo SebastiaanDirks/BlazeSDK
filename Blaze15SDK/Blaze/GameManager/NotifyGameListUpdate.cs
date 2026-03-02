@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameListUpdate : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsFinalUpdate", "mIsFinalUpdate", 0x10F38500, TdfType.UInt8, 0, true), // done
-        new TdfMemberInfo("ListId", "mListId", 0x1CC24400, TdfType.UInt64, 1, true), // glid
-        new TdfMemberInfo("RemovedGameList", "mRemovedGameList", 0x48535600, TdfType.List, 2, true), // remv
-        new TdfMemberInfo("UpdatedGames", "mUpdatedGames", 0x55011400, TdfType.List, 3, true), // updt
+        new TdfMemberInfo("IsFinalUpdate", "mIsFinalUpdate", 0x92FBA500, TdfType.UInt8, 0, true), // Tag: DONE
+        new TdfMemberInfo("ListId", "mListId", 0x9ECA6400, TdfType.UInt64, 1, true), // Tag: GLID
+        new TdfMemberInfo("RemovedGameList", "mRemovedGameList", 0xCA5B7600, TdfType.List, 2, true), // Tag: REMV
+        new TdfMemberInfo("UpdatedGames", "mUpdatedGames", 0xD7093400, TdfType.List, 3, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

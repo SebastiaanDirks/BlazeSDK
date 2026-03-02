@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameListSyncResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0x34160600, TdfType.UInt32, 0, true), // maxf
-        new TdfMemberInfo("NumberOfGamesToBeDownloaded", "mNumberOfGamesToBeDownloaded", 0x38710000, TdfType.UInt32, 1, true), // ngd
-        new TdfMemberInfo("GameList", "mGameList", 0x55011400, TdfType.List, 2, true), // updt
+        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0xB61E2600, TdfType.UInt32, 0, true), // Tag: MAXF
+        new TdfMemberInfo("NumberOfGamesToBeDownloaded", "mNumberOfGamesToBeDownloaded", 0xBA790000, TdfType.UInt32, 1, true), // Tag: NGD
+        new TdfMemberInfo("GameList", "mGameList", 0xD7093400, TdfType.List, 2, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

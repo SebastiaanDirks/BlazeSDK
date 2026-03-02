@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class CreateAccountParameters : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BirthDay", "mBirthDay", 0x8A487900, TdfType.Int32, 0, true), // BDAY
-        new TdfMemberInfo("BirthMonth", "mBirthMonth", 0x8ADBEE00, TdfType.Int32, 1, true), // BMON
-        new TdfMemberInfo("BirthYear", "mBirthYear", 0x8B9C8000, TdfType.UInt32, 2, true), // BYR
-        new TdfMemberInfo("IsoCountryCode", "mIsoCountryCode", 0x8F4CB900, TdfType.String, 3, true), // CTRY
-        new TdfMemberInfo("IsoLanguageCode", "mIsoLanguageCode", 0xB21BA700, TdfType.String, 4, true), // LANG
-        new TdfMemberInfo("IsoLocaleCode", "mIsoLocaleCode", 0xB2F8EC00, TdfType.String, 5, true), // LOCL
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 6, true), // MAIL
-        new TdfMemberInfo("EaEmailAllowed", "mEaEmailAllowed", 0xBF0D1100, TdfType.UInt8, 7, true), // OPT1
-        new TdfMemberInfo("ThirdPartyEmailAllowed", "mThirdPartyEmailAllowed", 0xBF0D1300, TdfType.UInt8, 8, true), // OPT3
-        new TdfMemberInfo("Password", "mPassword", 0xC21CF300, TdfType.String, 9, true), // PASS
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 10, true), // PNAM
-        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 11, true), // PRDT
-        new TdfMemberInfo("PrivacyPolicyUri", "mPrivacyPolicyUri", 0xC32A7600, TdfType.String, 12, true), // PRIV
-        new TdfMemberInfo("ParentalEmail", "mParentalEmail", 0xC32BB400, TdfType.String, 13, true), // PRNT
-        new TdfMemberInfo("UserProfileInfo", "mUserProfileInfo", 0xC32BE600, TdfType.Struct, 14, true), // PROF
-        new TdfMemberInfo("TermsOfServiceUri", "mTermsOfServiceUri", 0xD33D6900, TdfType.String, 15, true), // TSUI
+        new TdfMemberInfo("BirthDay", "mBirthDay", 0x8A487900, TdfType.Int32, 0, true), // Tag: BDAY
+        new TdfMemberInfo("BirthMonth", "mBirthMonth", 0x8ADBEE00, TdfType.Int32, 1, true), // Tag: BMON
+        new TdfMemberInfo("BirthYear", "mBirthYear", 0x8B9C8000, TdfType.UInt32, 2, true), // Tag: BYR
+        new TdfMemberInfo("IsoCountryCode", "mIsoCountryCode", 0x8F4CB900, TdfType.String, 3, true), // Tag: CTRY
+        new TdfMemberInfo("IsoLanguageCode", "mIsoLanguageCode", 0xB21BA700, TdfType.String, 4, true), // Tag: LANG
+        new TdfMemberInfo("IsoLocaleCode", "mIsoLocaleCode", 0xB2F8EC00, TdfType.String, 5, true), // Tag: LOCL
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 6, true), // Tag: MAIL
+        new TdfMemberInfo("EaEmailAllowed", "mEaEmailAllowed", 0xBF0D1100, TdfType.UInt8, 7, true), // Tag: OPT1
+        new TdfMemberInfo("ThirdPartyEmailAllowed", "mThirdPartyEmailAllowed", 0xBF0D1300, TdfType.UInt8, 8, true), // Tag: OPT3
+        new TdfMemberInfo("Password", "mPassword", 0xC21CF300, TdfType.String, 9, true), // Tag: PASS
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 10, true), // Tag: PNAM
+        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 11, true), // Tag: PRDT
+        new TdfMemberInfo("PrivacyPolicyUri", "mPrivacyPolicyUri", 0xC32A7600, TdfType.String, 12, true), // Tag: PRIV
+        new TdfMemberInfo("ParentalEmail", "mParentalEmail", 0xC32BB400, TdfType.String, 13, true), // Tag: PRNT
+        new TdfMemberInfo("UserProfileInfo", "mUserProfileInfo", 0xC32BE600, TdfType.Struct, 14, true), // Tag: PROF
+        new TdfMemberInfo("TermsOfServiceUri", "mTermsOfServiceUri", 0xD33D6900, TdfType.String, 15, true), // Tag: TSUI
     ];
     private ITdfMember[] __members;
 
@@ -46,10 +46,22 @@ public class CreateAccountParameters : Tdf
     public CreateAccountParameters()
     {
         __members = [
-            _birthDay, _birthMonth, _birthYear, _isoCountryCode, _isoLanguageCode,
-            _isoLocaleCode, _email, _eaEmailAllowed, _thirdPartyEmailAllowed,
-            _password, _personaName, _productName, _privacyPolicyUri, _parentalEmail,
-            _userProfileInfo, _termsOfServiceUri,
+            _birthDay,
+            _birthMonth,
+            _birthYear,
+            _isoCountryCode,
+            _isoLanguageCode,
+            _isoLocaleCode,
+            _email,
+            _eaEmailAllowed,
+            _thirdPartyEmailAllowed,
+            _password,
+            _personaName,
+            _productName,
+            _privacyPolicyUri,
+            _parentalEmail,
+            _userProfileInfo,
+            _termsOfServiceUri,
         ];
     }
 

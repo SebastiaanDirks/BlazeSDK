@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatGroupList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Groups", "mGroups", 0x1D241300, TdfType.List, 0, true), // grps
+        new TdfMemberInfo("Groups", "mGroups", 0x9F2C3300, TdfType.List, 0, true), // Tag: GRPS
     ];
     private ITdfMember[] __members;
 

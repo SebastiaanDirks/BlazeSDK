@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameBrowserScenarioData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GetGameListRequest", "mGetGameListRequest", 0x1CC49100, TdfType.Struct, 0, true), // glrq
-        new TdfMemberInfo("IsSnapshotList", "mIsSnapshotList", 0x4CE05000, TdfType.Bool, 1, true), // snap
+        new TdfMemberInfo("GetGameListRequest", "mGetGameListRequest", 0x9ECCB100, TdfType.Struct, 0, true), // Tag: GLRQ
+        new TdfMemberInfo("IsSnapshotList", "mIsSnapshotList", 0xCEE87000, TdfType.Bool, 1, true), // Tag: SNAP
     ];
     private ITdfMember[] __members;
 

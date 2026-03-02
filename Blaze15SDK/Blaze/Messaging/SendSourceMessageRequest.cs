@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class SendSourceMessageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Payload", "mPayload", 0x41930400, TdfType.Struct, 0, true), // pyld
-        new TdfMemberInfo("Source", "mSource", 0x4D20C500, TdfType.ObjectId, 1, true), // srce
+        new TdfMemberInfo("Payload", "mPayload", 0xC39B2400, TdfType.Struct, 0, true), // Tag: PYLD
+        new TdfMemberInfo("Source", "mSource", 0xCF28E500, TdfType.ObjectId, 1, true), // Tag: SRCE
     ];
     private ITdfMember[] __members;
 

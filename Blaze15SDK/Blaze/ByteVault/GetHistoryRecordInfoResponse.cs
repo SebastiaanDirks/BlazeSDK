@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetHistoryRecordInfoResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Records", "mRecords", 0x3094D400, TdfType.List, 0, true), // list
-        new TdfMemberInfo("TotalCount", "mTotalCount", 0x50F50C00, TdfType.UInt32, 1, true), // totl
+        new TdfMemberInfo("Records", "mRecords", 0xB29CF400, TdfType.List, 0, true), // Tag: LIST
+        new TdfMemberInfo("TotalCount", "mTotalCount", 0xD2FD2C00, TdfType.UInt32, 1, true), // Tag: TOTL
     ];
     private ITdfMember[] __members;
 

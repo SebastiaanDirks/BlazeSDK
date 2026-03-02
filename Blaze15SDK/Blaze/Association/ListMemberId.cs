@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListMemberId : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Attributes", "mAttributes", 0x05451200, TdfType.Enum, 0, true), // attr
-        new TdfMemberInfo("ExternalSystemId", "mExternalSystemId", 0x40C05400, TdfType.Enum, 1, true), // plat
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 2, true), // user
+        new TdfMemberInfo("Attributes", "mAttributes", 0x874D3200, TdfType.Enum, 0, true), // Tag: ATTR
+        new TdfMemberInfo("ExternalSystemId", "mExternalSystemId", 0xC2C87400, TdfType.Enum, 1, true), // Tag: PLAT
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 2, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

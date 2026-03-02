@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Stats;
 public class DateRange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("End", "mEnd", 0x14E10000, TdfType.UInt32, 0, true), // end
-        new TdfMemberInfo("Start", "mStart", 0x4D449400, TdfType.UInt32, 1, true), // strt
+        new TdfMemberInfo("End", "mEnd", 0x96E90000, TdfType.UInt32, 0, true), // Tag: END
+        new TdfMemberInfo("Start", "mStart", 0xCF4CB400, TdfType.UInt32, 1, true), // Tag: STRT
     ];
     private ITdfMember[] __members;
 

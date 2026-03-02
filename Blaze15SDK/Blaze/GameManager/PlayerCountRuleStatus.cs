@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerCountRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxPlayerCountAccepted", "mMaxPlayerCountAccepted", 0x40D05800, TdfType.UInt16, 0, true), // pmax
-        new TdfMemberInfo("MinPlayerCountAccepted", "mMinPlayerCountAccepted", 0x40D24E00, TdfType.UInt16, 1, true), // pmin
+        new TdfMemberInfo("MaxPlayerCountAccepted", "mMaxPlayerCountAccepted", 0xC2D87800, TdfType.UInt16, 0, true), // Tag: PMAX
+        new TdfMemberInfo("MinPlayerCountAccepted", "mMinPlayerCountAccepted", 0xC2DA6E00, TdfType.UInt16, 1, true), // Tag: PMIN
     ];
     private ITdfMember[] __members;
 

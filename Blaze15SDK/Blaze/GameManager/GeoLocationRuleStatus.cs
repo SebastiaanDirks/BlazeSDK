@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GeoLocationRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxDistance", "mMaxDistance", 0x1094D400, TdfType.UInt32, 0, true), // dist
+        new TdfMemberInfo("MaxDistance", "mMaxDistance", 0x929CF400, TdfType.UInt32, 0, true), // Tag: DIST
     ];
     private ITdfMember[] __members;
 

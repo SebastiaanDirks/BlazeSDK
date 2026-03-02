@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class GrantAchievementRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AchieveId", "mAchieveId", 0x04824400, TdfType.String, 0, true), // ahid
-        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x05560100, TdfType.Struct, 1, true), // auxa
-        new TdfMemberInfo("Language", "mLanguage", 0x30138700, TdfType.String, 2, true), // lang
-        new TdfMemberInfo("IncludeMetadata", "mIncludeMetadata", 0x34550100, TdfType.Bool, 3, true), // meta
-        new TdfMemberInfo("ProductId", "mProductId", 0x4123C400, TdfType.String, 4, true), // prod
-        new TdfMemberInfo("Progress", "mProgress", 0x4123C700, TdfType.Struct, 5, true), // prog
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 6, true), // user
+        new TdfMemberInfo("AchieveId", "mAchieveId", 0x868A6400, TdfType.String, 0, true), // Tag: AHID
+        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x875E2100, TdfType.Struct, 1, true), // Tag: AUXA
+        new TdfMemberInfo("Language", "mLanguage", 0xB21BA700, TdfType.String, 2, true), // Tag: LANG
+        new TdfMemberInfo("IncludeMetadata", "mIncludeMetadata", 0xB65D2100, TdfType.Bool, 3, true), // Tag: META
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32BE400, TdfType.String, 4, true), // Tag: PROD
+        new TdfMemberInfo("Progress", "mProgress", 0xC32BE700, TdfType.Struct, 5, true), // Tag: PROG
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 6, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

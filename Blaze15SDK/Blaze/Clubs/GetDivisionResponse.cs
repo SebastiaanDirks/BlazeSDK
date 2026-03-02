@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetDivisionResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Division", "mDivision", 0x10958E00, TdfType.UInt32, 0, true), // divn
-        new TdfMemberInfo("StartingRank", "mStartingRank", 0x4D238B00, TdfType.UInt32, 1, true), // srnk
+        new TdfMemberInfo("Division", "mDivision", 0x929DAE00, TdfType.UInt32, 0, true), // Tag: DIVN
+        new TdfMemberInfo("StartingRank", "mStartingRank", 0xCF2BAB00, TdfType.UInt32, 1, true), // Tag: SRNK
     ];
     private ITdfMember[] __members;
 

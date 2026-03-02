@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class RefreshQosPingSiteMapRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PingSiteAliasMap", "mPingSiteAliasMap", 0xC3386D00, TdfType.Map, 0, true), // PSAM
+        new TdfMemberInfo("PingSiteAliasMap", "mPingSiteAliasMap", 0xC3386D00, TdfType.Map, 0, true), // Tag: PSAM
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class LocalizeStringsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Locale", "mLocale", 0x30138700, TdfType.UInt32, 0, true), // lang
-        new TdfMemberInfo("StringIds", "mStringIds", 0x31324400, TdfType.List, 1, true), // lsid
+        new TdfMemberInfo("Locale", "mLocale", 0xB21BA700, TdfType.UInt32, 0, true), // Tag: LANG
+        new TdfMemberInfo("StringIds", "mStringIds", 0xB33A6400, TdfType.List, 1, true), // Tag: LSID
     ];
     private ITdfMember[] __members;
 

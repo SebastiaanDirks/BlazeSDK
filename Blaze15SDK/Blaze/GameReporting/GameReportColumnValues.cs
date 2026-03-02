@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportColumnValues : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Values", "mValues", 0x58131500, TdfType.List, 0, true), // valu
+        new TdfMemberInfo("Values", "mValues", 0xDA1B3500, TdfType.List, 0, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

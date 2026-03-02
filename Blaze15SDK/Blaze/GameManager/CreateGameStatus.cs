@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CreateGameStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EvaluateStatus", "mEvaluateStatus", 0x1564D400, TdfType.Enum, 0, true), // evst
-        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0x34D4CE00, TdfType.UInt32, 1, true), // mmsn
-        new TdfMemberInfo("NumOfMatchedPlayers", "mNumOfMatchedPlayers", 0x38F35000, TdfType.UInt32, 2, true), // nomp
+        new TdfMemberInfo("EvaluateStatus", "mEvaluateStatus", 0x976CF400, TdfType.Enum, 0, true), // Tag: EVST
+        new TdfMemberInfo("NumOfMatchmakingSession", "mNumOfMatchmakingSession", 0xB6DCEE00, TdfType.UInt32, 1, true), // Tag: MMSN
+        new TdfMemberInfo("NumOfMatchedPlayers", "mNumOfMatchedPlayers", 0xBAFB7000, TdfType.UInt32, 2, true), // Tag: NOMP
     ];
     private ITdfMember[] __members;
 

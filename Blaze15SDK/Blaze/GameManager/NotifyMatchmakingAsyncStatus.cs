@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyMatchmakingAsyncStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchmakingAsyncStatusList", "mMatchmakingAsyncStatusList", 0x05324C00, TdfType.List, 0, true), // asil
-        new TdfMemberInfo("MatchmakingScenarioId", "mMatchmakingScenarioId", 0x3530C400, TdfType.UInt64, 1, true), // mscd
-        new TdfMemberInfo("MatchmakingSessionId", "mMatchmakingSessionId", 0x35324400, TdfType.UInt64, 2, true), // msid
-        new TdfMemberInfo("MatchmakingSessionAge", "mMatchmakingSessionAge", 0x4C11C500, TdfType.UInt32, 3, true), // sage
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 4, true), // usid
+        new TdfMemberInfo("MatchmakingAsyncStatusList", "mMatchmakingAsyncStatusList", 0x873A6C00, TdfType.List, 0, true), // Tag: ASIL
+        new TdfMemberInfo("MatchmakingScenarioId", "mMatchmakingScenarioId", 0xB738E400, TdfType.UInt64, 1, true), // Tag: MSCD
+        new TdfMemberInfo("MatchmakingSessionId", "mMatchmakingSessionId", 0xB73A6400, TdfType.UInt64, 2, true), // Tag: MSID
+        new TdfMemberInfo("MatchmakingSessionAge", "mMatchmakingSessionAge", 0xCE19E500, TdfType.UInt32, 3, true), // Tag: SAGE
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 4, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

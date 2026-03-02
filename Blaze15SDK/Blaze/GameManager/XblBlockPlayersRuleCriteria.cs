@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class XblBlockPlayersRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DisableRule", "mDisableRule", 0x11348C00, TdfType.Bool, 0, true), // dsrl
+        new TdfMemberInfo("DisableRule", "mDisableRule", 0x933CAC00, TdfType.Bool, 0, true), // Tag: DSRL
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetUserPsnTokenResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PsnToken", "mPsnToken", 0x1143CB00, TdfType.String, 0, true), // dtok
-        new TdfMemberInfo("ExpiresAt", "mExpiresAt", 0x15840900, TdfType.TimeValue, 1, true), // expi
+        new TdfMemberInfo("PsnToken", "mPsnToken", 0x934BEB00, TdfType.String, 0, true), // Tag: DTOK
+        new TdfMemberInfo("ExpiresAt", "mExpiresAt", 0x978C2900, TdfType.TimeValue, 1, true), // Tag: EXPI
     ];
     private ITdfMember[] __members;
 

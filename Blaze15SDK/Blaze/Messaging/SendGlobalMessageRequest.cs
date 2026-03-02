@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class SendGlobalMessageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttrMap", "mAttrMap", 0x05451200, TdfType.Map, 0, true), // attr
-        new TdfMemberInfo("Flags", "mFlags", 0x18C04700, TdfType.Enum, 1, true), // flag
-        new TdfMemberInfo("Status", "mStatus", 0x4D405400, TdfType.UInt32, 2, true), // stat
-        new TdfMemberInfo("Tag", "mTag", 0x5011C000, TdfType.UInt32, 3, true), // tag
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.UInt32, 4, true), // type
+        new TdfMemberInfo("AttrMap", "mAttrMap", 0x874D3200, TdfType.Map, 0, true), // Tag: ATTR
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 1, true), // Tag: FLAG
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.UInt32, 2, true), // Tag: STAT
+        new TdfMemberInfo("Tag", "mTag", 0xD219C000, TdfType.UInt32, 3, true), // Tag: TAG
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.UInt32, 4, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

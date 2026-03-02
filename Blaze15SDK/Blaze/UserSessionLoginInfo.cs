@@ -7,24 +7,24 @@ namespace Blaze15SDK.Blaze;
 public class UserSessionLoginInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsFirstConsoleLogin", "mIsFirstConsoleLogin", 0x463BEE00, TdfType.Bool, 0, true), // 1CON
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // AIDS
-        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x86CBE300, TdfType.UInt32, 2, true), // ALOC
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 3, true), // BUID
-        new TdfMemberInfo("ConnectionGroupObjectId", "mConnectionGroupObjectId", 0x8E7A6400, TdfType.ObjectId, 4, true), // CGID
-        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 5, true), // CNTY
-        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 6, true), // DSNM
-        new TdfMemberInfo("IsFirstLogin", "mIsFirstLogin", 0x9B2CF400, TdfType.Bool, 7, true), // FRST
-        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 8, true), // KEY
-        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB21CF400, TdfType.UInt32, 9, true), // LAST
-        new TdfMemberInfo("LastLoginDateTime", "mLastLoginDateTime", 0xB2CBE700, TdfType.Int64, 10, true), // LLOG
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 11, true), // MAIL
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 12, true), // NASP
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 13, true), // PID
-        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0xC2C87400, TdfType.Enum, 14, true), // PLAT
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 15, true), // UID
-        new TdfMemberInfo("UserSessionType", "mUserSessionType", 0xD73D3000, TdfType.Enum, 16, true), // USTP
-        new TdfMemberInfo("ExtId", "mExtId", 0xE3296600, TdfType.UInt64, 17, true), // XREF
+        new TdfMemberInfo("IsFirstConsoleLogin", "mIsFirstConsoleLogin", 0x463BEE00, TdfType.Bool, 0, true), // Tag: 1CON
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // Tag: AIDS
+        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x86CBE300, TdfType.UInt32, 2, true), // Tag: ALOC
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 3, true), // Tag: BUID
+        new TdfMemberInfo("ConnectionGroupObjectId", "mConnectionGroupObjectId", 0x8E7A6400, TdfType.ObjectId, 4, true), // Tag: CGID
+        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 5, true), // Tag: CNTY
+        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 6, true), // Tag: DSNM
+        new TdfMemberInfo("IsFirstLogin", "mIsFirstLogin", 0x9B2CF400, TdfType.Bool, 7, true), // Tag: FRST
+        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 8, true), // Tag: KEY
+        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB21CF400, TdfType.UInt32, 9, true), // Tag: LAST
+        new TdfMemberInfo("LastLoginDateTime", "mLastLoginDateTime", 0xB2CBE700, TdfType.Int64, 10, true), // Tag: LLOG
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 11, true), // Tag: MAIL
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 12, true), // Tag: NASP
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 13, true), // Tag: PID
+        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0xC2C87400, TdfType.Enum, 14, true), // Tag: PLAT
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 15, true), // Tag: UID
+        new TdfMemberInfo("UserSessionType", "mUserSessionType", 0xD73D3000, TdfType.Enum, 16, true), // Tag: USTP
+        new TdfMemberInfo("ExtId", "mExtId", 0xE3296600, TdfType.UInt64, 17, true), // Tag: XREF
     ];
     private ITdfMember[] __members;
 

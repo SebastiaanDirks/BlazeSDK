@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateExternalSessionPresenceForUserResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CurrentPrimarySession", "mCurrentPrimarySession", 0x15324400, TdfType.Struct, 0, true), // esid
-        new TdfMemberInfo("CurrentPrimaryGameId", "mCurrentPrimaryGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("CurrentPrimary", "mCurrentPrimary", 0x41315300, TdfType.Struct, 2, true), // pses
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x55314900, TdfType.Int64, 3, true), // usei
-        new TdfMemberInfo("Updated", "mUpdated", 0x55315300, TdfType.Struct, 4, true), // uses
+        new TdfMemberInfo("CurrentPrimarySession", "mCurrentPrimarySession", 0x973A6400, TdfType.Struct, 0, true), // Tag: ESID
+        new TdfMemberInfo("CurrentPrimaryGameId", "mCurrentPrimaryGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("CurrentPrimary", "mCurrentPrimary", 0xC3397300, TdfType.Struct, 2, true), // Tag: PSES
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD7396900, TdfType.Int64, 3, true), // Tag: USEI
+        new TdfMemberInfo("Updated", "mUpdated", 0xD7397300, TdfType.Struct, 4, true), // Tag: USES
     ];
     private ITdfMember[] __members;
 

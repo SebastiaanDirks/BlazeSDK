@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UEDRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientUEDSearchValue", "mClientUEDSearchValue", 0x0D604C00, TdfType.Int64, 0, true), // cval
-        new TdfMemberInfo("OverrideUEDValue", "mOverrideUEDValue", 0x3D604C00, TdfType.Int64, 1, true), // oval
-        new TdfMemberInfo("ThresholdName", "mThresholdName", 0x50830400, TdfType.String, 2, true), // thld
+        new TdfMemberInfo("ClientUEDSearchValue", "mClientUEDSearchValue", 0x8F686C00, TdfType.Int64, 0, true), // Tag: CVAL
+        new TdfMemberInfo("OverrideUEDValue", "mOverrideUEDValue", 0xBF686C00, TdfType.Int64, 1, true), // Tag: OVAL
+        new TdfMemberInfo("ThresholdName", "mThresholdName", 0xD28B2400, TdfType.String, 2, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

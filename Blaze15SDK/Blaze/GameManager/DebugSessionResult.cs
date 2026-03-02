@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DebugSessionResult : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchedSessionId", "mMatchedSessionId", 0x34D4C900, TdfType.UInt64, 0, true), // mmsi
-        new TdfMemberInfo("OwnerBlazeId", "mOwnerBlazeId", 0x3C224400, TdfType.Int64, 1, true), // obid
-        new TdfMemberInfo("OverallFitScore", "mOverallFitScore", 0x3C625400, TdfType.UInt32, 2, true), // ofit
-        new TdfMemberInfo("OwnerPlayerName", "mOwnerPlayerName", 0x40C38100, TdfType.String, 3, true), // plna
-        new TdfMemberInfo("RuleResults", "mRuleResults", 0x49531300, TdfType.Map, 4, true), // ruls
-        new TdfMemberInfo("PlayerCount", "mPlayerCount", 0x4C968500, TdfType.UInt16, 5, true), // size
-        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0x51434000, TdfType.Int64, 6, true), // ttm
+        new TdfMemberInfo("MatchedSessionId", "mMatchedSessionId", 0xB6DCE900, TdfType.UInt64, 0, true), // Tag: MMSI
+        new TdfMemberInfo("OwnerBlazeId", "mOwnerBlazeId", 0xBE2A6400, TdfType.Int64, 1, true), // Tag: OBID
+        new TdfMemberInfo("OverallFitScore", "mOverallFitScore", 0xBE6A7400, TdfType.UInt32, 2, true), // Tag: OFIT
+        new TdfMemberInfo("OwnerPlayerName", "mOwnerPlayerName", 0xC2CBA100, TdfType.String, 3, true), // Tag: PLNA
+        new TdfMemberInfo("RuleResults", "mRuleResults", 0xCB5B3300, TdfType.Map, 4, true), // Tag: RULS
+        new TdfMemberInfo("PlayerCount", "mPlayerCount", 0xCE9EA500, TdfType.UInt16, 5, true), // Tag: SIZE
+        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0xD34B4000, TdfType.Int64, 6, true), // Tag: TTM
     ];
     private ITdfMember[] __members;
 

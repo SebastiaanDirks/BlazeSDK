@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonMultiStatUpdatesKeyscopes;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "clubId", 0x0C910000, TdfType.UInt64, 0, true), // cid
-        new TdfMemberInfo("Losses", "losses", 0x30F4D300, TdfType.UInt16, 1, true), // loss
-        new TdfMemberInfo("Points", "points", 0x40E51300, TdfType.UInt16, 2, true), // pnts
-        new TdfMemberInfo("Weapon", "weapon", 0x5C540E00, TdfType.Int32, 3, true), // wepn
-        new TdfMemberInfo("Wins", "wins", 0x5C939300, TdfType.UInt16, 4, true), // wins
+        new TdfMemberInfo("ClubId", "clubId", 0x8E990000, TdfType.UInt64, 0, true), // Tag: CID
+        new TdfMemberInfo("Losses", "losses", 0xB2FCF300, TdfType.UInt16, 1, true), // Tag: LOSS
+        new TdfMemberInfo("Points", "points", 0xC2ED3300, TdfType.UInt16, 2, true), // Tag: PNTS
+        new TdfMemberInfo("Weapon", "weapon", 0xDE5C2E00, TdfType.Int32, 3, true), // Tag: WEPN
+        new TdfMemberInfo("Wins", "wins", 0xDE9BB300, TdfType.UInt16, 4, true), // Tag: WINS
     ];
     private ITdfMember[] __members;
 

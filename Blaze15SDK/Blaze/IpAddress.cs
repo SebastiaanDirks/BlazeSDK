@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class IpAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Ip", "mIp", 0xA7000000, TdfType.UInt32, 0, true), // IP
-        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 1, true), // MACI
-        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 2, true), // PORT
+        new TdfMemberInfo("Ip", "mIp", 0xA7000000, TdfType.UInt32, 0, true), // Tag: IP
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 1, true), // Tag: MACI
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 2, true), // Tag: PORT
     ];
     private ITdfMember[] __members;
 

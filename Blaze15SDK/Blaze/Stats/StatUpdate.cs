@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatUpdate : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 0, true), // name
-        new TdfMemberInfo("UpdateType", "mUpdateType", 0x51940500, TdfType.Int32, 1, true), // type
-        new TdfMemberInfo("Value", "mValue", 0x58131500, TdfType.String, 2, true), // valu
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("UpdateType", "mUpdateType", 0xD39C2500, TdfType.Int32, 1, true), // Tag: TYPE
+        new TdfMemberInfo("Value", "mValue", 0xDA1B3500, TdfType.String, 2, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

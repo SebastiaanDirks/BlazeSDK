@@ -7,25 +7,25 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetUserPsnTokenRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RetrieveUsing", "mRetrieveUsing", 0x3D739200, TdfType.Union, 0, true), // ownr
-        new TdfMemberInfo("ForceRefresh", "mForceRefresh", 0x48518000, TdfType.Bool, 1, true), // ref
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4D60CE00, TdfType.String, 2, true), // svcn
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.Enum, 3, true), // plat
+        new TdfMemberInfo("RetrieveUsing", "mRetrieveUsing", 0xBF7BB200, TdfType.Union, 0, true), // Tag: OWNR
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.Enum, 1, true), // Tag: PLAT
+        new TdfMemberInfo("ForceRefresh", "mForceRefresh", 0xCA598000, TdfType.Bool, 2, true), // Tag: REF
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCF68EE00, TdfType.String, 3, true), // Tag: SVCN
     ];
     private ITdfMember[] __members;
 
     private TdfUnion<Blaze15SDK.Blaze.OAuth.PsnTokenOwnerId> _retrieveUsing = new(__typeInfos[0]);
-    private TdfBool _forceRefresh = new(__typeInfos[1]);
-    private TdfString _serviceName = new(__typeInfos[2]);
-    private TdfEnum<Blaze15SDK.Blaze.ClientPlatformType> _platform = new(__typeInfos[3]);
+    private TdfBool _forceRefresh = new(__typeInfos[2]);
+    private TdfString _serviceName = new(__typeInfos[3]);
+    private TdfEnum<Blaze15SDK.Blaze.ClientPlatformType> _platform = new(__typeInfos[1]);
 
     public GetUserPsnTokenRequest()
     {
         __members = [
             _retrieveUsing,
+            _platform,
             _forceRefresh,
             _serviceName,
-            _platform,
         ];
     }
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class HostNameAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // MACI
-        new TdfMemberInfo("HostName", "mHostName", 0xBA1B6500, TdfType.String, 1, true), // NAME
-        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 2, true), // PORT
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 0, true), // Tag: MACI
+        new TdfMemberInfo("HostName", "mHostName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 2, true), // Tag: PORT
     ];
     private ITdfMember[] __members;
 

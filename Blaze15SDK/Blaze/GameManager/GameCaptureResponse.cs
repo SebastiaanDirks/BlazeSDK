@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameCaptureResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LastSaveTime", "mLastSaveTime", 0x31350000, TdfType.UInt64, 0, true), // lst
+        new TdfMemberInfo("LastSaveTime", "mLastSaveTime", 0xB33D0000, TdfType.UInt64, 0, true), // Tag: LST
     ];
     private ITdfMember[] __members;
 

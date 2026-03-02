@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class OptInRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("OptInName", "mOptInName", 0xBA1B6500, TdfType.String, 0, true), // NAME
+        new TdfMemberInfo("OptInName", "mOptInName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
     private TdfString _optInName = new(__typeInfos[0]);

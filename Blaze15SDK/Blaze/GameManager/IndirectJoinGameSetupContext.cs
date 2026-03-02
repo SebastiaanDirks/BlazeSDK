@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class IndirectJoinGameSetupContext : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0x1D224400, TdfType.ObjectId, 0, true), // grid
-        new TdfMemberInfo("RequiresClientVersionCheck", "mRequiresClientVersionCheck", 0x49058300, TdfType.Bool, 1, true), // rpvc
+        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0x9F2A6400, TdfType.ObjectId, 0, true), // Tag: GRID
+        new TdfMemberInfo("RequiresClientVersionCheck", "mRequiresClientVersionCheck", 0xCB0DA300, TdfType.Bool, 1, true), // Tag: RPVC
     ];
     private ITdfMember[] __members;
 

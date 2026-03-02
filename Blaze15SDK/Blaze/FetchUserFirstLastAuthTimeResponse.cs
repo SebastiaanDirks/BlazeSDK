@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class FetchUserFirstLastAuthTimeResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserFirstAuthTime", "mUserFirstAuthTime", 0xD6687400, TdfType.Int64, 0, true), // UFAT
-        new TdfMemberInfo("UserLastAuthTime", "mUserLastAuthTime", 0xD6C87400, TdfType.Int64, 1, true), // ULAT
+        new TdfMemberInfo("UserFirstAuthTime", "mUserFirstAuthTime", 0xD6687400, TdfType.Int64, 0, true), // Tag: UFAT
+        new TdfMemberInfo("UserLastAuthTime", "mUserLastAuthTime", 0xD6C87400, TdfType.Int64, 1, true), // Tag: ULAT
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GenericEvent : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EventMap", "eventMap", 0x15615400, TdfType.Map, 0, true), // evet
+        new TdfMemberInfo("EventMap", "eventMap", 0x97697400, TdfType.Map, 0, true), // Tag: EVET
     ];
     private ITdfMember[] __members;
 

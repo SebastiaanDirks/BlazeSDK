@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class PsnTokenOwnerId : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xDA1B3500, TdfType.Int64, 0, false), // VALU
-        new TdfMemberInfo("ExternalId", "mExternalId", 0xDA1B3500, TdfType.UInt64, 1, false), // VALU
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xDA1B3500, TdfType.Int64, 0, false), // Tag: VALU
+        new TdfMemberInfo("ExternalId", "mExternalId", 0xDA1B3500, TdfType.UInt64, 1, false), // Tag: VALU
     ];
 
     private TdfInt64 _personaId = new(__typeInfos[0]);

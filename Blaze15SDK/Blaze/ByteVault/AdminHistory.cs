@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class AdminHistory : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x04434E00, TdfType.String, 0, true), // admn
-        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0x34140000, TdfType.Map, 1, true), // map
+        new TdfMemberInfo("AdminEmail", "mAdminEmail", 0x864B6E00, TdfType.String, 0, true), // Tag: ADMN
+        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0xB61C0000, TdfType.Map, 1, true), // Tag: MAP
     ];
     private ITdfMember[] __members;
 

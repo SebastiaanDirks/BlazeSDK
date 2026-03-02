@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class FilteredUserText : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Result", "mResult", 0x10949400, TdfType.Enum, 0, true), // dirt
-        new TdfMemberInfo("FilteredText", "mFilteredText", 0x55461400, TdfType.String, 1, true), // utxt
+        new TdfMemberInfo("Result", "mResult", 0x929CB400, TdfType.Enum, 0, true), // Tag: DIRT
+        new TdfMemberInfo("FilteredText", "mFilteredText", 0xD74E3400, TdfType.String, 1, true), // Tag: UTXT
     ];
     private ITdfMember[] __members;
 

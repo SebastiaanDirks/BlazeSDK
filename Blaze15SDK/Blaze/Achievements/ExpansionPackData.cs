@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class ExpansionPackData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Id", "mId", 0x24400000, TdfType.String, 0, true), // id
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 1, true), // name
+        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.String, 0, true), // Tag: ID
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

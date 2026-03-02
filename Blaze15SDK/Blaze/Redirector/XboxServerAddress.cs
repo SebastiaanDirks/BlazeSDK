@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class XboxServerAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Port", "mPort", 0x40F49400, TdfType.UInt16, 0, true), // port
-        new TdfMemberInfo("ServiceId", "mServiceId", 0x4C910000, TdfType.UInt32, 1, true), // sid
-        new TdfMemberInfo("SiteName", "mSiteName", 0x4C950500, TdfType.String, 2, true), // site
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.UInt16, 0, true), // Tag: PORT
+        new TdfMemberInfo("ServiceId", "mServiceId", 0xCE990000, TdfType.UInt32, 1, true), // Tag: SID
+        new TdfMemberInfo("SiteName", "mSiteName", 0xCE9D2500, TdfType.String, 2, true), // Tag: SITE
     ];
     private ITdfMember[] __members;
 

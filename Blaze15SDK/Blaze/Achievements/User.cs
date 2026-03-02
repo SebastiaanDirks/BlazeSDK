@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class User : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Id", "mId", 0x24400000, TdfType.Int64, 0, true), // id
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Enum, 1, true), // type
+        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.Int64, 0, true), // Tag: ID
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Enum, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

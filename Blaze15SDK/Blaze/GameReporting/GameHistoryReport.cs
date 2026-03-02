@@ -9,7 +9,7 @@ public class GameHistoryReport : Tdf
     public class TableRow : Tdf
     {
         static readonly TdfMemberInfo[] __typeInfos = [
-            new TdfMemberInfo("AttributeMap", "mAttributeMap", 0x5123D700, TdfType.Map, 0, true), // trow
+        new TdfMemberInfo("AttributeMap", "mAttributeMap", 0xD32BF700, TdfType.Map, 0, true), // Tag: TROW
         ];
         private ITdfMember[] __members;
 
@@ -38,7 +38,7 @@ public class GameHistoryReport : Tdf
     public class TableRows : Tdf
     {
         static readonly TdfMemberInfo[] __typeInfos = [
-            new TdfMemberInfo("TableRowList", "mTableRowList", 0x48C25300, TdfType.List, 0, true), // rlis
+        new TdfMemberInfo("TableRowList", "mTableRowList", 0xCACA7300, TdfType.List, 0, true), // Tag: RLIS
         ];
         private ITdfMember[] __members;
 
@@ -65,14 +65,14 @@ public class GameHistoryReport : Tdf
     }
 
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FlagReason", "mFlagReason", 0x18748500, TdfType.String, 0, true), // fgre
-        new TdfMemberInfo("Flags", "mFlags", 0x18C04700, TdfType.UInt64, 1, true), // flag
-        new TdfMemberInfo("GameHistoryId", "mGameHistoryId", 0x1C824400, TdfType.UInt64, 2, true), // ghid
-        new TdfMemberInfo("GameReportingId", "mGameReportingId", 0x1D224400, TdfType.UInt64, 3, true), // grid
-        new TdfMemberInfo("GameReportName", "mGameReportName", 0x1D465000, TdfType.String, 4, true), // gtyp
-        new TdfMemberInfo("Online", "mOnline", 0x3CE30900, TdfType.Bool, 5, true), // onli
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50934500, TdfType.Int64, 6, true), // time
-        new TdfMemberInfo("TableRowMap", "mTableRowMap", 0x51234000, TdfType.Map, 7, true), // trm
+        new TdfMemberInfo("FlagReason", "mFlagReason", 0x9A7CA500, TdfType.String, 0, true), // Tag: FGRE
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.UInt64, 1, true), // Tag: FLAG
+        new TdfMemberInfo("GameHistoryId", "mGameHistoryId", 0x9E8A6400, TdfType.UInt64, 2, true), // Tag: GHID
+        new TdfMemberInfo("GameReportingId", "mGameReportingId", 0x9F2A6400, TdfType.UInt64, 3, true), // Tag: GRID
+        new TdfMemberInfo("GameReportName", "mGameReportName", 0x9F4E7000, TdfType.String, 4, true), // Tag: GTYP
+        new TdfMemberInfo("Online", "mOnline", 0xBEEB2900, TdfType.Bool, 5, true), // Tag: ONLI
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD29B6500, TdfType.Int64, 6, true), // Tag: TIME
+        new TdfMemberInfo("TableRowMap", "mTableRowMap", 0xD32B4000, TdfType.Map, 7, true), // Tag: TRM
     ];
     private ITdfMember[] __members;
 

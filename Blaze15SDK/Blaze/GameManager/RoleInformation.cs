@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RoleInformation : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RoleCriteriaMap", "mRoleCriteriaMap", 0x0D225400, TdfType.Map, 0, true), // crit
-        new TdfMemberInfo("MultiRoleCriteria", "mMultiRoleCriteria", 0x48349400, TdfType.Map, 1, true), // rcrt
+        new TdfMemberInfo("RoleCriteriaMap", "mRoleCriteriaMap", 0x8F2A7400, TdfType.Map, 0, true), // Tag: CRIT
+        new TdfMemberInfo("MultiRoleCriteria", "mMultiRoleCriteria", 0xCA3CB400, TdfType.Map, 1, true), // Tag: RCRT
     ];
     private ITdfMember[] __members;
 

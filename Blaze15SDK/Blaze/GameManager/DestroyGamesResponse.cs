@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DestroyGamesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameIdList", "mGameIdList", 0x1C910C00, TdfType.List, 0, true), // gidl
+        new TdfMemberInfo("GameIdList", "mGameIdList", 0x9E992C00, TdfType.List, 0, true), // Tag: GIDL
     ];
     private ITdfMember[] __members;
 

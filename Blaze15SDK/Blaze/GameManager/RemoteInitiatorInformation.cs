@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RemoteInitiatorInformation : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AssociatedUserGroupId", "mAssociatedUserGroupId", 0x1C910000, TdfType.ObjectId, 0, true), // gid
-        new TdfMemberInfo("InitiatorId", "mInitiatorId", 0x24E24400, TdfType.Int64, 1, true), // inid
+        new TdfMemberInfo("AssociatedUserGroupId", "mAssociatedUserGroupId", 0x9E990000, TdfType.ObjectId, 0, true), // Tag: GID
+        new TdfMemberInfo("InitiatorId", "mInitiatorId", 0xA6EA6400, TdfType.Int64, 1, true), // Tag: INID
     ];
     private ITdfMember[] __members;
 

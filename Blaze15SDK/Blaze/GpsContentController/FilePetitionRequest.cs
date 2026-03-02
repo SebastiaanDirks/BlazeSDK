@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GpsContentController;
 public class FilePetitionRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttributeMap", "attributeMap", 0x04E59000, TdfType.Map, 0, true), // anvp
-        new TdfMemberInfo("ContentId", "mContentId", 0x0CF24400, TdfType.ObjectId, 1, true), // coid
-        new TdfMemberInfo("ComplaintType", "mComplaintType", 0x0CF51900, TdfType.String, 2, true), // coty
-        new TdfMemberInfo("ContentType", "mContentType", 0x40E0D400, TdfType.Enum, 3, true), // pnct
-        new TdfMemberInfo("PetitionDetail", "mPetitionDetail", 0x41410500, TdfType.String, 4, true), // ptde
-        new TdfMemberInfo("Subject", "mSubject", 0x4D508A00, TdfType.String, 5, true), // subj
-        new TdfMemberInfo("TimeZone", "mTimeZone", 0x50D68F00, TdfType.String, 6, true), // tmzo
-        new TdfMemberInfo("TargetUsers", "mTargetUsers", 0x5121D400, TdfType.List, 7, true), // trgt
+        new TdfMemberInfo("AttributeMap", "attributeMap", 0x86EDB000, TdfType.Map, 0, true), // Tag: ANVP
+        new TdfMemberInfo("ContentId", "mContentId", 0x8EFA6400, TdfType.ObjectId, 1, true), // Tag: COID
+        new TdfMemberInfo("ComplaintType", "mComplaintType", 0x8EFD3900, TdfType.String, 2, true), // Tag: COTY
+        new TdfMemberInfo("ContentType", "mContentType", 0xC2E8F400, TdfType.Enum, 3, true), // Tag: PNCT
+        new TdfMemberInfo("PetitionDetail", "mPetitionDetail", 0xC3492500, TdfType.String, 4, true), // Tag: PTDE
+        new TdfMemberInfo("Subject", "mSubject", 0xCF58AA00, TdfType.String, 5, true), // Tag: SUBJ
+        new TdfMemberInfo("TimeZone", "mTimeZone", 0xD2DEAF00, TdfType.String, 6, true), // Tag: TMZO
+        new TdfMemberInfo("TargetUsers", "mTargetUsers", 0xD329F400, TdfType.List, 7, true), // Tag: TRGT
     ];
     private ITdfMember[] __members;
 

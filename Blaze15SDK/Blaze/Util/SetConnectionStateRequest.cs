@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class SetConnectionStateRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsActive", "mIsActive", 0x04351600, TdfType.Bool, 0, true), // actv
+        new TdfMemberInfo("IsActive", "mIsActive", 0x863D3600, TdfType.Bool, 0, true), // Tag: ACTV
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class FieldValidationError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Error", "mError", 0x972C8000, TdfType.Enum, 0, true), // ERR
-        new TdfMemberInfo("Field", "mField", 0x9AC90000, TdfType.Enum, 1, true), // FLD
+        new TdfMemberInfo("Error", "mError", 0x972C8000, TdfType.Enum, 0, true), // Tag: ERR
+        new TdfMemberInfo("Field", "mField", 0x9AC90000, TdfType.Enum, 1, true), // Tag: FLD
     ];
     private ITdfMember[] __members;
 

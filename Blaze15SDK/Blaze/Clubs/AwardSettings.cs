@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class AwardSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AwardChecksum", "mAwardChecksum", 0x0570D300, TdfType.UInt32, 0, true), // awcs
-        new TdfMemberInfo("AwardId", "mAwardId", 0x05724400, TdfType.UInt32, 1, true), // awid
-        new TdfMemberInfo("AwardName", "mAwardName", 0x05738100, TdfType.String, 2, true), // awna
-        new TdfMemberInfo("AwardURL", "mAwardURL", 0x05755200, TdfType.String, 3, true), // awur
+        new TdfMemberInfo("AwardChecksum", "mAwardChecksum", 0x8778F300, TdfType.UInt32, 0, true), // Tag: AWCS
+        new TdfMemberInfo("AwardId", "mAwardId", 0x877A6400, TdfType.UInt32, 1, true), // Tag: AWID
+        new TdfMemberInfo("AwardName", "mAwardName", 0x877BA100, TdfType.String, 2, true), // Tag: AWNA
+        new TdfMemberInfo("AwardURL", "mAwardURL", 0x877D7200, TdfType.String, 3, true), // Tag: AWUR
     ];
     private ITdfMember[] __members;
 

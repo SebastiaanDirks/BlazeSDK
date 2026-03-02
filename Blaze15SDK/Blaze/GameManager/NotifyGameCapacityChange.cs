@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameCapacityChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0x0C140000, TdfType.List, 0, true), // cap
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("LockedForPreferredJoins", "mLockedForPreferredJoins", 0x30640A00, TdfType.Bool, 2, true), // lfpj
-        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0x48E18F00, TdfType.Struct, 3, true), // rnfo
-        new TdfMemberInfo("TeamRosters", "mTeamRosters", 0x5124D400, TdfType.List, 4, true), // trst
+        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0x8E1C0000, TdfType.List, 0, true), // Tag: CAP
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("LockedForPreferredJoins", "mLockedForPreferredJoins", 0xB26C2A00, TdfType.Bool, 2, true), // Tag: LFPJ
+        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0xCAE9AF00, TdfType.Struct, 3, true), // Tag: RNFO
+        new TdfMemberInfo("TeamRosters", "mTeamRosters", 0xD32CF400, TdfType.List, 4, true), // Tag: TRST
     ];
     private ITdfMember[] __members;
 

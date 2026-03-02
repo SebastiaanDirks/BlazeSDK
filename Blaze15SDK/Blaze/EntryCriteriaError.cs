@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class EntryCriteriaError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FailedCriteria", "mFailedCriteria", 0x9A3CB400, TdfType.String, 0, true), // FCRT
+        new TdfMemberInfo("FailedCriteria", "mFailedCriteria", 0x9A3CB400, TdfType.String, 0, true), // Tag: FCRT
     ];
     private ITdfMember[] __members;
 

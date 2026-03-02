@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerPresenceData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4CC3D400, TdfType.Enum, 0, true), // slot
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50504D00, TdfType.UInt16, 1, true), // team
-        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0x50934500, TdfType.Int64, 2, true), // time
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCECBF400, TdfType.Enum, 0, true), // Tag: SLOT
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2586D00, TdfType.UInt16, 1, true), // Tag: TEAM
+        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0xD29B6500, TdfType.Int64, 2, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

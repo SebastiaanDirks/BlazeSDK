@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerJoinData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GroupId", "mGroupId", 0x09440C00, TdfType.ObjectId, 0, true), // btpl
-        new TdfMemberInfo("DefaultRole", "mDefaultRole", 0x10648C00, TdfType.String, 1, true), // dfrl
-        new TdfMemberInfo("GameEntryType", "mGameEntryType", 0x1C539400, TdfType.Enum, 2, true), // gent
-        new TdfMemberInfo("PlayerDataList", "mPlayerDataList", 0x40C10C00, TdfType.List, 3, true), // pldl
-        new TdfMemberInfo("DefaultSlotType", "mDefaultSlotType", 0x4CC3D400, TdfType.Enum, 4, true), // slot
-        new TdfMemberInfo("DefaultTeamId", "mDefaultTeamId", 0x50910000, TdfType.UInt16, 5, true), // tid
-        new TdfMemberInfo("DefaultTeamIndex", "mDefaultTeamIndex", 0x50911800, TdfType.UInt16, 6, true), // tidx
+        new TdfMemberInfo("GroupId", "mGroupId", 0x8B4C2C00, TdfType.ObjectId, 0, true), // Tag: BTPL
+        new TdfMemberInfo("DefaultRole", "mDefaultRole", 0x926CAC00, TdfType.String, 1, true), // Tag: DFRL
+        new TdfMemberInfo("GameEntryType", "mGameEntryType", 0x9E5BB400, TdfType.Enum, 2, true), // Tag: GENT
+        new TdfMemberInfo("PlayerDataList", "mPlayerDataList", 0xC2C92C00, TdfType.List, 3, true), // Tag: PLDL
+        new TdfMemberInfo("DefaultSlotType", "mDefaultSlotType", 0xCECBF400, TdfType.Enum, 4, true), // Tag: SLOT
+        new TdfMemberInfo("DefaultTeamId", "mDefaultTeamId", 0xD2990000, TdfType.UInt16, 5, true), // Tag: TID
+        new TdfMemberInfo("DefaultTeamIndex", "mDefaultTeamIndex", 0xD2993800, TdfType.UInt16, 6, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

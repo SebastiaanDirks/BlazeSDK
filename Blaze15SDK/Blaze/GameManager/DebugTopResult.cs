@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DebugTopResult : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("GameName", "mGameName", 0x1CE04D00, TdfType.String, 1, true), // gnam
-        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0x34625400, TdfType.UInt32, 2, true), // mfit
-        new TdfMemberInfo("OverallFitScore", "mOverallFitScore", 0x3C625400, TdfType.UInt32, 3, true), // ofit
-        new TdfMemberInfo("OverallResult", "mOverallResult", 0x3D215300, TdfType.Enum, 4, true), // ores
-        new TdfMemberInfo("RuleResults", "mRuleResults", 0x49531300, TdfType.Map, 5, true), // ruls
-        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0x51434000, TdfType.Int64, 6, true), // ttm
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("GameName", "mGameName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
+        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0xB66A7400, TdfType.UInt32, 2, true), // Tag: MFIT
+        new TdfMemberInfo("OverallFitScore", "mOverallFitScore", 0xBE6A7400, TdfType.UInt32, 3, true), // Tag: OFIT
+        new TdfMemberInfo("OverallResult", "mOverallResult", 0xBF297300, TdfType.Enum, 4, true), // Tag: ORES
+        new TdfMemberInfo("RuleResults", "mRuleResults", 0xCB5B3300, TdfType.Map, 5, true), // Tag: RULS
+        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0xD34B4000, TdfType.Int64, 6, true), // Tag: TTM
     ];
     private ITdfMember[] __members;
 

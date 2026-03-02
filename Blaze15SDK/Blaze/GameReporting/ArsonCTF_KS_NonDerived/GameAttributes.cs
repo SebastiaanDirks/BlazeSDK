@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_KS_NonDerived;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DurationSec", "durationSec", 0x11548000, TdfType.Float, 0, true), // dur
-        new TdfMemberInfo("GameName", "gameName", 0x1CE04D00, TdfType.String, 1, true), // gnam
-        new TdfMemberInfo("Level", "level", 0x30558C00, TdfType.Int32, 2, true), // levl
-        new TdfMemberInfo("MapName", "mapName", 0x34140000, TdfType.String, 3, true), // map
-        new TdfMemberInfo("ReplayTimes", "replayTimes", 0x50934500, TdfType.UInt32, 4, true), // time
+        new TdfMemberInfo("DurationSec", "durationSec", 0x935C8000, TdfType.Float, 0, true), // Tag: DUR
+        new TdfMemberInfo("GameName", "gameName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
+        new TdfMemberInfo("Level", "level", 0xB25DAC00, TdfType.Int32, 2, true), // Tag: LEVL
+        new TdfMemberInfo("MapName", "mapName", 0xB61C0000, TdfType.String, 3, true), // Tag: MAP
+        new TdfMemberInfo("ReplayTimes", "replayTimes", 0xD29B6500, TdfType.UInt32, 4, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class UserSessionLogoutInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // BID
-        new TdfMemberInfo("ForcedLogoutReason", "mForcedLogoutReason", 0x9ACCB300, TdfType.Enum, 1, true), // FLRS
-        new TdfMemberInfo("UserSessionType", "mUserSessionType", 0xD73D3000, TdfType.Enum, 2, true), // USTP
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("ForcedLogoutReason", "mForcedLogoutReason", 0x9ACCB300, TdfType.Enum, 1, true), // Tag: FLRS
+        new TdfMemberInfo("UserSessionType", "mUserSessionType", 0xD73D3000, TdfType.Enum, 2, true), // Tag: USTP
     ];
     private ITdfMember[] __members;
 

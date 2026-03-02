@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerListResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Servers", "mServers", 0x3094D400, TdfType.List, 0, true), // list
+        new TdfMemberInfo("Servers", "mServers", 0xB29CF400, TdfType.List, 0, true), // Tag: LIST
     ];
     private ITdfMember[] __members;
 

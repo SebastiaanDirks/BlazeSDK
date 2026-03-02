@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class HostViabilityRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchedHostViabilityValue", "mMatchedHostViabilityValue", 0x59604C00, TdfType.Enum, 0, true), // vval
+        new TdfMemberInfo("MatchedHostViabilityValue", "mMatchedHostViabilityValue", 0xDB686C00, TdfType.Enum, 0, true), // Tag: VVAL
     ];
     private ITdfMember[] __members;
 

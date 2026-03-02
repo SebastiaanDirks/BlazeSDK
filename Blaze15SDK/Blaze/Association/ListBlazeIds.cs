@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListBlazeIds : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeIds", "mBlazeIds", 0x08911300, TdfType.List, 0, true), // bids
+        new TdfMemberInfo("BlazeIds", "mBlazeIds", 0x8A993300, TdfType.List, 0, true), // Tag: BIDS
     ];
     private ITdfMember[] __members;
 

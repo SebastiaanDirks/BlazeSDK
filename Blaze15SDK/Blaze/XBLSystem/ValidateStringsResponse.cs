@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.XBLSystem;
 public class ValidateStringsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("VerifyStringResult", "mVerifyStringResult", 0x4D448D00, TdfType.List, 0, true), // strm
+        new TdfMemberInfo("VerifyStringResult", "mVerifyStringResult", 0xCF4CAD00, TdfType.List, 0, true), // Tag: STRM
     ];
     private ITdfMember[] __members;
 

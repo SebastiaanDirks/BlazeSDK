@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubMembership : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x10D24400, TdfType.UInt32, 1, true), // dmid
-        new TdfMemberInfo("ClubMember", "mClubMember", 0x34215200, TdfType.Struct, 2, true), // mber
-        new TdfMemberInfo("ClubName", "mClubName", 0x38134500, TdfType.String, 3, true), // name
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x92DA6400, TdfType.UInt32, 1, true), // Tag: DMID
+        new TdfMemberInfo("ClubMember", "mClubMember", 0xB6297200, TdfType.Struct, 2, true), // Tag: MBER
+        new TdfMemberInfo("ClubName", "mClubName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

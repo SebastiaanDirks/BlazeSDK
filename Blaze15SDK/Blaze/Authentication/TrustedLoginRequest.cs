@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class TrustedLoginRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientInfo", "mClientInfo", 0x8EE9AF00, TdfType.Struct, 0, true), // CNFO
-        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 1, true), // CTYP
-        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.String, 2, true), // ID
-        new TdfMemberInfo("IdType", "mIdType", 0xA74E7000, TdfType.String, 3, true), // ITYP
-        new TdfMemberInfo("SetClientInfo", "mSetClientInfo", 0xCE3B2E00, TdfType.Bool, 4, true), // SCLN
-        new TdfMemberInfo("AccessToken", "mAccessToken", 0xD2FAEE00, TdfType.String, 5, true), // TOKN
+        new TdfMemberInfo("ClientInfo", "mClientInfo", 0x8EE9AF00, TdfType.Struct, 0, true), // Tag: CNFO
+        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 1, true), // Tag: CTYP
+        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.String, 2, true), // Tag: ID
+        new TdfMemberInfo("IdType", "mIdType", 0xA74E7000, TdfType.String, 3, true), // Tag: ITYP
+        new TdfMemberInfo("SetClientInfo", "mSetClientInfo", 0xCE3B2E00, TdfType.Bool, 4, true), // Tag: SCLN
+        new TdfMemberInfo("AccessToken", "mAccessToken", 0xD2FAEE00, TdfType.String, 5, true), // Tag: TOKN
     ];
     private ITdfMember[] __members;
 

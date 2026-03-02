@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubMember : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MembershipStatus", "mMembershipStatus", 0x0CD51000, TdfType.Enum, 0, true), // cmtp
-        new TdfMemberInfo("OnlineStatus", "mOnlineStatus", 0x3423D300, TdfType.Enum, 1, true), // mbos
-        new TdfMemberInfo("MetaData", "mMetaData", 0x34550100, TdfType.Map, 2, true), // meta
-        new TdfMemberInfo("MembershipSinceTime", "mMembershipSinceTime", 0x35350D00, TdfType.UInt32, 3, true), // mstm
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 4, true), // user
+        new TdfMemberInfo("MembershipStatus", "mMembershipStatus", 0x8EDD3000, TdfType.Enum, 0, true), // Tag: CMTP
+        new TdfMemberInfo("OnlineStatus", "mOnlineStatus", 0xB62BF300, TdfType.Enum, 1, true), // Tag: MBOS
+        new TdfMemberInfo("MetaData", "mMetaData", 0xB65D2100, TdfType.Map, 2, true), // Tag: META
+        new TdfMemberInfo("MembershipSinceTime", "mMembershipSinceTime", 0xB73D2D00, TdfType.UInt32, 3, true), // Tag: MSTM
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 4, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

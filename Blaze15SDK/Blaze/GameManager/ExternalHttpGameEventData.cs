@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ExternalHttpGameEventData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Error", "mError", 0x15248000, TdfType.String, 0, true), // err
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("GameReportingId", "mGameReportingId", 0x1D224400, TdfType.UInt64, 2, true), // grid
-        new TdfMemberInfo("GameRoster", "mGameRoster", 0x48F4D400, TdfType.List, 3, true), // rost
-        new TdfMemberInfo("TournamentIdentification", "mTournamentIdentification", 0x50910000, TdfType.Struct, 4, true), // tid
+        new TdfMemberInfo("Error", "mError", 0x972C8000, TdfType.String, 0, true), // Tag: ERR
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("GameReportingId", "mGameReportingId", 0x9F2A6400, TdfType.UInt64, 2, true), // Tag: GRID
+        new TdfMemberInfo("GameRoster", "mGameRoster", 0xCAFCF400, TdfType.List, 3, true), // Tag: ROST
+        new TdfMemberInfo("TournamentIdentification", "mTournamentIdentification", 0xD2990000, TdfType.Struct, 4, true), // Tag: TID
     ];
     private ITdfMember[] __members;
 

@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GrantEntitlement2Request : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // BUID
-        new TdfMemberInfo("UseCount", "mUseCount", 0x8EFD6E00, TdfType.String, 1, true), // COUN
-        new TdfMemberInfo("DeviceId", "mDeviceId", 0x925A6400, TdfType.String, 2, true), // DEID
-        new TdfMemberInfo("Termination", "mTermination", 0x978C2900, TdfType.String, 3, true), // EXPI
-        new TdfMemberInfo("GrantDate", "mGrantDate", 0x9E487900, TdfType.String, 4, true), // GDAY
-        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 5, true), // GNAM
-        new TdfMemberInfo("IsSearch", "mIsSearch", 0xA73CE500, TdfType.Bool, 6, true), // ISSE
-        new TdfMemberInfo("ManagedLifecycle", "mManagedLifecycle", 0xB61B2900, TdfType.Bool, 7, true), // MALI
-        new TdfMemberInfo("WithPersona", "mWithPersona", 0xC25CB300, TdfType.Bool, 8, true), // PERS
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 9, true), // PJID
-        new TdfMemberInfo("ProductCatalog", "mProductCatalog", 0xC328E100, TdfType.Enum, 10, true), // PRCA
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 11, true), // PRID
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 12, true), // STAT
-        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 13, true), // STRC
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 14, true), // TAG
-        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 15, true), // TYPE
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // Tag: BUID
+        new TdfMemberInfo("UseCount", "mUseCount", 0x8EFD6E00, TdfType.String, 1, true), // Tag: COUN
+        new TdfMemberInfo("DeviceId", "mDeviceId", 0x925A6400, TdfType.String, 2, true), // Tag: DEID
+        new TdfMemberInfo("Termination", "mTermination", 0x978C2900, TdfType.String, 3, true), // Tag: EXPI
+        new TdfMemberInfo("GrantDate", "mGrantDate", 0x9E487900, TdfType.String, 4, true), // Tag: GDAY
+        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 5, true), // Tag: GNAM
+        new TdfMemberInfo("IsSearch", "mIsSearch", 0xA73CE500, TdfType.Bool, 6, true), // Tag: ISSE
+        new TdfMemberInfo("ManagedLifecycle", "mManagedLifecycle", 0xB61B2900, TdfType.Bool, 7, true), // Tag: MALI
+        new TdfMemberInfo("WithPersona", "mWithPersona", 0xC25CB300, TdfType.Bool, 8, true), // Tag: PERS
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 9, true), // Tag: PJID
+        new TdfMemberInfo("ProductCatalog", "mProductCatalog", 0xC328E100, TdfType.Enum, 10, true), // Tag: PRCA
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 11, true), // Tag: PRID
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 12, true), // Tag: STAT
+        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 13, true), // Tag: STRC
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 14, true), // Tag: TAG
+        new TdfMemberInfo("EntitlementType", "mEntitlementType", 0xD39C2500, TdfType.Enum, 15, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 
@@ -46,9 +46,22 @@ public class GrantEntitlement2Request : Tdf
     public GrantEntitlement2Request()
     {
         __members = [
-            _blazeId, _useCount, _deviceId, _termination, _grantDate, _groupName,
-            _isSearch, _managedLifecycle, _withPersona, _projectId, _productCatalog,
-            _productId, _status, _statusReasonCode, _entitlementTag, _entitlementType,
+            _blazeId,
+            _useCount,
+            _deviceId,
+            _termination,
+            _grantDate,
+            _groupName,
+            _isSearch,
+            _managedLifecycle,
+            _withPersona,
+            _projectId,
+            _productCatalog,
+            _productId,
+            _status,
+            _statusReasonCode,
+            _entitlementTag,
+            _entitlementType,
         ];
     }
 

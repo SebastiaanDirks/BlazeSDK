@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.Shooter;
 public class EntityReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Stats", "stats", 0x4D405400, TdfType.Map, 0, true), // stat
+        new TdfMemberInfo("Stats", "stats", 0xCF487400, TdfType.Map, 0, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

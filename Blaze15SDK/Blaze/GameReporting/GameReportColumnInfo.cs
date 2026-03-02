@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportColumnInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Key", "mKey", 0x0CB15900, TdfType.Struct, 0, true), // ckey
-        new TdfMemberInfo("Type", "mType", 0x11465000, TdfType.Int32, 1, true), // dtyp
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 2, true), // etyp
-        new TdfMemberInfo("Format", "mFormat", 0x19235400, TdfType.String, 3, true), // frmt
-        new TdfMemberInfo("Kind", "mKind", 0x2C938400, TdfType.String, 4, true), // kind
-        new TdfMemberInfo("Desc", "mDesc", 0x3044C300, TdfType.String, 5, true), // ldsc
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 6, true), // meta
-        new TdfMemberInfo("ShortDesc", "mShortDesc", 0x4C44C300, TdfType.String, 7, true), // sdsc
-        new TdfMemberInfo("UnknownValue", "mUnknownValue", 0x54E2D600, TdfType.String, 8, true), // unkv
+        new TdfMemberInfo("Key", "mKey", 0x8EB97900, TdfType.Struct, 0, true), // Tag: CKEY
+        new TdfMemberInfo("Type", "mType", 0x934E7000, TdfType.Int32, 1, true), // Tag: DTYP
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 2, true), // Tag: ETYP
+        new TdfMemberInfo("Format", "mFormat", 0x9B2B7400, TdfType.String, 3, true), // Tag: FRMT
+        new TdfMemberInfo("Kind", "mKind", 0xAE9BA400, TdfType.String, 4, true), // Tag: KIND
+        new TdfMemberInfo("Desc", "mDesc", 0xB24CE300, TdfType.String, 5, true), // Tag: LDSC
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 6, true), // Tag: META
+        new TdfMemberInfo("ShortDesc", "mShortDesc", 0xCE4CE300, TdfType.String, 7, true), // Tag: SDSC
+        new TdfMemberInfo("UnknownValue", "mUnknownValue", 0xD6EAF600, TdfType.String, 8, true), // Tag: UNKV
     ];
     private ITdfMember[] __members;
 

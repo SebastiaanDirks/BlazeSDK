@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GpsContentController;
 public class FetchContentRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ContentId", "mContentId", 0x0CF24400, TdfType.ObjectId, 0, true), // coid
+        new TdfMemberInfo("ContentId", "mContentId", 0x8EFA6400, TdfType.ObjectId, 0, true), // Tag: COID
     ];
     private ITdfMember[] __members;
 

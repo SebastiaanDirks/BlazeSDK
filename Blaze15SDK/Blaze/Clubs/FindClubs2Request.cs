@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class FindClubs2Request : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MemberOnlineStatusSum", "mMemberOnlineStatusSum", 0x34F4C300, TdfType.UInt32, 0, true), // mosc
-        new TdfMemberInfo("MemberOnlineStatusFilter", "mMemberOnlineStatusFilter", 0x34F4CC00, TdfType.List, 1, true), // mosl
-        new TdfMemberInfo("Params", "params", 0x4914D400, TdfType.Struct, 2, true), // rqst
+        new TdfMemberInfo("MemberOnlineStatusSum", "mMemberOnlineStatusSum", 0xB6FCE300, TdfType.UInt32, 0, true), // Tag: MOSC
+        new TdfMemberInfo("MemberOnlineStatusFilter", "mMemberOnlineStatusFilter", 0xB6FCEC00, TdfType.List, 1, true), // Tag: MOSL
+        new TdfMemberInfo("Params", "params", 0xCB1CF400, TdfType.Struct, 2, true), // Tag: RQST
     ];
     private ITdfMember[] __members;
 

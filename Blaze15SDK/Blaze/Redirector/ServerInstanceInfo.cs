@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInstanceInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x04411200, TdfType.Struct, 0, true), // addr
-        new TdfMemberInfo("AddressRemaps", "mAddressRemaps", 0x04D05000, TdfType.List, 1, true), // amap
-        new TdfMemberInfo("CertificateList", "mCertificateList", 0x0C549400, TdfType.List, 2, true), // cert
-        new TdfMemberInfo("Messages", "mMessages", 0x3531D300, TdfType.List, 3, true), // msgs
-        new TdfMemberInfo("NameRemaps", "mNameRemaps", 0x38D05000, TdfType.List, 4, true), // nmap
-        new TdfMemberInfo("Secure", "mSecure", 0x4C50D500, TdfType.Bool, 5, true), // secu
-        new TdfMemberInfo("TrialServiceName", "mTrialServiceName", 0x51358E00, TdfType.String, 6, true), // tsvn
-        new TdfMemberInfo("DefaultDnsAddress", "mDefaultDnsAddress", 0x60439300, TdfType.UInt32, 7, true), // xdns
+        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Struct, 0, true), // Tag: ADDR
+        new TdfMemberInfo("AddressRemaps", "mAddressRemaps", 0x86D87000, TdfType.List, 1, true), // Tag: AMAP
+        new TdfMemberInfo("CertificateList", "mCertificateList", 0x8E5CB400, TdfType.List, 2, true), // Tag: CERT
+        new TdfMemberInfo("Messages", "mMessages", 0xB739F300, TdfType.List, 3, true), // Tag: MSGS
+        new TdfMemberInfo("NameRemaps", "mNameRemaps", 0xBAD87000, TdfType.List, 4, true), // Tag: NMAP
+        new TdfMemberInfo("Secure", "mSecure", 0xCE58F500, TdfType.Bool, 5, true), // Tag: SECU
+        new TdfMemberInfo("TrialServiceName", "mTrialServiceName", 0xD33DAE00, TdfType.String, 6, true), // Tag: TSVN
+        new TdfMemberInfo("DefaultDnsAddress", "mDefaultDnsAddress", 0xE24BB300, TdfType.UInt32, 7, true), // Tag: XDNS
     ];
     private ITdfMember[] __members;
 

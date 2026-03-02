@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class RecordSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RecordId", "mRecordId", 0x48324400, TdfType.UInt32, 0, true), // rcid
-        new TdfMemberInfo("RecordName", "mRecordName", 0x48338100, TdfType.String, 1, true), // rcna
+        new TdfMemberInfo("RecordId", "mRecordId", 0xCA3A6400, TdfType.UInt32, 0, true), // Tag: RCID
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA3BA100, TdfType.String, 1, true), // Tag: RCNA
     ];
     private ITdfMember[] __members;
 

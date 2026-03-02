@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubsComponentInfoResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubsComponentInfo", "mClubsComponentInfo", 0x0CC24E00, TdfType.Struct, 0, true), // clin
+        new TdfMemberInfo("ClubsComponentInfo", "mClubsComponentInfo", 0x8ECA6E00, TdfType.Struct, 0, true), // Tag: CLIN
     ];
     private ITdfMember[] __members;
 

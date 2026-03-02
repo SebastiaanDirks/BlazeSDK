@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class JsonRecord : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x10531400, TdfType.Int64, 0, true), // delt
-        new TdfMemberInfo("Info", "mInfo", 0x24E18F00, TdfType.Struct, 1, true), // info
-        new TdfMemberInfo("Payload", "mPayload", 0x28C3C100, TdfType.Struct, 2, true), // jloa
+        new TdfMemberInfo("DeletedTime", "mDeletedTime", 0x925B3400, TdfType.Int64, 0, true), // Tag: DELT
+        new TdfMemberInfo("Info", "mInfo", 0xA6E9AF00, TdfType.Struct, 1, true), // Tag: INFO
+        new TdfMemberInfo("Payload", "mPayload", 0xAACBE100, TdfType.Struct, 2, true), // Tag: JLOA
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class OnlineStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Online", "mOnline", 0x8B5A6400, TdfType.Bool, 0, true), // BUID
+        new TdfMemberInfo("Online", "mOnline", 0x8B5A6400, TdfType.Bool, 0, true), // Tag: BUID
     ];
     private ITdfMember[] __members;
 

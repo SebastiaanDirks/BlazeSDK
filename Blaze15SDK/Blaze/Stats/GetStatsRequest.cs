@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("EntityIds", "mEntityIds", 0x14910000, TdfType.List, 1, true), // eid
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 2, true), // etyp
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D331300, TdfType.Map, 3, true), // ksls
-        new TdfMemberInfo("StatNames", "mStatNames", 0x38134500, TdfType.List, 4, true), // name
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 5, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 6, true), // prid
-        new TdfMemberInfo("PeriodType", "mPeriodType", 0x41465000, TdfType.Int32, 7, true), // ptyp
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("EntityIds", "mEntityIds", 0x96990000, TdfType.List, 1, true), // Tag: EID
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 2, true), // Tag: ETYP
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3B3300, TdfType.Map, 3, true), // Tag: KSLS
+        new TdfMemberInfo("StatNames", "mStatNames", 0xBA1B6500, TdfType.List, 4, true), // Tag: NAME
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 5, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 6, true), // Tag: PRID
+        new TdfMemberInfo("PeriodType", "mPeriodType", 0xC34E7000, TdfType.Int32, 7, true), // Tag: PTYP
     ];
     private ITdfMember[] __members;
 

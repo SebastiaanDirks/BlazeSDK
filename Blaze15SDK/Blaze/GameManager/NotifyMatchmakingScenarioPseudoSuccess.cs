@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyMatchmakingScenarioPseudoSuccess : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ScenarioId", "mScenarioId", 0x3530C900, TdfType.UInt64, 0, true), // msci
-        new TdfMemberInfo("PseudoSuccessList", "mPseudoSuccessList", 0x4134CC00, TdfType.List, 1, true), // pssl
-        new TdfMemberInfo("ScenarioVersion", "mScenarioVersion", 0x4C315600, TdfType.UInt32, 2, true), // scev
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C338D00, TdfType.String, 3, true), // scnm
-        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0x4C358100, TdfType.String, 4, true), // scva
-        new TdfMemberInfo("ScenarioTimeoutDuration", "mScenarioTimeoutDuration", 0x50F55400, TdfType.Int64, 5, true), // tout
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 6, true), // usid
+        new TdfMemberInfo("ScenarioId", "mScenarioId", 0xB738E900, TdfType.UInt64, 0, true), // Tag: MSCI
+        new TdfMemberInfo("PseudoSuccessList", "mPseudoSuccessList", 0xC33CEC00, TdfType.List, 1, true), // Tag: PSSL
+        new TdfMemberInfo("ScenarioVersion", "mScenarioVersion", 0xCE397600, TdfType.UInt32, 2, true), // Tag: SCEV
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE3BAD00, TdfType.String, 3, true), // Tag: SCNM
+        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0xCE3DA100, TdfType.String, 4, true), // Tag: SCVA
+        new TdfMemberInfo("ScenarioTimeoutDuration", "mScenarioTimeoutDuration", 0xD2FD7400, TdfType.Int64, 5, true), // Tag: TOUT
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 6, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

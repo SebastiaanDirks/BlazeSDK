@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class RecordAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 1, true), // ctxt
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.Struct, 2, true), // ownr
-        new TdfMemberInfo("RecordName", "mRecordName", 0x4850C000, TdfType.String, 3, true), // rec
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 1, true), // Tag: CTXT
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.Struct, 2, true), // Tag: OWNR
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA58C000, TdfType.String, 3, true), // Tag: REC
     ];
     private ITdfMember[] __members;
 

@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGamePlayerTeamRoleSlotChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 1, true), // pid
-        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0x48F30500, TdfType.String, 2, true), // role
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4CC3D400, TdfType.Enum, 3, true), // slot
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 4, true), // tidx
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 1, true), // Tag: PID
+        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0xCAFB2500, TdfType.String, 2, true), // Tag: ROLE
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCECBF400, TdfType.Enum, 3, true), // Tag: SLOT
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 4, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

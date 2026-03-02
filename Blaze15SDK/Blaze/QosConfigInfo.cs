@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze;
 public class QosConfigInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientQosFailureRefreshRate", "mClientQosFailureRefreshRate", 0x8F19B200, TdfType.TimeValue, 0, true), // CQFR
-        new TdfMemberInfo("ClientQosRefreshRate", "mClientQosRefreshRate", 0x8F1CB200, TdfType.TimeValue, 1, true), // CQRR
-        new TdfMemberInfo("PingSiteInfoByAliasMap", "mPingSiteInfoByAliasMap", 0xB34C3300, TdfType.Map, 2, true), // LTPS
-        new TdfMemberInfo("QosCoordinatorInfo", "mQosCoordinatorInfo", 0xC63BA600, TdfType.Struct, 3, true), // QCNF
-        new TdfMemberInfo("ServerQosRefreshRate", "mServerQosRefreshRate", 0xCF1CB200, TdfType.TimeValue, 4, true), // SQRR
+        new TdfMemberInfo("ClientQosFailureRefreshRate", "mClientQosFailureRefreshRate", 0x8F19B200, TdfType.TimeValue, 0, true), // Tag: CQFR
+        new TdfMemberInfo("ClientQosRefreshRate", "mClientQosRefreshRate", 0x8F1CB200, TdfType.TimeValue, 1, true), // Tag: CQRR
+        new TdfMemberInfo("PingSiteInfoByAliasMap", "mPingSiteInfoByAliasMap", 0xB34C3300, TdfType.Map, 2, true), // Tag: LTPS
+        new TdfMemberInfo("QosCoordinatorInfo", "mQosCoordinatorInfo", 0xC63BA600, TdfType.Struct, 3, true), // Tag: QCNF
+        new TdfMemberInfo("ServerQosRefreshRate", "mServerQosRefreshRate", 0xCF1CB200, TdfType.TimeValue, 4, true), // Tag: SQRR
     ];
     private ITdfMember[] __members;
 

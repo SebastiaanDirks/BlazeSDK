@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_NonDerived;
 public class SkippedPlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0x31404C00, TdfType.UInt16, 0, true), // ltal
+        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0xB3486C00, TdfType.UInt16, 0, true), // Tag: LTAL
     ];
     private ITdfMember[] __members;
 

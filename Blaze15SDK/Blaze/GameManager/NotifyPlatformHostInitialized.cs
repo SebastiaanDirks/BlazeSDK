@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyPlatformHostInitialized : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("PlatformHostId", "mPlatformHostId", 0x40824400, TdfType.Int64, 1, true), // phid
-        new TdfMemberInfo("PlatformHostSlotId", "mPlatformHostSlotId", 0x4084D400, TdfType.UInt8, 2, true), // phst
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("PlatformHostId", "mPlatformHostId", 0xC28A6400, TdfType.Int64, 1, true), // Tag: PHID
+        new TdfMemberInfo("PlatformHostSlotId", "mPlatformHostSlotId", 0xC28CF400, TdfType.UInt8, 2, true), // Tag: PHST
     ];
     private ITdfMember[] __members;
 

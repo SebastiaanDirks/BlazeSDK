@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class X509MatchCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PublicKeyBits", "mPublicKeyBits", 0x08951300, TdfType.Int32, 0, true), // bits
-        new TdfMemberInfo("X509EntryMap", "mX509EntryMap", 0x14E51200, TdfType.Map, 1, true), // entr
-        new TdfMemberInfo("Hostname", "mHostname", 0x20F4D400, TdfType.String, 2, true), // host
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x38134500, TdfType.String, 3, true), // name
-        new TdfMemberInfo("Port", "mPort", 0x40F49400, TdfType.Int32, 4, true), // port
-        new TdfMemberInfo("DirtySDKVersion", "mDirtySDKVersion", 0x58000000, TdfType.String, 5, true), // v
-        new TdfMemberInfo("DirtyCertVersion", "mDirtyCertVersion", 0x58549300, TdfType.UInt32, 6, true), // vers
+        new TdfMemberInfo("PublicKeyBits", "mPublicKeyBits", 0x8A9D3300, TdfType.Int32, 0, true), // Tag: BITS
+        new TdfMemberInfo("X509EntryMap", "mX509EntryMap", 0x96ED3200, TdfType.Map, 1, true), // Tag: ENTR
+        new TdfMemberInfo("Hostname", "mHostname", 0xA2FCF400, TdfType.String, 2, true), // Tag: HOST
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
+        new TdfMemberInfo("Port", "mPort", 0xC2FCB400, TdfType.Int32, 4, true), // Tag: PORT
+        new TdfMemberInfo("DirtySDKVersion", "mDirtySDKVersion", 0xD8000000, TdfType.String, 5, true), // Tag: V
+        new TdfMemberInfo("DirtyCertVersion", "mDirtyCertVersion", 0xDA5CB300, TdfType.UInt32, 6, true), // Tag: VERS
     ];
     private ITdfMember[] __members;
 

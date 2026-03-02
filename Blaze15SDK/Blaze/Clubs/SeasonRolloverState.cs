@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class SeasonRolloverState : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SeasonRolloverState", "mSeasonRolloverState", 0x4D350500, TdfType.Enum, 0, true), // sste
+        new TdfMemberInfo("SeasonRolloverState", "mSeasonRolloverState", 0xCF3D2500, TdfType.Enum, 0, true), // Tag: SSTE
     ];
     private ITdfMember[] __members;
 

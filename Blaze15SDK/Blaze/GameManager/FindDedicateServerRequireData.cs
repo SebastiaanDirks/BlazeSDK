@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class FindDedicateServerRequireData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MinFitThresholdValue", "mMinFitThresholdValue", 0x50830400, TdfType.Float, 0, true), // thld
+        new TdfMemberInfo("MinFitThresholdValue", "mMinFitThresholdValue", 0xD28B2400, TdfType.Float, 0, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

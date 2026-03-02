@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class HostBalanceRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchedHostBalanceValue", "mMatchedHostBalanceValue", 0x09604C00, TdfType.Enum, 0, true), // bval
+        new TdfMemberInfo("MatchedHostBalanceValue", "mMatchedHostBalanceValue", 0x8B686C00, TdfType.Enum, 0, true), // Tag: BVAL
     ];
     private ITdfMember[] __members;
 

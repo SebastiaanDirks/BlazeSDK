@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatDescs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 0, true), // etyp
-        new TdfMemberInfo("StatDescs", "mStatDescs", 0x4D405400, TdfType.List, 1, true), // stat
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 0, true), // Tag: ETYP
+        new TdfMemberInfo("StatDescs", "mStatDescs", 0xCF487400, TdfType.List, 1, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

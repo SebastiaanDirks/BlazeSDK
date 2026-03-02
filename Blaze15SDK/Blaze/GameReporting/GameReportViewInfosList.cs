@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportViewInfosList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ViewInfo", "mViewInfo", 0x24E18F00, TdfType.List, 0, true), // info
+        new TdfMemberInfo("ViewInfo", "mViewInfo", 0xA6E9AF00, TdfType.List, 0, true), // Tag: INFO
     ];
     private ITdfMember[] __members;
 

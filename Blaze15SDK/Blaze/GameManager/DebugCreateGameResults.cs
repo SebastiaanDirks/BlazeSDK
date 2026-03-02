@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DebugCreateGameResults : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CreatorId", "mCreatorId", 0x0C224400, TdfType.Int64, 0, true), // cbid
-        new TdfMemberInfo("CreateGameRequest", "mCreateGameRequest", 0x0C748000, TdfType.Struct, 1, true), // cgr
-        new TdfMemberInfo("SessionResultList", "mSessionResultList", 0x11348C00, TdfType.List, 2, true), // dsrl
-        new TdfMemberInfo("FitScore", "mFitScore", 0x18951300, TdfType.UInt32, 3, true), // fits
-        new TdfMemberInfo("FinalizationRuleResults", "mFinalizationRuleResults", 0x1924CC00, TdfType.Map, 4, true), // frsl
-        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0x34625400, TdfType.UInt32, 5, true), // mfit
-        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0x51434000, TdfType.Int64, 6, true), // ttm
+        new TdfMemberInfo("CreatorId", "mCreatorId", 0x8E2A6400, TdfType.Int64, 0, true), // Tag: CBID
+        new TdfMemberInfo("CreateGameRequest", "mCreateGameRequest", 0x8E7C8000, TdfType.Struct, 1, true), // Tag: CGR
+        new TdfMemberInfo("SessionResultList", "mSessionResultList", 0x933CAC00, TdfType.List, 2, true), // Tag: DSRL
+        new TdfMemberInfo("FitScore", "mFitScore", 0x9A9D3300, TdfType.UInt32, 3, true), // Tag: FITS
+        new TdfMemberInfo("FinalizationRuleResults", "mFinalizationRuleResults", 0x9B2CEC00, TdfType.Map, 4, true), // Tag: FRSL
+        new TdfMemberInfo("MaxFitScore", "mMaxFitScore", 0xB66A7400, TdfType.UInt32, 5, true), // Tag: MFIT
+        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0xD34B4000, TdfType.Int64, 6, true), // Tag: TTM
     ];
     private ITdfMember[] __members;
 

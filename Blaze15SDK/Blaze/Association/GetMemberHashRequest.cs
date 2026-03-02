@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Association;
 public class GetMemberHashRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("ListIdentification", "mListIdentification", 0x30910000, TdfType.Struct, 1, true), // lid
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("ListIdentification", "mListIdentification", 0xB2990000, TdfType.Struct, 1, true), // Tag: LID
     ];
     private ITdfMember[] __members;
 

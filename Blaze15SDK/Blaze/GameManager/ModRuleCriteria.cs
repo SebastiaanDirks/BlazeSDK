@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ModRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsEnabled", "mIsEnabled", 0x25314E00, TdfType.Bool, 0, true), // isen
-        new TdfMemberInfo("DesiredModRegister", "mDesiredModRegister", 0x34F11300, TdfType.UInt32, 1, true), // mods
+        new TdfMemberInfo("IsEnabled", "mIsEnabled", 0xA7396E00, TdfType.Bool, 0, true), // Tag: ISEN
+        new TdfMemberInfo("DesiredModRegister", "mDesiredModRegister", 0xB6F93300, TdfType.UInt32, 1, true), // Tag: MODS
     ];
     private ITdfMember[] __members;
 

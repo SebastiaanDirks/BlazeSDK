@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetMatchmakingDedicatedServerOverrideResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerToGameMap", "mPlayerToGameMap", 0x4141CD00, TdfType.Map, 0, true), // ptgm
+        new TdfMemberInfo("PlayerToGameMap", "mPlayerToGameMap", 0xC349ED00, TdfType.Map, 0, true), // Tag: PTGM
     ];
     private ITdfMember[] __members;
 

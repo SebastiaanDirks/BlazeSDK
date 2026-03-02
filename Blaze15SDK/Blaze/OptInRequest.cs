@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class OptInRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 0, true), // ID
-        new TdfMemberInfo("OptIn", "mOptIn", 0xBF0D0000, TdfType.Bool, 1, true), // OPT
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 0, true), // Tag: ID
+        new TdfMemberInfo("OptIn", "mOptIn", 0xBF0D0000, TdfType.Bool, 1, true), // Tag: OPT
     ];
     private ITdfMember[] __members;
 

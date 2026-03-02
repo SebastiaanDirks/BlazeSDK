@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SwapPlayersRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("SwapPlayers", "mSwapPlayers", 0x30704D00, TdfType.List, 1, true), // lgam
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("SwapPlayers", "mSwapPlayers", 0xB2786D00, TdfType.List, 1, true), // Tag: LGAM
     ];
     private ITdfMember[] __members;
 

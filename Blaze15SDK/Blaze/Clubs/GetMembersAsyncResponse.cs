@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetMembersAsyncResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x0CF39400, TdfType.UInt32, 0, true), // cont
-        new TdfMemberInfo("SequenceID", "mSequenceID", 0x4D124400, TdfType.UInt32, 1, true), // sqid
-        new TdfMemberInfo("TotalCount", "mTotalCount", 0x5033CE00, TdfType.UInt32, 2, true), // tcon
+        new TdfMemberInfo("Count", "mCount", 0x8EFBB400, TdfType.UInt32, 0, true), // Tag: CONT
+        new TdfMemberInfo("SequenceID", "mSequenceID", 0xCF1A6400, TdfType.UInt32, 1, true), // Tag: SQID
+        new TdfMemberInfo("TotalCount", "mTotalCount", 0xD23BEE00, TdfType.UInt32, 2, true), // Tag: TCON
     ];
     private ITdfMember[] __members;
 

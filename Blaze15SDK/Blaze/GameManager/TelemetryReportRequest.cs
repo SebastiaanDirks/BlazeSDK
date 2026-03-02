@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TelemetryReportRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("LocalConnGroupId", "mLocalConnGroupId", 0x30324400, TdfType.UInt64, 1, true), // lcid
-        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0x3943D000, TdfType.Enum, 2, true), // ntop
-        new TdfMemberInfo("TelemetryReports", "mTelemetryReports", 0x49051300, TdfType.List, 3, true), // rpts
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("LocalConnGroupId", "mLocalConnGroupId", 0xB23A6400, TdfType.UInt64, 1, true), // Tag: LCID
+        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0xBB4BF000, TdfType.Enum, 2, true), // Tag: NTOP
+        new TdfMemberInfo("TelemetryReports", "mTelemetryReports", 0xCB0D3300, TdfType.List, 3, true), // Tag: RPTS
     ];
     private ITdfMember[] __members;
 

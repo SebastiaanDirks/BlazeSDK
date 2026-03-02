@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameSessionUpdatedNotification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("OwnsFirstPartyPresence", "mOwnsFirstPartyPresence", 0x21049300, TdfType.Bool, 1, true), // hprs
-        new TdfMemberInfo("NpSessionId", "mNpSessionId", 0x3904C900, TdfType.String, 2, true), // npsi
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("OwnsFirstPartyPresence", "mOwnsFirstPartyPresence", 0xA30CB300, TdfType.Bool, 1, true), // Tag: HPRS
+        new TdfMemberInfo("NpSessionId", "mNpSessionId", 0xBB0CE900, TdfType.String, 2, true), // Tag: NPSI
     ];
     private ITdfMember[] __members;
 

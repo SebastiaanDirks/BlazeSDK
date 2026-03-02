@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class SlaveInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Instance", "mInstance", 0x24E4D400, TdfType.Struct, 0, true), // inst
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x38134500, TdfType.String, 1, true), // name
-        new TdfMemberInfo("ServiceNames", "mServiceNames", 0x4CE35300, TdfType.List, 2, true), // snms
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Enum, 3, true), // type
+        new TdfMemberInfo("Instance", "mInstance", 0xA6ECF400, TdfType.Struct, 0, true), // Tag: INST
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
+        new TdfMemberInfo("ServiceNames", "mServiceNames", 0xCEEB7300, TdfType.List, 2, true), // Tag: SNMS
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Enum, 3, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

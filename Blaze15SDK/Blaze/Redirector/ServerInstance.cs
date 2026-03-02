@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInstance : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientTypes", "mClientTypes", 0x0CC51000, TdfType.List, 0, true), // cltp
-        new TdfMemberInfo("CurrentWorkingDirectory", "mCurrentWorkingDirectory", 0x0D710000, TdfType.String, 1, true), // cwd
-        new TdfMemberInfo("Endpoints", "mEndpoints", 0x14E11000, TdfType.List, 2, true), // endp
-        new TdfMemberInfo("InstanceId", "mInstanceId", 0x24400000, TdfType.UInt32, 3, true), // id
-        new TdfMemberInfo("Load", "mLoad", 0x30F04400, TdfType.Int32, 4, true), // load
-        new TdfMemberInfo("InstanceName", "mInstanceName", 0x38134500, TdfType.String, 5, true), // name
-        new TdfMemberInfo("InService", "mInService", 0x4D60C000, TdfType.Bool, 6, true), // svc
-        new TdfMemberInfo("InstanceType", "mInstanceType", 0x51940500, TdfType.Enum, 7, true), // type
+        new TdfMemberInfo("ClientTypes", "mClientTypes", 0x8ECD3000, TdfType.List, 0, true), // Tag: CLTP
+        new TdfMemberInfo("CurrentWorkingDirectory", "mCurrentWorkingDirectory", 0x8F790000, TdfType.String, 1, true), // Tag: CWD
+        new TdfMemberInfo("Endpoints", "mEndpoints", 0x96E93000, TdfType.List, 2, true), // Tag: ENDP
+        new TdfMemberInfo("InstanceId", "mInstanceId", 0xA6400000, TdfType.UInt32, 3, true), // Tag: ID
+        new TdfMemberInfo("Load", "mLoad", 0xB2F86400, TdfType.Int32, 4, true), // Tag: LOAD
+        new TdfMemberInfo("InstanceName", "mInstanceName", 0xBA1B6500, TdfType.String, 5, true), // Tag: NAME
+        new TdfMemberInfo("InService", "mInService", 0xCF68C000, TdfType.Bool, 6, true), // Tag: SVC
+        new TdfMemberInfo("InstanceType", "mInstanceType", 0xD39C2500, TdfType.Enum, 7, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

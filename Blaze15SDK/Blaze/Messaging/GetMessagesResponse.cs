@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class GetMessagesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Messages", "mMessages", 0x35331400, TdfType.List, 0, true), // mslt
+        new TdfMemberInfo("Messages", "mMessages", 0xB73B3400, TdfType.List, 0, true), // Tag: MSLT
     ];
     private ITdfMember[] __members;
 

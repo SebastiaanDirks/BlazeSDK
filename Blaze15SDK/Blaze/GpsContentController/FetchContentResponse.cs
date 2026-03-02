@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GpsContentController;
 public class FetchContentResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttributeMap", "attributeMap", 0x04E59000, TdfType.Map, 0, true), // anvp
-        new TdfMemberInfo("ExternalURL", "externalURL", 0x15548C00, TdfType.String, 1, true), // eurl
+        new TdfMemberInfo("AttributeMap", "attributeMap", 0x86EDB000, TdfType.Map, 0, true), // Tag: ANVP
+        new TdfMemberInfo("ExternalURL", "externalURL", 0x975CAC00, TdfType.String, 1, true), // Tag: EURL
     ];
     private ITdfMember[] __members;
 

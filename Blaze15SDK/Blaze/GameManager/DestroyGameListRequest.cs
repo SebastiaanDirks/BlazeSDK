@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class DestroyGameListRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListId", "mListId", 0x1CC24400, TdfType.UInt64, 0, true), // glid
+        new TdfMemberInfo("ListId", "mListId", 0x9ECA6400, TdfType.UInt64, 0, true), // Tag: GLID
     ];
     private ITdfMember[] __members;
 

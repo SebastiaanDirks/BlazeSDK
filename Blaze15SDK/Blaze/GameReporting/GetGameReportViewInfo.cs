@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetGameReportViewInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Name", "mName", 0x58E04D00, TdfType.String, 0, true), // vnam
+        new TdfMemberInfo("Name", "mName", 0xDAE86D00, TdfType.String, 0, true), // Tag: VNAM
     ];
     private ITdfMember[] __members;
 

@@ -7,20 +7,20 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingSetupContext : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EstimatedTimeToMatch", "mEstimatedTimeToMatch", 0x15450D00, TdfType.Int64, 0, true), // ettm
-        new TdfMemberInfo("FitScore", "mFitScore", 0x18950000, TdfType.UInt32, 1, true), // fit
-        new TdfMemberInfo("GameEntryType", "mGameEntryType", 0x1C539400, TdfType.Enum, 2, true), // gent
-        new TdfMemberInfo("InitiatorId", "mInitiatorId", 0x24E25400, TdfType.Int64, 3, true), // init
-        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0x34160600, TdfType.UInt32, 4, true), // maxf
-        new TdfMemberInfo("ScenarioId", "mScenarioId", 0x3530C400, TdfType.UInt64, 5, true), // mscd
-        new TdfMemberInfo("SessionId", "mSessionId", 0x35324400, TdfType.UInt64, 6, true), // msid
-        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0x49331400, TdfType.Enum, 7, true), // rslt
-        new TdfMemberInfo("MatchmakingTimeoutDuration", "mMatchmakingTimeoutDuration", 0x50F55400, TdfType.Int64, 8, true), // tout
-        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0x51434000, TdfType.Int64, 9, true), // ttm
-        new TdfMemberInfo("TotalUsersInGame", "mTotalUsersInGame", 0x5151CD00, TdfType.UInt64, 10, true), // tugm
-        new TdfMemberInfo("TotalUsersInMatchmaking", "mTotalUsersInMatchmaking", 0x51534D00, TdfType.UInt64, 11, true), // tumm
-        new TdfMemberInfo("TotalUsersOnline", "mTotalUsersOnline", 0x5154D200, TdfType.UInt64, 12, true), // tusr
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 13, true), // usid
+        new TdfMemberInfo("EstimatedTimeToMatch", "mEstimatedTimeToMatch", 0x974D2D00, TdfType.Int64, 0, true), // Tag: ETTM
+        new TdfMemberInfo("FitScore", "mFitScore", 0x9A9D0000, TdfType.UInt32, 1, true), // Tag: FIT
+        new TdfMemberInfo("GameEntryType", "mGameEntryType", 0x9E5BB400, TdfType.Enum, 2, true), // Tag: GENT
+        new TdfMemberInfo("InitiatorId", "mInitiatorId", 0xA6EA7400, TdfType.Int64, 3, true), // Tag: INIT
+        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0xB61E2600, TdfType.UInt32, 4, true), // Tag: MAXF
+        new TdfMemberInfo("ScenarioId", "mScenarioId", 0xB738E400, TdfType.UInt64, 5, true), // Tag: MSCD
+        new TdfMemberInfo("SessionId", "mSessionId", 0xB73A6400, TdfType.UInt64, 6, true), // Tag: MSID
+        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0xCB3B3400, TdfType.Enum, 7, true), // Tag: RSLT
+        new TdfMemberInfo("MatchmakingTimeoutDuration", "mMatchmakingTimeoutDuration", 0xD2FD7400, TdfType.Int64, 8, true), // Tag: TOUT
+        new TdfMemberInfo("TimeToMatch", "mTimeToMatch", 0xD34B4000, TdfType.Int64, 9, true), // Tag: TTM
+        new TdfMemberInfo("TotalUsersInGame", "mTotalUsersInGame", 0xD359ED00, TdfType.UInt64, 10, true), // Tag: TUGM
+        new TdfMemberInfo("TotalUsersInMatchmaking", "mTotalUsersInMatchmaking", 0xD35B6D00, TdfType.UInt64, 11, true), // Tag: TUMM
+        new TdfMemberInfo("TotalUsersOnline", "mTotalUsersOnline", 0xD35CF200, TdfType.UInt64, 12, true), // Tag: TUSR
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 13, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

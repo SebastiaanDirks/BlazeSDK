@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class SunsetData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DownDate", "mDownDate", 0x10405400, TdfType.String, 0, true), // ddat
-        new TdfMemberInfo("DownMessage", "mDownMessage", 0x10D4C700, TdfType.String, 1, true), // dmsg
-        new TdfMemberInfo("WarnDate", "mWarnDate", 0x5C405400, TdfType.String, 2, true), // wdat
-        new TdfMemberInfo("WarnMessage", "mWarnMessage", 0x5CD4C700, TdfType.String, 3, true), // wmsg
+        new TdfMemberInfo("DownDate", "mDownDate", 0x92487400, TdfType.String, 0, true), // Tag: DDAT
+        new TdfMemberInfo("DownMessage", "mDownMessage", 0x92DCE700, TdfType.String, 1, true), // Tag: DMSG
+        new TdfMemberInfo("WarnDate", "mWarnDate", 0xDE487400, TdfType.String, 2, true), // Tag: WDAT
+        new TdfMemberInfo("WarnMessage", "mWarnMessage", 0xDEDCE700, TdfType.String, 3, true), // Tag: WMSG
     ];
     private ITdfMember[] __members;
 

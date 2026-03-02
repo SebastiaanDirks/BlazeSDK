@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class HostedConnectivityInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("HostingServerNetworkAddress", "mHostingServerNetworkAddress", 0x20E04400, TdfType.Struct, 0, true), // hnad
-        new TdfMemberInfo("HostingServerConnectivityId", "mHostingServerConnectivityId", 0x21324400, TdfType.UInt32, 1, true), // hsid
-        new TdfMemberInfo("LocalLowLevelConnectivityId", "mLocalLowLevelConnectivityId", 0x30324400, TdfType.UInt32, 2, true), // lcid
-        new TdfMemberInfo("RemoteLowLevelConnectivityId", "mRemoteLowLevelConnectivityId", 0x48324400, TdfType.UInt32, 3, true), // rcid
+        new TdfMemberInfo("HostingServerNetworkAddress", "mHostingServerNetworkAddress", 0xA2E86400, TdfType.Struct, 0, true), // Tag: HNAD
+        new TdfMemberInfo("HostingServerConnectivityId", "mHostingServerConnectivityId", 0xA33A6400, TdfType.UInt32, 1, true), // Tag: HSID
+        new TdfMemberInfo("LocalLowLevelConnectivityId", "mLocalLowLevelConnectivityId", 0xB23A6400, TdfType.UInt32, 2, true), // Tag: LCID
+        new TdfMemberInfo("RemoteLowLevelConnectivityId", "mRemoteLowLevelConnectivityId", 0xCA3A6400, TdfType.UInt32, 3, true), // Tag: RCID
     ];
     private ITdfMember[] __members;
 

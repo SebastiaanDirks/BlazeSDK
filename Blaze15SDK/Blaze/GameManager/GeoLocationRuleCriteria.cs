@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GeoLocationRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0x50830400, TdfType.String, 0, true), // thld
+        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0xD28B2400, TdfType.String, 0, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

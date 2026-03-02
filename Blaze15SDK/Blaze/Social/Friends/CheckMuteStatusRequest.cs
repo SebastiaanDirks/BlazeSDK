@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Social.Friends;
 public class CheckMuteStatusRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("Count", "mCount", 0x0CF39400, TdfType.Int32, 1, true), // cont
-        new TdfMemberInfo("Ids", "mIds", 0x30911300, TdfType.List, 2, true), // lids
-        new TdfMemberInfo("Names", "mNames", 0x38134500, TdfType.Bool, 3, true), // name
-        new TdfMemberInfo("Start", "mStart", 0x4D449400, TdfType.Int32, 4, true), // strt
-        new TdfMemberInfo("NucleusId", "mNucleusId", 0x54E24400, TdfType.Int64, 5, true), // unid
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("Count", "mCount", 0x8EFBB400, TdfType.Int32, 1, true), // Tag: CONT
+        new TdfMemberInfo("Ids", "mIds", 0xB2993300, TdfType.List, 2, true), // Tag: LIDS
+        new TdfMemberInfo("Names", "mNames", 0xBA1B6500, TdfType.Bool, 3, true), // Tag: NAME
+        new TdfMemberInfo("Start", "mStart", 0xCF4CB400, TdfType.Int32, 4, true), // Tag: STRT
+        new TdfMemberInfo("NucleusId", "mNucleusId", 0xD6EA6400, TdfType.Int64, 5, true), // Tag: UNID
     ];
     private ITdfMember[] __members;
 

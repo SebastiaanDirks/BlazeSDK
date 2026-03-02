@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubRecord : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x31511400, TdfType.UInt32, 0, true), // ludt
-        new TdfMemberInfo("RecordDescription", "mRecordDescription", 0x48310300, TdfType.String, 1, true), // rcdc
-        new TdfMemberInfo("RecordId", "mRecordId", 0x48324400, TdfType.UInt32, 2, true), // rcid
-        new TdfMemberInfo("RecordName", "mRecordName", 0x48338D00, TdfType.String, 3, true), // rcnm
-        new TdfMemberInfo("RecordStat", "mRecordStat", 0x4D405400, TdfType.String, 4, true), // stat
-        new TdfMemberInfo("RecordStatType", "mRecordStatType", 0x4D465000, TdfType.Enum, 5, true), // styp
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 6, true), // user
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xB3593400, TdfType.UInt32, 0, true), // Tag: LUDT
+        new TdfMemberInfo("RecordDescription", "mRecordDescription", 0xCA392300, TdfType.String, 1, true), // Tag: RCDC
+        new TdfMemberInfo("RecordId", "mRecordId", 0xCA3A6400, TdfType.UInt32, 2, true), // Tag: RCID
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA3BAD00, TdfType.String, 3, true), // Tag: RCNM
+        new TdfMemberInfo("RecordStat", "mRecordStat", 0xCF487400, TdfType.String, 4, true), // Tag: STAT
+        new TdfMemberInfo("RecordStatType", "mRecordStatType", 0xCF4E7000, TdfType.Enum, 5, true), // Tag: STYP
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 6, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

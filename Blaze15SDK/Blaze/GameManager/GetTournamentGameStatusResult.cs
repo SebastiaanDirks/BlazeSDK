@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetTournamentGameStatusResult : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("GameName", "mGameName", 0x1CE04D00, TdfType.String, 1, true), // gnam
-        new TdfMemberInfo("GameState", "mGameState", 0x1D350100, TdfType.Enum, 2, true), // gsta
-        new TdfMemberInfo("GameRoster", "mGameRoster", 0x48F4D400, TdfType.List, 3, true), // rost
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("GameName", "mGameName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
+        new TdfMemberInfo("GameState", "mGameState", 0x9F3D2100, TdfType.Enum, 2, true), // Tag: GSTA
+        new TdfMemberInfo("GameRoster", "mGameRoster", 0xCAFCF400, TdfType.List, 3, true), // Tag: ROST
     ];
     private ITdfMember[] __members;
 

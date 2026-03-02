@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class VirtualGameRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchedVirtualizedFlags", "mMatchedVirtualizedFlags", 0x59604C00, TdfType.UInt8, 0, true), // vval
+        new TdfMemberInfo("MatchedVirtualizedFlags", "mMatchedVirtualizedFlags", 0xDB686C00, TdfType.UInt8, 0, true), // Tag: VVAL
     ];
     private ITdfMember[] __members;
 

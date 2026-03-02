@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameReset : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameData", "mGameData", 0x10150100, TdfType.Struct, 0, true), // data
+        new TdfMemberInfo("GameData", "mGameData", 0x921D2100, TdfType.Struct, 0, true), // Tag: DATA
     ];
     private ITdfMember[] __members;
 

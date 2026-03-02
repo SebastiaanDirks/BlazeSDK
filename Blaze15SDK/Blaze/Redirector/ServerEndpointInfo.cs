@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerEndpointInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Addresses", "mAddresses", 0x04449300, TdfType.List, 0, true), // adrs
-        new TdfMemberInfo("BindType", "mBindType", 0x08938400, TdfType.Enum, 1, true), // bind
-        new TdfMemberInfo("CurrentConnections", "mCurrentConnections", 0x0C33CE00, TdfType.UInt32, 2, true), // ccon
-        new TdfMemberInfo("Channel", "mChannel", 0x0C804E00, TdfType.String, 3, true), // chan
-        new TdfMemberInfo("ConnectionTypeString", "mConnectionTypeString", 0x0D465000, TdfType.String, 4, true), // ctyp
-        new TdfMemberInfo("Decoder", "mDecoder", 0x1050C000, TdfType.String, 5, true), // dec
-        new TdfMemberInfo("Encoder", "mEncoder", 0x14E0C000, TdfType.String, 6, true), // enc
-        new TdfMemberInfo("MaxConnections", "mMaxConnections", 0x3433CE00, TdfType.UInt32, 7, true), // mcon
-        new TdfMemberInfo("Protocol", "mProtocol", 0x4123D400, TdfType.String, 8, true), // prot
+        new TdfMemberInfo("Addresses", "mAddresses", 0x864CB300, TdfType.List, 0, true), // Tag: ADRS
+        new TdfMemberInfo("BindType", "mBindType", 0x8A9BA400, TdfType.Enum, 1, true), // Tag: BIND
+        new TdfMemberInfo("CurrentConnections", "mCurrentConnections", 0x8E3BEE00, TdfType.UInt32, 2, true), // Tag: CCON
+        new TdfMemberInfo("Channel", "mChannel", 0x8E886E00, TdfType.String, 3, true), // Tag: CHAN
+        new TdfMemberInfo("ConnectionTypeString", "mConnectionTypeString", 0x8F4E7000, TdfType.String, 4, true), // Tag: CTYP
+        new TdfMemberInfo("Decoder", "mDecoder", 0x9258C000, TdfType.String, 5, true), // Tag: DEC
+        new TdfMemberInfo("Encoder", "mEncoder", 0x96E8C000, TdfType.String, 6, true), // Tag: ENC
+        new TdfMemberInfo("MaxConnections", "mMaxConnections", 0xB63BEE00, TdfType.UInt32, 7, true), // Tag: MCON
+        new TdfMemberInfo("Protocol", "mProtocol", 0xC32BF400, TdfType.String, 8, true), // Tag: PROT
     ];
     private ITdfMember[] __members;
 

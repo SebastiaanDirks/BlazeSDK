@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_GSA_NonDerived;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Accuracy", "accuracy", 0x04231200, TdfType.Float, 0, true), // accr
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.UInt16, 1, true), // deth
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 2, true), // fcap
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.UInt16, 3, true), // kill
-        new TdfMemberInfo("Score", "score", 0x4C33D200, TdfType.UInt32, 4, true), // scor
+        new TdfMemberInfo("Accuracy", "accuracy", 0x8638F200, TdfType.Float, 0, true), // Tag: ACCR
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.UInt16, 1, true), // Tag: DETH
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 2, true), // Tag: FCAP
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.UInt16, 3, true), // Tag: KILL
+        new TdfMemberInfo("Score", "score", 0xCE3BF200, TdfType.UInt32, 4, true), // Tag: SCOR
     ];
     private ITdfMember[] __members;
 

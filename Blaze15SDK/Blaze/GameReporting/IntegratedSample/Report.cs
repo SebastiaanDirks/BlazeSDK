@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.IntegratedSample;
 public class Report : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CoopResult", "coopResult", 0x0CF3D000, TdfType.UInt32, 0, true), // coop
-        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x1C134500, TdfType.Struct, 1, true), // game
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 2, true), // plyr
+        new TdfMemberInfo("CoopResult", "coopResult", 0x8EFBF000, TdfType.UInt32, 0, true), // Tag: COOP
+        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x9E1B6500, TdfType.Struct, 1, true), // Tag: GAME
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 2, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

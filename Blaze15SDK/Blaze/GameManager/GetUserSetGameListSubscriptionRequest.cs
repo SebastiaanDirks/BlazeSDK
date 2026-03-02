@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetUserSetGameListSubscriptionRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserSetId", "mUserSetId", 0x55324400, TdfType.ObjectId, 0, true), // usid
+        new TdfMemberInfo("UserSetId", "mUserSetId", 0xD73A6400, TdfType.ObjectId, 0, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

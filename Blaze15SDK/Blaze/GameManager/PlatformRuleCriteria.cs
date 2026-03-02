@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlatformRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CrossplayMustMatch", "mCrossplayMustMatch", 0x0D034D00, TdfType.Bool, 0, true), // cpmm
-        new TdfMemberInfo("ClientPlatformListOverride", "mClientPlatformListOverride", 0x0D03D600, TdfType.List, 1, true), // cpov
+        new TdfMemberInfo("CrossplayMustMatch", "mCrossplayMustMatch", 0x8F0B6D00, TdfType.Bool, 0, true), // Tag: CPMM
+        new TdfMemberInfo("ClientPlatformListOverride", "mClientPlatformListOverride", 0x8F0BF600, TdfType.List, 1, true), // Tag: CPOV
     ];
     private ITdfMember[] __members;
 

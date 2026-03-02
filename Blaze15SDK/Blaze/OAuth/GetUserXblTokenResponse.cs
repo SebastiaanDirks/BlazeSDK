@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetUserXblTokenResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("XblToken", "mXblToken", 0x1143CB00, TdfType.String, 0, true), // dtok
-        new TdfMemberInfo("ProofKey", "mProofKey", 0x4123C600, TdfType.String, 1, true), // prof
+        new TdfMemberInfo("XblToken", "mXblToken", 0x934BEB00, TdfType.String, 0, true), // Tag: DTOK
+        new TdfMemberInfo("ProofKey", "mProofKey", 0xC32BE600, TdfType.String, 1, true), // Tag: PROF
     ];
     private ITdfMember[] __members;
 

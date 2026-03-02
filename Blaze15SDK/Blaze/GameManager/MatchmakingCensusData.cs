@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerMatchmakingRatePerPingsiteGroup", "mPlayerMatchmakingRatePerPingsiteGroup", 0x40D48700, TdfType.Map, 0, true), // pmrg
-        new TdfMemberInfo("EstimatedTimeToMatchPerPingsiteGroup", "mEstimatedTimeToMatchPerPingsiteGroup", 0x41450700, TdfType.Map, 1, true), // pttg
-        new TdfMemberInfo("ScenarioMatchmakingData", "mScenarioMatchmakingData", 0x4C450100, TdfType.Map, 2, true), // sdta
+        new TdfMemberInfo("PlayerMatchmakingRatePerPingsiteGroup", "mPlayerMatchmakingRatePerPingsiteGroup", 0xC2DCA700, TdfType.Map, 0, true), // Tag: PMRG
+        new TdfMemberInfo("EstimatedTimeToMatchPerPingsiteGroup", "mEstimatedTimeToMatchPerPingsiteGroup", 0xC34D2700, TdfType.Map, 1, true), // Tag: PTTG
+        new TdfMemberInfo("ScenarioMatchmakingData", "mScenarioMatchmakingData", 0xCE4D2100, TdfType.Map, 2, true), // Tag: SDTA
     ];
     private ITdfMember[] __members;
 

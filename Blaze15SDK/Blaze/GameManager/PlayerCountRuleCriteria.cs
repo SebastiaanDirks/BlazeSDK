@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerCountRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsSingleGroupMatch", "mIsSingleGroupMatch", 0x2534C700, TdfType.UInt8, 0, true), // issg
-        new TdfMemberInfo("MaxPlayerCount", "mMaxPlayerCount", 0x40305000, TdfType.UInt16, 1, true), // pcap
-        new TdfMemberInfo("DesiredPlayerCount", "mDesiredPlayerCount", 0x40339400, TdfType.UInt16, 2, true), // pcnt
-        new TdfMemberInfo("MinPlayerCount", "mMinPlayerCount", 0x40D24E00, TdfType.UInt16, 3, true), // pmin
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 4, true), // thld
+        new TdfMemberInfo("IsSingleGroupMatch", "mIsSingleGroupMatch", 0xA73CE700, TdfType.UInt8, 0, true), // Tag: ISSG
+        new TdfMemberInfo("MaxPlayerCount", "mMaxPlayerCount", 0xC2387000, TdfType.UInt16, 1, true), // Tag: PCAP
+        new TdfMemberInfo("DesiredPlayerCount", "mDesiredPlayerCount", 0xC23BB400, TdfType.UInt16, 2, true), // Tag: PCNT
+        new TdfMemberInfo("MinPlayerCount", "mMinPlayerCount", 0xC2DA6E00, TdfType.UInt16, 3, true), // Tag: PMIN
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 4, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

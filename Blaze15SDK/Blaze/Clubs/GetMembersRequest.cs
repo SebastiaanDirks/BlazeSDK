@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetMembersRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("MemberType", "mMemberType", 0x18930D00, TdfType.Enum, 1, true), // film
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 2, true), // mxrc
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 3, true), // ofrc
-        new TdfMemberInfo("OrderType", "mOrderType", 0x3D211400, TdfType.Enum, 4, true), // ordt
-        new TdfMemberInfo("PersonaNamePattern", "mPersonaNamePattern", 0x40549000, TdfType.String, 5, true), // perp
-        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0x4CB0D400, TdfType.Bool, 6, true), // skct
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("MemberType", "mMemberType", 0x9A9B2D00, TdfType.Enum, 1, true), // Tag: FILM
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 2, true), // Tag: MXRC
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 3, true), // Tag: OFRC
+        new TdfMemberInfo("OrderType", "mOrderType", 0xBF293400, TdfType.Enum, 4, true), // Tag: ORDT
+        new TdfMemberInfo("PersonaNamePattern", "mPersonaNamePattern", 0xC25CB000, TdfType.String, 5, true), // Tag: PERP
+        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0xCEB8F400, TdfType.Bool, 6, true), // Tag: SKCT
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Association;
 public class UpdateListsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("ListIdentificationVector", "mListIdentificationVector", 0x30911300, TdfType.List, 1, true), // lids
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("ListIdentificationVector", "mListIdentificationVector", 0xB2993300, TdfType.List, 1, true), // Tag: LIDS
     ];
     private ITdfMember[] __members;
 

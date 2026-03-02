@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class History : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxHistoryRecords", "mMaxHistoryRecords", 0x20339400, TdfType.UInt64, 0, true), // hcnt
-        new TdfMemberInfo("MinHistoryGap", "mMinHistoryGap", 0x20705000, TdfType.UInt64, 1, true), // hgap
+        new TdfMemberInfo("MaxHistoryRecords", "mMaxHistoryRecords", 0xA23BB400, TdfType.UInt64, 0, true), // Tag: HCNT
+        new TdfMemberInfo("MinHistoryGap", "mMinHistoryGap", 0xA2787000, TdfType.UInt64, 1, true), // Tag: HGAP
     ];
     private ITdfMember[] __members;
 

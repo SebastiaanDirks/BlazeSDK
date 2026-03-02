@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubMemberships : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubMembershipList", "mClubMembershipList", 0x0CD4CC00, TdfType.List, 0, true), // cmsl
+        new TdfMemberInfo("ClubMembershipList", "mClubMembershipList", 0x8EDCEC00, TdfType.List, 0, true), // Tag: CMSL
     ];
     private ITdfMember[] __members;
 

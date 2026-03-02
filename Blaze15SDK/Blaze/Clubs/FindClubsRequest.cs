@@ -7,35 +7,35 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class FindClubsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AcceptanceFlags", "mAcceptanceFlags", 0x04314600, TdfType.Enum, 0, true), // acef
-        new TdfMemberInfo("AcceptanceMask", "mAcceptanceMask", 0x04335300, TdfType.Enum, 1, true), // acms
-        new TdfMemberInfo("AnyDomain", "mAnyDomain", 0x04424400, TdfType.Bool, 2, true), // adid
-        new TdfMemberInfo("AnyTeamId", "mAnyTeamId", 0x05424400, TdfType.Bool, 3, true), // atid
-        new TdfMemberInfo("ClubFilterList", "mClubFilterList", 0x0C630900, TdfType.List, 4, true), // cfli
-        new TdfMemberInfo("TagList", "mTagList", 0x0CC50700, TdfType.List, 5, true), // cltg
-        new TdfMemberInfo("IncludeClubTags", "mIncludeClubTags", 0x0CC50900, TdfType.Bool, 6, true), // clti
-        new TdfMemberInfo("TagSearchOperation", "mTagSearchOperation", 0x0CC50F00, TdfType.Enum, 7, true), // clto
-        new TdfMemberInfo("Name", "mName", 0x0CE04D00, TdfType.String, 8, true), // cnam
-        new TdfMemberInfo("ClubsOrder", "mClubsOrder", 0x0CF11200, TdfType.Enum, 9, true), // codr
-        new TdfMemberInfo("Region", "mRegion", 0x0D214700, TdfType.UInt32, 10, true), // creg
-        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x10D24400, TdfType.UInt32, 11, true), // dmid
-        new TdfMemberInfo("JoinAcceptance", "mJoinAcceptance", 0x28F04300, TdfType.Enum, 12, true), // joac
-        new TdfMemberInfo("Language", "mLanguage", 0x30138700, TdfType.String, 13, true), // lang
-        new TdfMemberInfo("LastGameTimeOffset", "mLastGameTimeOffset", 0x30750D00, TdfType.UInt32, 14, true), // lgtm
-        new TdfMemberInfo("MaxMemberCount", "mMaxMemberCount", 0x34134300, TdfType.UInt32, 15, true), // mamc
-        new TdfMemberInfo("MinMemberCount", "mMinMemberCount", 0x34934300, TdfType.UInt32, 16, true), // mimc
-        new TdfMemberInfo("MinMemberOnlineStatusCounts", "mMinMemberOnlineStatusCounts", 0x34D4C300, TdfType.Map, 17, true), // mmsc
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 18, true), // mxrc
-        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0x39544E00, TdfType.String, 19, true), // nuqn
-        new TdfMemberInfo("OrderMode", "mOrderMode", 0x3C434400, TdfType.Enum, 20, true), // odmd
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 21, true), // ofrc
-        new TdfMemberInfo("PetitionAcceptance", "mPetitionAcceptance", 0x40504300, TdfType.Enum, 22, true), // peac
-        new TdfMemberInfo("PasswordOption", "mPasswordOption", 0x4135C400, TdfType.Enum, 23, true), // pswd
-        new TdfMemberInfo("SeasonLevel", "mSeasonLevel", 0x4C504C00, TdfType.UInt32, 24, true), // seal
-        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0x4CB0D400, TdfType.Bool, 25, true), // skct
-        new TdfMemberInfo("SkipMetadata", "mSkipMetadata", 0x4CB34400, TdfType.UInt8, 26, true), // skmd
-        new TdfMemberInfo("TeamId", "mTeamId", 0x50D24400, TdfType.UInt16, 27, true), // tmid
-        new TdfMemberInfo("MemberFilterList", "mMemberFilterList", 0x54630900, TdfType.List, 28, true), // ufli
+        new TdfMemberInfo("AcceptanceFlags", "mAcceptanceFlags", 0x86396600, TdfType.Enum, 0, true), // Tag: ACEF
+        new TdfMemberInfo("AcceptanceMask", "mAcceptanceMask", 0x863B7300, TdfType.Enum, 1, true), // Tag: ACMS
+        new TdfMemberInfo("AnyDomain", "mAnyDomain", 0x864A6400, TdfType.Bool, 2, true), // Tag: ADID
+        new TdfMemberInfo("AnyTeamId", "mAnyTeamId", 0x874A6400, TdfType.Bool, 3, true), // Tag: ATID
+        new TdfMemberInfo("ClubFilterList", "mClubFilterList", 0x8E6B2900, TdfType.List, 4, true), // Tag: CFLI
+        new TdfMemberInfo("TagList", "mTagList", 0x8ECD2700, TdfType.List, 5, true), // Tag: CLTG
+        new TdfMemberInfo("IncludeClubTags", "mIncludeClubTags", 0x8ECD2900, TdfType.Bool, 6, true), // Tag: CLTI
+        new TdfMemberInfo("TagSearchOperation", "mTagSearchOperation", 0x8ECD2F00, TdfType.Enum, 7, true), // Tag: CLTO
+        new TdfMemberInfo("Name", "mName", 0x8EE86D00, TdfType.String, 8, true), // Tag: CNAM
+        new TdfMemberInfo("ClubsOrder", "mClubsOrder", 0x8EF93200, TdfType.Enum, 9, true), // Tag: CODR
+        new TdfMemberInfo("Region", "mRegion", 0x8F296700, TdfType.UInt32, 10, true), // Tag: CREG
+        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x92DA6400, TdfType.UInt32, 11, true), // Tag: DMID
+        new TdfMemberInfo("JoinAcceptance", "mJoinAcceptance", 0xAAF86300, TdfType.Enum, 12, true), // Tag: JOAC
+        new TdfMemberInfo("Language", "mLanguage", 0xB21BA700, TdfType.String, 13, true), // Tag: LANG
+        new TdfMemberInfo("LastGameTimeOffset", "mLastGameTimeOffset", 0xB27D2D00, TdfType.UInt32, 14, true), // Tag: LGTM
+        new TdfMemberInfo("MaxMemberCount", "mMaxMemberCount", 0xB61B6300, TdfType.UInt32, 15, true), // Tag: MAMC
+        new TdfMemberInfo("MinMemberCount", "mMinMemberCount", 0xB69B6300, TdfType.UInt32, 16, true), // Tag: MIMC
+        new TdfMemberInfo("MinMemberOnlineStatusCounts", "mMinMemberOnlineStatusCounts", 0xB6DCE300, TdfType.Map, 17, true), // Tag: MMSC
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 18, true), // Tag: MXRC
+        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0xBB5C6E00, TdfType.String, 19, true), // Tag: NUQN
+        new TdfMemberInfo("OrderMode", "mOrderMode", 0xBE4B6400, TdfType.Enum, 20, true), // Tag: ODMD
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 21, true), // Tag: OFRC
+        new TdfMemberInfo("PetitionAcceptance", "mPetitionAcceptance", 0xC2586300, TdfType.Enum, 22, true), // Tag: PEAC
+        new TdfMemberInfo("PasswordOption", "mPasswordOption", 0xC33DE400, TdfType.Enum, 23, true), // Tag: PSWD
+        new TdfMemberInfo("SeasonLevel", "mSeasonLevel", 0xCE586C00, TdfType.UInt32, 24, true), // Tag: SEAL
+        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0xCEB8F400, TdfType.Bool, 25, true), // Tag: SKCT
+        new TdfMemberInfo("SkipMetadata", "mSkipMetadata", 0xCEBB6400, TdfType.UInt8, 26, true), // Tag: SKMD
+        new TdfMemberInfo("TeamId", "mTeamId", 0xD2DA6400, TdfType.UInt16, 27, true), // Tag: TMID
+        new TdfMemberInfo("MemberFilterList", "mMemberFilterList", 0xD66B2900, TdfType.List, 28, true), // Tag: UFLI
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeagueGameKeyscopes;
 public class DefensiveAthlete : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Blocks", "blocks", 0x08C2D300, TdfType.UInt16, 0, true), // blks
+        new TdfMemberInfo("Blocks", "blocks", 0x8ACAF300, TdfType.UInt16, 0, true), // Tag: BLKS
     ];
     private ITdfMember[] __members;
 

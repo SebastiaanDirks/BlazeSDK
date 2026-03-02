@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class LocalizeStringsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LocalizedStrings", "mLocalizedStrings", 0x4CD05000, TdfType.Map, 0, true), // smap
+        new TdfMemberInfo("LocalizedStrings", "mLocalizedStrings", 0xCED87000, TdfType.Map, 0, true), // Tag: SMAP
     ];
     private ITdfMember[] __members;
 

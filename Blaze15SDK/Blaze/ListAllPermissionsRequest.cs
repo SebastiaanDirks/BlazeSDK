@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class ListAllPermissionsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ComponentId", "mComponentId", 0x8F4A6400, TdfType.UInt16, 0, true), // CTID
+        new TdfMemberInfo("ComponentId", "mComponentId", 0x8F4A6400, TdfType.UInt16, 0, true), // Tag: CTID
     ];
     private ITdfMember[] __members;
 

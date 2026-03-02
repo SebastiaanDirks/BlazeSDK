@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardStatValuesRow : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Rank", "mRank", 0x48138B00, TdfType.Int32, 0, true), // rank
-        new TdfMemberInfo("RankedStat", "mRankedStat", 0x49350100, TdfType.String, 1, true), // rsta
-        new TdfMemberInfo("IsRawStats", "mIsRawStats", 0x49718700, TdfType.Bool, 2, true), // rwfg
-        new TdfMemberInfo("OtherRawStats", "mOtherRawStats", 0x4973D400, TdfType.List, 3, true), // rwot
-        new TdfMemberInfo("RankedRawStat", "mRankedRawStat", 0x4974D400, TdfType.Struct, 4, true), // rwst
-        new TdfMemberInfo("OtherStats", "mOtherStats", 0x4D405400, TdfType.List, 5, true), // stat
-        new TdfMemberInfo("Attribute", "mAttribute", 0x54151400, TdfType.UInt64, 6, true), // uatt
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 7, true), // user
+        new TdfMemberInfo("Rank", "mRank", 0xCA1BAB00, TdfType.Int32, 0, true), // Tag: RANK
+        new TdfMemberInfo("RankedStat", "mRankedStat", 0xCB3D2100, TdfType.String, 1, true), // Tag: RSTA
+        new TdfMemberInfo("IsRawStats", "mIsRawStats", 0xCB79A700, TdfType.Bool, 2, true), // Tag: RWFG
+        new TdfMemberInfo("OtherRawStats", "mOtherRawStats", 0xCB7BF400, TdfType.List, 3, true), // Tag: RWOT
+        new TdfMemberInfo("RankedRawStat", "mRankedRawStat", 0xCB7CF400, TdfType.Struct, 4, true), // Tag: RWST
+        new TdfMemberInfo("OtherStats", "mOtherStats", 0xCF487400, TdfType.List, 5, true), // Tag: STAT
+        new TdfMemberInfo("Attribute", "mAttribute", 0xD61D3400, TdfType.UInt64, 6, true), // Tag: UATT
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 7, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

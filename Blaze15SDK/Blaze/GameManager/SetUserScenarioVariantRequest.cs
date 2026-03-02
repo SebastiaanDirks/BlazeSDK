@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SetUserScenarioVariantRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Persona", "mPersona", 0x40549300, TdfType.String, 0, true), // pers
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C314E00, TdfType.String, 1, true), // scen
-        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0x4C358100, TdfType.String, 2, true), // scva
+        new TdfMemberInfo("Persona", "mPersona", 0xC25CB300, TdfType.String, 0, true), // Tag: PERS
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE396E00, TdfType.String, 1, true), // Tag: SCEN
+        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0xCE3DA100, TdfType.String, 2, true), // Tag: SCVA
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameSettingsChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameSettings", "mGameSettings", 0x05451200, TdfType.Enum, 0, true), // attr
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
+        new TdfMemberInfo("GameSettings", "mGameSettings", 0x874D3200, TdfType.Enum, 0, true), // Tag: ATTR
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
     ];
     private ITdfMember[] __members;
 

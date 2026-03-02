@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubMembershipForUsersResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MembershipMap", "mMembershipMap", 0x34D05000, TdfType.Map, 0, true), // mmap
+        new TdfMemberInfo("MembershipMap", "mMembershipMap", 0xB6D87000, TdfType.Map, 0, true), // Tag: MMAP
     ];
     private ITdfMember[] __members;
 

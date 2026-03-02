@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class HostInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConnectionGroupId", "mConnectionGroupId", 0x0CF38700, TdfType.UInt64, 0, true), // cong
-        new TdfMemberInfo("ConnectionSlotId", "mConnectionSlotId", 0x0D324400, TdfType.UInt8, 1, true), // csid
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x21024400, TdfType.Int64, 2, true), // hpid
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x21315300, TdfType.UInt64, 3, true), // hses
-        new TdfMemberInfo("SlotId", "mSlotId", 0x21331400, TdfType.UInt8, 4, true), // hslt
+        new TdfMemberInfo("ConnectionGroupId", "mConnectionGroupId", 0x8EFBA700, TdfType.UInt64, 0, true), // Tag: CONG
+        new TdfMemberInfo("ConnectionSlotId", "mConnectionSlotId", 0x8F3A6400, TdfType.UInt8, 1, true), // Tag: CSID
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xA30A6400, TdfType.Int64, 2, true), // Tag: HPID
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xA3397300, TdfType.UInt64, 3, true), // Tag: HSES
+        new TdfMemberInfo("SlotId", "mSlotId", 0xA33B3400, TdfType.UInt8, 4, true), // Tag: HSLT
     ];
     private ITdfMember[] __members;
 

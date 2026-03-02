@@ -14,10 +14,10 @@ public class ExampleResponse : Tdf
     }
 
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RegularEnum", "mRegularEnum", 0x96ED6D00, TdfType.Enum, 0, true), // ENUM
-        new TdfMemberInfo("MyList", "mMyList", 0xB29CF400, TdfType.List, 1, true), // LIST
-        new TdfMemberInfo("MyMap", "mMyMap", 0xB61C0000, TdfType.Map, 2, true), // MAP
-        new TdfMemberInfo("Message", "mMessage", 0xB739C000, TdfType.String, 3, true), // MSG
+        new TdfMemberInfo("RegularEnum", "mRegularEnum", 0x96ED6D00, TdfType.Enum, 0, true), // Tag: ENUM
+        new TdfMemberInfo("MyList", "mMyList", 0xB29CF400, TdfType.List, 1, true), // Tag: LIST
+        new TdfMemberInfo("MyMap", "mMyMap", 0xB61C0000, TdfType.Map, 2, true), // Tag: MAP
+        new TdfMemberInfo("Message", "mMessage", 0xB739C000, TdfType.String, 3, true), // Tag: MSG
     ];
     private ITdfMember[] __members;
 

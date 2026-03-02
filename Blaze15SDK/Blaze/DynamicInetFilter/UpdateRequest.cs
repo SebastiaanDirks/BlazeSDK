@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.DynamicInetFilter;
 public class UpdateRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Comment", "mComment", 0x0CF34D00, TdfType.String, 0, true), // comm
-        new TdfMemberInfo("Group", "mGroup", 0x1D240000, TdfType.String, 1, true), // grp
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.String, 2, true), // ownr
-        new TdfMemberInfo("RowId", "mRowId", 0x48910000, TdfType.UInt32, 3, true), // rid
-        new TdfMemberInfo("SubNet", "mSubNet", 0x4CE15400, TdfType.Struct, 4, true), // snet
+        new TdfMemberInfo("Comment", "mComment", 0x8EFB6D00, TdfType.String, 0, true), // Tag: COMM
+        new TdfMemberInfo("Group", "mGroup", 0x9F2C0000, TdfType.String, 1, true), // Tag: GRP
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.String, 2, true), // Tag: OWNR
+        new TdfMemberInfo("RowId", "mRowId", 0xCA990000, TdfType.UInt32, 3, true), // Tag: RID
+        new TdfMemberInfo("SubNet", "mSubNet", 0xCEE97400, TdfType.Struct, 4, true), // Tag: SNET
     ];
     private ITdfMember[] __members;
 

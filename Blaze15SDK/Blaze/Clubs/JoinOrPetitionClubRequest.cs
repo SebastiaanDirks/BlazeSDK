@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class JoinOrPetitionClubRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("PetitionIfJoinFails", "mPetitionIfJoinFails", 0x40928600, TdfType.Bool, 1, true), // pijf
-        new TdfMemberInfo("Password", "mPassword", 0x4135C400, TdfType.String, 2, true), // pswd
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("PetitionIfJoinFails", "mPetitionIfJoinFails", 0xC29AA600, TdfType.Bool, 1, true), // Tag: PIJF
+        new TdfMemberInfo("Password", "mPassword", 0xC33DE400, TdfType.String, 2, true), // Tag: PSWD
     ];
     private ITdfMember[] __members;
 

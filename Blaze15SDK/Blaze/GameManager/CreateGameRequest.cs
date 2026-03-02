@@ -7,25 +7,25 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CreateGameRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminPlayerList", "mAdminPlayerList", 0x04434E00, TdfType.List, 0, true), // admn
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 1, true), // cmgd
-        new TdfMemberInfo("ClientPlatformListOverride", "mClientPlatformListOverride", 0x0D03D600, TdfType.List, 2, true), // cpov
-        new TdfMemberInfo("TournamentSessionData", "mTournamentSessionData", 0x15448E00, TdfType.Struct, 3, true), // etrn
-        new TdfMemberInfo("GameEventAddress", "mGameEventAddress", 0x1C504400, TdfType.String, 4, true), // gead
-        new TdfMemberInfo("GameEndEventUri", "mGameEndEventUri", 0x1C515500, TdfType.String, 5, true), // geeu
-        new TdfMemberInfo("GameCreationData", "mGameCreationData", 0x1CD0C400, TdfType.Struct, 6, true), // gmcd
-        new TdfMemberInfo("GameEventContentType", "mGameEventContentType", 0x1D314E00, TdfType.String, 7, true), // gsen
-        new TdfMemberInfo("GameStartEventUri", "mGameStartEventUri", 0x1D315500, TdfType.String, 8, true), // gseu
-        new TdfMemberInfo("GameReportName", "mGameReportName", 0x1D465000, TdfType.String, 9, true), // gtyp
-        new TdfMemberInfo("GameStatusUrl", "mGameStatusUrl", 0x1D548C00, TdfType.String, 10, true), // gurl
-        new TdfMemberInfo("ServerNotResetable", "mServerNotResetable", 0x39215300, TdfType.Bool, 11, true), // nres
-        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0x40305000, TdfType.List, 12, true), // pcap
-        new TdfMemberInfo("SlotCapacitiesMap", "mSlotCapacitiesMap", 0x40340D00, TdfType.Map, 13, true), // pcpm
-        new TdfMemberInfo("PersistedGameId", "mPersistedGameId", 0x40724400, TdfType.String, 14, true), // pgid
-        new TdfMemberInfo("PersistedGameIdSecret", "mPersistedGameIdSecret", 0x4074C300, TdfType.Blob, 15, true), // pgsc
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 16, true), // pljd
-        new TdfMemberInfo("TournamentIdentification", "mTournamentIdentification", 0x50910000, TdfType.Struct, 17, true), // tid
-        new TdfMemberInfo("TeamIds", "mTeamIds", 0x50911300, TdfType.List, 18, true), // tids
+        new TdfMemberInfo("AdminPlayerList", "mAdminPlayerList", 0x864B6E00, TdfType.List, 0, true), // Tag: ADMN
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 1, true), // Tag: CMGD
+        new TdfMemberInfo("ClientPlatformListOverride", "mClientPlatformListOverride", 0x8F0BF600, TdfType.List, 2, true), // Tag: CPOV
+        new TdfMemberInfo("TournamentSessionData", "mTournamentSessionData", 0x974CAE00, TdfType.Struct, 3, true), // Tag: ETRN
+        new TdfMemberInfo("GameEventAddress", "mGameEventAddress", 0x9E586400, TdfType.String, 4, true), // Tag: GEAD
+        new TdfMemberInfo("GameEndEventUri", "mGameEndEventUri", 0x9E597500, TdfType.String, 5, true), // Tag: GEEU
+        new TdfMemberInfo("GameCreationData", "mGameCreationData", 0x9ED8E400, TdfType.Struct, 6, true), // Tag: GMCD
+        new TdfMemberInfo("GameEventContentType", "mGameEventContentType", 0x9F396E00, TdfType.String, 7, true), // Tag: GSEN
+        new TdfMemberInfo("GameStartEventUri", "mGameStartEventUri", 0x9F397500, TdfType.String, 8, true), // Tag: GSEU
+        new TdfMemberInfo("GameReportName", "mGameReportName", 0x9F4E7000, TdfType.String, 9, true), // Tag: GTYP
+        new TdfMemberInfo("GameStatusUrl", "mGameStatusUrl", 0x9F5CAC00, TdfType.String, 10, true), // Tag: GURL
+        new TdfMemberInfo("ServerNotResetable", "mServerNotResetable", 0xBB297300, TdfType.Bool, 11, true), // Tag: NRES
+        new TdfMemberInfo("SlotCapacities", "mSlotCapacities", 0xC2387000, TdfType.List, 12, true), // Tag: PCAP
+        new TdfMemberInfo("SlotCapacitiesMap", "mSlotCapacitiesMap", 0xC23C2D00, TdfType.Map, 13, true), // Tag: PCPM
+        new TdfMemberInfo("PersistedGameId", "mPersistedGameId", 0xC27A6400, TdfType.String, 14, true), // Tag: PGID
+        new TdfMemberInfo("PersistedGameIdSecret", "mPersistedGameIdSecret", 0xC27CE300, TdfType.Blob, 15, true), // Tag: PGSC
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 16, true), // Tag: PLJD
+        new TdfMemberInfo("TournamentIdentification", "mTournamentIdentification", 0xD2990000, TdfType.Struct, 17, true), // Tag: TID
+        new TdfMemberInfo("TeamIds", "mTeamIds", 0xD2993300, TdfType.List, 18, true), // Tag: TIDS
     ];
     private ITdfMember[] __members;
 

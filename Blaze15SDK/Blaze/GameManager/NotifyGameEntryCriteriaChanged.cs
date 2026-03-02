@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameEntryCriteriaChanged : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntryCriteriaMap", "mEntryCriteriaMap", 0x0D225400, TdfType.Map, 0, true), // crit
-        new TdfMemberInfo("GameId", "mGameId", 0x1CD24400, TdfType.UInt64, 1, true), // gmid
-        new TdfMemberInfo("RoleEntryCriteriaMap", "mRoleEntryCriteriaMap", 0x48349400, TdfType.Map, 2, true), // rcrt
+        new TdfMemberInfo("EntryCriteriaMap", "mEntryCriteriaMap", 0x8F2A7400, TdfType.Map, 0, true), // Tag: CRIT
+        new TdfMemberInfo("GameId", "mGameId", 0x9EDA6400, TdfType.UInt64, 1, true), // Tag: GMID
+        new TdfMemberInfo("RoleEntryCriteriaMap", "mRoleEntryCriteriaMap", 0xCA3CB400, TdfType.Map, 2, true), // Tag: RCRT
     ];
     private ITdfMember[] __members;
 

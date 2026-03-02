@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetScenarioVariantsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C314E00, TdfType.String, 0, true), // scen
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE396E00, TdfType.String, 0, true), // Tag: SCEN
     ];
     private ITdfMember[] __members;
 

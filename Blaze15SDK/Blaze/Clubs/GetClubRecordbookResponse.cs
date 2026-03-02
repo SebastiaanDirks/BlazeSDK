@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubRecordbookResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubRecordList", "mClubRecordList", 0x0CC48C00, TdfType.List, 0, true), // clrl
+        new TdfMemberInfo("ClubRecordList", "mClubRecordList", 0x8ECCAC00, TdfType.List, 0, true), // Tag: CLRL
     ];
     private ITdfMember[] __members;
 

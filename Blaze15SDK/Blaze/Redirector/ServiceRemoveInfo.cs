@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServiceRemoveInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x38134500, TdfType.String, 0, true), // name
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

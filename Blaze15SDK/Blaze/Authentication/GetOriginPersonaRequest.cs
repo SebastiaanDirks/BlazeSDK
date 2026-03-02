@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetOriginPersonaRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeIdOrPersonaName", "mBlazeIdOrPersonaName", 0xD69BF000, TdfType.Union, 0, true), // UIOP
+        new TdfMemberInfo("BlazeIdOrPersonaName", "mBlazeIdOrPersonaName", 0xD69BF000, TdfType.Union, 0, true), // Tag: UIOP
     ];
     private ITdfMember[] __members;
     private TdfStruct<Blaze15SDK.Blaze.Authentication.OriginPersonaIdentifier?> _blazeIdOrPersonaName = new(__typeInfos[0]);

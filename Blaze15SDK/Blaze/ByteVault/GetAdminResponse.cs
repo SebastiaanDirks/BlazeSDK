@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetAdminResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0x34140000, TdfType.Map, 0, true), // map
-        new TdfMemberInfo("PermissionsByAdminTypeMap", "mPermissionsByAdminTypeMap", 0x40548D00, TdfType.Map, 1, true), // perm
+        new TdfMemberInfo("AdminTypeListByContextMap", "mAdminTypeListByContextMap", 0xB61C0000, TdfType.Map, 0, true), // Tag: MAP
+        new TdfMemberInfo("PermissionsByAdminTypeMap", "mPermissionsByAdminTypeMap", 0xC25CAD00, TdfType.Map, 1, true), // Tag: PERM
     ];
     private ITdfMember[] __members;
 

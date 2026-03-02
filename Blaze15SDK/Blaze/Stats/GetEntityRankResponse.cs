@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetEntityRankResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityRankMap", "mEntityRankMap", 0x1522CD00, TdfType.Map, 0, true), // erkm
+        new TdfMemberInfo("EntityRankMap", "mEntityRankMap", 0x972AED00, TdfType.Map, 0, true), // Tag: ERKM
     ];
     private ITdfMember[] __members;
 

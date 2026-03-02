@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class KeyScopedStatValues : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GroupName", "mGroupName", 0x1D238D00, TdfType.String, 0, true), // grnm
-        new TdfMemberInfo("KeyString", "mKeyString", 0x2C564000, TdfType.String, 1, true), // key
-        new TdfMemberInfo("Last", "mLast", 0x3014D400, TdfType.Bool, 2, true), // last
-        new TdfMemberInfo("StatValues", "mStatValues", 0x4D44C000, TdfType.Struct, 3, true), // sts
-        new TdfMemberInfo("ViewId", "mViewId", 0x58910000, TdfType.UInt32, 4, true), // vid
+        new TdfMemberInfo("GroupName", "mGroupName", 0x9F2BAD00, TdfType.String, 0, true), // Tag: GRNM
+        new TdfMemberInfo("KeyString", "mKeyString", 0xAE5E4000, TdfType.String, 1, true), // Tag: KEY
+        new TdfMemberInfo("Last", "mLast", 0xB21CF400, TdfType.Bool, 2, true), // Tag: LAST
+        new TdfMemberInfo("StatValues", "mStatValues", 0xCF4CC000, TdfType.Struct, 3, true), // Tag: STS
+        new TdfMemberInfo("ViewId", "mViewId", 0xDA990000, TdfType.UInt32, 4, true), // Tag: VID
     ];
     private ITdfMember[] __members;
 

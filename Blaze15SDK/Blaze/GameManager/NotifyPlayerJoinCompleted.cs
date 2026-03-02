@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyPlayerJoinCompleted : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 1, true), // pid
-        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0x50934500, TdfType.Int64, 2, true), // time
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 1, true), // Tag: PID
+        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0xD29B6500, TdfType.Int64, 2, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

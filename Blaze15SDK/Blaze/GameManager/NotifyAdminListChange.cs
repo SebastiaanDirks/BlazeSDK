@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyAdminListChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AdminPlayerId", "mAdminPlayerId", 0x04C4D400, TdfType.Int64, 0, true), // alst
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("Operation", "mOperation", 0x3D015200, TdfType.Enum, 2, true), // oper
-        new TdfMemberInfo("UpdaterPlayerId", "mUpdaterPlayerId", 0x54910000, TdfType.Int64, 3, true), // uid
+        new TdfMemberInfo("AdminPlayerId", "mAdminPlayerId", 0x86CCF400, TdfType.Int64, 0, true), // Tag: ALST
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("Operation", "mOperation", 0xBF097200, TdfType.Enum, 2, true), // Tag: OPER
+        new TdfMemberInfo("UpdaterPlayerId", "mUpdaterPlayerId", 0xD6990000, TdfType.Int64, 3, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

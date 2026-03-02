@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetStatDescsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("StatNames", "mStatNames", 0x4D405400, TdfType.List, 1, true), // stat
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("StatNames", "mStatNames", 0xCF487400, TdfType.List, 1, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

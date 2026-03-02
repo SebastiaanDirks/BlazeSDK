@@ -7,21 +7,21 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameBrowserPlayerData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x04911300, TdfType.Struct, 0, true), // aids
-        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x0CE51900, TdfType.UInt32, 1, true), // cnty
-        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x14E24400, TdfType.String, 2, true), // enid
-        new TdfMemberInfo("ExternalId", "mExternalId", 0x15824400, TdfType.UInt64, 3, true), // exid
-        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0x28751300, TdfType.Int64, 4, true), // jgts
-        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x30F0C000, TdfType.UInt32, 5, true), // loc
-        new TdfMemberInfo("PlayerName", "mPlayerName", 0x38134500, TdfType.String, 6, true), // name
-        new TdfMemberInfo("PlayerNamespace", "mPlayerNamespace", 0x3814D000, TdfType.String, 7, true), // nasp
-        new TdfMemberInfo("PlayerAttribs", "mPlayerAttribs", 0x40151400, TdfType.Map, 8, true), // patt
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 9, true), // pid
-        new TdfMemberInfo("ReservationCreationTimestamp", "mReservationCreationTimestamp", 0x48351300, TdfType.Int64, 10, true), // rcts
-        new TdfMemberInfo("RoleName", "mRoleName", 0x48F30500, TdfType.String, 11, true), // role
-        new TdfMemberInfo("PlayerState", "mPlayerState", 0x4D405400, TdfType.Enum, 12, true), // stat
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4D465000, TdfType.Enum, 13, true), // styp
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 14, true), // tidx
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // Tag: AIDS
+        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 1, true), // Tag: CNTY
+        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x96EA6400, TdfType.String, 2, true), // Tag: ENID
+        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 3, true), // Tag: EXID
+        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0xAA7D3300, TdfType.Int64, 4, true), // Tag: JGTS
+        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0xB2F8C000, TdfType.UInt32, 5, true), // Tag: LOC
+        new TdfMemberInfo("PlayerName", "mPlayerName", 0xBA1B6500, TdfType.String, 6, true), // Tag: NAME
+        new TdfMemberInfo("PlayerNamespace", "mPlayerNamespace", 0xBA1CF000, TdfType.String, 7, true), // Tag: NASP
+        new TdfMemberInfo("PlayerAttribs", "mPlayerAttribs", 0xC21D3400, TdfType.Map, 8, true), // Tag: PATT
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 9, true), // Tag: PID
+        new TdfMemberInfo("ReservationCreationTimestamp", "mReservationCreationTimestamp", 0xCA3D3300, TdfType.Int64, 10, true), // Tag: RCTS
+        new TdfMemberInfo("RoleName", "mRoleName", 0xCAFB2500, TdfType.String, 11, true), // Tag: ROLE
+        new TdfMemberInfo("PlayerState", "mPlayerState", 0xCF487400, TdfType.Enum, 12, true), // Tag: STAT
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCF4E7000, TdfType.Enum, 13, true), // Tag: STYP
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 14, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

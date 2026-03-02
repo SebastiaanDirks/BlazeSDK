@@ -7,34 +7,34 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ReplicatedGamePlayer : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x04911300, TdfType.Struct, 0, true), // aids
-        new TdfMemberInfo("CustomData", "mCustomData", 0x08C3C200, TdfType.Blob, 1, true), // blob
-        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x0CE51900, TdfType.UInt32, 2, true), // cnty
-        new TdfMemberInfo("ConnectionGroupId", "mConnectionGroupId", 0x0CF38700, TdfType.UInt64, 3, true), // cong
-        new TdfMemberInfo("ConnectionSlotId", "mConnectionSlotId", 0x0D324400, TdfType.UInt8, 4, true), // csid
-        new TdfMemberInfo("DirtySockUserIndex", "mDirtySockUserIndex", 0x11354900, TdfType.Int32, 5, true), // dsui
-        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x14E0D200, TdfType.String, 6, true), // encr
-        new TdfMemberInfo("ExternalId", "mExternalId", 0x15824400, TdfType.UInt64, 7, true), // exid
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 8, true), // gid
-        new TdfMemberInfo("HasJoinFirstPartyGameSessionPermission", "mHasJoinFirstPartyGameSessionPermission", 0x28641300, TdfType.Bool, 9, true), // jfps
-        new TdfMemberInfo("JoinedViaMatchmaking", "mJoinedViaMatchmaking", 0x29634D00, TdfType.Bool, 10, true), // jvmm
-        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x30F0C000, TdfType.UInt32, 11, true), // loc
-        new TdfMemberInfo("PlayerName", "mPlayerName", 0x38134500, TdfType.String, 12, true), // name
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0x3814D000, TdfType.String, 13, true), // nasp
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 14, true), // pid
-        new TdfMemberInfo("NetworkAddress", "mNetworkAddress", 0x40E15400, TdfType.Struct, 15, true), // pnet
-        new TdfMemberInfo("PlayerSettings", "mPlayerSettings", 0x41315400, TdfType.Enum, 16, true), // pset
-        new TdfMemberInfo("ReservationCreationTimestamp", "mReservationCreationTimestamp", 0x48348500, TdfType.Int64, 17, true), // rcre
-        new TdfMemberInfo("RoleName", "mRoleName", 0x48F30500, TdfType.String, 18, true), // role
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C314E00, TdfType.String, 19, true), // scen
-        new TdfMemberInfo("SlotId", "mSlotId", 0x4C910000, TdfType.UInt8, 20, true), // sid
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4CC3D400, TdfType.Enum, 21, true), // slot
-        new TdfMemberInfo("PlayerState", "mPlayerState", 0x4D405400, TdfType.Enum, 22, true), // stat
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 23, true), // tidx
-        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0x50934500, TdfType.Int64, 24, true), // time
-        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0x54724400, TdfType.ObjectId, 25, true), // ugid
-        new TdfMemberInfo("PlayerSessionId", "mPlayerSessionId", 0x54910000, TdfType.UInt64, 26, true), // uid
-        new TdfMemberInfo("UUID", "mUUID", 0x55524400, TdfType.String, 27, true), // uuid
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // Tag: AIDS
+        new TdfMemberInfo("CustomData", "mCustomData", 0x8ACBE200, TdfType.Blob, 1, true), // Tag: BLOB
+        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 2, true), // Tag: CNTY
+        new TdfMemberInfo("ConnectionGroupId", "mConnectionGroupId", 0x8EFBA700, TdfType.UInt64, 3, true), // Tag: CONG
+        new TdfMemberInfo("ConnectionSlotId", "mConnectionSlotId", 0x8F3A6400, TdfType.UInt8, 4, true), // Tag: CSID
+        new TdfMemberInfo("DirtySockUserIndex", "mDirtySockUserIndex", 0x933D6900, TdfType.Int32, 5, true), // Tag: DSUI
+        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x96E8F200, TdfType.String, 6, true), // Tag: ENCR
+        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 7, true), // Tag: EXID
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 8, true), // Tag: GID
+        new TdfMemberInfo("HasJoinFirstPartyGameSessionPermission", "mHasJoinFirstPartyGameSessionPermission", 0xAA6C3300, TdfType.Bool, 9, true), // Tag: JFPS
+        new TdfMemberInfo("JoinedViaMatchmaking", "mJoinedViaMatchmaking", 0xAB6B6D00, TdfType.Bool, 10, true), // Tag: JVMM
+        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0xB2F8C000, TdfType.UInt32, 11, true), // Tag: LOC
+        new TdfMemberInfo("PlayerName", "mPlayerName", 0xBA1B6500, TdfType.String, 12, true), // Tag: NAME
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 13, true), // Tag: NASP
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 14, true), // Tag: PID
+        new TdfMemberInfo("NetworkAddress", "mNetworkAddress", 0xC2E97400, TdfType.Struct, 15, true), // Tag: PNET
+        new TdfMemberInfo("PlayerSettings", "mPlayerSettings", 0xC3397400, TdfType.Enum, 16, true), // Tag: PSET
+        new TdfMemberInfo("ReservationCreationTimestamp", "mReservationCreationTimestamp", 0xCA3CA500, TdfType.Int64, 17, true), // Tag: RCRE
+        new TdfMemberInfo("RoleName", "mRoleName", 0xCAFB2500, TdfType.String, 18, true), // Tag: ROLE
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE396E00, TdfType.String, 19, true), // Tag: SCEN
+        new TdfMemberInfo("SlotId", "mSlotId", 0xCE990000, TdfType.UInt8, 20, true), // Tag: SID
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCECBF400, TdfType.Enum, 21, true), // Tag: SLOT
+        new TdfMemberInfo("PlayerState", "mPlayerState", 0xCF487400, TdfType.Enum, 22, true), // Tag: STAT
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 23, true), // Tag: TIDX
+        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0xD29B6500, TdfType.Int64, 24, true), // Tag: TIME
+        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0xD67A6400, TdfType.ObjectId, 25, true), // Tag: UGID
+        new TdfMemberInfo("PlayerSessionId", "mPlayerSessionId", 0xD6990000, TdfType.UInt64, 26, true), // Tag: UID
+        new TdfMemberInfo("UUID", "mUUID", 0xD75A6400, TdfType.String, 27, true), // Tag: UUID
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyMatchmakingReservedExternalPlayers : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1CD24400, TdfType.UInt64, 0, true), // gmid
-        new TdfMemberInfo("JoinedReservedPlayerIdentifications", "mJoinedReservedPlayerIdentifications", 0x48524000, TdfType.List, 1, true), // rei
+        new TdfMemberInfo("GameId", "mGameId", 0x9EDA6400, TdfType.UInt64, 0, true), // Tag: GMID
+        new TdfMemberInfo("JoinedReservedPlayerIdentifications", "mJoinedReservedPlayerIdentifications", 0xCA5A4000, TdfType.List, 1, true), // Tag: REI
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetDecryptedBlazeIdsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EncryptedBlazeIds", "mEncryptedBlazeIds", 0x96993300, TdfType.List, 0, true), // EIDS
+        new TdfMemberInfo("EncryptedBlazeIds", "mEncryptedBlazeIds", 0x96993300, TdfType.List, 0, true), // Tag: EIDS
     ];
     private ITdfMember[] __members;
     private TdfList<string> _encryptedBlazeIds = new(__typeInfos[0]);

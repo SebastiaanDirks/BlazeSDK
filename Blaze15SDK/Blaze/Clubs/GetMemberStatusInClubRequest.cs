@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetMemberStatusInClubRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0C224400, TdfType.UInt64, 0, true), // cbid
-        new TdfMemberInfo("BlazeIds", "mBlazeIds", 0x55224400, TdfType.List, 1, true), // urid
+        new TdfMemberInfo("ClubId", "mClubId", 0x8E2A6400, TdfType.UInt64, 0, true), // Tag: CBID
+        new TdfMemberInfo("BlazeIds", "mBlazeIds", 0xD72A6400, TdfType.List, 1, true), // Tag: URID
     ];
     private ITdfMember[] __members;
 

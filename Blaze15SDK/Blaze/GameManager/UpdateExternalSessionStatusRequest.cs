@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateExternalSessionStatusRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("ExternalSessionStatus", "mExternalSessionStatus", 0x4D350100, TdfType.Struct, 1, true), // ssta
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("ExternalSessionStatus", "mExternalSessionStatus", 0xCF3D2100, TdfType.Struct, 1, true), // Tag: SSTA
     ];
     private ITdfMember[] __members;
 

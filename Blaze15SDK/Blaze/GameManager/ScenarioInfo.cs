@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ScenarioInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0x05451200, TdfType.Map, 0, true), // attr
-        new TdfMemberInfo("ScenarioName", "mScenarioName", 0x4C314E00, TdfType.String, 1, true), // scen
-        new TdfMemberInfo("ScenarioVersion", "mScenarioVersion", 0x4C315600, TdfType.UInt32, 2, true), // scev
-        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0x4C358100, TdfType.String, 3, true), // scva
-        new TdfMemberInfo("SubSessionName", "mSubSessionName", 0x4D508E00, TdfType.String, 4, true), // subn
+        new TdfMemberInfo("ScenarioAttributes", "mScenarioAttributes", 0x874D3200, TdfType.Map, 0, true), // Tag: ATTR
+        new TdfMemberInfo("ScenarioName", "mScenarioName", 0xCE396E00, TdfType.String, 1, true), // Tag: SCEN
+        new TdfMemberInfo("ScenarioVersion", "mScenarioVersion", 0xCE397600, TdfType.UInt32, 2, true), // Tag: SCEV
+        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0xCE3DA100, TdfType.String, 3, true), // Tag: SCVA
+        new TdfMemberInfo("SubSessionName", "mSubSessionName", 0xCF58AE00, TdfType.String, 4, true), // Tag: SUBN
     ];
     private ITdfMember[] __members;
 

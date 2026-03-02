@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetGameReports : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxGameReport", "mMaxGameReport", 0x34749200, TdfType.UInt32, 0, true), // mgrr
-        new TdfMemberInfo("QueryName", "mQueryName", 0x44E04D00, TdfType.String, 1, true), // qnam
-        new TdfMemberInfo("GameReportQuery", "mGameReportQuery", 0x45515200, TdfType.Struct, 2, true), // quer
-        new TdfMemberInfo("QueryVarValues", "mQueryVarValues", 0x45605200, TdfType.List, 3, true), // qvar
+        new TdfMemberInfo("MaxGameReport", "mMaxGameReport", 0xB67CB200, TdfType.UInt32, 0, true), // Tag: MGRR
+        new TdfMemberInfo("QueryName", "mQueryName", 0xC6E86D00, TdfType.String, 1, true), // Tag: QNAM
+        new TdfMemberInfo("GameReportQuery", "mGameReportQuery", 0xC7597200, TdfType.Struct, 2, true), // Tag: QUER
+        new TdfMemberInfo("QueryVarValues", "mQueryVarValues", 0xC7687200, TdfType.List, 3, true), // Tag: QVAR
     ];
     private ITdfMember[] __members;
 

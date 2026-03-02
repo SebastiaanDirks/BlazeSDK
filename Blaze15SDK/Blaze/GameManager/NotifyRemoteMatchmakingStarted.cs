@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyRemoteMatchmakingStarted : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RemoteUserInfo", "mRemoteUserInfo", 0x24E18F00, TdfType.Struct, 0, true), // info
-        new TdfMemberInfo("MMScenarioId", "mMMScenarioId", 0x3530C400, TdfType.UInt64, 1, true), // mscd
-        new TdfMemberInfo("MMSessionId", "mMMSessionId", 0x35324400, TdfType.UInt64, 2, true), // msid
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 3, true), // usid
+        new TdfMemberInfo("RemoteUserInfo", "mRemoteUserInfo", 0xA6E9AF00, TdfType.Struct, 0, true), // Tag: INFO
+        new TdfMemberInfo("MMScenarioId", "mMMScenarioId", 0xB738E400, TdfType.UInt64, 1, true), // Tag: MSCD
+        new TdfMemberInfo("MMSessionId", "mMMSessionId", 0xB73A6400, TdfType.UInt64, 2, true), // Tag: MSID
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 3, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

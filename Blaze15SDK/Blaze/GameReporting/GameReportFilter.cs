@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportFilter : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Index", "mIndex", 0x04911800, TdfType.UInt16, 0, true), // aidx
-        new TdfMemberInfo("AttributeName", "mAttributeName", 0x04E04D00, TdfType.String, 1, true), // anam
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 2, true), // etyp
-        new TdfMemberInfo("Expression", "mExpression", 0x15841200, TdfType.String, 3, true), // expr
-        new TdfMemberInfo("HasVariable", "mHasVariable", 0x21605200, TdfType.Bool, 4, true), // hvar
-        new TdfMemberInfo("Table", "mTable", 0x50108E00, TdfType.String, 5, true), // tabn
+        new TdfMemberInfo("Index", "mIndex", 0x86993800, TdfType.UInt16, 0, true), // Tag: AIDX
+        new TdfMemberInfo("AttributeName", "mAttributeName", 0x86E86D00, TdfType.String, 1, true), // Tag: ANAM
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 2, true), // Tag: ETYP
+        new TdfMemberInfo("Expression", "mExpression", 0x978C3200, TdfType.String, 3, true), // Tag: EXPR
+        new TdfMemberInfo("HasVariable", "mHasVariable", 0xA3687200, TdfType.Bool, 4, true), // Tag: HVAR
+        new TdfMemberInfo("Table", "mTable", 0xD218AE00, TdfType.String, 5, true), // Tag: TABN
     ];
     private ITdfMember[] __members;
 

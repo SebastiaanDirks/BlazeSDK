@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PreferredPlayersRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PreferredAccountList", "mPreferredAccountList", 0x04C4D400, TdfType.List, 0, true), // alst
-        new TdfMemberInfo("PreferredList", "mPreferredList", 0x40C4D400, TdfType.List, 1, true), // plst
-        new TdfMemberInfo("PreferredListId", "mPreferredListId", 0x41315400, TdfType.ObjectId, 2, true), // pset
-        new TdfMemberInfo("RequirePreferredPlayer", "mRequirePreferredPlayer", 0x48545000, TdfType.Bool, 3, true), // reqp
+        new TdfMemberInfo("PreferredAccountList", "mPreferredAccountList", 0x86CCF400, TdfType.List, 0, true), // Tag: ALST
+        new TdfMemberInfo("PreferredList", "mPreferredList", 0xC2CCF400, TdfType.List, 1, true), // Tag: PLST
+        new TdfMemberInfo("PreferredListId", "mPreferredListId", 0xC3397400, TdfType.ObjectId, 2, true), // Tag: PSET
+        new TdfMemberInfo("RequirePreferredPlayer", "mRequirePreferredPlayer", 0xCA5C7000, TdfType.Bool, 3, true), // Tag: REQP
     ];
     private ITdfMember[] __members;
 

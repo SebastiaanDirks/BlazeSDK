@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class UpdateNetworkInfoRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NetworkInfo", "mNetworkInfo", 0xA6E9AF00, TdfType.Struct, 0, true), // INFO
-        new TdfMemberInfo("Opts", "mOpts", 0xBF0D3300, TdfType.Enum, 1, true), // OPTS
+        new TdfMemberInfo("NetworkInfo", "mNetworkInfo", 0xA6E9AF00, TdfType.Struct, 0, true), // Tag: INFO
+        new TdfMemberInfo("Opts", "mOpts", 0xBF0D3300, TdfType.Enum, 1, true), // Tag: OPTS
     ];
     private ITdfMember[] __members;
 

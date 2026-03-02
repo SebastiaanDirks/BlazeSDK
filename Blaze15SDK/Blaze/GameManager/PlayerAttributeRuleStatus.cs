@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerAttributeRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 0, true), // name
-        new TdfMemberInfo("MatchedValues", "mMatchedValues", 0x58131500, TdfType.List, 1, true), // valu
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("MatchedValues", "mMatchedValues", 0xDA1B3500, TdfType.List, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

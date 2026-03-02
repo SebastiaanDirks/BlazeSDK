@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class KeyScopes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("KeyScopesMap", "mKeyScopesMap", 0x2D325400, TdfType.Map, 0, true), // ksit
+        new TdfMemberInfo("KeyScopesMap", "mKeyScopesMap", 0xAF3A7400, TdfType.Map, 0, true), // Tag: KSIT
     ];
     private ITdfMember[] __members;
 

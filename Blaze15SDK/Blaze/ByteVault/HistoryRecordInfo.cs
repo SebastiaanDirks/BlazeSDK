@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class HistoryRecordInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Archived", "mArchived", 0x0520C800, TdfType.Bool, 0, true), // arch
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D214100, TdfType.Int64, 1, true), // crea
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.Struct, 2, true), // ownr
-        new TdfMemberInfo("RecordName", "mRecordName", 0x4850C000, TdfType.String, 3, true), // rec
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 4, true), // updt
+        new TdfMemberInfo("Archived", "mArchived", 0x8728E800, TdfType.Bool, 0, true), // Tag: ARCH
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F296100, TdfType.Int64, 1, true), // Tag: CREA
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.Struct, 2, true), // Tag: OWNR
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA58C000, TdfType.String, 3, true), // Tag: REC
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 4, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

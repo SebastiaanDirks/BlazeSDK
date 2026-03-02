@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CreateGameTemplateRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0C710000, TdfType.Struct, 0, true), // cgd
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40A10000, TdfType.Struct, 1, true), // pjd
-        new TdfMemberInfo("TemplateAttributes", "mTemplateAttributes", 0x50D40100, TdfType.Map, 2, true), // tmpa
-        new TdfMemberInfo("TemplateName", "mTemplateName", 0x50D40E00, TdfType.String, 3, true), // tmpn
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8E790000, TdfType.Struct, 0, true), // Tag: CGD
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2A90000, TdfType.Struct, 1, true), // Tag: PJD
+        new TdfMemberInfo("TemplateAttributes", "mTemplateAttributes", 0xD2DC2100, TdfType.Map, 2, true), // Tag: TMPA
+        new TdfMemberInfo("TemplateName", "mTemplateName", 0xD2DC2E00, TdfType.String, 3, true), // Tag: TMPN
     ];
     private ITdfMember[] __members;
 

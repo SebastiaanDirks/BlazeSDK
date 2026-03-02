@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PredefinedRuleConfig : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RuleName", "mRuleName", 0x48E34500, TdfType.String, 0, true), // rnme
-        new TdfMemberInfo("ThresholdNames", "mThresholdNames", 0x50831300, TdfType.List, 1, true), // thls
-        new TdfMemberInfo("Weight", "mWeight", 0x5C721400, TdfType.UInt32, 2, true), // wght
+        new TdfMemberInfo("RuleName", "mRuleName", 0xCAEB6500, TdfType.String, 0, true), // Tag: RNME
+        new TdfMemberInfo("ThresholdNames", "mThresholdNames", 0xD28B3300, TdfType.List, 1, true), // Tag: THLS
+        new TdfMemberInfo("Weight", "mWeight", 0xDE7A3400, TdfType.UInt32, 2, true), // Tag: WGHT
     ];
     private ITdfMember[] __members;
 

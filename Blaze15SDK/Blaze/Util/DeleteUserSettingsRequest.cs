@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class DeleteUserSettingsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Key", "mKey", 0x2C564000, TdfType.String, 0, true), // key
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x54910000, TdfType.Int64, 1, true), // uid
+        new TdfMemberInfo("Key", "mKey", 0xAE5E4000, TdfType.String, 0, true), // Tag: KEY
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class NotifyUserAdded : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x921D2100, TdfType.Struct, 0, true), // DATA
-        new TdfMemberInfo("UserInfo", "mUserInfo", 0xD7397200, TdfType.Struct, 1, true), // USER
+        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x921D2100, TdfType.Struct, 0, true), // Tag: DATA
+        new TdfMemberInfo("UserInfo", "mUserInfo", 0xD7397200, TdfType.Struct, 1, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

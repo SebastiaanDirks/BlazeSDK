@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class GetTelemetryServerRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UseKey2", "mUseKey2", 0x2C565200, TdfType.Bool, 0, true), // key2
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4CE04D00, TdfType.String, 1, true), // snam
+        new TdfMemberInfo("UseKey2", "mUseKey2", 0xAE5E5200, TdfType.Bool, 0, true), // Tag: KEY2
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCEE86D00, TdfType.String, 1, true), // Tag: SNAM
     ];
     private ITdfMember[] __members;
 

@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze;
 public class ExternalSessionErrorInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RateLimitInfo", "mRateLimitInfo", 0x48150500, TdfType.Struct, 0, true), // rate
-        new TdfMemberInfo("Code", "mCode", 0x0CF10500, TdfType.Int32, 1, true), // code
-        new TdfMemberInfo("Message", "mMessage", 0x3454C700, TdfType.String, 2, true), // mesg
+        new TdfMemberInfo("Code", "mCode", 0x8EF92500, TdfType.Int32, 0, true), // Tag: CODE
+        new TdfMemberInfo("Message", "mMessage", 0xB65CE700, TdfType.String, 1, true), // Tag: MESG
+        new TdfMemberInfo("RateLimitInfo", "mRateLimitInfo", 0xCA1D2500, TdfType.Struct, 2, true), // Tag: RATE
     ];
     private ITdfMember[] __members;
 
-    private TdfStruct<Blaze15SDK.Blaze.RateLimitInfo?> _rateLimitInfo = new(__typeInfos[0]);
-    private TdfInt32 _code = new(__typeInfos[1]);
-    private TdfString _message = new(__typeInfos[2]);
+    private TdfStruct<Blaze15SDK.Blaze.RateLimitInfo?> _rateLimitInfo = new(__typeInfos[2]);
+    private TdfInt32 _code = new(__typeInfos[0]);
+    private TdfString _message = new(__typeInfos[1]);
 
     public ExternalSessionErrorInfo()
     {
         __members = [
-            _rateLimitInfo,
             _code,
             _message,
+            _rateLimitInfo,
         ];
     }
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserOptions : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TelemetryOpt", "mTelemetryOpt", 0x50D3D000, TdfType.Enum, 0, true), // tmop
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x54910000, TdfType.Int64, 1, true), // uid
+        new TdfMemberInfo("TelemetryOpt", "mTelemetryOpt", 0xD2DBF000, TdfType.Enum, 0, true), // Tag: TMOP
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

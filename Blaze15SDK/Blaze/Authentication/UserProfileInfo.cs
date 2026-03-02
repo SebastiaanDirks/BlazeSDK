@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class UserProfileInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("City", "mCity", 0x8E9D3900, TdfType.String, 0, true), // CITY
-        new TdfMemberInfo("Country", "mCountry", 0x8F4CB900, TdfType.String, 1, true), // CTRY
-        new TdfMemberInfo("ProfileInfoElementsByCategory", "mProfileInfoElementsByCategory", 0x96C96D00, TdfType.Map, 2, true), // ELEM
-        new TdfMemberInfo("Gender", "mGender", 0x9EE93200, TdfType.Enum, 3, true), // GNDR
-        new TdfMemberInfo("State", "mState", 0xCF487400, TdfType.String, 4, true), // STAT
-        new TdfMemberInfo("Street", "mStreet", 0xCF4CB400, TdfType.String, 5, true), // STRT
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 6, true), // UID
-        new TdfMemberInfo("ZipCode", "mZipCode", 0xEA9C0000, TdfType.String, 7, true), // ZIP
+        new TdfMemberInfo("City", "mCity", 0x8E9D3900, TdfType.String, 0, true), // Tag: CITY
+        new TdfMemberInfo("Country", "mCountry", 0x8F4CB900, TdfType.String, 1, true), // Tag: CTRY
+        new TdfMemberInfo("ProfileInfoElementsByCategory", "mProfileInfoElementsByCategory", 0x96C96D00, TdfType.Map, 2, true), // Tag: ELEM
+        new TdfMemberInfo("Gender", "mGender", 0x9EE93200, TdfType.Enum, 3, true), // Tag: GNDR
+        new TdfMemberInfo("State", "mState", 0xCF487400, TdfType.String, 4, true), // Tag: STAT
+        new TdfMemberInfo("Street", "mStreet", 0xCF4CB400, TdfType.String, 5, true), // Tag: STRT
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 6, true), // Tag: UID
+        new TdfMemberInfo("ZipCode", "mZipCode", 0xEA9C0000, TdfType.String, 7, true), // Tag: ZIP
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class VirtualGameRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0x50830400, TdfType.String, 0, true), // thld
-        new TdfMemberInfo("DesiredVirtualGameValue", "mDesiredVirtualGameValue", 0x58131500, TdfType.Enum, 1, true), // valu
+        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0xD28B2400, TdfType.String, 0, true), // Tag: THLD
+        new TdfMemberInfo("DesiredVirtualGameValue", "mDesiredVirtualGameValue", 0xDA1B3500, TdfType.Enum, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PlayerSlotUtilizationRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DesiredPercentFull", "mDesiredPercentFull", 0x1054D000, TdfType.UInt8, 0, true), // desp
-        new TdfMemberInfo("MaxPercentFull", "mMaxPercentFull", 0x34161000, TdfType.UInt8, 1, true), // maxp
-        new TdfMemberInfo("MinPercentFull", "mMinPercentFull", 0x34939000, TdfType.UInt8, 2, true), // minp
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 3, true), // thld
+        new TdfMemberInfo("DesiredPercentFull", "mDesiredPercentFull", 0x925CF000, TdfType.UInt8, 0, true), // Tag: DESP
+        new TdfMemberInfo("MaxPercentFull", "mMaxPercentFull", 0xB61E3000, TdfType.UInt8, 1, true), // Tag: MAXP
+        new TdfMemberInfo("MinPercentFull", "mMinPercentFull", 0xB69BB000, TdfType.UInt8, 2, true), // Tag: MINP
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 3, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

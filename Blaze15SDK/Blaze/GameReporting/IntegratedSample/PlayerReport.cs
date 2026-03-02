@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameReporting.IntegratedSample;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.UInt16, 0, true), // hits
-        new TdfMemberInfo("Loser", "loser", 0x30F4C500, TdfType.UInt16, 1, true), // lose
-        new TdfMemberInfo("Misses", "misses", 0x3494D300, TdfType.UInt16, 2, true), // miss
-        new TdfMemberInfo("Score", "score", 0x4C348000, TdfType.UInt16, 3, true), // scr
-        new TdfMemberInfo("Torchings", "torchings", 0x5120C800, TdfType.UInt16, 4, true), // trch
-        new TdfMemberInfo("Winner", "winner", 0x5C938000, TdfType.UInt16, 5, true), // win
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.UInt16, 0, true), // Tag: HITS
+        new TdfMemberInfo("Loser", "loser", 0xB2FCE500, TdfType.UInt16, 1, true), // Tag: LOSE
+        new TdfMemberInfo("Misses", "misses", 0xB69CF300, TdfType.UInt16, 2, true), // Tag: MISS
+        new TdfMemberInfo("Score", "score", 0xCE3C8000, TdfType.UInt16, 3, true), // Tag: SCR
+        new TdfMemberInfo("Torchings", "torchings", 0xD328E800, TdfType.UInt16, 4, true), // Tag: TRCH
+        new TdfMemberInfo("Winner", "winner", 0xDE9B8000, TdfType.UInt16, 5, true), // Tag: WIN
     ];
     private ITdfMember[] __members;
 

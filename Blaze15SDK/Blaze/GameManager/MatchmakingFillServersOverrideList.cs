@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingFillServersOverrideList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameIdList", "mGameIdList", 0x1C910000, TdfType.List, 0, true), // gid
+        new TdfMemberInfo("GameIdList", "mGameIdList", 0x9E990000, TdfType.List, 0, true), // Tag: GID
     ];
     private ITdfMember[] __members;
 

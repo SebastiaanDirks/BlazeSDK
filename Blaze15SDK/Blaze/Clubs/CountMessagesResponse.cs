@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class CountMessagesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x0D539400, TdfType.UInt32, 0, true), // cunt
+        new TdfMemberInfo("Count", "mCount", 0x8F5BB400, TdfType.UInt32, 0, true), // Tag: CUNT
     ];
     private ITdfMember[] __members;
 

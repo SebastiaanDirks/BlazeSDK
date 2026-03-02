@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetEmailOptInSettingsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EaMayContact", "mEaMayContact", 0x961B6300, TdfType.UInt32, 0, true), // EAMC
-        new TdfMemberInfo("PartnersMayContact", "mPartnersMayContact", 0xC2D8C000, TdfType.UInt32, 1, true), // PMC
+        new TdfMemberInfo("EaMayContact", "mEaMayContact", 0x961B6300, TdfType.UInt32, 0, true), // Tag: EAMC
+        new TdfMemberInfo("PartnersMayContact", "mPartnersMayContact", 0xC2D8C000, TdfType.UInt32, 1, true), // Tag: PMC
     ];
     private ITdfMember[] __members;
 

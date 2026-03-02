@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class MemberOnlineStatusClass : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MemberOnlineStatus", "mMemberOnlineStatus", 0x34F4D400, TdfType.Enum, 0, true), // most
-        new TdfMemberInfo("MembershipStatus", "mMembershipStatus", 0x3534D400, TdfType.Enum, 1, true), // msst
+        new TdfMemberInfo("MemberOnlineStatus", "mMemberOnlineStatus", 0xB6FCF400, TdfType.Enum, 0, true), // Tag: MOST
+        new TdfMemberInfo("MembershipStatus", "mMembershipStatus", 0xB73CF400, TdfType.Enum, 1, true), // Tag: MSST
     ];
     private ITdfMember[] __members;
 

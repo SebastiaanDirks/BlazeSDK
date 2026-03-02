@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class PingResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ServerTime", "mServerTime", 0x4D424D00, TdfType.UInt32, 0, true), // stim
+        new TdfMemberInfo("ServerTime", "mServerTime", 0xCF4A6D00, TdfType.UInt32, 0, true), // Tag: STIM
     ];
     private ITdfMember[] __members;
 

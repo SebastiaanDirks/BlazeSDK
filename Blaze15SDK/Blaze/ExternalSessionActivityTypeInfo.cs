@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class ExternalSessionActivityTypeInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.Enum, 0, true), // plat
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Enum, 1, true), // type
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.Enum, 0, true), // Tag: PLAT
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Enum, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

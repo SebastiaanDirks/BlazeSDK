@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Util;
 public class NetworkQosData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BandwidthErrorCode", "mBandwidthErrorCode", 0x8B7A3200, TdfType.UInt32, 0, true), // BWHR
-        new TdfMemberInfo("DownstreamBitsPerSecond", "mDownstreamBitsPerSecond", 0x922C3300, TdfType.UInt32, 1, true), // DBPS
-        new TdfMemberInfo("NatErrorCode", "mNatErrorCode", 0xBA1A3200, TdfType.UInt32, 2, true), // NAHR
-        new TdfMemberInfo("NatType", "mNatType", 0xBA1D3400, TdfType.Enum, 3, true), // NATT
-        new TdfMemberInfo("UpstreamBitsPerSecond", "mUpstreamBitsPerSecond", 0xD62C3300, TdfType.UInt32, 4, true), // UBPS
+        new TdfMemberInfo("BandwidthErrorCode", "mBandwidthErrorCode", 0x8B7A3200, TdfType.UInt32, 0, true), // Tag: BWHR
+        new TdfMemberInfo("DownstreamBitsPerSecond", "mDownstreamBitsPerSecond", 0x922C3300, TdfType.UInt32, 1, true), // Tag: DBPS
+        new TdfMemberInfo("NatErrorCode", "mNatErrorCode", 0xBA1A3200, TdfType.UInt32, 2, true), // Tag: NAHR
+        new TdfMemberInfo("NatType", "mNatType", 0xBA1D3400, TdfType.Enum, 3, true), // Tag: NATT
+        new TdfMemberInfo("UpstreamBitsPerSecond", "mUpstreamBitsPerSecond", 0xD62C3300, TdfType.UInt32, 4, true), // Tag: UBPS
     ];
     private ITdfMember[] __members;
 

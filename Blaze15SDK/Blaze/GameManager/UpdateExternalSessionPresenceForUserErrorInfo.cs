@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateExternalSessionPresenceForUserErrorInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ErrorInfo", "mErrorInfo", 0x15248900, TdfType.Struct, 0, true), // erri
-        new TdfMemberInfo("CurrentPrimaryGameId", "mCurrentPrimaryGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("CurrentPrimary", "mCurrentPrimary", 0x41315300, TdfType.Struct, 2, true), // pses
-        new TdfMemberInfo("Updated", "mUpdated", 0x55315300, TdfType.Struct, 3, true), // uses
+        new TdfMemberInfo("ErrorInfo", "mErrorInfo", 0x972CA900, TdfType.Struct, 0, true), // Tag: ERRI
+        new TdfMemberInfo("CurrentPrimaryGameId", "mCurrentPrimaryGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("CurrentPrimary", "mCurrentPrimary", 0xC3397300, TdfType.Struct, 2, true), // Tag: PSES
+        new TdfMemberInfo("Updated", "mUpdated", 0xD7397300, TdfType.Struct, 3, true), // Tag: USES
     ];
     private ITdfMember[] __members;
 

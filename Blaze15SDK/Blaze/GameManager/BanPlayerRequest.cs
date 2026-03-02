@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class BanPlayerRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x0CE51800, TdfType.UInt16, 0, true), // cntx
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("PlayerIds", "mPlayerIds", 0x40C4D400, TdfType.List, 2, true), // plst
+        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x8EED3800, TdfType.UInt16, 0, true), // Tag: CNTX
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("PlayerIds", "mPlayerIds", 0xC2CCF400, TdfType.List, 2, true), // Tag: PLST
     ];
     private ITdfMember[] __members;
 

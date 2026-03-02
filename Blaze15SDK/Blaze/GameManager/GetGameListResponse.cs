@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameListResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListId", "mListId", 0x1CC24400, TdfType.UInt64, 0, true), // glid
-        new TdfMemberInfo("IsSnapshotList", "mIsSnapshotList", 0x1CD31400, TdfType.Bool, 1, true), // gmlt
-        new TdfMemberInfo("ListCapacity", "mListCapacity", 0x30305000, TdfType.UInt32, 2, true), // lcap
-        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0x34160600, TdfType.UInt32, 3, true), // maxf
-        new TdfMemberInfo("NumberOfGamesToBeDownloaded", "mNumberOfGamesToBeDownloaded", 0x38710000, TdfType.UInt32, 4, true), // ngd
-        new TdfMemberInfo("MaxUpdateInterval", "mMaxUpdateInterval", 0x55024E00, TdfType.Int64, 5, true), // upin
+        new TdfMemberInfo("ListId", "mListId", 0x9ECA6400, TdfType.UInt64, 0, true), // Tag: GLID
+        new TdfMemberInfo("IsSnapshotList", "mIsSnapshotList", 0x9EDB3400, TdfType.Bool, 1, true), // Tag: GMLT
+        new TdfMemberInfo("ListCapacity", "mListCapacity", 0xB2387000, TdfType.UInt32, 2, true), // Tag: LCAP
+        new TdfMemberInfo("MaxPossibleFitScore", "mMaxPossibleFitScore", 0xB61E2600, TdfType.UInt32, 3, true), // Tag: MAXF
+        new TdfMemberInfo("NumberOfGamesToBeDownloaded", "mNumberOfGamesToBeDownloaded", 0xBA790000, TdfType.UInt32, 4, true), // Tag: NGD
+        new TdfMemberInfo("MaxUpdateInterval", "mMaxUpdateInterval", 0xD70A6E00, TdfType.Int64, 5, true), // Tag: UPIN
     ];
     private ITdfMember[] __members;
 

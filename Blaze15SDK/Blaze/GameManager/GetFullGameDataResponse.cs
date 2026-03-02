@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetFullGameDataResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Games", "mGames", 0x30704D00, TdfType.List, 0, true), // lgam
+        new TdfMemberInfo("Games", "mGames", 0xB2786D00, TdfType.List, 0, true), // Tag: LGAM
     ];
     private ITdfMember[] __members;
 

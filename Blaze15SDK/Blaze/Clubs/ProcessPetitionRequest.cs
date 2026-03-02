@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ProcessPetitionRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PetitionId", "mPetitionId", 0x24E24400, TdfType.UInt32, 0, true), // inid
+        new TdfMemberInfo("PetitionId", "mPetitionId", 0xA6EA6400, TdfType.UInt32, 0, true), // Tag: INID
     ];
     private ITdfMember[] __members;
 

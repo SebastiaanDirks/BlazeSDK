@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class AvoidPlayersRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AvoidAccountList", "mAvoidAccountList", 0x0430CC00, TdfType.List, 0, true), // accl
-        new TdfMemberInfo("AvoidList", "mAvoidList", 0x04C4D400, TdfType.List, 1, true), // alst
-        new TdfMemberInfo("AvoidListIds", "mAvoidListIds", 0x05351300, TdfType.List, 2, true), // asts
+        new TdfMemberInfo("AvoidAccountList", "mAvoidAccountList", 0x8638EC00, TdfType.List, 0, true), // Tag: ACCL
+        new TdfMemberInfo("AvoidList", "mAvoidList", 0x86CCF400, TdfType.List, 1, true), // Tag: ALST
+        new TdfMemberInfo("AvoidListIds", "mAvoidListIds", 0x873D3300, TdfType.List, 2, true), // Tag: ASTS
     ];
     private ITdfMember[] __members;
 

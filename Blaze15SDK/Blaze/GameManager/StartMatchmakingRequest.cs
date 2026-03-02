@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class StartMatchmakingRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 0, true), // cmgd
-        new TdfMemberInfo("CriteriaData", "mCriteriaData", 0x0D210000, TdfType.Struct, 1, true), // crd
-        new TdfMemberInfo("GameCreationData", "mGameCreationData", 0x1CD0C400, TdfType.Struct, 2, true), // gmcd
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 3, true), // pljd
-        new TdfMemberInfo("SessionData", "mSessionData", 0x4D311400, TdfType.Struct, 4, true), // ssdt
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 0, true), // Tag: CMGD
+        new TdfMemberInfo("CriteriaData", "mCriteriaData", 0x8F290000, TdfType.Struct, 1, true), // Tag: CRD
+        new TdfMemberInfo("GameCreationData", "mGameCreationData", 0x9ED8E400, TdfType.Struct, 2, true), // Tag: GMCD
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 3, true), // Tag: PLJD
+        new TdfMemberInfo("SessionData", "mSessionData", 0xCF393400, TdfType.Struct, 4, true), // Tag: SSDT
     ];
     private ITdfMember[] __members;
 

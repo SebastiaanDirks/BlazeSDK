@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class HeadHistoryRecordResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Archived", "mArchived", 0x0520C800, TdfType.Bool, 0, true), // arch
-        new TdfMemberInfo("Creation", "mCreation", 0x0D214100, TdfType.Int64, 1, true), // crea
-        new TdfMemberInfo("Location", "mLocation", 0x30F0C000, TdfType.String, 2, true), // loc
-        new TdfMemberInfo("ContentType", "mContentType", 0x34934500, TdfType.String, 3, true), // mime
-        new TdfMemberInfo("IsRemoteResource", "mIsRemoteResource", 0x48D3D400, TdfType.Bool, 4, true), // rmot
-        new TdfMemberInfo("PayloadSize", "mPayloadSize", 0x4C968500, TdfType.UInt32, 5, true), // size
-        new TdfMemberInfo("LastUpdate", "mLastUpdate", 0x55011400, TdfType.Int64, 6, true), // updt
+        new TdfMemberInfo("Archived", "mArchived", 0x8728E800, TdfType.Bool, 0, true), // Tag: ARCH
+        new TdfMemberInfo("Creation", "mCreation", 0x8F296100, TdfType.Int64, 1, true), // Tag: CREA
+        new TdfMemberInfo("Location", "mLocation", 0xB2F8C000, TdfType.String, 2, true), // Tag: LOC
+        new TdfMemberInfo("ContentType", "mContentType", 0xB69B6500, TdfType.String, 3, true), // Tag: MIME
+        new TdfMemberInfo("IsRemoteResource", "mIsRemoteResource", 0xCADBF400, TdfType.Bool, 4, true), // Tag: RMOT
+        new TdfMemberInfo("PayloadSize", "mPayloadSize", 0xCE9EA500, TdfType.UInt32, 5, true), // Tag: SIZE
+        new TdfMemberInfo("LastUpdate", "mLastUpdate", 0xD7093400, TdfType.Int64, 6, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

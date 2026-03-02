@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameReportingIdChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "gameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x1D224400, TdfType.UInt64, 1, true), // grid
+        new TdfMemberInfo("GameId", "gameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x9F2A6400, TdfType.UInt64, 1, true), // Tag: GRID
     ];
     private ITdfMember[] __members;
 

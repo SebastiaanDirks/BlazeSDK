@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Stats;
 public class EntityStats : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityId", "mEntityId", 0x14910000, TdfType.UInt64, 0, true), // eid
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 1, true), // etyp
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 2, true), // poff
-        new TdfMemberInfo("StatValues", "mStatValues", 0x4D405400, TdfType.List, 3, true), // stat
+        new TdfMemberInfo("EntityId", "mEntityId", 0x96990000, TdfType.UInt64, 0, true), // Tag: EID
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 1, true), // Tag: ETYP
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 2, true), // Tag: POFF
+        new TdfMemberInfo("StatValues", "mStatValues", 0xCF487400, TdfType.List, 3, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

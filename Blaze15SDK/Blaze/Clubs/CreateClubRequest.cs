@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class CreateClubRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TagList", "mTagList", 0x0CC50700, TdfType.List, 0, true), // cltg
-        new TdfMemberInfo("Name", "mName", 0x0CE04D00, TdfType.String, 1, true), // cnam
-        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x0D315400, TdfType.Struct, 2, true), // cset
-        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x10D24400, TdfType.UInt32, 3, true), // dmid
+        new TdfMemberInfo("TagList", "mTagList", 0x8ECD2700, TdfType.List, 0, true), // Tag: CLTG
+        new TdfMemberInfo("Name", "mName", 0x8EE86D00, TdfType.String, 1, true), // Tag: CNAM
+        new TdfMemberInfo("ClubSettings", "mClubSettings", 0x8F397400, TdfType.Struct, 2, true), // Tag: CSET
+        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x92DA6400, TdfType.UInt32, 3, true), // Tag: DMID
     ];
     private ITdfMember[] __members;
 

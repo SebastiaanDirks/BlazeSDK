@@ -15,7 +15,7 @@ public enum Reason : int {
 public class ReplicatedInetFilterReplicationReason : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Reason", "mReason", 0x49338000, TdfType.Enum, 0, true), // rsn
+        new TdfMemberInfo("Reason", "mReason", 0xCB3B8000, TdfType.Enum, 0, true), // Tag: RSN
     ];
     private ITdfMember[] __members;
 

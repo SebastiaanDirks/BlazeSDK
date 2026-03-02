@@ -7,32 +7,32 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ArtPackageType", "mArtPackageType", 0x05241400, TdfType.Enum, 0, true), // arpt
-        new TdfMemberInfo("BannerId", "mBannerId", 0x08E24400, TdfType.UInt32, 1, true), // bnid
-        new TdfMemberInfo("ClubArtSettingsFlags", "mClubArtSettingsFlags", 0x0C14C600, TdfType.Enum, 2, true), // casf
-        new TdfMemberInfo("AcceptanceFlags", "mAcceptanceFlags", 0x0CC04600, TdfType.Enum, 3, true), // claf
-        new TdfMemberInfo("CustClubSettings", "mCustClubSettings", 0x0CC0D300, TdfType.Struct, 4, true), // clcs
-        new TdfMemberInfo("MetaData2", "mMetaData2", 0x0CC11200, TdfType.String, 5, true), // cld2
-        new TdfMemberInfo("Description", "mDescription", 0x0CC11300, TdfType.String, 6, true), // clds
-        new TdfMemberInfo("MetaDataUnion", "mMetaDataUnion", 0x0CC11500, TdfType.Struct, 7, true), // cldu
-        new TdfMemberInfo("MetaData", "mMetaData", 0x0CC34400, TdfType.String, 8, true), // clmd
-        new TdfMemberInfo("Region", "mRegion", 0x0CC48700, TdfType.UInt32, 9, true), // clrg
-        new TdfMemberInfo("HasPassword", "mHasPassword", 0x21341700, TdfType.Bool, 10, true), // hspw
-        new TdfMemberInfo("IsNameProfane", "mIsNameProfane", 0x25339000, TdfType.Bool, 11, true), // isnp
-        new TdfMemberInfo("JoinAcceptance", "mJoinAcceptance", 0x28F38100, TdfType.Enum, 12, true), // jona
-        new TdfMemberInfo("Language", "mLanguage", 0x30138700, TdfType.String, 13, true), // lang
-        new TdfMemberInfo("LogoId", "mLogoId", 0x30F24400, TdfType.UInt32, 14, true), // loid
-        new TdfMemberInfo("LastUpdatedBy", "mLastUpdatedBy", 0x31509900, TdfType.Int64, 15, true), // luby
-        new TdfMemberInfo("LastSeasonLevelUpdate", "mLastSeasonLevelUpdate", 0x31540400, TdfType.Int32, 16, true), // lupd
-        new TdfMemberInfo("MetaData2Union", "mMetaData2Union", 0x34455200, TdfType.Struct, 17, true), // mdu2
-        new TdfMemberInfo("ClubName", "mClubName", 0x38134500, TdfType.String, 18, true), // name
-        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0x39544E00, TdfType.String, 19, true), // nuqn
-        new TdfMemberInfo("PreviousSeasonLevel", "mPreviousSeasonLevel", 0x40C58C00, TdfType.UInt32, 20, true), // plvl
-        new TdfMemberInfo("Password", "mPassword", 0x4135C400, TdfType.String, 21, true), // pswd
-        new TdfMemberInfo("PetitionAcceptance", "mPetitionAcceptance", 0x41438100, TdfType.Enum, 22, true), // ptna
-        new TdfMemberInfo("SeasonLevel", "mSeasonLevel", 0x4CC58C00, TdfType.UInt32, 23, true), // slvl
-        new TdfMemberInfo("SkipPasswordCheckAcceptance", "mSkipPasswordCheckAcceptance", 0x4D00C100, TdfType.Enum, 24, true), // spca
-        new TdfMemberInfo("TeamId", "mTeamId", 0x50D24400, TdfType.UInt32, 25, true), // tmid
+        new TdfMemberInfo("ArtPackageType", "mArtPackageType", 0x872C3400, TdfType.Enum, 0, true), // Tag: ARPT
+        new TdfMemberInfo("BannerId", "mBannerId", 0x8AEA6400, TdfType.UInt32, 1, true), // Tag: BNID
+        new TdfMemberInfo("ClubArtSettingsFlags", "mClubArtSettingsFlags", 0x8E1CE600, TdfType.Enum, 2, true), // Tag: CASF
+        new TdfMemberInfo("AcceptanceFlags", "mAcceptanceFlags", 0x8EC86600, TdfType.Enum, 3, true), // Tag: CLAF
+        new TdfMemberInfo("CustClubSettings", "mCustClubSettings", 0x8EC8F300, TdfType.Struct, 4, true), // Tag: CLCS
+        new TdfMemberInfo("MetaData2", "mMetaData2", 0x8EC91200, TdfType.String, 5, true), // Tag: CLD2
+        new TdfMemberInfo("Description", "mDescription", 0x8EC93300, TdfType.String, 6, true), // Tag: CLDS
+        new TdfMemberInfo("MetaDataUnion", "mMetaDataUnion", 0x8EC93500, TdfType.Struct, 7, true), // Tag: CLDU
+        new TdfMemberInfo("MetaData", "mMetaData", 0x8ECB6400, TdfType.String, 8, true), // Tag: CLMD
+        new TdfMemberInfo("Region", "mRegion", 0x8ECCA700, TdfType.UInt32, 9, true), // Tag: CLRG
+        new TdfMemberInfo("HasPassword", "mHasPassword", 0xA33C3700, TdfType.Bool, 10, true), // Tag: HSPW
+        new TdfMemberInfo("IsNameProfane", "mIsNameProfane", 0xA73BB000, TdfType.Bool, 11, true), // Tag: ISNP
+        new TdfMemberInfo("JoinAcceptance", "mJoinAcceptance", 0xAAFBA100, TdfType.Enum, 12, true), // Tag: JONA
+        new TdfMemberInfo("Language", "mLanguage", 0xB21BA700, TdfType.String, 13, true), // Tag: LANG
+        new TdfMemberInfo("LogoId", "mLogoId", 0xB2FA6400, TdfType.UInt32, 14, true), // Tag: LOID
+        new TdfMemberInfo("LastUpdatedBy", "mLastUpdatedBy", 0xB358B900, TdfType.Int64, 15, true), // Tag: LUBY
+        new TdfMemberInfo("LastSeasonLevelUpdate", "mLastSeasonLevelUpdate", 0xB35C2400, TdfType.Int32, 16, true), // Tag: LUPD
+        new TdfMemberInfo("MetaData2Union", "mMetaData2Union", 0xB64D5200, TdfType.Struct, 17, true), // Tag: MDU2
+        new TdfMemberInfo("ClubName", "mClubName", 0xBA1B6500, TdfType.String, 18, true), // Tag: NAME
+        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0xBB5C6E00, TdfType.String, 19, true), // Tag: NUQN
+        new TdfMemberInfo("PreviousSeasonLevel", "mPreviousSeasonLevel", 0xC2CDAC00, TdfType.UInt32, 20, true), // Tag: PLVL
+        new TdfMemberInfo("Password", "mPassword", 0xC33DE400, TdfType.String, 21, true), // Tag: PSWD
+        new TdfMemberInfo("PetitionAcceptance", "mPetitionAcceptance", 0xC34BA100, TdfType.Enum, 22, true), // Tag: PTNA
+        new TdfMemberInfo("SeasonLevel", "mSeasonLevel", 0xCECDAC00, TdfType.UInt32, 23, true), // Tag: SLVL
+        new TdfMemberInfo("SkipPasswordCheckAcceptance", "mSkipPasswordCheckAcceptance", 0xCF08E100, TdfType.Enum, 24, true), // Tag: SPCA
+        new TdfMemberInfo("TeamId", "mTeamId", 0xD2DA6400, TdfType.UInt32, 25, true), // Tag: TMID
     ];
     private ITdfMember[] __members;
 

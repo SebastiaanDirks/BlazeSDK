@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class JoinGameRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x0CD1C400, TdfType.Struct, 0, true), // cmgd
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("JoinMethod", "mJoinMethod", 0x28D15400, TdfType.Enum, 2, true), // jmet
-        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0x40C28400, TdfType.Struct, 3, true), // pljd
-        new TdfMemberInfo("RequestedSlotId", "mRequestedSlotId", 0x4CC24400, TdfType.UInt8, 4, true), // slid
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 5, true), // user
+        new TdfMemberInfo("CommonGameData", "mCommonGameData", 0x8ED9E400, TdfType.Struct, 0, true), // Tag: CMGD
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("JoinMethod", "mJoinMethod", 0xAAD97400, TdfType.Enum, 2, true), // Tag: JMET
+        new TdfMemberInfo("PlayerJoinData", "mPlayerJoinData", 0xC2CAA400, TdfType.Struct, 3, true), // Tag: PLJD
+        new TdfMemberInfo("RequestedSlotId", "mRequestedSlotId", 0xCECA6400, TdfType.UInt8, 4, true), // Tag: SLID
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 5, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

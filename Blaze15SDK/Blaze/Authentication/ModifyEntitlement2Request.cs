@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class ModifyEntitlement2Request : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // BUID
-        new TdfMemberInfo("UseCount", "mUseCount", 0x8EFD6E00, TdfType.String, 1, true), // COUN
-        new TdfMemberInfo("EntitlementId", "mEntitlementId", 0x96990000, TdfType.Int64, 2, true), // EID
-        new TdfMemberInfo("Termination", "mTermination", 0x978C2900, TdfType.String, 3, true), // EXPI
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 4, true), // STAT
-        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 5, true), // STRC
-        new TdfMemberInfo("Version", "mVersion", 0xDA5C8000, TdfType.UInt32, 6, true), // VER
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // Tag: BUID
+        new TdfMemberInfo("UseCount", "mUseCount", 0x8EFD6E00, TdfType.String, 1, true), // Tag: COUN
+        new TdfMemberInfo("EntitlementId", "mEntitlementId", 0x96990000, TdfType.Int64, 2, true), // Tag: EID
+        new TdfMemberInfo("Termination", "mTermination", 0x978C2900, TdfType.String, 3, true), // Tag: EXPI
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 4, true), // Tag: STAT
+        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 5, true), // Tag: STRC
+        new TdfMemberInfo("Version", "mVersion", 0xDA5C8000, TdfType.UInt32, 6, true), // Tag: VER
     ];
     private ITdfMember[] __members;
 

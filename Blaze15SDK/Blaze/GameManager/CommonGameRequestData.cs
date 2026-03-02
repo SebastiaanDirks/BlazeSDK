@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CommonGameRequestData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DelineationGroup", "mDelineationGroup", 0x10530700, TdfType.String, 0, true), // delg
-        new TdfMemberInfo("GameType", "mGameType", 0x1C751900, TdfType.Enum, 1, true), // ggty
-        new TdfMemberInfo("GameProtocolVersionString", "mGameProtocolVersionString", 0x1D615200, TdfType.String, 2, true), // gver
-        new TdfMemberInfo("PlayerNetworkAddress", "mPlayerNetworkAddress", 0x40E15400, TdfType.Struct, 3, true), // pnet
+        new TdfMemberInfo("DelineationGroup", "mDelineationGroup", 0x925B2700, TdfType.String, 0, true), // Tag: DELG
+        new TdfMemberInfo("GameType", "mGameType", 0x9E7D3900, TdfType.Enum, 1, true), // Tag: GGTY
+        new TdfMemberInfo("GameProtocolVersionString", "mGameProtocolVersionString", 0x9F697200, TdfType.String, 2, true), // Tag: GVER
+        new TdfMemberInfo("PlayerNetworkAddress", "mPlayerNetworkAddress", 0xC2E97400, TdfType.Struct, 3, true), // Tag: PNET
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetInvitationsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubInvList", "mClubInvList", 0x0C94D400, TdfType.List, 0, true), // cist
+        new TdfMemberInfo("ClubInvList", "mClubInvList", 0x8E9CF400, TdfType.List, 0, true), // Tag: CIST
     ];
     private ITdfMember[] __members;
 

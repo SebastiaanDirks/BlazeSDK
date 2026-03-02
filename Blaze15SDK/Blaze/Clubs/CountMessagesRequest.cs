@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class CountMessagesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("MessageType", "mMessageType", 0x35351900, TdfType.Enum, 1, true), // msty
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("MessageType", "mMessageType", 0xB73D3900, TdfType.Enum, 1, true), // Tag: MSTY
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GrantEntitlement2Response : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntitlementInfo", "mEntitlementInfo", 0x96ED2900, TdfType.Struct, 0, true), // ENTI
-        new TdfMemberInfo("IsGranted", "mIsGranted", 0xA739F200, TdfType.Bool, 1, true), // ISGR
+        new TdfMemberInfo("EntitlementInfo", "mEntitlementInfo", 0x96ED2900, TdfType.Struct, 0, true), // Tag: ENTI
+        new TdfMemberInfo("IsGranted", "mIsGranted", 0xA739F200, TdfType.Bool, 1, true), // Tag: ISGR
     ];
     private ITdfMember[] __members;
 

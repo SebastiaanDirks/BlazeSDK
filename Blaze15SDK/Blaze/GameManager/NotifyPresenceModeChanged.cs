@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyPresenceModeChanged : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("NewPresenceMode", "mNewPresenceMode", 0x41215300, TdfType.Enum, 1, true), // pres
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("NewPresenceMode", "mNewPresenceMode", 0xC3297300, TdfType.Enum, 1, true), // Tag: PRES
     ];
     private ITdfMember[] __members;
 

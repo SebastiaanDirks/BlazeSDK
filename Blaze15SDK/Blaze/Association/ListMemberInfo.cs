@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListMemberInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListMemberId", "mListMemberId", 0x30D24400, TdfType.Struct, 0, true), // lmid
-        new TdfMemberInfo("TimeAdded", "mTimeAdded", 0x50934500, TdfType.Int64, 1, true), // time
+        new TdfMemberInfo("ListMemberId", "mListMemberId", 0xB2DA6400, TdfType.Struct, 0, true), // Tag: LMID
+        new TdfMemberInfo("TimeAdded", "mTimeAdded", 0xD29B6500, TdfType.Int64, 1, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdatedExternalSessionForUserResult : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Activity", "mActivity", 0x5410D400, TdfType.Map, 0, true), // uact
-        new TdfMemberInfo("GameId", "mGameId", 0x54724400, TdfType.UInt64, 1, true), // ugid
-        new TdfMemberInfo("Session", "mSession", 0x55324400, TdfType.Struct, 2, true), // usid
+        new TdfMemberInfo("Activity", "mActivity", 0xD618F400, TdfType.Map, 0, true), // Tag: UACT
+        new TdfMemberInfo("GameId", "mGameId", 0xD67A6400, TdfType.UInt64, 1, true), // Tag: UGID
+        new TdfMemberInfo("Session", "mSession", 0xD73A6400, TdfType.Struct, 2, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

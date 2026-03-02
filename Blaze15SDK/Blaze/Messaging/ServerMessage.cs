@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class ServerMessage : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Flags", "mFlags", 0x18C04700, TdfType.Enum, 0, true), // flag
-        new TdfMemberInfo("MessageId", "mMessageId", 0x34724400, TdfType.UInt64, 1, true), // mgid
-        new TdfMemberInfo("Payload", "mPayload", 0x41930400, TdfType.Struct, 2, true), // pyld
-        new TdfMemberInfo("Source", "mSource", 0x4D20C500, TdfType.ObjectId, 3, true), // srce
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50934500, TdfType.UInt32, 4, true), // time
-        new TdfMemberInfo("SourceIdent", "mSourceIdent", 0x55315200, TdfType.Struct, 5, true), // user
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 0, true), // Tag: FLAG
+        new TdfMemberInfo("MessageId", "mMessageId", 0xB67A6400, TdfType.UInt64, 1, true), // Tag: MGID
+        new TdfMemberInfo("Payload", "mPayload", 0xC39B2400, TdfType.Struct, 2, true), // Tag: PYLD
+        new TdfMemberInfo("Source", "mSource", 0xCF28E500, TdfType.ObjectId, 3, true), // Tag: SRCE
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD29B6500, TdfType.UInt32, 4, true), // Tag: TIME
+        new TdfMemberInfo("SourceIdent", "mSourceIdent", 0xD7397200, TdfType.Struct, 5, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class WipeStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("WipeSet", "mWipeSet", 0x5C941300, TdfType.String, 1, true), // wips
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("WipeSet", "mWipeSet", 0xDE9C3300, TdfType.String, 1, true), // Tag: WIPS
     ];
     private ITdfMember[] __members;
 

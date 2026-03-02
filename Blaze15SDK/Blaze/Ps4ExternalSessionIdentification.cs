@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class Ps4ExternalSessionIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NpSessionId", "mNpSessionId", 0x3904C900, TdfType.String, 0, true), // npsi
+        new TdfMemberInfo("NpSessionId", "mNpSessionId", 0xBB0CE900, TdfType.String, 0, true), // Tag: NPSI
     ];
     private ITdfMember[] __members;
 

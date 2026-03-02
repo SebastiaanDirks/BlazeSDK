@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameSetupReason : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DatalessSetupContext", "datalessSetupContext", 0x10C4C300, TdfType.Struct, 0, true), // dlsc
-        new TdfMemberInfo("IndirectJoinGameSetupContext", "indirectJoinGameSetupContext", 0x24A1D300, TdfType.Struct, 1, true), // ijgs
-        new TdfMemberInfo("IndirectMatchmakingSetupContext", "indirectMatchmakingSetupContext", 0x24D4C300, TdfType.Struct, 2, true), // imsc
-        new TdfMemberInfo("MatchmakingSetupContext", "matchmakingSetupContext", 0x34D4C300, TdfType.Struct, 3, true), // mmsc
-        new TdfMemberInfo("ResetDedicatedServerSetupContext", "resetDedicatedServerSetupContext", 0x4844C300, TdfType.Struct, 4, true), // rdsc
+        new TdfMemberInfo("DatalessSetupContext", "datalessSetupContext", 0x92CCE300, TdfType.Struct, 0, true), // Tag: DLSC
+        new TdfMemberInfo("IndirectJoinGameSetupContext", "indirectJoinGameSetupContext", 0xA6A9F300, TdfType.Struct, 1, true), // Tag: IJGS
+        new TdfMemberInfo("IndirectMatchmakingSetupContext", "indirectMatchmakingSetupContext", 0xA6DCE300, TdfType.Struct, 2, true), // Tag: IMSC
+        new TdfMemberInfo("MatchmakingSetupContext", "matchmakingSetupContext", 0xB6DCE300, TdfType.Struct, 3, true), // Tag: MMSC
+        new TdfMemberInfo("ResetDedicatedServerSetupContext", "resetDedicatedServerSetupContext", 0xCA4CE300, TdfType.Struct, 4, true), // Tag: RDSC
     ];
     private ITdfMember[] __members;
 

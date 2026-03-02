@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Example;
 public class ExampleRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NestedMap", "mNestedMap", 0xBAD87000, TdfType.Map, 0, true), // NMAP
-        new TdfMemberInfo("Num", "mNum", 0xBB5B4000, TdfType.Int32, 1, true), // NUM
-        new TdfMemberInfo("StringMap", "mStringMap", 0xCED87000, TdfType.Map, 2, true), // SMAP
-        new TdfMemberInfo("Text", "mText", 0xD25E3400, TdfType.String, 3, true), // TEXT
+        new TdfMemberInfo("NestedMap", "mNestedMap", 0xBAD87000, TdfType.Map, 0, true), // Tag: NMAP
+        new TdfMemberInfo("Num", "mNum", 0xBB5B4000, TdfType.Int32, 1, true), // Tag: NUM
+        new TdfMemberInfo("StringMap", "mStringMap", 0xCED87000, TdfType.Map, 2, true), // Tag: SMAP
+        new TdfMemberInfo("Text", "mText", 0xD25E3400, TdfType.String, 3, true), // Tag: TEXT
     ];
     private ITdfMember[] __members;
 

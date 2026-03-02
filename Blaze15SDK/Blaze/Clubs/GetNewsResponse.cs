@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetNewsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LocalizedNewsList", "mLocalizedNewsList", 0x39730900, TdfType.List, 0, true), // nwli
-        new TdfMemberInfo("TotalPages", "mTotalPages", 0x50C40700, TdfType.UInt16, 1, true), // tlpg
+        new TdfMemberInfo("LocalizedNewsList", "mLocalizedNewsList", 0xBB7B2900, TdfType.List, 0, true), // Tag: NWLI
+        new TdfMemberInfo("TotalPages", "mTotalPages", 0xD2CC2700, TdfType.UInt16, 1, true), // Tag: TLPG
     ];
     private ITdfMember[] __members;
 

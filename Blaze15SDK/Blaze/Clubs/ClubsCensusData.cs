@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubsCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NumOfClubsByDomain", "mNumOfClubsByDomain", 0x0C210000, TdfType.Map, 0, true), // cbd
-        new TdfMemberInfo("NumOfClubMembersByDomain", "mNumOfClubMembersByDomain", 0x34210000, TdfType.Map, 1, true), // mbd
-        new TdfMemberInfo("NumOfOnlineClubsByDomain", "mNumOfOnlineClubsByDomain", 0x3C310000, TdfType.Map, 2, true), // ocd
-        new TdfMemberInfo("NumOfOnlineClubMembers", "mNumOfOnlineClubMembers", 0x3C334000, TdfType.UInt32, 3, true), // ocm
-        new TdfMemberInfo("NumOfOnlineClubMembersByDomain", "mNumOfOnlineClubMembersByDomain", 0x3CD10000, TdfType.Map, 4, true), // omd
-        new TdfMemberInfo("NumOfClubMembers", "mNumOfClubMembers", 0x50334000, TdfType.UInt32, 5, true), // tcm
-        new TdfMemberInfo("NumOfClubs", "mNumOfClubs", 0x50E0C000, TdfType.UInt32, 6, true), // tnc
-        new TdfMemberInfo("NumOfOnlineClubs", "mNumOfOnlineClubs", 0x50F0C000, TdfType.UInt32, 7, true), // toc
+        new TdfMemberInfo("NumOfClubsByDomain", "mNumOfClubsByDomain", 0x8E290000, TdfType.Map, 0, true), // Tag: CBD
+        new TdfMemberInfo("NumOfClubMembersByDomain", "mNumOfClubMembersByDomain", 0xB6290000, TdfType.Map, 1, true), // Tag: MBD
+        new TdfMemberInfo("NumOfOnlineClubsByDomain", "mNumOfOnlineClubsByDomain", 0xBE390000, TdfType.Map, 2, true), // Tag: OCD
+        new TdfMemberInfo("NumOfOnlineClubMembers", "mNumOfOnlineClubMembers", 0xBE3B4000, TdfType.UInt32, 3, true), // Tag: OCM
+        new TdfMemberInfo("NumOfOnlineClubMembersByDomain", "mNumOfOnlineClubMembersByDomain", 0xBED90000, TdfType.Map, 4, true), // Tag: OMD
+        new TdfMemberInfo("NumOfClubMembers", "mNumOfClubMembers", 0xD23B4000, TdfType.UInt32, 5, true), // Tag: TCM
+        new TdfMemberInfo("NumOfClubs", "mNumOfClubs", 0xD2E8C000, TdfType.UInt32, 6, true), // Tag: TNC
+        new TdfMemberInfo("NumOfOnlineClubs", "mNumOfOnlineClubs", 0xD2F8C000, TdfType.UInt32, 7, true), // Tag: TOC
     ];
     private ITdfMember[] __members;
 

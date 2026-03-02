@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MeshEndpointsConnectionLostRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerNetConnectionFlags", "mPlayerNetConnectionFlags", 0x18C1D300, TdfType.Enum, 0, true), // flgs
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("TargetGroupId", "mTargetGroupId", 0x5031C000, TdfType.ObjectId, 2, true), // tcg
+        new TdfMemberInfo("PlayerNetConnectionFlags", "mPlayerNetConnectionFlags", 0x9AC9F300, TdfType.Enum, 0, true), // Tag: FLGS
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("TargetGroupId", "mTargetGroupId", 0xD239C000, TdfType.ObjectId, 2, true), // Tag: TCG
     ];
     private ITdfMember[] __members;
 

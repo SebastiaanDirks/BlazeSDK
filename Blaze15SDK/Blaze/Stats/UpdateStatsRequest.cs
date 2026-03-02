@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class UpdateStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("StatUpdates", "mStatUpdates", 0x55011400, TdfType.List, 0, true), // updt
+        new TdfMemberInfo("StatUpdates", "mStatUpdates", 0xD7093400, TdfType.List, 0, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

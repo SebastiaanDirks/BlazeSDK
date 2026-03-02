@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class TieredAchievementData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 0, true), // desc
-        new TdfMemberInfo("Howto", "mHowto", 0x20F5D400, TdfType.String, 1, true), // howt
-        new TdfMemberInfo("Icons", "mIcons", 0x2433CE00, TdfType.Map, 2, true), // icon
-        new TdfMemberInfo("Img", "mImg", 0x24D1C000, TdfType.String, 3, true), // img
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 4, true), // name
-        new TdfMemberInfo("Requirements", "mRequirements", 0x48544C00, TdfType.List, 5, true), // reql
-        new TdfMemberInfo("Rp", "mRp", 0x49051300, TdfType.Int64, 6, true), // rpts
-        new TdfMemberInfo("T", "mT", 0x51051300, TdfType.Int64, 7, true), // tpts
-        new TdfMemberInfo("Xp", "mXp", 0x61051300, TdfType.Int64, 8, true), // xpts
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 0, true), // Tag: DESC
+        new TdfMemberInfo("Howto", "mHowto", 0xA2FDF400, TdfType.String, 1, true), // Tag: HOWT
+        new TdfMemberInfo("Icons", "mIcons", 0xA63BEE00, TdfType.Map, 2, true), // Tag: ICON
+        new TdfMemberInfo("Img", "mImg", 0xA6D9C000, TdfType.String, 3, true), // Tag: IMG
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 4, true), // Tag: NAME
+        new TdfMemberInfo("Requirements", "mRequirements", 0xCA5C6C00, TdfType.List, 5, true), // Tag: REQL
+        new TdfMemberInfo("Rp", "mRp", 0xCB0D3300, TdfType.Int64, 6, true), // Tag: RPTS
+        new TdfMemberInfo("T", "mT", 0xD30D3300, TdfType.Int64, 7, true), // Tag: TPTS
+        new TdfMemberInfo("Xp", "mXp", 0xE30D3300, TdfType.Int64, 8, true), // Tag: XPTS
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetGameDataByUserRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListConfigName", "mListConfigName", 0x10E04D00, TdfType.String, 0, true), // dnam
-        new TdfMemberInfo("UserSetId", "mUserSetId", 0x1D240000, TdfType.ObjectId, 1, true), // grp
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 2, true), // user
+        new TdfMemberInfo("ListConfigName", "mListConfigName", 0x92E86D00, TdfType.String, 0, true), // Tag: DNAM
+        new TdfMemberInfo("UserSetId", "mUserSetId", 0x9F2C0000, TdfType.ObjectId, 1, true), // Tag: GRP
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 2, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

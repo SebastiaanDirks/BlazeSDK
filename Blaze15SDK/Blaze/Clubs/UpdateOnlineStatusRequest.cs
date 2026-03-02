@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class UpdateOnlineStatusRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08C24400, TdfType.Int64, 0, true), // blid
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 1, true), // clid
-        new TdfMemberInfo("Reason", "mReason", 0x48505300, TdfType.Enum, 2, true), // reas
-        new TdfMemberInfo("OnlineStatus", "mOnlineStatus", 0x4D405400, TdfType.Enum, 3, true), // stat
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8ACA6400, TdfType.Int64, 0, true), // Tag: BLID
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 1, true), // Tag: CLID
+        new TdfMemberInfo("Reason", "mReason", 0xCA587300, TdfType.Enum, 2, true), // Tag: REAS
+        new TdfMemberInfo("OnlineStatus", "mOnlineStatus", 0xCF487400, TdfType.Enum, 3, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

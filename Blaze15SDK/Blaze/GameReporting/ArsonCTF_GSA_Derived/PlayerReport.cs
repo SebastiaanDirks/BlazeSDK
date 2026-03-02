@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_GSA_Derived;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 0, true), // fcap
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 0, true), // Tag: FCAP
     ];
     private ITdfMember[] __members;
 

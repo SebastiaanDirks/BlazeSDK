@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ResetDedicatedServerSetupContext : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("JoinErr", "mJoinErr", 0x15248000, TdfType.UInt32, 0, true), // err
+        new TdfMemberInfo("JoinErr", "mJoinErr", 0x972C8000, TdfType.UInt32, 0, true), // Tag: ERR
     ];
     private ITdfMember[] __members;
 

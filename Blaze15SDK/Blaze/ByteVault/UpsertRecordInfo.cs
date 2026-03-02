@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertRecordInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Owner", "mOwner", 0x3D739200, TdfType.Struct, 0, true), // ownr
-        new TdfMemberInfo("RecordName", "mRecordName", 0x4850C000, TdfType.String, 1, true), // rec
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 2, true), // updt
+        new TdfMemberInfo("Owner", "mOwner", 0xBF7BB200, TdfType.Struct, 0, true), // Tag: OWNR
+        new TdfMemberInfo("RecordName", "mRecordName", 0xCA58C000, TdfType.String, 1, true), // Tag: REC
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 2, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

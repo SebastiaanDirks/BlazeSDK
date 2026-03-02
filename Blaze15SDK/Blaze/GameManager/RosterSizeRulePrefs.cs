@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RosterSizeRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxPlayerCount", "mMaxPlayerCount", 0x40305000, TdfType.UInt16, 0, true), // pcap
-        new TdfMemberInfo("MinPlayerCount", "mMinPlayerCount", 0x40D24E00, TdfType.UInt16, 1, true), // pmin
+        new TdfMemberInfo("MaxPlayerCount", "mMaxPlayerCount", 0xC2387000, TdfType.UInt16, 0, true), // Tag: PCAP
+        new TdfMemberInfo("MinPlayerCount", "mMinPlayerCount", 0xC2DA6E00, TdfType.UInt16, 1, true), // Tag: PMIN
     ];
     private ITdfMember[] __members;
 

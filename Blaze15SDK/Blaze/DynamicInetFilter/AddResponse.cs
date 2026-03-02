@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.DynamicInetFilter;
 public class AddResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RowId", "mRowId", 0x48910000, TdfType.UInt32, 0, true), // rid
+        new TdfMemberInfo("RowId", "mRowId", 0xCA990000, TdfType.UInt32, 0, true), // Tag: RID
     ];
     private ITdfMember[] __members;
 

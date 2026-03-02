@@ -7,20 +7,20 @@ namespace Blaze15SDK.Blaze.Util;
 public class PreAuthResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthenticationSource", "mAuthenticationSource", 0x05348300, TdfType.String, 0, true), // asrc
-        new TdfMemberInfo("ComponentIds", "mComponentIds", 0x0C911300, TdfType.List, 1, true), // cids
-        new TdfMemberInfo("ClientId", "mClientId", 0x0CC24400, TdfType.String, 2, true), // clid
-        new TdfMemberInfo("Config", "mConfig", 0x0CF38600, TdfType.Struct, 3, true), // conf
-        new TdfMemberInfo("EntitlementSource", "mEntitlementSource", 0x15348300, TdfType.String, 4, true), // esrc
-        new TdfMemberInfo("MachineId", "mMachineId", 0x34124400, TdfType.UInt32, 5, true), // maid
-        new TdfMemberInfo("UnderageSupported", "mUnderageSupported", 0x34939200, TdfType.Bool, 6, true), // minr
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0x3814D000, TdfType.String, 7, true), // nasp
-        new TdfMemberInfo("LegalDocGameIdentifier", "mLegalDocGameIdentifier", 0x40930400, TdfType.String, 8, true), // pild
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.String, 9, true), // plat
-        new TdfMemberInfo("QosSettings", "mQosSettings", 0x44F4D300, TdfType.Struct, 10, true), // qoss
-        new TdfMemberInfo("RegistrationSource", "mRegistrationSource", 0x49348300, TdfType.String, 11, true), // rsrc
-        new TdfMemberInfo("ServerVersion", "mServerVersion", 0x4D615200, TdfType.String, 12, true), // sver
-        new TdfMemberInfo("ServiceName", "mServiceName", 0xA4E4D400, TdfType.String, 13, true), // Inst
+        new TdfMemberInfo("AuthenticationSource", "mAuthenticationSource", 0x873CA300, TdfType.String, 0, true), // Tag: ASRC
+        new TdfMemberInfo("ComponentIds", "mComponentIds", 0x8E993300, TdfType.List, 1, true), // Tag: CIDS
+        new TdfMemberInfo("ClientId", "mClientId", 0x8ECA6400, TdfType.String, 2, true), // Tag: CLID
+        new TdfMemberInfo("Config", "mConfig", 0x8EFBA600, TdfType.Struct, 3, true), // Tag: CONF
+        new TdfMemberInfo("EntitlementSource", "mEntitlementSource", 0x973CA300, TdfType.String, 4, true), // Tag: ESRC
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xA6ECF400, TdfType.String, 5, true), // Tag: INST
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB61A6400, TdfType.UInt32, 6, true), // Tag: MAID
+        new TdfMemberInfo("UnderageSupported", "mUnderageSupported", 0xB69BB200, TdfType.Bool, 7, true), // Tag: MINR
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 8, true), // Tag: NASP
+        new TdfMemberInfo("LegalDocGameIdentifier", "mLegalDocGameIdentifier", 0xC29B2400, TdfType.String, 9, true), // Tag: PILD
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.String, 10, true), // Tag: PLAT
+        new TdfMemberInfo("QosSettings", "mQosSettings", 0xC6FCF300, TdfType.Struct, 11, true), // Tag: QOSS
+        new TdfMemberInfo("RegistrationSource", "mRegistrationSource", 0xCB3CA300, TdfType.String, 12, true), // Tag: RSRC
+        new TdfMemberInfo("ServerVersion", "mServerVersion", 0xCF697200, TdfType.String, 13, true), // Tag: SVER
     ];
     private ITdfMember[] __members;
 
@@ -29,19 +29,19 @@ public class PreAuthResponse : Tdf
     private TdfString _clientId = new(__typeInfos[2]);
     private TdfStruct<Blaze15SDK.Blaze.Util.FetchConfigResponse?> _config = new(__typeInfos[3]);
     private TdfString _entitlementSource = new(__typeInfos[4]);
-    private TdfUInt32 _machineId = new(__typeInfos[5]);
-    private TdfBool _underageSupported = new(__typeInfos[6]);
-    private TdfString _personaNamespace = new(__typeInfos[7]);
-    private TdfString _legalDocGameIdentifier = new(__typeInfos[8]);
-    private TdfString _platform = new(__typeInfos[9]);
-    private TdfStruct<Blaze15SDK.Blaze.QosConfigInfo?> _qosSettings = new(__typeInfos[10]);
-    private TdfString _registrationSource = new(__typeInfos[11]);
-    private TdfString _serverVersion = new(__typeInfos[12]);
-    private TdfString _serviceName = new(__typeInfos[13]);
+    private TdfUInt32 _machineId = new(__typeInfos[6]);
+    private TdfBool _underageSupported = new(__typeInfos[7]);
+    private TdfString _personaNamespace = new(__typeInfos[8]);
+    private TdfString _legalDocGameIdentifier = new(__typeInfos[9]);
+    private TdfString _platform = new(__typeInfos[10]);
+    private TdfStruct<Blaze15SDK.Blaze.QosConfigInfo?> _qosSettings = new(__typeInfos[11]);
+    private TdfString _registrationSource = new(__typeInfos[12]);
+    private TdfString _serverVersion = new(__typeInfos[13]);
+    private TdfString _serviceName = new(__typeInfos[5]);
 
     public PreAuthResponse()
     {
-        __members = [ _authenticationSource, _componentIds, _clientId, _config, _entitlementSource, _machineId, _underageSupported, _personaNamespace, _legalDocGameIdentifier, _platform, _qosSettings, _registrationSource, _serverVersion, _serviceName ];
+        __members = [ _authenticationSource, _componentIds, _clientId, _config, _entitlementSource, _serviceName, _machineId, _underageSupported, _personaNamespace, _legalDocGameIdentifier, _platform, _qosSettings, _registrationSource, _serverVersion ];
     }
 
     public override Tdf CreateNew() => new PreAuthResponse();

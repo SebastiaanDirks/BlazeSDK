@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubNews : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AssociateClubId", "mAssociateClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ParamList", "mParamList", 0x39048C00, TdfType.String, 1, true), // nprl
-        new TdfMemberInfo("StringId", "mStringId", 0x39325300, TdfType.String, 2, true), // nsis
-        new TdfMemberInfo("Text", "mText", 0x39461400, TdfType.String, 3, true), // ntxt
-        new TdfMemberInfo("Type", "mType", 0x39751900, TdfType.Enum, 4, true), // nwty
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50D4D400, TdfType.UInt32, 5, true), // tmst
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 6, true), // user
+        new TdfMemberInfo("AssociateClubId", "mAssociateClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ParamList", "mParamList", 0xBB0CAC00, TdfType.String, 1, true), // Tag: NPRL
+        new TdfMemberInfo("StringId", "mStringId", 0xBB3A7300, TdfType.String, 2, true), // Tag: NSIS
+        new TdfMemberInfo("Text", "mText", 0xBB4E3400, TdfType.String, 3, true), // Tag: NTXT
+        new TdfMemberInfo("Type", "mType", 0xBB7D3900, TdfType.Enum, 4, true), // Tag: NWTY
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD2DCF400, TdfType.UInt32, 5, true), // Tag: TMST
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 6, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

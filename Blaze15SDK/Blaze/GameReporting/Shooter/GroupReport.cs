@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.Shooter;
 public class GroupReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Stats", "stats", 0x05448200, TdfType.Map, 0, true), // atrb
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 1, true), // plyr
+        new TdfMemberInfo("Stats", "stats", 0x874CA200, TdfType.Map, 0, true), // Tag: ATRB
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 1, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

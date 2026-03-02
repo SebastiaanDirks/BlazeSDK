@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class EventData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Id", "mId", 0x04324400, TdfType.String, 0, true), // acid
-        new TdfMemberInfo("Data", "mData", 0x10150100, TdfType.Map, 1, true), // data
+        new TdfMemberInfo("Id", "mId", 0x863A6400, TdfType.String, 0, true), // Tag: ACID
+        new TdfMemberInfo("Data", "mData", 0x921D2100, TdfType.Map, 1, true), // Tag: DATA
     ];
     private ITdfMember[] __members;
 

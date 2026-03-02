@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class DisbandClubRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
     ];
     private ITdfMember[] __members;
 

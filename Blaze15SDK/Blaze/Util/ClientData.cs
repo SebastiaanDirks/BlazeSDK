@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Util;
 public class ClientData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Country", "mCountry", 0x0D449900, TdfType.UInt32, 0, true), // ctry
-        new TdfMemberInfo("IgnoreInactivityTimeout", "mIgnoreInactivityTimeout", 0x24950F00, TdfType.Bool, 1, true), // iito
-        new TdfMemberInfo("Locale", "mLocale", 0x30138700, TdfType.UInt32, 2, true), // lang
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4D60CE00, TdfType.String, 3, true), // svcn
-        new TdfMemberInfo("ClientType", "mClientType", 0x51940500, TdfType.Enum, 4, true), // type
+        new TdfMemberInfo("Country", "mCountry", 0x8F4CB900, TdfType.UInt32, 0, true), // Tag: CTRY
+        new TdfMemberInfo("IgnoreInactivityTimeout", "mIgnoreInactivityTimeout", 0xA69D2F00, TdfType.Bool, 1, true), // Tag: IITO
+        new TdfMemberInfo("Locale", "mLocale", 0xB21BA700, TdfType.UInt32, 2, true), // Tag: LANG
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCF68EE00, TdfType.String, 3, true), // Tag: SVCN
+        new TdfMemberInfo("ClientType", "mClientType", 0xD39C2500, TdfType.Enum, 4, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class ListAllPermissionsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PermissionsByComponent", "mPermissionsByComponent", 0xC25B2D00, TdfType.Map, 0, true), // PELM
+        new TdfMemberInfo("PermissionsByComponent", "mPermissionsByComponent", 0xC25B2D00, TdfType.Map, 0, true), // Tag: PELM
     ];
     private ITdfMember[] __members;
 

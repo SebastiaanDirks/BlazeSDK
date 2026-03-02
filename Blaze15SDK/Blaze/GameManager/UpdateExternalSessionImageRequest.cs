@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateExternalSessionImageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("CustomImage", "mCustomImage", 0x54934700, TdfType.Blob, 1, true), // uimg
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("CustomImage", "mCustomImage", 0xD69B6700, TdfType.Blob, 1, true), // Tag: UIMG
     ];
     private ITdfMember[] __members;
 

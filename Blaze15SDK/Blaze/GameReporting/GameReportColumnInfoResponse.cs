@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportColumnInfoResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ColumnInfoList", "mColumnInfoList", 0x0C930000, TdfType.List, 0, true), // cil
+        new TdfMemberInfo("ColumnInfoList", "mColumnInfoList", 0x8E9B0000, TdfType.List, 0, true), // Tag: CIL
     ];
     private ITdfMember[] __members;
 

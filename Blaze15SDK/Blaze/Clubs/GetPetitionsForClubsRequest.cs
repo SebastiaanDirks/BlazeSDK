@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetPetitionsForClubsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x0C910C00, TdfType.List, 0, true), // cidl
-        new TdfMemberInfo("PetitionsType", "mPetitionsType", 0x24E59400, TdfType.Enum, 1, true), // invt
-        new TdfMemberInfo("SortType", "mSortType", 0x3933D400, TdfType.Enum, 2, true), // nsot
+        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x8E992C00, TdfType.List, 0, true), // Tag: CIDL
+        new TdfMemberInfo("PetitionsType", "mPetitionsType", 0xA6EDB400, TdfType.Enum, 1, true), // Tag: INVT
+        new TdfMemberInfo("SortType", "mSortType", 0xBB3BF400, TdfType.Enum, 2, true), // Tag: NSOT
     ];
     private ITdfMember[] __members;
 

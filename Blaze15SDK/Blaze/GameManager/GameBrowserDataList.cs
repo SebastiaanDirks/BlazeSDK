@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameBrowserDataList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameData", "mGameData", 0x1C405400, TdfType.List, 0, true), // gdat
+        new TdfMemberInfo("GameData", "mGameData", 0x9E487400, TdfType.List, 0, true), // Tag: GDAT
     ];
     private ITdfMember[] __members;
 

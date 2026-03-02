@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ExpandedPingSiteRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LatencyCalcMethod", "mLatencyCalcMethod", 0x30334000, TdfType.Enum, 0, true), // lcm
-        new TdfMemberInfo("PingSiteSelectionMethod", "mPingSiteSelectionMethod", 0x4134CD00, TdfType.Enum, 1, true), // pssm
-        new TdfMemberInfo("PingSiteWhitelist", "mPingSiteWhitelist", 0x4135CC00, TdfType.List, 2, true), // pswl
-        new TdfMemberInfo("SessionMatchCalcMethod", "mSessionMatchCalcMethod", 0x4CD0CD00, TdfType.Enum, 3, true), // smcm
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 4, true), // thld
+        new TdfMemberInfo("LatencyCalcMethod", "mLatencyCalcMethod", 0xB23B4000, TdfType.Enum, 0, true), // Tag: LCM
+        new TdfMemberInfo("PingSiteSelectionMethod", "mPingSiteSelectionMethod", 0xC33CED00, TdfType.Enum, 1, true), // Tag: PSSM
+        new TdfMemberInfo("PingSiteWhitelist", "mPingSiteWhitelist", 0xC33DEC00, TdfType.List, 2, true), // Tag: PSWL
+        new TdfMemberInfo("SessionMatchCalcMethod", "mSessionMatchCalcMethod", 0xCED8ED00, TdfType.Enum, 3, true), // Tag: SMCM
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 4, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetStatsByGroupRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityIds", "mEntityIds", 0x14910000, TdfType.List, 0, true), // eid
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 1, true), // ksum
-        new TdfMemberInfo("GroupName", "mGroupName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("PeriodCtr", "mPeriodCtr", 0x40351200, TdfType.Int32, 3, true), // pctr
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 4, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 5, true), // prid
-        new TdfMemberInfo("PeriodType", "mPeriodType", 0x41465000, TdfType.Int32, 6, true), // ptyp
-        new TdfMemberInfo("Time", "mTime", 0x50934500, TdfType.Int32, 7, true), // time
-        new TdfMemberInfo("ViewId", "mViewId", 0x58910000, TdfType.UInt32, 8, true), // vid
+        new TdfMemberInfo("EntityIds", "mEntityIds", 0x96990000, TdfType.List, 0, true), // Tag: EID
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 1, true), // Tag: KSUM
+        new TdfMemberInfo("GroupName", "mGroupName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("PeriodCtr", "mPeriodCtr", 0xC23D3200, TdfType.Int32, 3, true), // Tag: PCTR
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 4, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 5, true), // Tag: PRID
+        new TdfMemberInfo("PeriodType", "mPeriodType", 0xC34E7000, TdfType.Int32, 6, true), // Tag: PTYP
+        new TdfMemberInfo("Time", "mTime", 0xD29B6500, TdfType.Int32, 7, true), // Tag: TIME
+        new TdfMemberInfo("ViewId", "mViewId", 0xDA990000, TdfType.UInt32, 8, true), // Tag: VID
     ];
     private ITdfMember[] __members;
 

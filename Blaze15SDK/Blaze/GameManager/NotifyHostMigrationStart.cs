@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyHostMigrationStart : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NewHostConnectionSlotId", "mNewHostConnectionSlotId", 0x0D331400, TdfType.UInt8, 0, true), // cslt
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("NewHostId", "mNewHostId", 0x20F4D400, TdfType.Int64, 2, true), // host
-        new TdfMemberInfo("MigrationType", "mMigrationType", 0x40D24700, TdfType.Enum, 3, true), // pmig
-        new TdfMemberInfo("NewHostSlotId", "mNewHostSlotId", 0x4CC3D400, TdfType.UInt8, 4, true), // slot
+        new TdfMemberInfo("NewHostConnectionSlotId", "mNewHostConnectionSlotId", 0x8F3B3400, TdfType.UInt8, 0, true), // Tag: CSLT
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("NewHostId", "mNewHostId", 0xA2FCF400, TdfType.Int64, 2, true), // Tag: HOST
+        new TdfMemberInfo("MigrationType", "mMigrationType", 0xC2DA6700, TdfType.Enum, 3, true), // Tag: PMIG
+        new TdfMemberInfo("NewHostSlotId", "mNewHostSlotId", 0xCECBF400, TdfType.UInt8, 4, true), // Tag: SLOT
     ];
     private ITdfMember[] __members;
 

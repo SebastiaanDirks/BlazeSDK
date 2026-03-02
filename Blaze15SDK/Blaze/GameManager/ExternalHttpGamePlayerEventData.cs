@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ExternalHttpGamePlayerEventData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x14E0D200, TdfType.String, 0, true), // encr
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x40910000, TdfType.Int64, 1, true), // pid
-        new TdfMemberInfo("PlayerState", "mPlayerState", 0x4D405400, TdfType.Enum, 2, true), // stat
+        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x96E8F200, TdfType.String, 0, true), // Tag: ENCR
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xC2990000, TdfType.Int64, 1, true), // Tag: PID
+        new TdfMemberInfo("PlayerState", "mPlayerState", 0xCF487400, TdfType.Enum, 2, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

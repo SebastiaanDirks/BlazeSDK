@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamCompositionRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RuleName", "mRuleName", 0x38134500, TdfType.String, 0, true), // name
-        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0x50830400, TdfType.String, 1, true), // thld
+        new TdfMemberInfo("RuleName", "mRuleName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("MinFitThresholdName", "mMinFitThresholdName", 0xD28B2400, TdfType.String, 1, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

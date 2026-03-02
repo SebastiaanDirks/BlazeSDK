@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class CustClubSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CustOpt1", "mCustOpt1", 0x0CF41100, TdfType.UInt32, 0, true), // cop1
-        new TdfMemberInfo("CustOpt2", "mCustOpt2", 0x0CF41200, TdfType.UInt32, 1, true), // cop2
-        new TdfMemberInfo("CustOpt3", "mCustOpt3", 0x0CF41300, TdfType.UInt32, 2, true), // cop3
-        new TdfMemberInfo("CustOpt4", "mCustOpt4", 0x0CF41400, TdfType.UInt32, 3, true), // cop4
-        new TdfMemberInfo("CustOpt5", "mCustOpt5", 0x0CF41500, TdfType.UInt32, 4, true), // cop5
+        new TdfMemberInfo("CustOpt1", "mCustOpt1", 0x8EFC1100, TdfType.UInt32, 0, true), // Tag: COP1
+        new TdfMemberInfo("CustOpt2", "mCustOpt2", 0x8EFC1200, TdfType.UInt32, 1, true), // Tag: COP2
+        new TdfMemberInfo("CustOpt3", "mCustOpt3", 0x8EFC1300, TdfType.UInt32, 2, true), // Tag: COP3
+        new TdfMemberInfo("CustOpt4", "mCustOpt4", 0x8EFC1400, TdfType.UInt32, 3, true), // Tag: COP4
+        new TdfMemberInfo("CustOpt5", "mCustOpt5", 0x8EFC1500, TdfType.UInt32, 4, true), // Tag: COP5
     ];
     private ITdfMember[] __members;
 

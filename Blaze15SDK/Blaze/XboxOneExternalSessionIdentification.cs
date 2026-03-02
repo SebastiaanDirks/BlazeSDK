@@ -7,22 +7,22 @@ namespace Blaze15SDK.Blaze;
 public class XboxOneExternalSessionIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TemplateName", "mTemplateName", 0x4D434E00, TdfType.String, 0, true), // stmn
-        new TdfMemberInfo("SessionName", "mSessionName", 0x15338D00, TdfType.String, 1, true), // esnm
-        new TdfMemberInfo("CorrelationId", "mCorrelationId", 0x0CF24400, TdfType.String, 2, true), // coid
+        new TdfMemberInfo("CorrelationId", "mCorrelationId", 0x8EFA6400, TdfType.String, 0, true), // Tag: COID
+        new TdfMemberInfo("SessionName", "mSessionName", 0x973BAD00, TdfType.String, 1, true), // Tag: ESNM
+        new TdfMemberInfo("TemplateName", "mTemplateName", 0xCF4B6E00, TdfType.String, 2, true), // Tag: STMN
     ];
     private ITdfMember[] __members;
 
-    private TdfString _templateName = new(__typeInfos[0]);
+    private TdfString _templateName = new(__typeInfos[2]);
     private TdfString _sessionName = new(__typeInfos[1]);
-    private TdfString _correlationId = new(__typeInfos[2]);
+    private TdfString _correlationId = new(__typeInfos[0]);
 
     public XboxOneExternalSessionIdentification()
     {
         __members = [
-            _templateName,
-            _sessionName,
             _correlationId,
+            _sessionName,
+            _templateName,
         ];
     }
 

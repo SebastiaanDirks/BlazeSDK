@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class PostEventsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x05560100, TdfType.Struct, 0, true), // auxa
-        new TdfMemberInfo("Payload", "mPayload", 0x15614E00, TdfType.Struct, 1, true), // even
-        new TdfMemberInfo("ProductId", "mProductId", 0x4123C400, TdfType.String, 2, true), // prod
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 3, true), // user
+        new TdfMemberInfo("AuxAuth", "mAuxAuth", 0x875E2100, TdfType.Struct, 0, true), // Tag: AUXA
+        new TdfMemberInfo("Payload", "mPayload", 0x97696E00, TdfType.Struct, 1, true), // Tag: EVEN
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32BE400, TdfType.String, 2, true), // Tag: PROD
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 3, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

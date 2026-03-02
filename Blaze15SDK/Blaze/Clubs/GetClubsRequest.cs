@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x0CC24400, TdfType.List, 0, true), // clid
-        new TdfMemberInfo("IncludeClubTags", "mIncludeClubTags", 0x0CC50900, TdfType.Bool, 1, true), // clti
-        new TdfMemberInfo("ClubsOrder", "mClubsOrder", 0x0CF11200, TdfType.Enum, 2, true), // codr
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 3, true), // mxrc
-        new TdfMemberInfo("OrderMode", "mOrderMode", 0x3C434400, TdfType.Enum, 4, true), // odmd
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 5, true), // ofrc
-        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0x4CB0D400, TdfType.Bool, 6, true), // skct
+        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x8ECA6400, TdfType.List, 0, true), // Tag: CLID
+        new TdfMemberInfo("IncludeClubTags", "mIncludeClubTags", 0x8ECD2900, TdfType.Bool, 1, true), // Tag: CLTI
+        new TdfMemberInfo("ClubsOrder", "mClubsOrder", 0x8EF93200, TdfType.Enum, 2, true), // Tag: CODR
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 3, true), // Tag: MXRC
+        new TdfMemberInfo("OrderMode", "mOrderMode", 0xBE4B6400, TdfType.Enum, 4, true), // Tag: ODMD
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 5, true), // Tag: OFRC
+        new TdfMemberInfo("SkipCalcDbRows", "mSkipCalcDbRows", 0xCEB8F400, TdfType.Bool, 6, true), // Tag: SKCT
     ];
     private ITdfMember[] __members;
 

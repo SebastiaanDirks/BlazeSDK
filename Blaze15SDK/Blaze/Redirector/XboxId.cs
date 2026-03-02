@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class XboxId : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Gamertag", "mGamertag", 0x1D404700, TdfType.String, 0, true), // gtag
-        new TdfMemberInfo("SandboxId", "mSandboxId", 0x4C224400, TdfType.String, 1, true), // sbid
-        new TdfMemberInfo("Xuid", "mXuid", 0x61524400, TdfType.UInt64, 2, true), // xuid
+        new TdfMemberInfo("Gamertag", "mGamertag", 0x9F486700, TdfType.String, 0, true), // Tag: GTAG
+        new TdfMemberInfo("SandboxId", "mSandboxId", 0xCE2A6400, TdfType.String, 1, true), // Tag: SBID
+        new TdfMemberInfo("Xuid", "mXuid", 0xE35A6400, TdfType.UInt64, 2, true), // Tag: XUID
     ];
     private ITdfMember[] __members;
 

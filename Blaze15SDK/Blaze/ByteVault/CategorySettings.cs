@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class CategorySettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AllRecordsEditable", "mAllRecordsEditable", 0x04C30500, TdfType.Bool, 0, true), // alle
-        new TdfMemberInfo("EditableRecordNames", "mEditableRecordNames", 0x14425400, TdfType.List, 1, true), // edit
-        new TdfMemberInfo("GlobalPermission", "mGlobalPermission", 0x1D048D00, TdfType.Struct, 2, true), // gprm
-        new TdfMemberInfo("History", "mHistory", 0x2094D400, TdfType.Struct, 3, true), // hist
-        new TdfMemberInfo("AccessPermission", "mAccessPermission", 0x40548D00, TdfType.Struct, 4, true), // perm
-        new TdfMemberInfo("MaxRecordsPerUser", "mMaxRecordsPerUser", 0x48339400, TdfType.UInt64, 5, true), // rcnt
-        new TdfMemberInfo("MaxRecordPayloadSize", "mMaxRecordPayloadSize", 0x49325A00, TdfType.UInt64, 6, true), // rsiz
-        new TdfMemberInfo("Version", "mVersion", 0x58549300, TdfType.UInt32, 7, true), // vers
+        new TdfMemberInfo("AllRecordsEditable", "mAllRecordsEditable", 0x86CB2500, TdfType.Bool, 0, true), // Tag: ALLE
+        new TdfMemberInfo("EditableRecordNames", "mEditableRecordNames", 0x964A7400, TdfType.List, 1, true), // Tag: EDIT
+        new TdfMemberInfo("GlobalPermission", "mGlobalPermission", 0x9F0CAD00, TdfType.Struct, 2, true), // Tag: GPRM
+        new TdfMemberInfo("History", "mHistory", 0xA29CF400, TdfType.Struct, 3, true), // Tag: HIST
+        new TdfMemberInfo("AccessPermission", "mAccessPermission", 0xC25CAD00, TdfType.Struct, 4, true), // Tag: PERM
+        new TdfMemberInfo("MaxRecordsPerUser", "mMaxRecordsPerUser", 0xCA3BB400, TdfType.UInt64, 5, true), // Tag: RCNT
+        new TdfMemberInfo("MaxRecordPayloadSize", "mMaxRecordPayloadSize", 0xCB3A7A00, TdfType.UInt64, 6, true), // Tag: RSIZ
+        new TdfMemberInfo("Version", "mVersion", 0xDA5CB300, TdfType.UInt32, 7, true), // Tag: VERS
     ];
     private ITdfMember[] __members;
 

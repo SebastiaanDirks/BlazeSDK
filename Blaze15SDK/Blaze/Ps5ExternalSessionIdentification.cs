@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class Ps5ExternalSessionIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Match", "mMatch", 0x34150300, TdfType.Struct, 0, true), // matc
-        new TdfMemberInfo("PlayerSession", "mPlayerSession", 0x41315300, TdfType.Struct, 1, true), // pses
+        new TdfMemberInfo("Match", "mMatch", 0xB61D2300, TdfType.Struct, 0, true), // Tag: MATC
+        new TdfMemberInfo("PlayerSession", "mPlayerSession", 0xC3397300, TdfType.Struct, 1, true), // Tag: PSES
     ];
     private ITdfMember[] __members;
 

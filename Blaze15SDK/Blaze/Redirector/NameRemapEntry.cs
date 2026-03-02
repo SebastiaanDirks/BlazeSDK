@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class NameRemapEntry : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DstPort", "mDstPort", 0x11049400, TdfType.UInt16, 0, true), // dprt
-        new TdfMemberInfo("ServiceId", "mServiceId", 0x4C910000, TdfType.UInt32, 1, true), // sid
-        new TdfMemberInfo("Hostname", "mHostname", 0x4C940000, TdfType.String, 2, true), // sip
-        new TdfMemberInfo("SiteName", "mSiteName", 0x4C950500, TdfType.String, 3, true), // site
-        new TdfMemberInfo("SrcPort", "mSrcPort", 0x4D049400, TdfType.UInt16, 4, true), // sprt
+        new TdfMemberInfo("DstPort", "mDstPort", 0x930CB400, TdfType.UInt16, 0, true), // Tag: DPRT
+        new TdfMemberInfo("ServiceId", "mServiceId", 0xCE990000, TdfType.UInt32, 1, true), // Tag: SID
+        new TdfMemberInfo("Hostname", "mHostname", 0xCE9C0000, TdfType.String, 2, true), // Tag: SIP
+        new TdfMemberInfo("SiteName", "mSiteName", 0xCE9D2500, TdfType.String, 3, true), // Tag: SITE
+        new TdfMemberInfo("SrcPort", "mSrcPort", 0xCF0CB400, TdfType.UInt16, 4, true), // Tag: SPRT
     ];
     private ITdfMember[] __members;
 

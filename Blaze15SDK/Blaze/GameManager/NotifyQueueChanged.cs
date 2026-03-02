@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyQueueChanged : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("PlayerIdList", "mPlayerIdList", 0x40910C00, TdfType.List, 1, true), // pidl
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("PlayerIdList", "mPlayerIdList", 0xC2992C00, TdfType.List, 1, true), // Tag: PIDL
     ];
     private ITdfMember[] __members;
 

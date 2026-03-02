@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class FetchMessageResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x34339400, TdfType.UInt32, 0, true), // mcnt
+        new TdfMemberInfo("Count", "mCount", 0xB63BB400, TdfType.UInt32, 0, true), // Tag: MCNT
     ];
     private ITdfMember[] __members;
 

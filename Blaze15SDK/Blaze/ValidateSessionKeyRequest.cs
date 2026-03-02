@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class ValidateSessionKeyRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SessionKey", "mSessionKey", 0xCEB97900, TdfType.String, 0, true), // SKEY
+        new TdfMemberInfo("SessionKey", "mSessionKey", 0xCEB97900, TdfType.String, 0, true), // Tag: SKEY
     ];
     private ITdfMember[] __members;
 

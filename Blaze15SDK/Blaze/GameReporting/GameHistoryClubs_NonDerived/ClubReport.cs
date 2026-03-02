@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameReporting.GameHistoryClubs_NonDerived;
 public class ClubReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Losses", "losses", 0x30F4D300, TdfType.UInt16, 0, true), // loss
-        new TdfMemberInfo("Points", "points", 0x40F24E00, TdfType.UInt16, 1, true), // poin
-        new TdfMemberInfo("Ties", "ties", 0x50915300, TdfType.UInt16, 2, true), // ties
-        new TdfMemberInfo("Wins", "wins", 0x5C939300, TdfType.UInt16, 3, true), // wins
+        new TdfMemberInfo("Losses", "losses", 0xB2FCF300, TdfType.UInt16, 0, true), // Tag: LOSS
+        new TdfMemberInfo("Points", "points", 0xC2FA6E00, TdfType.UInt16, 1, true), // Tag: POIN
+        new TdfMemberInfo("Ties", "ties", 0xD2997300, TdfType.UInt16, 2, true), // Tag: TIES
+        new TdfMemberInfo("Wins", "wins", 0xDE9BB300, TdfType.UInt16, 3, true), // Tag: WINS
     ];
     private ITdfMember[] __members;
 

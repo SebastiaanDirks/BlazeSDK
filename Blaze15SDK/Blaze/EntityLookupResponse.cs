@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class EntityLookupResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeObjectId", "mBlazeObjectId", 0xBE990000, TdfType.ObjectId, 0, true), // OID
+        new TdfMemberInfo("BlazeObjectId", "mBlazeObjectId", 0xBE990000, TdfType.ObjectId, 0, true), // Tag: OID
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class ProgressUpdate : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Current", "mCurrent", 0x0D548000, TdfType.Int64, 0, true), // cur
-        new TdfMemberInfo("Points", "mPoints", 0x4144C000, TdfType.Int64, 1, true), // pts
+        new TdfMemberInfo("Current", "mCurrent", 0x8F5C8000, TdfType.Int64, 0, true), // Tag: CUR
+        new TdfMemberInfo("Points", "mPoints", 0xC34CC000, TdfType.Int64, 1, true), // Tag: PTS
     ];
     private ITdfMember[] __members;
 

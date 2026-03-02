@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class CreateAccountResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 0, true), // PNAM
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 1, true), // UID
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 0, true), // Tag: PNAM
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

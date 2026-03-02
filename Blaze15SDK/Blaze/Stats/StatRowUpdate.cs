@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatRowUpdate : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("EntityId", "mEntityId", 0x14910000, TdfType.UInt64, 1, true), // eid
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 2, true), // ksum
-        new TdfMemberInfo("PeriodTypes", "mPeriodTypes", 0x41465000, TdfType.List, 3, true), // ptyp
-        new TdfMemberInfo("Updates", "mUpdates", 0x55011400, TdfType.List, 4, true), // updt
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("EntityId", "mEntityId", 0x96990000, TdfType.UInt64, 1, true), // Tag: EID
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 2, true), // Tag: KSUM
+        new TdfMemberInfo("PeriodTypes", "mPeriodTypes", 0xC34E7000, TdfType.List, 3, true), // Tag: PTYP
+        new TdfMemberInfo("Updates", "mUpdates", 0xD7093400, TdfType.List, 4, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

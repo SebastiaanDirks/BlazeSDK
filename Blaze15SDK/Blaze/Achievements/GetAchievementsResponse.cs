@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class GetAchievementsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Achievements", "mAchievements", 0x04321300, TdfType.Map, 0, true), // achs
+        new TdfMemberInfo("Achievements", "mAchievements", 0x863A3300, TdfType.Map, 0, true), // Tag: ACHS
     ];
     private ITdfMember[] __members;
 

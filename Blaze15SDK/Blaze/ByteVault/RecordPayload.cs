@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class RecordPayload : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Blob", "mBlob", 0x10150100, TdfType.Blob, 0, true), // data
-        new TdfMemberInfo("ContentType", "mContentType", 0x34934500, TdfType.String, 1, true), // mime
+        new TdfMemberInfo("Blob", "mBlob", 0x921D2100, TdfType.Blob, 0, true), // Tag: DATA
+        new TdfMemberInfo("ContentType", "mContentType", 0xB69B6500, TdfType.String, 1, true), // Tag: MIME
     ];
     private ITdfMember[] __members;
 

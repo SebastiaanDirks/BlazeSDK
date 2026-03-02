@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportColumnKey : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Index", "mIndex", 0x04911800, TdfType.UInt16, 0, true), // aidx
-        new TdfMemberInfo("AttributeName", "mAttributeName", 0x04E04D00, TdfType.String, 1, true), // anam
-        new TdfMemberInfo("Table", "mTable", 0x50108E00, TdfType.String, 2, true), // tabn
+        new TdfMemberInfo("Index", "mIndex", 0x86993800, TdfType.UInt16, 0, true), // Tag: AIDX
+        new TdfMemberInfo("AttributeName", "mAttributeName", 0x86E86D00, TdfType.String, 1, true), // Tag: ANAM
+        new TdfMemberInfo("Table", "mTable", 0xD218AE00, TdfType.String, 2, true), // Tag: TABN
     ];
     private ITdfMember[] __members;
 

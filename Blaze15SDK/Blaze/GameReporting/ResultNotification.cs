@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class ResultNotification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CustomData", "customData", 0x10150100, TdfType.Variable, 0, true), // data
-        new TdfMemberInfo("BlazeError", "blazeError", 0x1523D200, TdfType.Int32, 1, true), // eror
-        new TdfMemberInfo("FinalResult", "finalResult", 0x18E30000, TdfType.Bool, 2, true), // fnl
-        new TdfMemberInfo("GameHistoryId", "gameHistoryId", 0x1C824400, TdfType.UInt64, 3, true), // ghid
-        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x1D224400, TdfType.UInt64, 4, true), // grid
+        new TdfMemberInfo("CustomData", "customData", 0x921D2100, TdfType.Variable, 0, true), // Tag: DATA
+        new TdfMemberInfo("BlazeError", "blazeError", 0x972BF200, TdfType.Int32, 1, true), // Tag: EROR
+        new TdfMemberInfo("FinalResult", "finalResult", 0x9AEB0000, TdfType.Bool, 2, true), // Tag: FNL
+        new TdfMemberInfo("GameHistoryId", "gameHistoryId", 0x9E8A6400, TdfType.UInt64, 3, true), // Tag: GHID
+        new TdfMemberInfo("GameReportingId", "gameReportingId", 0x9F2A6400, TdfType.UInt64, 4, true), // Tag: GRID
     ];
     private ITdfMember[] __members;
 

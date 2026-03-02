@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class FilterAttributeDefinition : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MultipleFilterAttributeDefinition", "mMultipleFilterAttributeDefinition", 0xB75B3400, TdfType.Struct, 0, true), // MULT
-        new TdfMemberInfo("SingleFilterAttributeDefinition", "mSingleFilterAttributeDefinition", 0xCE9BA700, TdfType.Struct, 1, true), // SING
+        new TdfMemberInfo("MultipleFilterAttributeDefinition", "mMultipleFilterAttributeDefinition", 0xB75B3400, TdfType.Struct, 0, true), // Tag: MULT
+        new TdfMemberInfo("SingleFilterAttributeDefinition", "mSingleFilterAttributeDefinition", 0xCE9BA700, TdfType.Struct, 1, true), // Tag: SING
     ];
     private ITdfMember[] __members;
 

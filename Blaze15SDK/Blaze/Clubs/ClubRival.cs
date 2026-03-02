@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubRival : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RivalClubId", "mRivalClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("CustOpt1", "mCustOpt1", 0x0CF41100, TdfType.UInt64, 1, true), // cop1
-        new TdfMemberInfo("CustOpt2", "mCustOpt2", 0x0CF41200, TdfType.UInt64, 2, true), // cop2
-        new TdfMemberInfo("CustOpt3", "mCustOpt3", 0x0CF41300, TdfType.UInt64, 3, true), // cop3
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D250900, TdfType.UInt32, 4, true), // crti
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x30150900, TdfType.UInt32, 5, true), // lati
-        new TdfMemberInfo("MetaData", "mMetaData", 0x34550100, TdfType.String, 6, true), // meta
+        new TdfMemberInfo("RivalClubId", "mRivalClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("CustOpt1", "mCustOpt1", 0x8EFC1100, TdfType.UInt64, 1, true), // Tag: COP1
+        new TdfMemberInfo("CustOpt2", "mCustOpt2", 0x8EFC1200, TdfType.UInt64, 2, true), // Tag: COP2
+        new TdfMemberInfo("CustOpt3", "mCustOpt3", 0x8EFC1300, TdfType.UInt64, 3, true), // Tag: COP3
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F2D2900, TdfType.UInt32, 4, true), // Tag: CRTI
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xB21D2900, TdfType.UInt32, 5, true), // Tag: LATI
+        new TdfMemberInfo("MetaData", "mMetaData", 0xB65D2100, TdfType.String, 6, true), // Tag: META
     ];
     private ITdfMember[] __members;
 

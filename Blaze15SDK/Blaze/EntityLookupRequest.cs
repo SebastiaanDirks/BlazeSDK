@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class EntityLookupRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityName", "mEntityName", 0xBA1B6500, TdfType.String, 0, true), // NAME
-        new TdfMemberInfo("EntityTypeName", "mEntityTypeName", 0xD39C2500, TdfType.String, 1, true), // TYPE
+        new TdfMemberInfo("EntityName", "mEntityName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("EntityTypeName", "mEntityTypeName", 0xD39C2500, TdfType.String, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

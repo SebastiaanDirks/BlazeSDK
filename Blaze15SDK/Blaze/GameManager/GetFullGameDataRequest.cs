@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetFullGameDataRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameIdList", "mGameIdList", 0x1C910C00, TdfType.List, 0, true), // gidl
-        new TdfMemberInfo("PersistedGameIdList", "mPersistedGameIdList", 0x40910C00, TdfType.List, 1, true), // pidl
+        new TdfMemberInfo("GameIdList", "mGameIdList", 0x9E992C00, TdfType.List, 0, true), // Tag: GIDL
+        new TdfMemberInfo("PersistedGameIdList", "mPersistedGameIdList", 0xC2992C00, TdfType.List, 1, true), // Tag: PIDL
     ];
     private ITdfMember[] __members;
 

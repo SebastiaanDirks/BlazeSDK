@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class RequirementData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Current", "mCurrent", 0x0D548000, TdfType.Int64, 0, true), // cur
-        new TdfMemberInfo("LastUpdated", "mLastUpdated", 0x3014D400, TdfType.Int64, 1, true), // last
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("Required", "mRequired", 0x48544000, TdfType.Int64, 3, true), // req
-        new TdfMemberInfo("Stat", "mStat", 0x4D405400, TdfType.String, 4, true), // stat
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Int64, 5, true), // user
+        new TdfMemberInfo("Current", "mCurrent", 0x8F5C8000, TdfType.Int64, 0, true), // Tag: CUR
+        new TdfMemberInfo("LastUpdated", "mLastUpdated", 0xB21CF400, TdfType.Int64, 1, true), // Tag: LAST
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("Required", "mRequired", 0xCA5C4000, TdfType.Int64, 3, true), // Tag: REQ
+        new TdfMemberInfo("Stat", "mStat", 0xCF487400, TdfType.String, 4, true), // Tag: STAT
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Int64, 5, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class GetLeaderboardTreeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FolderName", "mFolderName", 0x38134500, TdfType.String, 0, true), // name
+        new TdfMemberInfo("FolderName", "mFolderName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

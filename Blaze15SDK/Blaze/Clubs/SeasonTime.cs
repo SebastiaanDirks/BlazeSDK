@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class SeasonTime : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SeasonRolloverTime", "mSeasonRolloverTime", 0x4CF59200, TdfType.Int32, 0, true), // sovr
-        new TdfMemberInfo("SeasonStartTime", "mSeasonStartTime", 0x4D449400, TdfType.Int32, 1, true), // strt
+        new TdfMemberInfo("SeasonRolloverTime", "mSeasonRolloverTime", 0xCEFDB200, TdfType.Int32, 0, true), // Tag: SOVR
+        new TdfMemberInfo("SeasonStartTime", "mSeasonStartTime", 0xCF4CB400, TdfType.Int32, 1, true), // Tag: STRT
     ];
     private ITdfMember[] __members;
 

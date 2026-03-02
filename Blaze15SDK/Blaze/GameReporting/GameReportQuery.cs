@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportQuery : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ColumnKeyList", "mColumnKeyList", 0x0CF31300, TdfType.List, 0, true), // cols
-        new TdfMemberInfo("FilterList", "mFilterList", 0x18931400, TdfType.List, 1, true), // filt
-        new TdfMemberInfo("TypeName", "mTypeName", 0x1D465000, TdfType.String, 2, true), // gtyp
-        new TdfMemberInfo("MaxGameReport", "mMaxGameReport", 0x34749200, TdfType.UInt32, 3, true), // mgrr
-        new TdfMemberInfo("Name", "mName", 0x44E04D00, TdfType.String, 4, true), // qnam
+        new TdfMemberInfo("ColumnKeyList", "mColumnKeyList", 0x8EFB3300, TdfType.List, 0, true), // Tag: COLS
+        new TdfMemberInfo("FilterList", "mFilterList", 0x9A9B3400, TdfType.List, 1, true), // Tag: FILT
+        new TdfMemberInfo("TypeName", "mTypeName", 0x9F4E7000, TdfType.String, 2, true), // Tag: GTYP
+        new TdfMemberInfo("MaxGameReport", "mMaxGameReport", 0xB67CB200, TdfType.UInt32, 3, true), // Tag: MGRR
+        new TdfMemberInfo("Name", "mName", 0xC6E86D00, TdfType.String, 4, true), // Tag: QNAM
     ];
     private ITdfMember[] __members;
 

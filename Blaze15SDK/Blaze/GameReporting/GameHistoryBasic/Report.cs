@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.GameHistoryBasic;
 public class Report : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CustomReports", "mCustomReports", 0x0D54D400, TdfType.Variable, 0, true), // cust
-        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x1C134500, TdfType.Struct, 1, true), // game
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 2, true), // plyr
+        new TdfMemberInfo("CustomReports", "mCustomReports", 0x8F5CF400, TdfType.Variable, 0, true), // Tag: CUST
+        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x9E1B6500, TdfType.Struct, 1, true), // Tag: GAME
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 2, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

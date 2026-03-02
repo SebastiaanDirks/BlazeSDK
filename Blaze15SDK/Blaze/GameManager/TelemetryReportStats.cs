@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TelemetryReportStats : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DistProcTime", "mDistProcTime", 0x11049400, TdfType.Float, 0, true), // dprt
-        new TdfMemberInfo("DistWaitTime", "mDistWaitTime", 0x11751400, TdfType.Float, 1, true), // dwtt
-        new TdfMemberInfo("Idpps", "mIdpps", 0x24441300, TdfType.UInt32, 2, true), // idps
-        new TdfMemberInfo("LpackLost", "mLpackLost", 0x3102CC00, TdfType.Float, 3, true), // lpkl
-        new TdfMemberInfo("Odpps", "mOdpps", 0x3C441300, TdfType.UInt32, 4, true), // odps
-        new TdfMemberInfo("RpackLost", "mRpackLost", 0x4902CC00, TdfType.Float, 5, true), // rpkl
+        new TdfMemberInfo("DistProcTime", "mDistProcTime", 0x930CB400, TdfType.Float, 0, true), // Tag: DPRT
+        new TdfMemberInfo("DistWaitTime", "mDistWaitTime", 0x937D3400, TdfType.Float, 1, true), // Tag: DWTT
+        new TdfMemberInfo("Idpps", "mIdpps", 0xA64C3300, TdfType.UInt32, 2, true), // Tag: IDPS
+        new TdfMemberInfo("LpackLost", "mLpackLost", 0xB30AEC00, TdfType.Float, 3, true), // Tag: LPKL
+        new TdfMemberInfo("Odpps", "mOdpps", 0xBE4C3300, TdfType.UInt32, 4, true), // Tag: ODPS
+        new TdfMemberInfo("RpackLost", "mRpackLost", 0xCB0AEC00, TdfType.Float, 5, true), // Tag: RPKL
     ];
     private ITdfMember[] __members;
 

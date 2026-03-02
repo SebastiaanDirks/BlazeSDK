@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class CountMessagesForClubsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CountMap", "mCountMap", 0x34335000, TdfType.Map, 0, true), // mcmp
+        new TdfMemberInfo("CountMap", "mCountMap", 0xB63B7000, TdfType.Map, 0, true), // Tag: MCMP
     ];
     private ITdfMember[] __members;
 

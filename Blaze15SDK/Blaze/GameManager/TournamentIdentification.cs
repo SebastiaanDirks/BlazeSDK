@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TournamentIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TournamentId", "mTournamentId", 0x50910000, TdfType.String, 0, true), // tid
-        new TdfMemberInfo("TournamentOrganizer", "mTournamentOrganizer", 0x50F48700, TdfType.String, 1, true), // torg
+        new TdfMemberInfo("TournamentId", "mTournamentId", 0xD2990000, TdfType.String, 0, true), // Tag: TID
+        new TdfMemberInfo("TournamentOrganizer", "mTournamentOrganizer", 0xD2FCA700, TdfType.String, 1, true), // Tag: TORG
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.GameHistoryClubs_NonDerived;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "clubId", 0x0CC54200, TdfType.UInt64, 0, true), // club
-        new TdfMemberInfo("Points", "points", 0x4144C000, TdfType.UInt16, 1, true), // pts
+        new TdfMemberInfo("ClubId", "clubId", 0x8ECD6200, TdfType.UInt64, 0, true), // Tag: CLUB
+        new TdfMemberInfo("Points", "points", 0xC34CC000, TdfType.UInt16, 1, true), // Tag: PTS
     ];
     private ITdfMember[] __members;
 

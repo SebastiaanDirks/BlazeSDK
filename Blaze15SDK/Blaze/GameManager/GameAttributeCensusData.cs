@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameAttributeCensusData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NumOfGames", "mNumOfGames", 0x38F18700, TdfType.UInt32, 0, true), // nofg
-        new TdfMemberInfo("NumOfPlayers", "mNumOfPlayers", 0x38F19000, TdfType.UInt32, 1, true), // nofp
+        new TdfMemberInfo("NumOfGames", "mNumOfGames", 0xBAF9A700, TdfType.UInt32, 0, true), // Tag: NOFG
+        new TdfMemberInfo("NumOfPlayers", "mNumOfPlayers", 0xBAF9B000, TdfType.UInt32, 1, true), // Tag: NOFP
     ];
     private ITdfMember[] __members;
 

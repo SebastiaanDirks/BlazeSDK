@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardFolderGroup : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FolderDescriptors", "mFolderDescriptors", 0x18C11300, TdfType.List, 0, true), // flds
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 1, true), // meta
-        new TdfMemberInfo("Description", "mDescription", 0x3D711300, TdfType.String, 2, true), // owds
-        new TdfMemberInfo("FolderId", "mFolderId", 0x3D724400, TdfType.UInt32, 3, true), // owid
-        new TdfMemberInfo("Name", "mName", 0x3D738D00, TdfType.String, 4, true), // ownm
-        new TdfMemberInfo("ParentId", "mParentId", 0x41224400, TdfType.UInt32, 5, true), // prid
-        new TdfMemberInfo("ShortDesc", "mShortDesc", 0x4C415300, TdfType.String, 6, true), // sdes
+        new TdfMemberInfo("FolderDescriptors", "mFolderDescriptors", 0x9AC93300, TdfType.List, 0, true), // Tag: FLDS
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 1, true), // Tag: META
+        new TdfMemberInfo("Description", "mDescription", 0xBF793300, TdfType.String, 2, true), // Tag: OWDS
+        new TdfMemberInfo("FolderId", "mFolderId", 0xBF7A6400, TdfType.UInt32, 3, true), // Tag: OWID
+        new TdfMemberInfo("Name", "mName", 0xBF7BAD00, TdfType.String, 4, true), // Tag: OWNM
+        new TdfMemberInfo("ParentId", "mParentId", 0xC32A6400, TdfType.UInt32, 5, true), // Tag: PRID
+        new TdfMemberInfo("ShortDesc", "mShortDesc", 0xCE497300, TdfType.String, 6, true), // Tag: SDES
     ];
     private ITdfMember[] __members;
 

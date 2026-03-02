@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RankRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchedRankFlags", "mMatchedRankFlags", 0x49604C00, TdfType.UInt8, 0, true), // rval
+        new TdfMemberInfo("MatchedRankFlags", "mMatchedRankFlags", 0xCB686C00, TdfType.UInt8, 0, true), // Tag: RVAL
     ];
     private ITdfMember[] __members;
 

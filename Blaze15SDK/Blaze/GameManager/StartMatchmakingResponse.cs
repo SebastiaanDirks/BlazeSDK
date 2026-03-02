@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class StartMatchmakingResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExternalSessionCorrelationId", "mExternalSessionCorrelationId", 0x0CF24400, TdfType.String, 0, true), // coid
-        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x15338D00, TdfType.String, 1, true), // esnm
-        new TdfMemberInfo("SessionId", "mSessionId", 0x35324400, TdfType.UInt64, 2, true), // msid
-        new TdfMemberInfo("Scid", "mScid", 0x4C324400, TdfType.String, 3, true), // scid
-        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0x4D434E00, TdfType.String, 4, true), // stmn
+        new TdfMemberInfo("ExternalSessionCorrelationId", "mExternalSessionCorrelationId", 0x8EFA6400, TdfType.String, 0, true), // Tag: COID
+        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x973BAD00, TdfType.String, 1, true), // Tag: ESNM
+        new TdfMemberInfo("SessionId", "mSessionId", 0xB73A6400, TdfType.UInt64, 2, true), // Tag: MSID
+        new TdfMemberInfo("Scid", "mScid", 0xCE3A6400, TdfType.String, 3, true), // Tag: SCID
+        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0xCF4B6E00, TdfType.String, 4, true), // Tag: STMN
     ];
     private ITdfMember[] __members;
 

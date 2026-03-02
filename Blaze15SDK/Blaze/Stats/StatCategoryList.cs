@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatCategoryList : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Categories", "mCategories", 0x0C151300, TdfType.List, 0, true), // cats
+        new TdfMemberInfo("Categories", "mCategories", 0x8E1D3300, TdfType.List, 0, true), // Tag: CATS
     ];
     private ITdfMember[] __members;
 

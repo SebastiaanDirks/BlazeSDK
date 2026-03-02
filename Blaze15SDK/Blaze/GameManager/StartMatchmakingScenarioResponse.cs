@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class StartMatchmakingScenarioResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExternalSessionCorrelationId", "mExternalSessionCorrelationId", 0x0CF24400, TdfType.String, 0, true), // coid
-        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x15338D00, TdfType.String, 1, true), // esnm
-        new TdfMemberInfo("EstimatedTimeToMatch", "mEstimatedTimeToMatch", 0x15450D00, TdfType.Int64, 2, true), // ettm
-        new TdfMemberInfo("ScenarioId", "mScenarioId", 0x35324400, TdfType.UInt64, 3, true), // msid
-        new TdfMemberInfo("RecoTrackingTag", "mRecoTrackingTag", 0x49404700, TdfType.String, 4, true), // rtag
-        new TdfMemberInfo("Scid", "mScid", 0x4C324400, TdfType.String, 5, true), // scid
-        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0x4D434E00, TdfType.String, 6, true), // stmn
-        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0x58148900, TdfType.String, 7, true), // vari
+        new TdfMemberInfo("ExternalSessionCorrelationId", "mExternalSessionCorrelationId", 0x8EFA6400, TdfType.String, 0, true), // Tag: COID
+        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x973BAD00, TdfType.String, 1, true), // Tag: ESNM
+        new TdfMemberInfo("EstimatedTimeToMatch", "mEstimatedTimeToMatch", 0x974D2D00, TdfType.Int64, 2, true), // Tag: ETTM
+        new TdfMemberInfo("ScenarioId", "mScenarioId", 0xB73A6400, TdfType.UInt64, 3, true), // Tag: MSID
+        new TdfMemberInfo("RecoTrackingTag", "mRecoTrackingTag", 0xCB486700, TdfType.String, 4, true), // Tag: RTAG
+        new TdfMemberInfo("Scid", "mScid", 0xCE3A6400, TdfType.String, 5, true), // Tag: SCID
+        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0xCF4B6E00, TdfType.String, 6, true), // Tag: STMN
+        new TdfMemberInfo("ScenarioVariant", "mScenarioVariant", 0xDA1CA900, TdfType.String, 7, true), // Tag: VARI
     ];
     private ITdfMember[] __members;
 

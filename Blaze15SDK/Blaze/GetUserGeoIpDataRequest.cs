@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class GetUserGeoIpDataRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // BID
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD6990000, TdfType.UInt64, 1, true), // UID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD6990000, TdfType.UInt64, 1, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

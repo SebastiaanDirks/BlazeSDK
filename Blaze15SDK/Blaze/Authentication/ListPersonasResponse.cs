@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class ListPersonasResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("List", "mList", 0xC29BA600, TdfType.List, 0, true), // PINF
+        new TdfMemberInfo("List", "mList", 0xC29BA600, TdfType.List, 0, true), // Tag: PINF
     ];
     private ITdfMember[] __members;
 

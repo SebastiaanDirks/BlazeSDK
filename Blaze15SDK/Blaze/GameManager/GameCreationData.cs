@@ -7,31 +7,31 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameCreationData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntryCriteriaMap", "mEntryCriteriaMap", 0x0D225400, TdfType.Map, 0, true), // crit
-        new TdfMemberInfo("DisconnectReservationTimeout", "mDisconnectReservationTimeout", 0x11250F00, TdfType.Int64, 1, true), // drto
-        new TdfMemberInfo("DataSourceNameList", "mDataSourceNameList", 0x1444CF00, TdfType.List, 2, true), // edso
-        new TdfMemberInfo("IsExternalOwner", "mIsExternalOwner", 0x14F5CE00, TdfType.Bool, 3, true), // eown
-        new TdfMemberInfo("ExternalSessionIdentSetup", "mExternalSessionIdentSetup", 0x15851300, TdfType.Struct, 4, true), // exts
-        new TdfMemberInfo("GameModRegister", "mGameModRegister", 0x1CD48700, TdfType.UInt32, 5, true), // gmrg
-        new TdfMemberInfo("GameName", "mGameName", 0x1CE04D00, TdfType.String, 6, true), // gnam
-        new TdfMemberInfo("PermissionSystemName", "mPermissionSystemName", 0x1D04CE00, TdfType.String, 7, true), // gpsn
-        new TdfMemberInfo("GameSettings", "mGameSettings", 0x1D315400, TdfType.Enum, 8, true), // gset
-        new TdfMemberInfo("GameReportName", "mGameReportName", 0x1D465000, TdfType.String, 9, true), // gtyp
-        new TdfMemberInfo("SkipInitializing", "mSkipInitializing", 0x38938900, TdfType.Bool, 10, true), // nini
-        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0x3943D000, TdfType.Enum, 11, true), // ntop
-        new TdfMemberInfo("SlotCapacitiesMap", "mSlotCapacitiesMap", 0x40340D00, TdfType.Map, 12, true), // pcpm
-        new TdfMemberInfo("MaxPlayerCapacity", "mMaxPlayerCapacity", 0x40D05800, TdfType.UInt16, 13, true), // pmax
-        new TdfMemberInfo("MinPlayerCapacity", "mMinPlayerCapacity", 0x40D24E00, TdfType.UInt16, 14, true), // pmin
-        new TdfMemberInfo("PresenceDisabledList", "mPresenceDisabledList", 0x41210C00, TdfType.List, 15, true), // prdl
-        new TdfMemberInfo("PresenceMode", "mPresenceMode", 0x41215300, TdfType.Enum, 16, true), // pres
-        new TdfMemberInfo("PlayerReservationTimeout", "mPlayerReservationTimeout", 0x41250F00, TdfType.Int64, 17, true), // prto
-        new TdfMemberInfo("QueueCapacity", "mQueueCapacity", 0x44305000, TdfType.UInt16, 18, true), // qcap
-        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0x48E18F00, TdfType.Struct, 19, true), // rnfo
-        new TdfMemberInfo("ExternalSessionCustomData", "mExternalSessionCustomData", 0x4C405400, TdfType.Map, 20, true), // sdat
-        new TdfMemberInfo("ExternalSessionStatus", "mExternalSessionStatus", 0x4D350100, TdfType.Struct, 21, true), // ssta
-        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0x4D434E00, TdfType.String, 22, true), // stmn
-        new TdfMemberInfo("TeamIds", "mTeamIds", 0x50911300, TdfType.List, 23, true), // tids
-        new TdfMemberInfo("VoipNetwork", "mVoipNetwork", 0x58F25000, TdfType.Enum, 24, true), // voip
+        new TdfMemberInfo("EntryCriteriaMap", "mEntryCriteriaMap", 0x8F2A7400, TdfType.Map, 0, true), // Tag: CRIT
+        new TdfMemberInfo("DisconnectReservationTimeout", "mDisconnectReservationTimeout", 0x932D2F00, TdfType.Int64, 1, true), // Tag: DRTO
+        new TdfMemberInfo("DataSourceNameList", "mDataSourceNameList", 0x964CEF00, TdfType.List, 2, true), // Tag: EDSO
+        new TdfMemberInfo("IsExternalOwner", "mIsExternalOwner", 0x96FDEE00, TdfType.Bool, 3, true), // Tag: EOWN
+        new TdfMemberInfo("ExternalSessionIdentSetup", "mExternalSessionIdentSetup", 0x978D3300, TdfType.Struct, 4, true), // Tag: EXTS
+        new TdfMemberInfo("GameModRegister", "mGameModRegister", 0x9EDCA700, TdfType.UInt32, 5, true), // Tag: GMRG
+        new TdfMemberInfo("GameName", "mGameName", 0x9EE86D00, TdfType.String, 6, true), // Tag: GNAM
+        new TdfMemberInfo("PermissionSystemName", "mPermissionSystemName", 0x9F0CEE00, TdfType.String, 7, true), // Tag: GPSN
+        new TdfMemberInfo("GameSettings", "mGameSettings", 0x9F397400, TdfType.Enum, 8, true), // Tag: GSET
+        new TdfMemberInfo("GameReportName", "mGameReportName", 0x9F4E7000, TdfType.String, 9, true), // Tag: GTYP
+        new TdfMemberInfo("SkipInitializing", "mSkipInitializing", 0xBA9BA900, TdfType.Bool, 10, true), // Tag: NINI
+        new TdfMemberInfo("NetworkTopology", "mNetworkTopology", 0xBB4BF000, TdfType.Enum, 11, true), // Tag: NTOP
+        new TdfMemberInfo("SlotCapacitiesMap", "mSlotCapacitiesMap", 0xC23C2D00, TdfType.Map, 12, true), // Tag: PCPM
+        new TdfMemberInfo("MaxPlayerCapacity", "mMaxPlayerCapacity", 0xC2D87800, TdfType.UInt16, 13, true), // Tag: PMAX
+        new TdfMemberInfo("MinPlayerCapacity", "mMinPlayerCapacity", 0xC2DA6E00, TdfType.UInt16, 14, true), // Tag: PMIN
+        new TdfMemberInfo("PresenceDisabledList", "mPresenceDisabledList", 0xC3292C00, TdfType.List, 15, true), // Tag: PRDL
+        new TdfMemberInfo("PresenceMode", "mPresenceMode", 0xC3297300, TdfType.Enum, 16, true), // Tag: PRES
+        new TdfMemberInfo("PlayerReservationTimeout", "mPlayerReservationTimeout", 0xC32D2F00, TdfType.Int64, 17, true), // Tag: PRTO
+        new TdfMemberInfo("QueueCapacity", "mQueueCapacity", 0xC6387000, TdfType.UInt16, 18, true), // Tag: QCAP
+        new TdfMemberInfo("RoleInformation", "mRoleInformation", 0xCAE9AF00, TdfType.Struct, 19, true), // Tag: RNFO
+        new TdfMemberInfo("ExternalSessionCustomData", "mExternalSessionCustomData", 0xCE487400, TdfType.Map, 20, true), // Tag: SDAT
+        new TdfMemberInfo("ExternalSessionStatus", "mExternalSessionStatus", 0xCF3D2100, TdfType.Struct, 21, true), // Tag: SSTA
+        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0xCF4B6E00, TdfType.String, 22, true), // Tag: STMN
+        new TdfMemberInfo("TeamIds", "mTeamIds", 0xD2993300, TdfType.List, 23, true), // Tag: TIDS
+        new TdfMemberInfo("VoipNetwork", "mVoipNetwork", 0xDAFA7000, TdfType.Enum, 24, true), // Tag: VOIP
     ];
     private ITdfMember[] __members;
 

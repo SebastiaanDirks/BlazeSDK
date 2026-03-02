@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class RedisDumpLocationsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DumpLocations", "mDumpLocations", 0x10D40C00, TdfType.Map, 0, true), // dmpl
+        new TdfMemberInfo("DumpLocations", "mDumpLocations", 0x92DC2C00, TdfType.Map, 0, true), // Tag: DMPL
     ];
     private ITdfMember[] __members;
 

@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ChangeClubStringsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Description", "mDescription", 0x0C44C300, TdfType.String, 0, true), // cdsc
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 1, true), // clid
-        new TdfMemberInfo("Name", "mName", 0x0CE04D00, TdfType.String, 2, true), // cnam
-        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0x39544E00, TdfType.String, 3, true), // nuqn
+        new TdfMemberInfo("Description", "mDescription", 0x8E4CE300, TdfType.String, 0, true), // Tag: CDSC
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 1, true), // Tag: CLID
+        new TdfMemberInfo("Name", "mName", 0x8EE86D00, TdfType.String, 2, true), // Tag: CNAM
+        new TdfMemberInfo("NonUniqueName", "mNonUniqueName", 0xBB5C6E00, TdfType.String, 3, true), // Tag: NUQN
     ];
     private ITdfMember[] __members;
 

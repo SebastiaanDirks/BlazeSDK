@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamMinSizeRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TeamMinSize", "mTeamMinSize", 0x40339400, TdfType.UInt16, 0, true), // pcnt
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 1, true), // thld
+        new TdfMemberInfo("TeamMinSize", "mTeamMinSize", 0xC23BB400, TdfType.UInt16, 0, true), // Tag: PCNT
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 1, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

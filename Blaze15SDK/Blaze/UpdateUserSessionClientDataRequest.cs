@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class UpdateUserSessionClientDataRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientData", "mClientData", 0x8F687200, TdfType.Variable, 0, true), // CVAR
+        new TdfMemberInfo("ClientData", "mClientData", 0x8F687200, TdfType.Variable, 0, true), // Tag: CVAR
     ];
     private ITdfMember[] __members;
 

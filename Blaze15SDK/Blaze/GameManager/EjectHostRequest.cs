@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class EjectHostRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("ReplaceHost", "mReplaceHost", 0x48540800, TdfType.Bool, 1, true), // reph
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("ReplaceHost", "mReplaceHost", 0xCA5C2800, TdfType.Bool, 1, true), // Tag: REPH
     ];
     private ITdfMember[] __members;
 

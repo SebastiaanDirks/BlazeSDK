@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class FetchMessageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Flags", "mFlags", 0x18C04700, TdfType.Enum, 0, true), // flag
-        new TdfMemberInfo("MessageId", "mMessageId", 0x34724400, TdfType.UInt64, 1, true), // mgid
-        new TdfMemberInfo("PageIndex", "mPageIndex", 0x40911800, TdfType.UInt32, 2, true), // pidx
-        new TdfMemberInfo("PageSize", "mPageSize", 0x41325A00, TdfType.UInt32, 3, true), // psiz
-        new TdfMemberInfo("StatusMask", "mStatusMask", 0x4CD4CB00, TdfType.UInt32, 4, true), // smsk
-        new TdfMemberInfo("OrderBy", "mOrderBy", 0x4CF49400, TdfType.Enum, 5, true), // sort
-        new TdfMemberInfo("Source", "mSource", 0x4D20C500, TdfType.ObjectId, 6, true), // srce
-        new TdfMemberInfo("Status", "mStatus", 0x4D405400, TdfType.UInt32, 7, true), // stat
-        new TdfMemberInfo("Target", "mTarget", 0x50148700, TdfType.ObjectId, 8, true), // targ
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.UInt32, 9, true), // type
-        new TdfMemberInfo("TypeList", "mTypeList", 0x51940C00, TdfType.List, 10, true), // typl
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 0, true), // Tag: FLAG
+        new TdfMemberInfo("MessageId", "mMessageId", 0xB67A6400, TdfType.UInt64, 1, true), // Tag: MGID
+        new TdfMemberInfo("PageIndex", "mPageIndex", 0xC2993800, TdfType.UInt32, 2, true), // Tag: PIDX
+        new TdfMemberInfo("PageSize", "mPageSize", 0xC33A7A00, TdfType.UInt32, 3, true), // Tag: PSIZ
+        new TdfMemberInfo("StatusMask", "mStatusMask", 0xCEDCEB00, TdfType.UInt32, 4, true), // Tag: SMSK
+        new TdfMemberInfo("OrderBy", "mOrderBy", 0xCEFCB400, TdfType.Enum, 5, true), // Tag: SORT
+        new TdfMemberInfo("Source", "mSource", 0xCF28E500, TdfType.ObjectId, 6, true), // Tag: SRCE
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.UInt32, 7, true), // Tag: STAT
+        new TdfMemberInfo("Target", "mTarget", 0xD21CA700, TdfType.ObjectId, 8, true), // Tag: TARG
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.UInt32, 9, true), // Tag: TYPE
+        new TdfMemberInfo("TypeList", "mTypeList", 0xD39C2C00, TdfType.List, 10, true), // Tag: TYPL
     ];
     private ITdfMember[] __members;
 

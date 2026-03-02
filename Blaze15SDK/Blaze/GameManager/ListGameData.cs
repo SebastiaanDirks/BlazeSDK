@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ListGameData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Game", "mGame", 0x1C134500, TdfType.Struct, 0, true), // game
-        new TdfMemberInfo("GameRoster", "mGameRoster", 0x4123D300, TdfType.List, 1, true), // pros
-        new TdfMemberInfo("QueueRoster", "mQueueRoster", 0x4523D300, TdfType.List, 2, true), // qros
+        new TdfMemberInfo("Game", "mGame", 0x9E1B6500, TdfType.Struct, 0, true), // Tag: GAME
+        new TdfMemberInfo("GameRoster", "mGameRoster", 0xC32BF300, TdfType.List, 1, true), // Tag: PROS
+        new TdfMemberInfo("QueueRoster", "mQueueRoster", 0xC72BF300, TdfType.List, 2, true), // Tag: QROS
     ];
     private ITdfMember[] __members;
 

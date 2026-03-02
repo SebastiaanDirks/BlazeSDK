@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubAward : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AwardId", "mAwardId", 0x05724400, TdfType.UInt32, 0, true), // awid
-        new TdfMemberInfo("AwardImgURL", "mAwardImgURL", 0x05725500, TdfType.String, 1, true), // awiu
-        new TdfMemberInfo("Count", "mCount", 0x0C15C900, TdfType.UInt32, 2, true), // cawi
-        new TdfMemberInfo("AwardImgCheckSum", "mAwardImgCheckSum", 0x24D0D300, TdfType.Int32, 3, true), // imcs
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x31511400, TdfType.UInt32, 4, true), // ludt
+        new TdfMemberInfo("AwardId", "mAwardId", 0x877A6400, TdfType.UInt32, 0, true), // Tag: AWID
+        new TdfMemberInfo("AwardImgURL", "mAwardImgURL", 0x877A7500, TdfType.String, 1, true), // Tag: AWIU
+        new TdfMemberInfo("Count", "mCount", 0x8E1DE900, TdfType.UInt32, 2, true), // Tag: CAWI
+        new TdfMemberInfo("AwardImgCheckSum", "mAwardImgCheckSum", 0xA6D8F300, TdfType.Int32, 3, true), // Tag: IMCS
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xB3593400, TdfType.UInt32, 4, true), // Tag: LUDT
     ];
     private ITdfMember[] __members;
 

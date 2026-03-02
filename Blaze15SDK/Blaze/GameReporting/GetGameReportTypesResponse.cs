@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetGameReportTypesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameReportTypes", "mGameReportTypes", 0x1D251300, TdfType.List, 0, true), // grts
+        new TdfMemberInfo("GameReportTypes", "mGameReportTypes", 0x9F2D3300, TdfType.List, 0, true), // Tag: GRTS
     ];
     private ITdfMember[] __members;
 

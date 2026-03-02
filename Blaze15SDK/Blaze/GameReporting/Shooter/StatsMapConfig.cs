@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.Shooter;
 public class StatsMapConfig : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("StatValueScope", "mStatValueScope", 0x4D635000, TdfType.Map, 0, true), // svmp
+        new TdfMemberInfo("StatValueScope", "mStatValueScope", 0xCF6B7000, TdfType.Map, 0, true), // Tag: SVMP
     ];
     private ITdfMember[] __members;
 

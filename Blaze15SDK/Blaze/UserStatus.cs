@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class UserStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x9AC9F300, TdfType.Enum, 0, true), // FLGS
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 1, true), // ID
+        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x9AC9F300, TdfType.Enum, 0, true), // Tag: FLGS
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 1, true), // Tag: ID
     ];
     private ITdfMember[] __members;
 

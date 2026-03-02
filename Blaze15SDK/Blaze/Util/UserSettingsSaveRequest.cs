@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserSettingsSaveRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Data", "mData", 0x10150100, TdfType.String, 0, true), // data
-        new TdfMemberInfo("Key", "mKey", 0x2C564000, TdfType.String, 1, true), // key
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x54910000, TdfType.Int64, 2, true), // uid
+        new TdfMemberInfo("Data", "mData", 0x921D2100, TdfType.String, 0, true), // Tag: DATA
+        new TdfMemberInfo("Key", "mKey", 0xAE5E4000, TdfType.String, 1, true), // Tag: KEY
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 2, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

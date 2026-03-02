@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.CensusData;
 public class SubscribeToCensusDataUpdatesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Resubscribe", "mResubscribe", 0x49354200, TdfType.Bool, 0, true), // rsub
+        new TdfMemberInfo("Resubscribe", "mResubscribe", 0xCB3D6200, TdfType.Bool, 0, true), // Tag: RSUB
     ];
     private ITdfMember[] __members;
 

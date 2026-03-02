@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameBrowserMatchData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FitScore", "mFitScore", 0x18950000, TdfType.UInt32, 0, true), // fit
-        new TdfMemberInfo("GameData", "mGameData", 0x1C134000, TdfType.Struct, 1, true), // gam
+        new TdfMemberInfo("FitScore", "mFitScore", 0x9A9D0000, TdfType.UInt32, 0, true), // Tag: FIT
+        new TdfMemberInfo("GameData", "mGameData", 0x9E1B4000, TdfType.Struct, 1, true), // Tag: GAM
     ];
     private ITdfMember[] __members;
 

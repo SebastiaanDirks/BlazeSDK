@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetTournamentGameReportViewRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1CD24400, TdfType.UInt64, 0, true), // gmid
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 1, true), // name
+        new TdfMemberInfo("GameId", "mGameId", 0x9EDA6400, TdfType.UInt64, 0, true), // Tag: GMID
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 1, true), // Tag: NAME
     ];
     private ITdfMember[] __members;
 

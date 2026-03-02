@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_EndGame;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.UInt16, 0, true), // deth
-        new TdfMemberInfo("ResultMap", "resultMap", 0x49335000, TdfType.Map, 1, true), // rsmp
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.UInt16, 0, true), // Tag: DETH
+        new TdfMemberInfo("ResultMap", "resultMap", 0xCB3B7000, TdfType.Map, 1, true), // Tag: RSMP
     ];
     private ITdfMember[] __members;
 

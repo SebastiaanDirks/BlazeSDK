@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_DimensionalStats;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.Int32, 0, true), // deth
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 1, true), // fcap
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.Int32, 2, true), // kill
-        new TdfMemberInfo("AccountLocale", "accountLocale", 0x30F0C000, TdfType.UInt32, 3, true), // loc
-        new TdfMemberInfo("LeavingReason", "leavingReason", 0x48D48000, TdfType.UInt32, 4, true), // rmr
-        new TdfMemberInfo("ResultMap", "resultMap", 0x49335000, TdfType.Map, 5, true), // rsmp
-        new TdfMemberInfo("SkippedReport", "skippedReport", 0x4CB49000, TdfType.Variable, 6, true), // skrp
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.Int32, 0, true), // Tag: DETH
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 1, true), // Tag: FCAP
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.Int32, 2, true), // Tag: KILL
+        new TdfMemberInfo("AccountLocale", "accountLocale", 0xB2F8C000, TdfType.UInt32, 3, true), // Tag: LOC
+        new TdfMemberInfo("LeavingReason", "leavingReason", 0xCADC8000, TdfType.UInt32, 4, true), // Tag: RMR
+        new TdfMemberInfo("ResultMap", "resultMap", 0xCB3B7000, TdfType.Map, 5, true), // Tag: RSMP
+        new TdfMemberInfo("SkippedReport", "skippedReport", 0xCEBCB000, TdfType.Variable, 6, true), // Tag: SKRP
     ];
     private ITdfMember[] __members;
 

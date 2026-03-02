@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatGroupResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0CE04D00, TdfType.String, 0, true), // cnam
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 1, true), // desc
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 2, true), // etyp
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 3, true), // ksum
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 4, true), // meta
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 5, true), // name
-        new TdfMemberInfo("StatDescs", "mStatDescs", 0x4D405400, TdfType.List, 6, true), // stat
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8EE86D00, TdfType.String, 0, true), // Tag: CNAM
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 1, true), // Tag: DESC
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 2, true), // Tag: ETYP
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 3, true), // Tag: KSUM
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 4, true), // Tag: META
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 5, true), // Tag: NAME
+        new TdfMemberInfo("StatDescs", "mStatDescs", 0xCF487400, TdfType.List, 6, true), // Tag: STAT
     ];
     private ITdfMember[] __members;
 

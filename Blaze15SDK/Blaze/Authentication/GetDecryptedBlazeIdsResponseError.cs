@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetDecryptedBlazeIdsResponseError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FailedEncryptedBlazeIds", "mFailedEncryptedBlazeIds", 0x9A5BA300, TdfType.List, 0, true), // FENC
+        new TdfMemberInfo("FailedEncryptedBlazeIds", "mFailedEncryptedBlazeIds", 0x9A5BA300, TdfType.List, 0, true), // Tag: FENC
     ];
     private ITdfMember[] __members;
     private TdfList<string> _failedEncryptedBlazeIds = new(__typeInfos[0]);

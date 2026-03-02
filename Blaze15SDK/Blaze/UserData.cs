@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class UserData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x96487400, TdfType.Struct, 0, true), // EDAT
-        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x9AC9F300, TdfType.Enum, 1, true), // FLGS
-        new TdfMemberInfo("UserInfo", "mUserInfo", 0xD7397200, TdfType.Struct, 2, true), // USER
+        new TdfMemberInfo("ExtendedData", "mExtendedData", 0x96487400, TdfType.Struct, 0, true), // Tag: EDAT
+        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x9AC9F300, TdfType.Enum, 1, true), // Tag: FLGS
+        new TdfMemberInfo("UserInfo", "mUserInfo", 0xD7397200, TdfType.Struct, 2, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

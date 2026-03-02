@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyPlayerRemoved : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x0CE51800, TdfType.UInt16, 0, true), // cntx
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("LockedForPreferredJoins", "mLockedForPreferredJoins", 0x30640A00, TdfType.Bool, 2, true), // lfpj
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 3, true), // pid
-        new TdfMemberInfo("PlayerRemovedReason", "mPlayerRemovedReason", 0x48505300, TdfType.Enum, 4, true), // reas
+        new TdfMemberInfo("PlayerRemovedTitleContext", "mPlayerRemovedTitleContext", 0x8EED3800, TdfType.UInt16, 0, true), // Tag: CNTX
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("LockedForPreferredJoins", "mLockedForPreferredJoins", 0xB26C2A00, TdfType.Bool, 2, true), // Tag: LFPJ
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 3, true), // Tag: PID
+        new TdfMemberInfo("PlayerRemovedReason", "mPlayerRemovedReason", 0xCA587300, TdfType.Enum, 4, true), // Tag: REAS
     ];
     private ITdfMember[] __members;
 

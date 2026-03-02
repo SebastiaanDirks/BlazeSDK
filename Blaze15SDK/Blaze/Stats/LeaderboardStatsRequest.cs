@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x0CF54E00, TdfType.Int32, 0, true), // coun
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 1, true), // ksum
-        new TdfMemberInfo("BoardId", "mBoardId", 0x30224400, TdfType.Int32, 2, true), // lbid
-        new TdfMemberInfo("BoardName", "mBoardName", 0x38134500, TdfType.String, 3, true), // name
-        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0x40F18600, TdfType.Int32, 4, true), // poff
-        new TdfMemberInfo("PeriodId", "mPeriodId", 0x41224400, TdfType.Int32, 5, true), // prid
-        new TdfMemberInfo("RankStart", "mRankStart", 0x4D449400, TdfType.Int32, 6, true), // strt
-        new TdfMemberInfo("Time", "mTime", 0x50934500, TdfType.Int32, 7, true), // time
-        new TdfMemberInfo("UserSetId", "mUserSetId", 0x55315400, TdfType.ObjectId, 8, true), // uset
+        new TdfMemberInfo("Count", "mCount", 0x8EFD6E00, TdfType.Int32, 0, true), // Tag: COUN
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 1, true), // Tag: KSUM
+        new TdfMemberInfo("BoardId", "mBoardId", 0xB22A6400, TdfType.Int32, 2, true), // Tag: LBID
+        new TdfMemberInfo("BoardName", "mBoardName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
+        new TdfMemberInfo("PeriodOffset", "mPeriodOffset", 0xC2F9A600, TdfType.Int32, 4, true), // Tag: POFF
+        new TdfMemberInfo("PeriodId", "mPeriodId", 0xC32A6400, TdfType.Int32, 5, true), // Tag: PRID
+        new TdfMemberInfo("RankStart", "mRankStart", 0xCF4CB400, TdfType.Int32, 6, true), // Tag: STRT
+        new TdfMemberInfo("Time", "mTime", 0xD29B6500, TdfType.Int32, 7, true), // Tag: TIME
+        new TdfMemberInfo("UserSetId", "mUserSetId", 0xD7397400, TdfType.ObjectId, 8, true), // Tag: USET
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class SetGameModRegisterRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1CD24400, TdfType.UInt64, 0, true), // gmid
-        new TdfMemberInfo("GameModRegister", "mGameModRegister", 0x1CD48700, TdfType.UInt32, 1, true), // gmrg
+        new TdfMemberInfo("GameId", "mGameId", 0x9EDA6400, TdfType.UInt64, 0, true), // Tag: GMID
+        new TdfMemberInfo("GameModRegister", "mGameModRegister", 0x9EDCA700, TdfType.UInt32, 1, true), // Tag: GMRG
     ];
     private ITdfMember[] __members;
 

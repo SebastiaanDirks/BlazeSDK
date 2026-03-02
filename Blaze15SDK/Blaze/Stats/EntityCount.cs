@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class EntityCount : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x0CE50000, TdfType.Int32, 0, true), // cnt
+        new TdfMemberInfo("Count", "mCount", 0x8EED0000, TdfType.Int32, 0, true), // Tag: CNT
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_Custom;
 public class ResultNotification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "gameId", 0x1CD24400, TdfType.UInt64, 0, true), // gmid
-        new TdfMemberInfo("PlayerScores", "playerScores", 0x4C33D200, TdfType.Map, 1, true), // scor
-        new TdfMemberInfo("Winners", "winners", 0x5C939000, TdfType.List, 2, true), // winp
+        new TdfMemberInfo("GameId", "gameId", 0x9EDA6400, TdfType.UInt64, 0, true), // Tag: GMID
+        new TdfMemberInfo("PlayerScores", "playerScores", 0xCE3BF200, TdfType.Map, 1, true), // Tag: SCOR
+        new TdfMemberInfo("Winners", "winners", 0xDE9BB000, TdfType.List, 2, true), // Tag: WINP
     ];
     private ITdfMember[] __members;
 

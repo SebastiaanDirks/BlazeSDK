@@ -7,23 +7,23 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class AccountInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AnonymousUser", "mAnonymousUser", 0x86DD4000, TdfType.Bool, 0, true), // AMU
-        new TdfMemberInfo("AuthenticationSource", "mAuthenticationSource", 0x873CA300, TdfType.String, 1, true), // ASRC
-        new TdfMemberInfo("Country", "mCountry", 0x8EF00000, TdfType.String, 2, true), // CO
-        new TdfMemberInfo("DOB", "mDOB", 0x92F88000, TdfType.String, 3, true), // DOB
-        new TdfMemberInfo("DateCreated", "mDateCreated", 0x9348F200, TdfType.String, 4, true), // DTCR
-        new TdfMemberInfo("GlobalOptin", "mGlobalOptin", 0x9EFC3400, TdfType.Int8, 5, true), // GOPT
-        new TdfMemberInfo("LastAuth", "mLastAuth", 0xB21D2800, TdfType.String, 6, true), // LATH
-        new TdfMemberInfo("Language", "mLanguage", 0xB2E00000, TdfType.String, 7, true), // LN
-        new TdfMemberInfo("Locale", "mLocale", 0xB2F8C000, TdfType.String, 8, true), // LOC
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 9, true), // MAIL
-        new TdfMemberInfo("ParentalEmail", "mParentalEmail", 0xC2DB0000, TdfType.String, 10, true), // PML
-        new TdfMemberInfo("ReasonCode", "mReasonCode", 0xCA300000, TdfType.Enum, 11, true), // RC
-        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 12, true), // STAS
-        new TdfMemberInfo("EmailStatus", "mEmailStatus", 0xCF487400, TdfType.Enum, 13, true), // STAT
-        new TdfMemberInfo("ThirdPartyOptin", "mThirdPartyOptin", 0xD30BF400, TdfType.Int8, 14, true), // TPOT
-        new TdfMemberInfo("UnderageUser", "mUnderageUser", 0xD64D4000, TdfType.Bool, 15, true), // UDU
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 16, true), // UID
+        new TdfMemberInfo("AnonymousUser", "mAnonymousUser", 0x86DD4000, TdfType.Bool, 0, true), // Tag: AMU
+        new TdfMemberInfo("AuthenticationSource", "mAuthenticationSource", 0x873CA300, TdfType.String, 1, true), // Tag: ASRC
+        new TdfMemberInfo("Country", "mCountry", 0x8EF00000, TdfType.String, 2, true), // Tag: CO
+        new TdfMemberInfo("DOB", "mDOB", 0x92F88000, TdfType.String, 3, true), // Tag: DOB
+        new TdfMemberInfo("DateCreated", "mDateCreated", 0x9348F200, TdfType.String, 4, true), // Tag: DTCR
+        new TdfMemberInfo("GlobalOptin", "mGlobalOptin", 0x9EFC3400, TdfType.Int8, 5, true), // Tag: GOPT
+        new TdfMemberInfo("LastAuth", "mLastAuth", 0xB21D2800, TdfType.String, 6, true), // Tag: LATH
+        new TdfMemberInfo("Language", "mLanguage", 0xB2E00000, TdfType.String, 7, true), // Tag: LN
+        new TdfMemberInfo("Locale", "mLocale", 0xB2F8C000, TdfType.String, 8, true), // Tag: LOC
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 9, true), // Tag: MAIL
+        new TdfMemberInfo("ParentalEmail", "mParentalEmail", 0xC2DB0000, TdfType.String, 10, true), // Tag: PML
+        new TdfMemberInfo("ReasonCode", "mReasonCode", 0xCA300000, TdfType.Enum, 11, true), // Tag: RC
+        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 12, true), // Tag: STAS
+        new TdfMemberInfo("EmailStatus", "mEmailStatus", 0xCF487400, TdfType.Enum, 13, true), // Tag: STAT
+        new TdfMemberInfo("ThirdPartyOptin", "mThirdPartyOptin", 0xD30BF400, TdfType.Int8, 14, true), // Tag: TPOT
+        new TdfMemberInfo("UnderageUser", "mUnderageUser", 0xD64D4000, TdfType.Bool, 15, true), // Tag: UDU
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 16, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 
@@ -48,9 +48,23 @@ public class AccountInfo : Tdf
     public AccountInfo()
     {
         __members = [
-            _anonymousUser, _authenticationSource, _country, _dob, _dateCreated,
-            _globalOptin, _lastAuth, _language, _locale, _email, _parentalEmail,
-            _reasonCode, _status, _emailStatus, _thirdPartyOptin, _underageUser, _accountId,
+            _anonymousUser,
+            _authenticationSource,
+            _country,
+            _dob,
+            _dateCreated,
+            _globalOptin,
+            _lastAuth,
+            _language,
+            _locale,
+            _email,
+            _parentalEmail,
+            _reasonCode,
+            _status,
+            _emailStatus,
+            _thirdPartyOptin,
+            _underageUser,
+            _accountId,
         ];
     }
 

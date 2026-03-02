@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyGameStateChange : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("NewGameState", "mNewGameState", 0x1D350100, TdfType.Enum, 1, true), // gsta
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("NewGameState", "mNewGameState", 0x9F3D2100, TdfType.Enum, 1, true), // Tag: GSTA
     ];
     private ITdfMember[] __members;
 

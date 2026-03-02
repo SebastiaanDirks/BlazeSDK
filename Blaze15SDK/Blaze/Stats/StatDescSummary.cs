@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatDescSummary : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Category", "mCategory", 0x0C150700, TdfType.String, 0, true), // catg
-        new TdfMemberInfo("DefaultValue", "mDefaultValue", 0x10631400, TdfType.String, 1, true), // dflt
-        new TdfMemberInfo("Derived", "mDerived", 0x11258400, TdfType.Bool, 2, true), // drvd
-        new TdfMemberInfo("Format", "mFormat", 0x19235400, TdfType.String, 3, true), // frmt
-        new TdfMemberInfo("Kind", "mKind", 0x2C938400, TdfType.String, 4, true), // kind
-        new TdfMemberInfo("LongDesc", "mLongDesc", 0x3044C300, TdfType.String, 5, true), // ldsc
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 6, true), // meta
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 7, true), // name
-        new TdfMemberInfo("ShortDesc", "mShortDesc", 0x4C44C300, TdfType.String, 8, true), // sdsc
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Int32, 9, true), // type
+        new TdfMemberInfo("Category", "mCategory", 0x8E1D2700, TdfType.String, 0, true), // Tag: CATG
+        new TdfMemberInfo("DefaultValue", "mDefaultValue", 0x926B3400, TdfType.String, 1, true), // Tag: DFLT
+        new TdfMemberInfo("Derived", "mDerived", 0x932DA400, TdfType.Bool, 2, true), // Tag: DRVD
+        new TdfMemberInfo("Format", "mFormat", 0x9B2B7400, TdfType.String, 3, true), // Tag: FRMT
+        new TdfMemberInfo("Kind", "mKind", 0xAE9BA400, TdfType.String, 4, true), // Tag: KIND
+        new TdfMemberInfo("LongDesc", "mLongDesc", 0xB24CE300, TdfType.String, 5, true), // Tag: LDSC
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 6, true), // Tag: META
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 7, true), // Tag: NAME
+        new TdfMemberInfo("ShortDesc", "mShortDesc", 0xCE4CE300, TdfType.String, 8, true), // Tag: SDSC
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Int32, 9, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

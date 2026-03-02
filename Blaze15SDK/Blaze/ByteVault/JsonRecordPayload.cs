@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class JsonRecordPayload : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ContentType", "mContentType", 0x34934500, TdfType.String, 0, true), // mime
-        new TdfMemberInfo("Blob", "mBlob", 0x4C405400, TdfType.String, 1, true), // sdat
+        new TdfMemberInfo("ContentType", "mContentType", 0xB69B6500, TdfType.String, 0, true), // Tag: MIME
+        new TdfMemberInfo("Blob", "mBlob", 0xCE487400, TdfType.String, 1, true), // Tag: SDAT
     ];
     private ITdfMember[] __members;
 

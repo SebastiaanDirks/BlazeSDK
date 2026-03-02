@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_MidGame;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 0, true), // fcap
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.UInt16, 1, true), // kill
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 0, true), // Tag: FCAP
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.UInt16, 1, true), // Tag: KILL
     ];
     private ITdfMember[] __members;
 

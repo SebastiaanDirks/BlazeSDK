@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonClub;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "clubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("Points", "points", 0x40E51300, TdfType.UInt16, 1, true), // pnts
-        new TdfMemberInfo("RivalPoints", "rivalPoints", 0x49051300, TdfType.UInt16, 2, true), // rpts
+        new TdfMemberInfo("ClubId", "clubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("Points", "points", 0xC2ED3300, TdfType.UInt16, 1, true), // Tag: PNTS
+        new TdfMemberInfo("RivalPoints", "rivalPoints", 0xCB0D3300, TdfType.UInt16, 2, true), // Tag: RPTS
     ];
     private ITdfMember[] __members;
 

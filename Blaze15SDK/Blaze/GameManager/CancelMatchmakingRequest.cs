@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CancelMatchmakingRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MatchmakingSessionId", "mMatchmakingSessionId", 0x35324400, TdfType.UInt64, 0, true), // msid
+        new TdfMemberInfo("MatchmakingSessionId", "mMatchmakingSessionId", 0xB73A6400, TdfType.UInt64, 0, true), // Tag: MSID
     ];
     private ITdfMember[] __members;
 

@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class AuxiliaryAuthentication : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ApiVersion", "mApiVersion", 0x05024000, TdfType.Int32, 0, true), // api
-        new TdfMemberInfo("AuthToken", "mAuthToken", 0x0543CB00, TdfType.String, 1, true), // atok
-        new TdfMemberInfo("TrustedAuthToken", "mTrustedAuthToken", 0x05450B00, TdfType.String, 2, true), // attk
-        new TdfMemberInfo("UserPassword", "mUserPassword", 0x21408100, TdfType.String, 3, true), // htba
-        new TdfMemberInfo("Signature", "mSignature", 0x4C91CE00, TdfType.String, 4, true), // sign
-        new TdfMemberInfo("SecretKey", "mSecretKey", 0x4CB15900, TdfType.String, 5, true), // skey
-        new TdfMemberInfo("Timestamp", "mTimestamp", 0x50934500, TdfType.Int64, 6, true), // time
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 7, true), // user
+        new TdfMemberInfo("ApiVersion", "mApiVersion", 0x870A4000, TdfType.Int32, 0, true), // Tag: API
+        new TdfMemberInfo("AuthToken", "mAuthToken", 0x874BEB00, TdfType.String, 1, true), // Tag: ATOK
+        new TdfMemberInfo("TrustedAuthToken", "mTrustedAuthToken", 0x874D2B00, TdfType.String, 2, true), // Tag: ATTK
+        new TdfMemberInfo("UserPassword", "mUserPassword", 0xA348A100, TdfType.String, 3, true), // Tag: HTBA
+        new TdfMemberInfo("Signature", "mSignature", 0xCE99EE00, TdfType.String, 4, true), // Tag: SIGN
+        new TdfMemberInfo("SecretKey", "mSecretKey", 0xCEB97900, TdfType.String, 5, true), // Tag: SKEY
+        new TdfMemberInfo("Timestamp", "mTimestamp", 0xD29B6500, TdfType.Int64, 6, true), // Tag: TIME
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 7, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

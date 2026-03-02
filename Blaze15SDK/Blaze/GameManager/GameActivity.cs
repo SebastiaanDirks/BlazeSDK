@@ -7,15 +7,15 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GameActivity : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SessionIdentification", "mSessionIdentification", 0x15324400, TdfType.Struct, 0, true), // esid
-        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x15338D00, TdfType.String, 1, true), // esnm
-        new TdfMemberInfo("GameType", "mGameType", 0x1C751900, TdfType.Enum, 2, true), // ggty
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 3, true), // gid
-        new TdfMemberInfo("Player", "mPlayer", 0x40C65200, TdfType.Struct, 4, true), // plyr
-        new TdfMemberInfo("PresenceMode", "mPresenceMode", 0x41215300, TdfType.Enum, 5, true), // pres
-        new TdfMemberInfo("PlayerState", "mPlayerState", 0x41350100, TdfType.Enum, 6, true), // psta
-        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0x4D434E00, TdfType.String, 7, true), // stmn
-        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0x50934500, TdfType.Int64, 8, true), // time
+        new TdfMemberInfo("SessionIdentification", "mSessionIdentification", 0x973A6400, TdfType.Struct, 0, true), // Tag: ESID
+        new TdfMemberInfo("ExternalSessionName", "mExternalSessionName", 0x973BAD00, TdfType.String, 1, true), // Tag: ESNM
+        new TdfMemberInfo("GameType", "mGameType", 0x9E7D3900, TdfType.Enum, 2, true), // Tag: GGTY
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 3, true), // Tag: GID
+        new TdfMemberInfo("Player", "mPlayer", 0xC2CE7200, TdfType.Struct, 4, true), // Tag: PLYR
+        new TdfMemberInfo("PresenceMode", "mPresenceMode", 0xC3297300, TdfType.Enum, 5, true), // Tag: PRES
+        new TdfMemberInfo("PlayerState", "mPlayerState", 0xC33D2100, TdfType.Enum, 6, true), // Tag: PSTA
+        new TdfMemberInfo("ExternalSessionTemplateName", "mExternalSessionTemplateName", 0xCF4B6E00, TdfType.String, 7, true), // Tag: STMN
+        new TdfMemberInfo("JoinedGameTimestamp", "mJoinedGameTimestamp", 0xD29B6500, TdfType.Int64, 8, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

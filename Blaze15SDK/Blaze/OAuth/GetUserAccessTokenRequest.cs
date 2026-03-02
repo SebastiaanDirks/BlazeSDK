@@ -7,19 +7,19 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetUserAccessTokenRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 0, true), // usid
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4D60CE00, TdfType.String, 1, true), // svcn
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCF68EE00, TdfType.String, 0, true), // Tag: SVCN
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 1, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 
-    private TdfUInt64 _userSessionId = new(__typeInfos[0]);
-    private TdfString _serviceName = new(__typeInfos[1]);
+    private TdfUInt64 _userSessionId = new(__typeInfos[1]);
+    private TdfString _serviceName = new(__typeInfos[0]);
 
     public GetUserAccessTokenRequest()
     {
         __members = [
-            _userSessionId,
             _serviceName,
+            _userSessionId,
         ];
     }
 

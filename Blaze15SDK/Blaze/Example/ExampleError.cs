@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Example;
 public class ExampleError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Message", "mMessage", 0xB739C000, TdfType.String, 0, true), // MSG
+        new TdfMemberInfo("Message", "mMessage", 0xB739C000, TdfType.String, 0, true), // Tag: MSG
     ];
     private ITdfMember[] __members;
 

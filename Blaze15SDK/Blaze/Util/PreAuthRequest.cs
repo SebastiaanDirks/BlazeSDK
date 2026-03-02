@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Util;
 public class PreAuthRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClientData", "mClientData", 0x0C405400, TdfType.Struct, 0, true), // cdat
-        new TdfMemberInfo("ClientInfo", "mClientInfo", 0x0C938600, TdfType.Struct, 1, true), // cinf
-        new TdfMemberInfo("FetchClientConfig", "mFetchClientConfig", 0x1830D200, TdfType.Struct, 2, true), // fccr
-        new TdfMemberInfo("LocalAddress", "mLocalAddress", 0x30110400, TdfType.UInt32, 3, true), // ladd
+        new TdfMemberInfo("ClientData", "mClientData", 0x8E487400, TdfType.Struct, 0, true), // Tag: CDAT
+        new TdfMemberInfo("ClientInfo", "mClientInfo", 0x8E9BA600, TdfType.Struct, 1, true), // Tag: CINF
+        new TdfMemberInfo("FetchClientConfig", "mFetchClientConfig", 0x9A38F200, TdfType.Struct, 2, true), // Tag: FCCR
+        new TdfMemberInfo("LocalAddress", "mLocalAddress", 0xB2192400, TdfType.UInt32, 3, true), // Tag: LADD
     ];
     private ITdfMember[] __members;
 

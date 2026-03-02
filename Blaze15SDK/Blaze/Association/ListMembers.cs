@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListMembers : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Info", "mInfo", 0x24E18F00, TdfType.Struct, 0, true), // info
-        new TdfMemberInfo("ListMemberInfoVector", "mListMemberInfoVector", 0x34534C00, TdfType.List, 1, true), // meml
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 2, true), // ofrc
-        new TdfMemberInfo("TotalCount", "mTotalCount", 0x50F0D400, TdfType.UInt32, 3, true), // toct
+        new TdfMemberInfo("Info", "mInfo", 0xA6E9AF00, TdfType.Struct, 0, true), // Tag: INFO
+        new TdfMemberInfo("ListMemberInfoVector", "mListMemberInfoVector", 0xB65B6C00, TdfType.List, 1, true), // Tag: MEML
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 2, true), // Tag: OFRC
+        new TdfMemberInfo("TotalCount", "mTotalCount", 0xD2F8F400, TdfType.UInt32, 3, true), // Tag: TOCT
     ];
     private ITdfMember[] __members;
 

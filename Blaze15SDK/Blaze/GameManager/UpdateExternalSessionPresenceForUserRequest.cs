@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateExternalSessionPresenceForUserRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ChangedGame", "mChangedGame", 0x0C704D00, TdfType.Struct, 0, true), // cgam
-        new TdfMemberInfo("ChangedGameId", "mChangedGameId", 0x0C724400, TdfType.UInt64, 1, true), // cgid
-        new TdfMemberInfo("Change", "mChange", 0x0C838700, TdfType.Enum, 2, true), // chng
-        new TdfMemberInfo("CurrentGames", "mCurrentGames", 0x1C10D400, TdfType.List, 3, true), // gact
-        new TdfMemberInfo("OldPrimaryGameId", "mOldPrimaryGameId", 0x3C724400, TdfType.UInt64, 4, true), // ogid
-        new TdfMemberInfo("UserIdentification", "mUserIdentification", 0x55315200, TdfType.Struct, 5, true), // user
+        new TdfMemberInfo("ChangedGame", "mChangedGame", 0x8E786D00, TdfType.Struct, 0, true), // Tag: CGAM
+        new TdfMemberInfo("ChangedGameId", "mChangedGameId", 0x8E7A6400, TdfType.UInt64, 1, true), // Tag: CGID
+        new TdfMemberInfo("Change", "mChange", 0x8E8BA700, TdfType.Enum, 2, true), // Tag: CHNG
+        new TdfMemberInfo("CurrentGames", "mCurrentGames", 0x9E18F400, TdfType.List, 3, true), // Tag: GACT
+        new TdfMemberInfo("OldPrimaryGameId", "mOldPrimaryGameId", 0xBE7A6400, TdfType.UInt64, 4, true), // Tag: OGID
+        new TdfMemberInfo("UserIdentification", "mUserIdentification", 0xD7397200, TdfType.Struct, 5, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class CheckLegalDocResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Accepted", "mAccepted", 0x863C3400, TdfType.Bool, 0, true), // ACPT
+        new TdfMemberInfo("Accepted", "mAccepted", 0x863C3400, TdfType.Bool, 0, true), // Tag: ACPT
     ];
     private ITdfMember[] __members;
     private TdfBool _accepted = new(__typeInfos[0]);

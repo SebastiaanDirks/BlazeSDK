@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubTickerMessagesForClubsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x0C910C00, TdfType.List, 0, true), // cidl
-        new TdfMemberInfo("OldestTimestamp", "mOldestTimestamp", 0x51350D00, TdfType.UInt32, 1, true), // tstm
+        new TdfMemberInfo("ClubIdList", "mClubIdList", 0x8E992C00, TdfType.List, 0, true), // Tag: CIDL
+        new TdfMemberInfo("OldestTimestamp", "mOldestTimestamp", 0xD33D2D00, TdfType.UInt32, 1, true), // Tag: TSTM
     ];
     private ITdfMember[] __members;
 

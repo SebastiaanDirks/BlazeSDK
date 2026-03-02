@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyRemoteMatchmakingEnded : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("RemoteUserInfo", "mRemoteUserInfo", 0x24E18F00, TdfType.Struct, 1, true), // info
-        new TdfMemberInfo("MMScenarioId", "mMMScenarioId", 0x3530C400, TdfType.UInt64, 2, true), // mscd
-        new TdfMemberInfo("MMSessionId", "mMMSessionId", 0x35324400, TdfType.UInt64, 3, true), // msid
-        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0x49331400, TdfType.Enum, 4, true), // rslt
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 5, true), // usid
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("RemoteUserInfo", "mRemoteUserInfo", 0xA6E9AF00, TdfType.Struct, 1, true), // Tag: INFO
+        new TdfMemberInfo("MMScenarioId", "mMMScenarioId", 0xB738E400, TdfType.UInt64, 2, true), // Tag: MSCD
+        new TdfMemberInfo("MMSessionId", "mMMSessionId", 0xB73A6400, TdfType.UInt64, 3, true), // Tag: MSID
+        new TdfMemberInfo("MatchmakingResult", "mMatchmakingResult", 0xCB3B3400, TdfType.Enum, 4, true), // Tag: RSLT
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 5, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

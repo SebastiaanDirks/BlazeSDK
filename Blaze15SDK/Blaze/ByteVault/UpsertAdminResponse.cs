@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertAdminResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0x48348500, TdfType.Bool, 0, true), // rcre
-        new TdfMemberInfo("Admin", "mAdmin", 0x51940500, TdfType.Struct, 1, true), // type
+        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0xCA3CA500, TdfType.Bool, 0, true), // Tag: RCRE
+        new TdfMemberInfo("Admin", "mAdmin", 0xD39C2500, TdfType.Struct, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

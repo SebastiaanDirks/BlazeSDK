@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class UpdateUserSessionAttributeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Key", "mKey", 0x874A6400, TdfType.UInt64, 0, true), // ATID
-        new TdfMemberInfo("Remove", "mRemove", 0xBF097200, TdfType.Bool, 1, true), // OPER
-        new TdfMemberInfo("UpdateReason", "mUpdateReason", 0xD7296100, TdfType.UInt32, 2, true), // UREA
-        new TdfMemberInfo("Value", "mValue", 0xDA1B3500, TdfType.UInt64, 3, true), // VALU
+        new TdfMemberInfo("Key", "mKey", 0x874A6400, TdfType.UInt64, 0, true), // Tag: ATID
+        new TdfMemberInfo("Remove", "mRemove", 0xBF097200, TdfType.Bool, 1, true), // Tag: OPER
+        new TdfMemberInfo("UpdateReason", "mUpdateReason", 0xD7296100, TdfType.UInt32, 2, true), // Tag: UREA
+        new TdfMemberInfo("Value", "mValue", 0xDA1B3500, TdfType.UInt64, 3, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

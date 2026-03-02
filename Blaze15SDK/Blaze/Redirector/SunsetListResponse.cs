@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class SunsetListResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Titles", "mTitles", 0x4D424C00, TdfType.Map, 0, true), // stil
+        new TdfMemberInfo("Titles", "mTitles", 0xCF4A6C00, TdfType.Map, 0, true), // Tag: STIL
     ];
     private ITdfMember[] __members;
 

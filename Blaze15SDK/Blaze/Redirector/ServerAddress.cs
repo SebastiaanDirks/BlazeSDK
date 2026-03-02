@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerAddress : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IpAddress", "mIpAddress", 0xDA1B3500, TdfType.UInt32, 0, true), // VALU
-        new TdfMemberInfo("XboxServerAddress", "mXboxServerAddress", 0xDA1B3500, TdfType.Struct, 1, true), // VALU
+        new TdfMemberInfo("IpAddress", "mIpAddress", 0xDA1B3500, TdfType.UInt32, 0, true), // Tag: VALU
+        new TdfMemberInfo("XboxServerAddress", "mXboxServerAddress", 0xDA1B3500, TdfType.Struct, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

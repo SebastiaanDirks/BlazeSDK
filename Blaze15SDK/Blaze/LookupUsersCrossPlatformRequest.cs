@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class LookupUsersCrossPlatformRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LookupType", "mLookupType", 0xB34E7000, TdfType.Enum, 0, true), // LTYP
-        new TdfMemberInfo("LookupOpts", "mLookupOpts", 0xBF0D3300, TdfType.Enum, 1, true), // OPTS
-        new TdfMemberInfo("PlatformInfoList", "mPlatformInfoList", 0xC29B0000, TdfType.List, 2, true), // PIL
+        new TdfMemberInfo("LookupType", "mLookupType", 0xB34E7000, TdfType.Enum, 0, true), // Tag: LTYP
+        new TdfMemberInfo("LookupOpts", "mLookupOpts", 0xBF0D3300, TdfType.Enum, 1, true), // Tag: OPTS
+        new TdfMemberInfo("PlatformInfoList", "mPlatformInfoList", 0xC29B0000, TdfType.List, 2, true), // Tag: PIL
     ];
     private ITdfMember[] __members;
 

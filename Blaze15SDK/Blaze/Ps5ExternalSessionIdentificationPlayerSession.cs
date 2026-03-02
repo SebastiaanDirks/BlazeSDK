@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class Ps5ExternalSessionIdentificationPlayerSession : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlayerSessionId", "mPlayerSessionId", 0x41324400, TdfType.String, 0, true), // psid
+        new TdfMemberInfo("PlayerSessionId", "mPlayerSessionId", 0xC33A6400, TdfType.String, 0, true), // Tag: PSID
     ];
     private ITdfMember[] __members;
 

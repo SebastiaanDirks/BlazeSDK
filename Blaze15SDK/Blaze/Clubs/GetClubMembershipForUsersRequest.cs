@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubMembershipForUsersRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeIdList", "mBlazeIdList", 0x24431400, TdfType.List, 0, true), // idlt
+        new TdfMemberInfo("BlazeIdList", "mBlazeIdList", 0xA64B3400, TdfType.List, 0, true), // Tag: IDLT
     ];
     private ITdfMember[] __members;
 

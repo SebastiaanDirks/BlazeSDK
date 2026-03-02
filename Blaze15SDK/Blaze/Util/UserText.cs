@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class UserText : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Text", "mText", 0x55461400, TdfType.String, 0, true), // utxt
+        new TdfMemberInfo("Text", "mText", 0xD74E3400, TdfType.String, 0, true), // Tag: UTXT
     ];
     private ITdfMember[] __members;
 

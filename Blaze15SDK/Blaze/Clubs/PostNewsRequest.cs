@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class PostNewsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ClubNews", "mClubNews", 0x39730900, TdfType.Struct, 1, true), // nwli
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ClubNews", "mClubNews", 0xBB7B2900, TdfType.Struct, 1, true), // Tag: NWLI
     ];
     private ITdfMember[] __members;
 

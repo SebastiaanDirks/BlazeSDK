@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class ForceOwnSessionLogoutRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // BID
-        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 1, true), // KEY
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 1, true), // Tag: KEY
     ];
     private ITdfMember[] __members;
 

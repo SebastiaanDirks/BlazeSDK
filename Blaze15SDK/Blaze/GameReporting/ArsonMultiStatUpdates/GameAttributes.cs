@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonMultiStatUpdates;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LeagueId", "leagueId", 0x30504700, TdfType.UInt64, 0, true), // leag
+        new TdfMemberInfo("LeagueId", "leagueId", 0xB2586700, TdfType.UInt64, 0, true), // Tag: LEAG
     ];
     private ITdfMember[] __members;
 

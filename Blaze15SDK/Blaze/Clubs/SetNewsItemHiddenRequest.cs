@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class SetNewsItemHiddenRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("NewsId", "mNewsId", 0x08C24400, TdfType.ObjectId, 0, true), // blid
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 1, true), // clid
-        new TdfMemberInfo("IsHidden", "mIsHidden", 0x25320400, TdfType.Bool, 2, true), // ishd
+        new TdfMemberInfo("NewsId", "mNewsId", 0x8ACA6400, TdfType.ObjectId, 0, true), // Tag: BLID
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 1, true), // Tag: CLID
+        new TdfMemberInfo("IsHidden", "mIsHidden", 0xA73A2400, TdfType.Bool, 2, true), // Tag: ISHD
     ];
     private ITdfMember[] __members;
 

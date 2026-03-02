@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class UpdateMemberMetadataRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("MetaData", "mMetaData", 0x34550100, TdfType.Map, 1, true), // meta
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("MetaData", "mMetaData", 0xB65D2100, TdfType.Map, 1, true), // Tag: META
     ];
     private ITdfMember[] __members;
 

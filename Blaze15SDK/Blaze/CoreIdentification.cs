@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze;
 public class CoreIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // AIDS
-        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 1, true), // EXID
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 2, true), // ID
-        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 3, true), // NAME
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 4, true), // NASP
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 0, true), // Tag: AIDS
+        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 1, true), // Tag: EXID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 2, true), // Tag: ID
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 3, true), // Tag: NAME
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 4, true), // Tag: NASP
     ];
     private ITdfMember[] __members;
 

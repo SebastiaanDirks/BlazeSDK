@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class LookupUsersByPersonaNamesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 0, true), // NASP
-        new TdfMemberInfo("PersonaNameList", "mPersonaNameList", 0xC2CCF400, TdfType.List, 1, true), // PLST
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 0, true), // Tag: NASP
+        new TdfMemberInfo("PersonaNameList", "mPersonaNameList", 0xC2CCF400, TdfType.List, 1, true), // Tag: PLST
     ];
     private ITdfMember[] __members;
 

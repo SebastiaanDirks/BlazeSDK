@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class ServiceNameInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Platform", "platform", 0xC2C87400, TdfType.Enum, 0, true), // PLAT
-        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 1, true), // PRDT
-        new TdfMemberInfo("ReleaseType", "releaseType", 0xCA5B3400, TdfType.String, 2, true), // RELT
-        new TdfMemberInfo("BlazeServerClientId", "mBlazeServerClientId", 0xCF2A6400, TdfType.String, 3, true), // SRID
+        new TdfMemberInfo("Platform", "platform", 0xC2C87400, TdfType.Enum, 0, true), // Tag: PLAT
+        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 1, true), // Tag: PRDT
+        new TdfMemberInfo("ReleaseType", "releaseType", 0xCA5B3400, TdfType.String, 2, true), // Tag: RELT
+        new TdfMemberInfo("BlazeServerClientId", "mBlazeServerClientId", 0xCF2A6400, TdfType.String, 3, true), // Tag: SRID
     ];
     private ITdfMember[] __members;
 

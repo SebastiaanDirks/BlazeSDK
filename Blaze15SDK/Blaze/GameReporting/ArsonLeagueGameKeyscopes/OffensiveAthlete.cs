@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeagueGameKeyscopes;
 public class OffensiveAthlete : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Serves", "serves", 0x4C549600, TdfType.UInt16, 0, true), // serv
-        new TdfMemberInfo("Team", "team", 0x50504D00, TdfType.UInt16, 1, true), // team
+        new TdfMemberInfo("Serves", "serves", 0xCE5CB600, TdfType.UInt16, 0, true), // Tag: SERV
+        new TdfMemberInfo("Team", "team", 0xD2586D00, TdfType.UInt16, 1, true), // Tag: TEAM
     ];
     private ITdfMember[] __members;
 

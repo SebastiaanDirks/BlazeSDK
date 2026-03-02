@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TeamCountRulePrefs : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TeamCount", "mTeamCount", 0x50339400, TdfType.UInt16, 0, true), // tcnt
+        new TdfMemberInfo("TeamCount", "mTeamCount", 0xD23BB400, TdfType.UInt16, 0, true), // Tag: TCNT
     ];
     private ITdfMember[] __members;
 

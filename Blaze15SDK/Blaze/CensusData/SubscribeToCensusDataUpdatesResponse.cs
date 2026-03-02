@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.CensusData;
 public class SubscribeToCensusDataUpdatesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CensusNotificationPeriod", "mCensusNotificationPeriod", 0x0CE40000, TdfType.Int64, 0, true), // cnp
-        new TdfMemberInfo("NotificationTimeout", "mNotificationTimeout", 0x39435400, TdfType.Int64, 1, true), // ntmt
-        new TdfMemberInfo("ResubscribeTimeout", "mResubscribeTimeout", 0x49435400, TdfType.Int64, 2, true), // rtmt
+        new TdfMemberInfo("CensusNotificationPeriod", "mCensusNotificationPeriod", 0x8EEC0000, TdfType.Int64, 0, true), // Tag: CNP
+        new TdfMemberInfo("NotificationTimeout", "mNotificationTimeout", 0xBB4B7400, TdfType.Int64, 1, true), // Tag: NTMT
+        new TdfMemberInfo("ResubscribeTimeout", "mResubscribeTimeout", 0xCB4B7400, TdfType.Int64, 2, true), // Tag: RTMT
     ];
     private ITdfMember[] __members;
 

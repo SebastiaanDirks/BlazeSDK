@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class SetClubTickerMessagesSubscriptionRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("IsSubscribed", "mIsSubscribed", 0x2534D500, TdfType.Bool, 1, true), // issu
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("IsSubscribed", "mIsSubscribed", 0xA73CF500, TdfType.Bool, 1, true), // Tag: ISSU
     ];
     private ITdfMember[] __members;
 

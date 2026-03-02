@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class UserDataResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserDataList", "mUserDataList", 0xD6CCF400, TdfType.List, 0, true), // ULST
+        new TdfMemberInfo("UserDataList", "mUserDataList", 0xD6CCF400, TdfType.List, 0, true), // Tag: ULST
     ];
     private ITdfMember[] __members;
 

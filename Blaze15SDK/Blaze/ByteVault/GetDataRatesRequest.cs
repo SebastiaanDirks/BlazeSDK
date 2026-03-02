@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class GetDataRatesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x05550800, TdfType.Struct, 0, true), // auth
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 1, true), // cat
-        new TdfMemberInfo("Context", "mContext", 0x0D461400, TdfType.String, 2, true), // ctxt
+        new TdfMemberInfo("AuthCredentials", "mAuthCredentials", 0x875D2800, TdfType.Struct, 0, true), // Tag: AUTH
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 1, true), // Tag: CAT
+        new TdfMemberInfo("Context", "mContext", 0x8F4E3400, TdfType.String, 2, true), // Tag: CTXT
     ];
     private ITdfMember[] __members;
 

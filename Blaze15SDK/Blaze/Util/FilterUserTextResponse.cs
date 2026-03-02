@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Util;
 public class FilterUserTextResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FilteredTextList", "mFilteredTextList", 0x50C4D400, TdfType.List, 0, true), // tlst
+        new TdfMemberInfo("FilteredTextList", "mFilteredTextList", 0xD2CCF400, TdfType.List, 0, true), // Tag: TLST
     ];
     private ITdfMember[] __members;
 

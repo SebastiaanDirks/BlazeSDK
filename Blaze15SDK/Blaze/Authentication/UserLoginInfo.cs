@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class UserLoginInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("IsFirstConsoleLogin", "mIsFirstConsoleLogin", 0x463BEE00, TdfType.Bool, 0, true), // 1CON
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // AIDS
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 2, true), // BUID
-        new TdfMemberInfo("IsFirstLogin", "mIsFirstLogin", 0x9B2CF400, TdfType.Bool, 3, true), // FRST
-        new TdfMemberInfo("GeoIpSucceeded", "mGeoIpSucceeded", 0x9E5BC000, TdfType.Bool, 4, true), // GEO
-        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 5, true), // KEY
-        new TdfMemberInfo("LastLoginDateTime", "mLastLoginDateTime", 0xB2CBE700, TdfType.Int64, 6, true), // LLOG
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 7, true), // MAIL
-        new TdfMemberInfo("PersonaDetails", "mPersonaDetails", 0xC24D2C00, TdfType.Struct, 8, true), // PDTL
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 9, true), // UID
+        new TdfMemberInfo("IsFirstConsoleLogin", "mIsFirstConsoleLogin", 0x463BEE00, TdfType.Bool, 0, true), // Tag: 1CON
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // Tag: AIDS
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 2, true), // Tag: BUID
+        new TdfMemberInfo("IsFirstLogin", "mIsFirstLogin", 0x9B2CF400, TdfType.Bool, 3, true), // Tag: FRST
+        new TdfMemberInfo("GeoIpSucceeded", "mGeoIpSucceeded", 0x9E5BC000, TdfType.Bool, 4, true), // Tag: GEO
+        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 5, true), // Tag: KEY
+        new TdfMemberInfo("LastLoginDateTime", "mLastLoginDateTime", 0xB2CBE700, TdfType.Int64, 6, true), // Tag: LLOG
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 7, true), // Tag: MAIL
+        new TdfMemberInfo("PersonaDetails", "mPersonaDetails", 0xC24D2C00, TdfType.Struct, 8, true), // Tag: PDTL
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 9, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class GetClubAwardsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubAwardList", "mClubAwardList", 0x05748C00, TdfType.List, 0, true), // awrl
+        new TdfMemberInfo("ClubAwardList", "mClubAwardList", 0x877CAC00, TdfType.List, 0, true), // Tag: AWRL
     ];
     private ITdfMember[] __members;
 

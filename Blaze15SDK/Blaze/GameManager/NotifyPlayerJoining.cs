@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyPlayerJoining : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("JoiningPlayer", "mJoiningPlayer", 0x40405400, TdfType.Struct, 1, true), // pdat
-        new TdfMemberInfo("ValidateQosForJoiningPlayer", "mValidateQosForJoiningPlayer", 0x44F4D400, TdfType.Bool, 2, true), // qost
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("JoiningPlayer", "mJoiningPlayer", 0xC2487400, TdfType.Struct, 1, true), // Tag: PDAT
+        new TdfMemberInfo("ValidateQosForJoiningPlayer", "mValidateQosForJoiningPlayer", 0xC6FCF400, TdfType.Bool, 2, true), // Tag: QOST
     ];
     private ITdfMember[] __members;
 

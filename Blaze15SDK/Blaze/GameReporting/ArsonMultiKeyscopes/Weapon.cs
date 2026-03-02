@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonMultiKeyscopes;
 public class Weapon : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Hits", "hits", 0x20951300, TdfType.UInt16, 0, true), // hits
-        new TdfMemberInfo("ShotsFired", "shotsFired", 0x4C83D400, TdfType.UInt16, 1, true), // shot
+        new TdfMemberInfo("Hits", "hits", 0xA29D3300, TdfType.UInt16, 0, true), // Tag: HITS
+        new TdfMemberInfo("ShotsFired", "shotsFired", 0xCE8BF400, TdfType.UInt16, 1, true), // Tag: SHOT
     ];
     private ITdfMember[] __members;
 

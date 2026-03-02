@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class OriginPersonaIdentifier : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // BUID
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 1, true), // PNAM
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // Tag: BUID
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 1, true), // Tag: PNAM
     ];
     private ITdfMember[] __members;
 

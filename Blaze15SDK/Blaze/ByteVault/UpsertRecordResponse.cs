@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class UpsertRecordResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Location", "mLocation", 0x30F0C000, TdfType.String, 0, true), // loc
-        new TdfMemberInfo("Record", "mRecord", 0x48324E00, TdfType.Struct, 1, true), // rcin
-        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0x48348500, TdfType.Bool, 2, true), // rcre
-        new TdfMemberInfo("IsRemoteResource", "mIsRemoteResource", 0x48D3D400, TdfType.Bool, 3, true), // rmot
+        new TdfMemberInfo("Location", "mLocation", 0xB2F8C000, TdfType.String, 0, true), // Tag: LOC
+        new TdfMemberInfo("Record", "mRecord", 0xCA3A6E00, TdfType.Struct, 1, true), // Tag: RCIN
+        new TdfMemberInfo("ResourceCreated", "mResourceCreated", 0xCA3CA500, TdfType.Bool, 2, true), // Tag: RCRE
+        new TdfMemberInfo("IsRemoteResource", "mIsRemoteResource", 0xCADBF400, TdfType.Bool, 3, true), // Tag: RMOT
     ];
     private ITdfMember[] __members;
 

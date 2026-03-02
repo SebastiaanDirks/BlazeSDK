@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_MidGame;
 public class GameAttributes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameName", "gameName", 0x1CE04D00, TdfType.String, 0, true), // gnam
-        new TdfMemberInfo("MapName", "mapName", 0x34140000, TdfType.String, 1, true), // map
+        new TdfMemberInfo("GameName", "gameName", 0x9EE86D00, TdfType.String, 0, true), // Tag: GNAM
+        new TdfMemberInfo("MapName", "mapName", 0xB61C0000, TdfType.String, 1, true), // Tag: MAP
     ];
     private ITdfMember[] __members;
 

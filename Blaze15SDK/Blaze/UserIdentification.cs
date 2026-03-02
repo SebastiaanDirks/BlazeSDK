@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze;
 public class UserIdentification : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AccountId", "mAccountId", 0x86990000, TdfType.Int64, 0, true), // AID
-        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // AIDS
-        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x86CBE300, TdfType.UInt32, 2, true), // ALOC
-        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 3, true), // CNTY
-        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 4, true), // EXID
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 5, true), // ID
-        new TdfMemberInfo("IsPrimaryPersona", "mIsPrimaryPersona", 0xA73C3000, TdfType.Bool, 6, true), // ISPP
-        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 7, true), // NAME
-        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 8, true), // NASP
-        new TdfMemberInfo("OriginPersonaId", "mOriginPersonaId", 0xBF2A6700, TdfType.UInt64, 9, true), // ORIG
-        new TdfMemberInfo("PidId", "mPidId", 0xC2992900, TdfType.Int64, 10, true), // PIDI
+        new TdfMemberInfo("AccountId", "mAccountId", 0x86990000, TdfType.Int64, 0, true), // Tag: AID
+        new TdfMemberInfo("PlatformInfo", "mPlatformInfo", 0x86993300, TdfType.Struct, 1, true), // Tag: AIDS
+        new TdfMemberInfo("AccountLocale", "mAccountLocale", 0x86CBE300, TdfType.UInt32, 2, true), // Tag: ALOC
+        new TdfMemberInfo("AccountCountry", "mAccountCountry", 0x8EED3900, TdfType.UInt32, 3, true), // Tag: CNTY
+        new TdfMemberInfo("ExternalId", "mExternalId", 0x978A6400, TdfType.UInt64, 4, true), // Tag: EXID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xA6400000, TdfType.Int64, 5, true), // Tag: ID
+        new TdfMemberInfo("IsPrimaryPersona", "mIsPrimaryPersona", 0xA73C3000, TdfType.Bool, 6, true), // Tag: ISPP
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 7, true), // Tag: NAME
+        new TdfMemberInfo("PersonaNamespace", "mPersonaNamespace", 0xBA1CF000, TdfType.String, 8, true), // Tag: NASP
+        new TdfMemberInfo("OriginPersonaId", "mOriginPersonaId", 0xBF2A6700, TdfType.UInt64, 9, true), // Tag: ORIG
+        new TdfMemberInfo("PidId", "mPidId", 0xC2992900, TdfType.Int64, 10, true), // Tag: PIDI
     ];
     private ITdfMember[] __members;
 

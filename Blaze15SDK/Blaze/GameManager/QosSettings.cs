@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class QosSettings : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DurationMs", "mDurationMs", 0x11548100, TdfType.UInt32, 0, true), // dura
-        new TdfMemberInfo("IntervalMs", "mIntervalMs", 0x24E51600, TdfType.UInt32, 1, true), // intv
-        new TdfMemberInfo("PacketSize", "mPacketSize", 0x4C968500, TdfType.UInt32, 2, true), // size
+        new TdfMemberInfo("DurationMs", "mDurationMs", 0x935CA100, TdfType.UInt32, 0, true), // Tag: DURA
+        new TdfMemberInfo("IntervalMs", "mIntervalMs", 0xA6ED3600, TdfType.UInt32, 1, true), // Tag: INTV
+        new TdfMemberInfo("PacketSize", "mPacketSize", 0xCE9EA500, TdfType.UInt32, 2, true), // Tag: SIZE
     ];
     private ITdfMember[] __members;
 

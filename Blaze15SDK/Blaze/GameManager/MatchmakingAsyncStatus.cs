@@ -7,27 +7,27 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class MatchmakingAsyncStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CreateGameStatus", "mCreateGameStatus", 0x0C74C000, TdfType.Struct, 0, true), // cgs
-        new TdfMemberInfo("VariableCustomAsyncStatus", "mVariableCustomAsyncStatus", 0x0D605200, TdfType.Map, 1, true), // cvar
-        new TdfMemberInfo("ExpandedPingSiteRuleStatus", "mExpandedPingSiteRuleStatus", 0x1504D200, TdfType.Struct, 2, true), // epsr
-        new TdfMemberInfo("FindGameStatus", "mFindGameStatus", 0x1874C000, TdfType.Struct, 3, true), // fgs
-        new TdfMemberInfo("GameAttributeRuleStatusMap", "mGameAttributeRuleStatusMap", 0x1C14CD00, TdfType.Map, 4, true), // gasm
-        new TdfMemberInfo("GeoLocationRuleStatus", "mGeoLocationRuleStatus", 0x1C53D300, TdfType.Struct, 5, true), // geos
-        new TdfMemberInfo("HostBalanceRuleStatus", "mHostBalanceRuleStatus", 0x20248400, TdfType.Struct, 6, true), // hbrd
-        new TdfMemberInfo("HostViabilityRuleStatus", "mHostViabilityRuleStatus", 0x21648400, TdfType.Struct, 7, true), // hvrd
-        new TdfMemberInfo("PlayerAttributeRuleStatusMap", "mPlayerAttributeRuleStatusMap", 0x4014CD00, TdfType.Map, 8, true), // pasm
-        new TdfMemberInfo("PlayerCountRuleStatus", "mPlayerCountRuleStatus", 0x40C0CE00, TdfType.Struct, 9, true), // plcn
-        new TdfMemberInfo("PlayerSlotUtilizationRuleStatus", "mPlayerSlotUtilizationRuleStatus", 0x40C55400, TdfType.Struct, 10, true), // plut
-        new TdfMemberInfo("RankRuleStatus", "mRankRuleStatus", 0x49210100, TdfType.Struct, 11, true), // rrda
-        new TdfMemberInfo("QualityFactorScores", "mQualityFactorScores", 0x4C33D200, TdfType.List, 12, true), // scor
-        new TdfMemberInfo("TeamBalanceRuleStatus", "mTeamBalanceRuleStatus", 0x50249300, TdfType.Struct, 13, true), // tbrs
-        new TdfMemberInfo("TeamCompositionRuleStatus", "mTeamCompositionRuleStatus", 0x50341300, TdfType.Struct, 14, true), // tcps
-        new TdfMemberInfo("TeamMinSizeRuleStatus", "mTeamMinSizeRuleStatus", 0x50D4D300, TdfType.Struct, 15, true), // tmss
-        new TdfMemberInfo("TotalPlayerSlotsRuleStatus", "mTotalPlayerSlotsRuleStatus", 0x50F51300, TdfType.Struct, 16, true), // tots
-        new TdfMemberInfo("TeamUEDPositionParityRuleStatus", "mTeamUEDPositionParityRuleStatus", 0x51041300, TdfType.Struct, 17, true), // tpps
-        new TdfMemberInfo("TeamUEDBalanceRuleStatus", "mTeamUEDBalanceRuleStatus", 0x51509300, TdfType.Struct, 18, true), // tubs
-        new TdfMemberInfo("UEDRuleStatusMap", "mUEDRuleStatusMap", 0x54511300, TdfType.Map, 19, true), // ueds
-        new TdfMemberInfo("VirtualGameRuleStatus", "mVirtualGameRuleStatus", 0x58749300, TdfType.Struct, 20, true), // vgrs
+        new TdfMemberInfo("CreateGameStatus", "mCreateGameStatus", 0x8E7CC000, TdfType.Struct, 0, true), // Tag: CGS
+        new TdfMemberInfo("VariableCustomAsyncStatus", "mVariableCustomAsyncStatus", 0x8F687200, TdfType.Map, 1, true), // Tag: CVAR
+        new TdfMemberInfo("ExpandedPingSiteRuleStatus", "mExpandedPingSiteRuleStatus", 0x970CF200, TdfType.Struct, 2, true), // Tag: EPSR
+        new TdfMemberInfo("FindGameStatus", "mFindGameStatus", 0x9A7CC000, TdfType.Struct, 3, true), // Tag: FGS
+        new TdfMemberInfo("GameAttributeRuleStatusMap", "mGameAttributeRuleStatusMap", 0x9E1CED00, TdfType.Map, 4, true), // Tag: GASM
+        new TdfMemberInfo("GeoLocationRuleStatus", "mGeoLocationRuleStatus", 0x9E5BF300, TdfType.Struct, 5, true), // Tag: GEOS
+        new TdfMemberInfo("HostBalanceRuleStatus", "mHostBalanceRuleStatus", 0xA22CA400, TdfType.Struct, 6, true), // Tag: HBRD
+        new TdfMemberInfo("HostViabilityRuleStatus", "mHostViabilityRuleStatus", 0xA36CA400, TdfType.Struct, 7, true), // Tag: HVRD
+        new TdfMemberInfo("PlayerAttributeRuleStatusMap", "mPlayerAttributeRuleStatusMap", 0xC21CED00, TdfType.Map, 8, true), // Tag: PASM
+        new TdfMemberInfo("PlayerCountRuleStatus", "mPlayerCountRuleStatus", 0xC2C8EE00, TdfType.Struct, 9, true), // Tag: PLCN
+        new TdfMemberInfo("PlayerSlotUtilizationRuleStatus", "mPlayerSlotUtilizationRuleStatus", 0xC2CD7400, TdfType.Struct, 10, true), // Tag: PLUT
+        new TdfMemberInfo("RankRuleStatus", "mRankRuleStatus", 0xCB292100, TdfType.Struct, 11, true), // Tag: RRDA
+        new TdfMemberInfo("QualityFactorScores", "mQualityFactorScores", 0xCE3BF200, TdfType.List, 12, true), // Tag: SCOR
+        new TdfMemberInfo("TeamBalanceRuleStatus", "mTeamBalanceRuleStatus", 0xD22CB300, TdfType.Struct, 13, true), // Tag: TBRS
+        new TdfMemberInfo("TeamCompositionRuleStatus", "mTeamCompositionRuleStatus", 0xD23C3300, TdfType.Struct, 14, true), // Tag: TCPS
+        new TdfMemberInfo("TeamMinSizeRuleStatus", "mTeamMinSizeRuleStatus", 0xD2DCF300, TdfType.Struct, 15, true), // Tag: TMSS
+        new TdfMemberInfo("TotalPlayerSlotsRuleStatus", "mTotalPlayerSlotsRuleStatus", 0xD2FD3300, TdfType.Struct, 16, true), // Tag: TOTS
+        new TdfMemberInfo("TeamUEDPositionParityRuleStatus", "mTeamUEDPositionParityRuleStatus", 0xD30C3300, TdfType.Struct, 17, true), // Tag: TPPS
+        new TdfMemberInfo("TeamUEDBalanceRuleStatus", "mTeamUEDBalanceRuleStatus", 0xD358B300, TdfType.Struct, 18, true), // Tag: TUBS
+        new TdfMemberInfo("UEDRuleStatusMap", "mUEDRuleStatusMap", 0xD6593300, TdfType.Map, 19, true), // Tag: UEDS
+        new TdfMemberInfo("VirtualGameRuleStatus", "mVirtualGameRuleStatus", 0xDA7CB300, TdfType.Struct, 20, true), // Tag: VGRS
     ];
     private ITdfMember[] __members;
 

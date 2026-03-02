@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class PerPlayerJoinData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x14E0D200, TdfType.String, 0, true), // encr
-        new TdfMemberInfo("IsOptionalPlayer", "mIsOptionalPlayer", 0x25215000, TdfType.Bool, 1, true), // irep
-        new TdfMemberInfo("Role", "mRole", 0x48C38D00, TdfType.String, 2, true), // rlnm
-        new TdfMemberInfo("Roles", "mRoles", 0x48C4D400, TdfType.List, 3, true), // rlst
-        new TdfMemberInfo("SlotType", "mSlotType", 0x4CC3D400, TdfType.Enum, 4, true), // slot
-        new TdfMemberInfo("TeamId", "mTeamId", 0x50910000, TdfType.UInt16, 5, true), // tid
-        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0x50911800, TdfType.UInt16, 6, true), // tidx
-        new TdfMemberInfo("User", "mUser", 0x55324400, TdfType.Struct, 7, true), // usid
+        new TdfMemberInfo("EncryptedBlazeId", "mEncryptedBlazeId", 0x96E8F200, TdfType.String, 0, true), // Tag: ENCR
+        new TdfMemberInfo("IsOptionalPlayer", "mIsOptionalPlayer", 0xA7297000, TdfType.Bool, 1, true), // Tag: IREP
+        new TdfMemberInfo("Role", "mRole", 0xCACBAD00, TdfType.String, 2, true), // Tag: RLNM
+        new TdfMemberInfo("Roles", "mRoles", 0xCACCF400, TdfType.List, 3, true), // Tag: RLST
+        new TdfMemberInfo("SlotType", "mSlotType", 0xCECBF400, TdfType.Enum, 4, true), // Tag: SLOT
+        new TdfMemberInfo("TeamId", "mTeamId", 0xD2990000, TdfType.UInt16, 5, true), // Tag: TID
+        new TdfMemberInfo("TeamIndex", "mTeamIndex", 0xD2993800, TdfType.UInt16, 6, true), // Tag: TIDX
+        new TdfMemberInfo("User", "mUser", 0xD73A6400, TdfType.Struct, 7, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

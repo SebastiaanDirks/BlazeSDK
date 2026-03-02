@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TotalPlayerSlotsRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DesiredTotalPlayerSlots", "mDesiredTotalPlayerSlots", 0x1054D300, TdfType.UInt16, 0, true), // dess
-        new TdfMemberInfo("MaxTotalPlayerSlots", "mMaxTotalPlayerSlots", 0x34161300, TdfType.UInt16, 1, true), // maxs
-        new TdfMemberInfo("MinTotalPlayerSlots", "mMinTotalPlayerSlots", 0x34939300, TdfType.UInt16, 2, true), // mins
-        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0x50830400, TdfType.String, 3, true), // thld
+        new TdfMemberInfo("DesiredTotalPlayerSlots", "mDesiredTotalPlayerSlots", 0x925CF300, TdfType.UInt16, 0, true), // Tag: DESS
+        new TdfMemberInfo("MaxTotalPlayerSlots", "mMaxTotalPlayerSlots", 0xB61E3300, TdfType.UInt16, 1, true), // Tag: MAXS
+        new TdfMemberInfo("MinTotalPlayerSlots", "mMinTotalPlayerSlots", 0xB69BB300, TdfType.UInt16, 2, true), // Tag: MINS
+        new TdfMemberInfo("RangeOffsetListName", "mRangeOffsetListName", 0xD28B2400, TdfType.String, 3, true), // Tag: THLD
     ];
     private ITdfMember[] __members;
 

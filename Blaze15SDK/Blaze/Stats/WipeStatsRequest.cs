@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Stats;
 public class WipeStatsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("EntityId", "mEntityId", 0x14910000, TdfType.UInt64, 1, true), // eid
-        new TdfMemberInfo("EntityObjectId", "mEntityObjectId", 0x15465000, TdfType.ObjectId, 2, true), // etyp
-        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0x2D354D00, TdfType.Map, 3, true), // ksum
-        new TdfMemberInfo("Operation", "mOperation", 0x3D015200, TdfType.Enum, 4, true), // oper
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("EntityId", "mEntityId", 0x96990000, TdfType.UInt64, 1, true), // Tag: EID
+        new TdfMemberInfo("EntityObjectId", "mEntityObjectId", 0x974E7000, TdfType.ObjectId, 2, true), // Tag: ETYP
+        new TdfMemberInfo("KeyScopeNameValueMap", "mKeyScopeNameValueMap", 0xAF3D6D00, TdfType.Map, 3, true), // Tag: KSUM
+        new TdfMemberInfo("Operation", "mOperation", 0xBF097200, TdfType.Enum, 4, true), // Tag: OPER
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class TableData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Columns", "mColumns", 0x0CF31300, TdfType.List, 0, true), // cols
-        new TdfMemberInfo("PrimaryKey", "mPrimaryKey", 0x40B15900, TdfType.List, 1, true), // pkey
-        new TdfMemberInfo("Table", "mTable", 0x50108E00, TdfType.String, 2, true), // tabn
+        new TdfMemberInfo("Columns", "mColumns", 0x8EFB3300, TdfType.List, 0, true), // Tag: COLS
+        new TdfMemberInfo("PrimaryKey", "mPrimaryKey", 0xC2B97900, TdfType.List, 1, true), // Tag: PKEY
+        new TdfMemberInfo("Table", "mTable", 0xD218AE00, TdfType.String, 2, true), // Tag: TABN
     ];
     private ITdfMember[] __members;
 

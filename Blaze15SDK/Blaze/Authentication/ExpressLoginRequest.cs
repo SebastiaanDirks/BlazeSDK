@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class ExpressLoginRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CrossPlatformOpt", "mCrossPlatformOpt", 0x8EFC3400, TdfType.Enum, 0, true), // COPT
-        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 1, true), // CTYP
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 2, true), // MAIL
-        new TdfMemberInfo("Password", "mPassword", 0xC21CF300, TdfType.String, 3, true), // PASS
-        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 4, true), // PNAM
-        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 5, true), // PRDT
+        new TdfMemberInfo("CrossPlatformOpt", "mCrossPlatformOpt", 0x8EFC3400, TdfType.Enum, 0, true), // Tag: COPT
+        new TdfMemberInfo("ClientType", "mClientType", 0x8F4E7000, TdfType.Enum, 1, true), // Tag: CTYP
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 2, true), // Tag: MAIL
+        new TdfMemberInfo("Password", "mPassword", 0xC21CF300, TdfType.String, 3, true), // Tag: PASS
+        new TdfMemberInfo("PersonaName", "mPersonaName", 0xC2E86D00, TdfType.String, 4, true), // Tag: PNAM
+        new TdfMemberInfo("ProductName", "mProductName", 0xC3293400, TdfType.String, 5, true), // Tag: PRDT
     ];
     private ITdfMember[] __members;
 

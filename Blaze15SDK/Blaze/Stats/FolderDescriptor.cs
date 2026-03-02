@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.Stats;
 public class FolderDescriptor : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Description", "mDescription", 0x18C11300, TdfType.String, 0, true), // flds
-        new TdfMemberInfo("FolderId", "mFolderId", 0x18C24400, TdfType.UInt32, 1, true), // flid
-        new TdfMemberInfo("Name", "mName", 0x18C38D00, TdfType.String, 2, true), // flnm
-        new TdfMemberInfo("ShortDesc", "mShortDesc", 0x4C415300, TdfType.String, 3, true), // sdes
+        new TdfMemberInfo("Description", "mDescription", 0x9AC93300, TdfType.String, 0, true), // Tag: FLDS
+        new TdfMemberInfo("FolderId", "mFolderId", 0x9ACA6400, TdfType.UInt32, 1, true), // Tag: FLID
+        new TdfMemberInfo("Name", "mName", 0x9ACBAD00, TdfType.String, 2, true), // Tag: FLNM
+        new TdfMemberInfo("ShortDesc", "mShortDesc", 0xCE497300, TdfType.String, 3, true), // Tag: SDES
     ];
     private ITdfMember[] __members;
 

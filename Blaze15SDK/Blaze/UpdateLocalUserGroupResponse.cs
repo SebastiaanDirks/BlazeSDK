@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class UpdateLocalUserGroupResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConnUserIndexList", "mConnUserIndexList", 0x8F5A6C00, TdfType.List, 0, true), // CUIL
-        new TdfMemberInfo("UserGroupObjectId", "mUserGroupObjectId", 0xD67A6400, TdfType.ObjectId, 1, true), // UGID
+        new TdfMemberInfo("ConnUserIndexList", "mConnUserIndexList", 0x8F5A6C00, TdfType.List, 0, true), // Tag: CUIL
+        new TdfMemberInfo("UserGroupObjectId", "mUserGroupObjectId", 0xD67A6400, TdfType.ObjectId, 1, true), // Tag: UGID
     ];
     private ITdfMember[] __members;
 

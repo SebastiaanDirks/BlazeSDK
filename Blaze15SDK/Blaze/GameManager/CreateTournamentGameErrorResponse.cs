@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CreateTournamentGameErrorResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FailedEncryptedBlazeIds", "mFailedEncryptedBlazeIds", 0x18538300, TdfType.List, 0, true), // fenc
+        new TdfMemberInfo("FailedEncryptedBlazeIds", "mFailedEncryptedBlazeIds", 0x9A5BA300, TdfType.List, 0, true), // Tag: FENC
     ];
     private ITdfMember[] __members;
 

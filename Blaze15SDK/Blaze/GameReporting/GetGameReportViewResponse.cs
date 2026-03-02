@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GetGameReportViewResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EntityIds", "mEntityIds", 0x14E24400, TdfType.List, 0, true), // enid
-        new TdfMemberInfo("Columns", "mColumns", 0x30748300, TdfType.List, 1, true), // lgrc
+        new TdfMemberInfo("EntityIds", "mEntityIds", 0x96EA6400, TdfType.List, 0, true), // Tag: ENID
+        new TdfMemberInfo("Columns", "mColumns", 0xB27CA300, TdfType.List, 1, true), // Tag: LGRC
     ];
     private ITdfMember[] __members;
 

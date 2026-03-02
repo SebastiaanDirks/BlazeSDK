@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class EaIdentifiers : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("OriginPersonaName", "mOriginPersonaName", 0xBA1B6500, TdfType.String, 0, true), // NAME
-        new TdfMemberInfo("NucleusAccountId", "mNucleusAccountId", 0xBA990000, TdfType.Int64, 1, true), // NID
-        new TdfMemberInfo("OriginPersonaId", "mOriginPersonaId", 0xC23A6400, TdfType.UInt64, 2, true), // PCID
+        new TdfMemberInfo("OriginPersonaName", "mOriginPersonaName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("NucleusAccountId", "mNucleusAccountId", 0xBA990000, TdfType.Int64, 1, true), // Tag: NID
+        new TdfMemberInfo("OriginPersonaId", "mOriginPersonaId", 0xC23A6400, TdfType.UInt64, 2, true), // Tag: PCID
     ];
     private ITdfMember[] __members;
 

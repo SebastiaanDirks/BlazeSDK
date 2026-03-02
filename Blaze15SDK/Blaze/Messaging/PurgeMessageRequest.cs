@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Messaging;
 public class PurgeMessageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Flags", "mFlags", 0x18C04700, TdfType.Enum, 0, true), // flag
-        new TdfMemberInfo("MessageId", "mMessageId", 0x34724400, TdfType.UInt64, 1, true), // mgid
-        new TdfMemberInfo("StatusMask", "mStatusMask", 0x4CD4CB00, TdfType.UInt32, 2, true), // smsk
-        new TdfMemberInfo("Source", "mSource", 0x4D20C500, TdfType.ObjectId, 3, true), // srce
-        new TdfMemberInfo("Status", "mStatus", 0x4D405400, TdfType.UInt32, 4, true), // stat
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.UInt32, 5, true), // type
+        new TdfMemberInfo("Flags", "mFlags", 0x9AC86700, TdfType.Enum, 0, true), // Tag: FLAG
+        new TdfMemberInfo("MessageId", "mMessageId", 0xB67A6400, TdfType.UInt64, 1, true), // Tag: MGID
+        new TdfMemberInfo("StatusMask", "mStatusMask", 0xCEDCEB00, TdfType.UInt32, 2, true), // Tag: SMSK
+        new TdfMemberInfo("Source", "mSource", 0xCF28E500, TdfType.ObjectId, 3, true), // Tag: SRCE
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.UInt32, 4, true), // Tag: STAT
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.UInt32, 5, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class AuthenticationCredentials : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Token", "mToken", 0x50F2CE00, TdfType.String, 0, true), // tokn
-        new TdfMemberInfo("TokenType", "mTokenType", 0x51465000, TdfType.Enum, 1, true), // ttyp
-        new TdfMemberInfo("User", "mUser", 0x55315200, TdfType.Struct, 2, true), // user
+        new TdfMemberInfo("Token", "mToken", 0xD2FAEE00, TdfType.String, 0, true), // Tag: TOKN
+        new TdfMemberInfo("TokenType", "mTokenType", 0xD34E7000, TdfType.Enum, 1, true), // Tag: TTYP
+        new TdfMemberInfo("User", "mUser", 0xD7397200, TdfType.Struct, 2, true), // Tag: USER
     ];
     private ITdfMember[] __members;
 

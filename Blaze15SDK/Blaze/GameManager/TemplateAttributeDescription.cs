@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TemplateAttributeDescription : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Default", "mDefault", 0x10518000, TdfType.Variable, 0, true), // def
-        new TdfMemberInfo("IsOptional", "mIsOptional", 0x24F41400, TdfType.Bool, 1, true), // iopt
-        new TdfMemberInfo("AttrTdfId", "mAttrTdfId", 0x58148000, TdfType.UInt32, 2, true), // var
+        new TdfMemberInfo("Default", "mDefault", 0x92598000, TdfType.Variable, 0, true), // Tag: DEF
+        new TdfMemberInfo("IsOptional", "mIsOptional", 0xA6FC3400, TdfType.Bool, 1, true), // Tag: IOPT
+        new TdfMemberInfo("AttrTdfId", "mAttrTdfId", 0xDA1C8000, TdfType.UInt32, 2, true), // Tag: VAR
     ];
     private ITdfMember[] __members;
 

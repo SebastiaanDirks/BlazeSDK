@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerAddressInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x04411200, TdfType.Struct, 0, true), // addr
-        new TdfMemberInfo("Type", "mType", 0x51940500, TdfType.Enum, 1, true), // type
+        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Struct, 0, true), // Tag: ADDR
+        new TdfMemberInfo("Type", "mType", 0xD39C2500, TdfType.Enum, 1, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

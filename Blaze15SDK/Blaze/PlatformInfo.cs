@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class PlatformInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("EaIds", "mEaIds", 0x961A6400, TdfType.Struct, 0, true), // EAID
-        new TdfMemberInfo("ExternalIds", "mExternalIds", 0x978A6400, TdfType.Struct, 1, true), // EXID
-        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0xC2C87400, TdfType.Enum, 2, true), // PLAT
+        new TdfMemberInfo("EaIds", "mEaIds", 0x961A6400, TdfType.Struct, 0, true), // Tag: EAID
+        new TdfMemberInfo("ExternalIds", "mExternalIds", 0x978A6400, TdfType.Struct, 1, true), // Tag: EXID
+        new TdfMemberInfo("ClientPlatform", "mClientPlatform", 0xC2C87400, TdfType.Enum, 2, true), // Tag: PLAT
     ];
     private ITdfMember[] __members;
 

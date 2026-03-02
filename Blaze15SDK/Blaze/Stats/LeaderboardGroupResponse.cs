@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardGroupResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Ascending", "mAscending", 0x0530C400, TdfType.Bool, 0, true), // ascd
-        new TdfMemberInfo("BoardName", "mBoardName", 0x08E04D00, TdfType.String, 1, true), // bnam
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 2, true), // desc
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 3, true), // etyp
-        new TdfMemberInfo("KeyScopeNameValueListMap", "mKeyScopeNameValueListMap", 0x2D354D00, TdfType.Map, 4, true), // ksum
-        new TdfMemberInfo("LeaderboardSize", "mLeaderboardSize", 0x3024DA00, TdfType.Int32, 5, true), // lbsz
-        new TdfMemberInfo("StatDescSummaries", "mStatDescSummaries", 0x3094D400, TdfType.List, 6, true), // list
-        new TdfMemberInfo("Metadata", "mMetadata", 0x34550100, TdfType.String, 7, true), // meta
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 8, true), // name
-        new TdfMemberInfo("StatName", "mStatName", 0x4CE04D00, TdfType.String, 9, true), // snam
+        new TdfMemberInfo("Ascending", "mAscending", 0x8738E400, TdfType.Bool, 0, true), // Tag: ASCD
+        new TdfMemberInfo("BoardName", "mBoardName", 0x8AE86D00, TdfType.String, 1, true), // Tag: BNAM
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 2, true), // Tag: DESC
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 3, true), // Tag: ETYP
+        new TdfMemberInfo("KeyScopeNameValueListMap", "mKeyScopeNameValueListMap", 0xAF3D6D00, TdfType.Map, 4, true), // Tag: KSUM
+        new TdfMemberInfo("LeaderboardSize", "mLeaderboardSize", 0xB22CFA00, TdfType.Int32, 5, true), // Tag: LBSZ
+        new TdfMemberInfo("StatDescSummaries", "mStatDescSummaries", 0xB29CF400, TdfType.List, 6, true), // Tag: LIST
+        new TdfMemberInfo("Metadata", "mMetadata", 0xB65D2100, TdfType.String, 7, true), // Tag: META
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 8, true), // Tag: NAME
+        new TdfMemberInfo("StatName", "mStatName", 0xCEE86D00, TdfType.String, 9, true), // Tag: SNAM
     ];
     private ITdfMember[] __members;
 

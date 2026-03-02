@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class GetUniqueDeviceIdResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UniqueDeviceId", "mUniqueDeviceId", 0xD64A6400, TdfType.String, 0, true), // UDID
+        new TdfMemberInfo("UniqueDeviceId", "mUniqueDeviceId", 0xD64A6400, TdfType.String, 0, true), // Tag: UDID
     ];
     private ITdfMember[] __members;
 

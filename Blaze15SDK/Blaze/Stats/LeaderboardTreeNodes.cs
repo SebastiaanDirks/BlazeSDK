@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardTreeNodes : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LeaderboardTreeNodes", "mLeaderboardTreeNodes", 0x31438C00, TdfType.List, 0, true), // ltnl
+        new TdfMemberInfo("LeaderboardTreeNodes", "mLeaderboardTreeNodes", 0xB34BAC00, TdfType.List, 0, true), // Tag: LTNL
     ];
     private ITdfMember[] __members;
 

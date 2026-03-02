@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeObjId", "mBlazeObjId", 0x08F24400, TdfType.ObjectId, 0, true), // boid
-        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x18C1D300, TdfType.Enum, 1, true), // flgs
-        new TdfMemberInfo("Id", "mId", 0x30910000, TdfType.Struct, 2, true), // lid
-        new TdfMemberInfo("MaxSize", "mMaxSize", 0x30D4C000, TdfType.UInt32, 3, true), // lms
-        new TdfMemberInfo("PairName", "mPairName", 0x40E04D00, TdfType.String, 4, true), // pnam
-        new TdfMemberInfo("PairId", "mPairId", 0x41224400, TdfType.UInt16, 5, true), // prid
-        new TdfMemberInfo("PairMaxSize", "mPairMaxSize", 0x41235300, TdfType.UInt32, 6, true), // prms
+        new TdfMemberInfo("BlazeObjId", "mBlazeObjId", 0x8AFA6400, TdfType.ObjectId, 0, true), // Tag: BOID
+        new TdfMemberInfo("StatusFlags", "mStatusFlags", 0x9AC9F300, TdfType.Enum, 1, true), // Tag: FLGS
+        new TdfMemberInfo("Id", "mId", 0xB2990000, TdfType.Struct, 2, true), // Tag: LID
+        new TdfMemberInfo("MaxSize", "mMaxSize", 0xB2DCC000, TdfType.UInt32, 3, true), // Tag: LMS
+        new TdfMemberInfo("PairName", "mPairName", 0xC2E86D00, TdfType.String, 4, true), // Tag: PNAM
+        new TdfMemberInfo("PairId", "mPairId", 0xC32A6400, TdfType.UInt16, 5, true), // Tag: PRID
+        new TdfMemberInfo("PairMaxSize", "mPairMaxSize", 0xC32B7300, TdfType.UInt32, 6, true), // Tag: PRMS
     ];
     private ITdfMember[] __members;
 

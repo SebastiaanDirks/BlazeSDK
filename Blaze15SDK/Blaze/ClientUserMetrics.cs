@@ -7,32 +7,32 @@ namespace Blaze15SDK.Blaze;
 public class ClientUserMetrics : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("SttCharCountRecv", "mSttCharCountRecv", 0xCBB7B200, TdfType.UInt32, 0, true), // SCCO
-        new TdfMemberInfo("SttDurationMsSent", "mSttDurationMsSent", 0xCBDB8A00, TdfType.UInt32, 1, true), // SDMS
-        new TdfMemberInfo("SttEventCount", "mSttEventCount", 0xCBF29800, TdfType.UInt32, 2, true), // SECO
-        new TdfMemberInfo("SttEmptyResultCount", "mSttEmptyResultCount", 0xCBF2B700, TdfType.UInt32, 3, true), // SERU
-        new TdfMemberInfo("SttErrorCount", "mSttErrorCount", 0xCBF2B900, TdfType.UInt32, 4, true), // SERC
-        new TdfMemberInfo("SttDelay", "mSttDelay", 0xCBD1E400, TdfType.UInt32, 5, true), // SRTT
-        new TdfMemberInfo("TtsCharCountSent", "mTtsCharCountSent", 0xD4317200, TdfType.UInt32, 6, true), // TCCO
-        new TdfMemberInfo("TtsDurationMsRecv", "mTtsDurationMsRecv", 0xD43B4A00, TdfType.UInt32, 7, true), // TDMS
-        new TdfMemberInfo("TtsEventCount", "mTtsEventCount", 0xD4525800, TdfType.UInt32, 8, true), // TECO
-        new TdfMemberInfo("TtsEmptyResultCount", "mTtsEmptyResultCount", 0xD4527700, TdfType.UInt32, 9, true), // TERU
-        new TdfMemberInfo("TtsErrorCount", "mTtsErrorCount", 0xD4527900, TdfType.UInt32, 10, true), // TERC
-        new TdfMemberInfo("TtsDelay", "mTtsDelay", 0xD43BB800, TdfType.UInt32, 11, true), // TRTT
+        new TdfMemberInfo("SttCharCountRecv", "mSttCharCountRecv", 0xCE38EF00, TdfType.UInt32, 0, true), // Tag: SCCO
+        new TdfMemberInfo("SttDurationMsSent", "mSttDurationMsSent", 0xCE4B7300, TdfType.UInt32, 1, true), // Tag: SDMS
+        new TdfMemberInfo("SttEventCount", "mSttEventCount", 0xCE58EF00, TdfType.UInt32, 2, true), // Tag: SECO
+        new TdfMemberInfo("SttErrorCount", "mSttErrorCount", 0xCE5CA300, TdfType.UInt32, 3, true), // Tag: SERC
+        new TdfMemberInfo("SttEmptyResultCount", "mSttEmptyResultCount", 0xCE5CB500, TdfType.UInt32, 4, true), // Tag: SERU
+        new TdfMemberInfo("SttDelay", "mSttDelay", 0xCF2D3400, TdfType.UInt32, 5, true), // Tag: SRTT
+        new TdfMemberInfo("TtsCharCountSent", "mTtsCharCountSent", 0xD238EF00, TdfType.UInt32, 6, true), // Tag: TCCO
+        new TdfMemberInfo("TtsDurationMsRecv", "mTtsDurationMsRecv", 0xD24B7300, TdfType.UInt32, 7, true), // Tag: TDMS
+        new TdfMemberInfo("TtsEventCount", "mTtsEventCount", 0xD258EF00, TdfType.UInt32, 8, true), // Tag: TECO
+        new TdfMemberInfo("TtsErrorCount", "mTtsErrorCount", 0xD25CA300, TdfType.UInt32, 9, true), // Tag: TERC
+        new TdfMemberInfo("TtsEmptyResultCount", "mTtsEmptyResultCount", 0xD25CB500, TdfType.UInt32, 10, true), // Tag: TERU
+        new TdfMemberInfo("TtsDelay", "mTtsDelay", 0xD32D3400, TdfType.UInt32, 11, true), // Tag: TRTT
     ];
     private ITdfMember[] __members;
 
     private TdfUInt32 _sttCharCountRecv = new(__typeInfos[0]);
     private TdfUInt32 _sttDurationMsSent = new(__typeInfos[1]);
     private TdfUInt32 _sttEventCount = new(__typeInfos[2]);
-    private TdfUInt32 _sttEmptyResultCount = new(__typeInfos[3]);
-    private TdfUInt32 _sttErrorCount = new(__typeInfos[4]);
+    private TdfUInt32 _sttEmptyResultCount = new(__typeInfos[4]);
+    private TdfUInt32 _sttErrorCount = new(__typeInfos[3]);
     private TdfUInt32 _sttDelay = new(__typeInfos[5]);
     private TdfUInt32 _ttsCharCountSent = new(__typeInfos[6]);
     private TdfUInt32 _ttsDurationMsRecv = new(__typeInfos[7]);
     private TdfUInt32 _ttsEventCount = new(__typeInfos[8]);
-    private TdfUInt32 _ttsEmptyResultCount = new(__typeInfos[9]);
-    private TdfUInt32 _ttsErrorCount = new(__typeInfos[10]);
+    private TdfUInt32 _ttsEmptyResultCount = new(__typeInfos[10]);
+    private TdfUInt32 _ttsErrorCount = new(__typeInfos[9]);
     private TdfUInt32 _ttsDelay = new(__typeInfos[11]);
 
     public ClientUserMetrics()
@@ -41,14 +41,14 @@ public class ClientUserMetrics : Tdf
             _sttCharCountRecv,
             _sttDurationMsSent,
             _sttEventCount,
-            _sttEmptyResultCount,
             _sttErrorCount,
+            _sttEmptyResultCount,
             _sttDelay,
             _ttsCharCountSent,
             _ttsDurationMsRecv,
             _ttsEventCount,
-            _ttsEmptyResultCount,
             _ttsErrorCount,
+            _ttsEmptyResultCount,
             _ttsDelay,
         ];
     }

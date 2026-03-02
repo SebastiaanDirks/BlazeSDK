@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameReporting;
 public class GameReportType : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameReportName", "mGameReportName", 0x1D438100, TdfType.String, 0, true), // gtna
-        new TdfMemberInfo("HistoryTables", "mHistoryTables", 0x2094D400, TdfType.List, 1, true), // hist
+        new TdfMemberInfo("GameReportName", "mGameReportName", 0x9F4BA100, TdfType.String, 0, true), // Tag: GTNA
+        new TdfMemberInfo("HistoryTables", "mHistoryTables", 0xA29CF400, TdfType.List, 1, true), // Tag: HIST
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Stats;
 public class LeaderboardStatValues : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Rows", "mRows", 0x30431300, TdfType.List, 0, true), // ldls
+        new TdfMemberInfo("Rows", "mRows", 0xB24B3300, TdfType.List, 0, true), // Tag: LDLS
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetTemplatesAttributesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TemplateAttributes", "mTemplateAttributes", 0x35324400, TdfType.Map, 0, true), // msid
+        new TdfMemberInfo("TemplateAttributes", "mTemplateAttributes", 0xB73A6400, TdfType.Map, 0, true), // Tag: MSID
     ];
     private ITdfMember[] __members;
 

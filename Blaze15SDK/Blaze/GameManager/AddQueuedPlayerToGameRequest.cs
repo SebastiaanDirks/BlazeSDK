@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class AddQueuedPlayerToGameRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("OverridePlayerRole", "mOverridePlayerRole", 0x3D648400, TdfType.Bool, 1, true), // ovrd
-        new TdfMemberInfo("PlayerId", "mPlayerId", 0x40910000, TdfType.Int64, 2, true), // pid
-        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0x48F30500, TdfType.String, 3, true), // role
-        new TdfMemberInfo("PlayerTeamIndex", "mPlayerTeamIndex", 0x50911800, TdfType.UInt16, 4, true), // tidx
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("OverridePlayerRole", "mOverridePlayerRole", 0xBF6CA400, TdfType.Bool, 1, true), // Tag: OVRD
+        new TdfMemberInfo("PlayerId", "mPlayerId", 0xC2990000, TdfType.Int64, 2, true), // Tag: PID
+        new TdfMemberInfo("PlayerRole", "mPlayerRole", 0xCAFB2500, TdfType.String, 3, true), // Tag: ROLE
+        new TdfMemberInfo("PlayerTeamIndex", "mPlayerTeamIndex", 0xD2993800, TdfType.UInt16, 4, true), // Tag: TIDX
     ];
     private ITdfMember[] __members;
 

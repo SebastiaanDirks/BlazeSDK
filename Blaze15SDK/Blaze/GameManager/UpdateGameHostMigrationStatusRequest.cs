@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class UpdateGameHostMigrationStatusRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 0, true), // gid
-        new TdfMemberInfo("HostMigrationType", "mHostMigrationType", 0x35465000, TdfType.Enum, 1, true), // mtyp
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 0, true), // Tag: GID
+        new TdfMemberInfo("HostMigrationType", "mHostMigrationType", 0xB74E7000, TdfType.Enum, 1, true), // Tag: MTYP
     ];
     private ITdfMember[] __members;
 

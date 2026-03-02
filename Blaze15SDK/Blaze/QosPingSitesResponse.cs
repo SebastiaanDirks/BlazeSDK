@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class QosPingSitesResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PingSiteInfoByAliasMap", "mPingSiteInfoByAliasMap", 0xB34C3300, TdfType.Map, 0, true), // LTPS
-        new TdfMemberInfo("Profile", "mProfile", 0xC70C8000, TdfType.String, 1, true), // QPR
+        new TdfMemberInfo("PingSiteInfoByAliasMap", "mPingSiteInfoByAliasMap", 0xB34C3300, TdfType.Map, 0, true), // Tag: LTPS
+        new TdfMemberInfo("Profile", "mProfile", 0xC70C8000, TdfType.String, 1, true), // Tag: QPR
     ];
     private ITdfMember[] __members;
 

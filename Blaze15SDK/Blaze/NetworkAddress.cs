@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze;
 public class NetworkAddress : Union
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("XboxClientAddress", "mXboxClientAddress", 0xDA1B3500, TdfType.Struct, 0, false), // VALU
-        new TdfMemberInfo("DummyStruct", "mDummyStruct", 0xDA1B3500, TdfType.Struct, 1, false), // VALU
-        new TdfMemberInfo("IpPairAddress", "mIpPairAddress", 0xDA1B3500, TdfType.Struct, 2, false), // VALU
-        new TdfMemberInfo("IpAddress", "mIpAddress", 0xDA1B3500, TdfType.Struct, 3, false), // VALU
-        new TdfMemberInfo("HostNameAddress", "mHostNameAddress", 0xDA1B3500, TdfType.Struct, 4, false), // VALU
+        new TdfMemberInfo("XboxClientAddress", "mXboxClientAddress", 0xDA1B3500, TdfType.Struct, 0, false), // Tag: VALU
+        new TdfMemberInfo("DummyStruct", "mDummyStruct", 0xDA1B3500, TdfType.Struct, 1, false), // Tag: VALU
+        new TdfMemberInfo("IpPairAddress", "mIpPairAddress", 0xDA1B3500, TdfType.Struct, 2, false), // Tag: VALU
+        new TdfMemberInfo("IpAddress", "mIpAddress", 0xDA1B3500, TdfType.Struct, 3, false), // Tag: VALU
+        new TdfMemberInfo("HostNameAddress", "mHostNameAddress", 0xDA1B3500, TdfType.Struct, 4, false), // Tag: VALU
     ];
 
     private TdfStruct<Blaze15SDK.Blaze.XboxClientAddress?> _xboxClientAddress = new(__typeInfos[0]);

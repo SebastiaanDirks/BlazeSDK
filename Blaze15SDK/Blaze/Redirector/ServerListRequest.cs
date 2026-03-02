@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerListRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Count", "mCount", 0x0CE50000, TdfType.UInt32, 0, true), // cnt
-        new TdfMemberInfo("Environment", "mEnvironment", 0x14E58000, TdfType.String, 1, true), // env
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.String, 3, true), // plat
-        new TdfMemberInfo("ConnectionProfile", "mConnectionProfile", 0x4123C600, TdfType.String, 4, true), // prof
+        new TdfMemberInfo("Count", "mCount", 0x8EED0000, TdfType.UInt32, 0, true), // Tag: CNT
+        new TdfMemberInfo("Environment", "mEnvironment", 0x96ED8000, TdfType.String, 1, true), // Tag: ENV
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.String, 3, true), // Tag: PLAT
+        new TdfMemberInfo("ConnectionProfile", "mConnectionProfile", 0xC32BE600, TdfType.String, 4, true), // Tag: PROF
     ];
     private ITdfMember[] __members;
 

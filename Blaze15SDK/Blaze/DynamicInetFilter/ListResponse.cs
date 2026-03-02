@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.DynamicInetFilter;
 public class ListResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Entries", "mEntries", 0x14E51300, TdfType.List, 0, true), // ents
+        new TdfMemberInfo("Entries", "mEntries", 0x96ED3300, TdfType.List, 0, true), // Tag: ENTS
     ];
     private ITdfMember[] __members;
 

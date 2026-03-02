@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze;
 public class IpPairAddress : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExternalAddress", "mExternalAddress", 0x978A7000, TdfType.Struct, 0, true), // EXIP
-        new TdfMemberInfo("InternalAddress", "mInternalAddress", 0xA6EA7000, TdfType.Struct, 1, true), // INIP
-        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 2, true), // MACI
+        new TdfMemberInfo("ExternalAddress", "mExternalAddress", 0x978A7000, TdfType.Struct, 0, true), // Tag: EXIP
+        new TdfMemberInfo("InternalAddress", "mInternalAddress", 0xA6EA7000, TdfType.Struct, 1, true), // Tag: INIP
+        new TdfMemberInfo("MachineId", "mMachineId", 0xB618E900, TdfType.UInt64, 2, true), // Tag: MACI
     ];
     private ITdfMember[] __members;
 

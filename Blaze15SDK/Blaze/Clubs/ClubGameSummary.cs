@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubGameSummary : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Loss", "mLoss", 0x38C3D300, TdfType.UInt32, 0, true), // nlos
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x38C55000, TdfType.UInt32, 1, true), // nlup
-        new TdfMemberInfo("Tie", "mTie", 0x39424500, TdfType.UInt32, 2, true), // ntie
-        new TdfMemberInfo("Win", "mWin", 0x39724E00, TdfType.UInt32, 3, true), // nwin
-        new TdfMemberInfo("OppoClubId", "mOppoClubId", 0x3D024400, TdfType.UInt64, 4, true), // opid
+        new TdfMemberInfo("Loss", "mLoss", 0xBACBF300, TdfType.UInt32, 0, true), // Tag: NLOS
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xBACD7000, TdfType.UInt32, 1, true), // Tag: NLUP
+        new TdfMemberInfo("Tie", "mTie", 0xBB4A6500, TdfType.UInt32, 2, true), // Tag: NTIE
+        new TdfMemberInfo("Win", "mWin", 0xBB7A6E00, TdfType.UInt32, 3, true), // Tag: NWIN
+        new TdfMemberInfo("OppoClubId", "mOppoClubId", 0xBF0A6400, TdfType.UInt64, 4, true), // Tag: OPID
     ];
     private ITdfMember[] __members;
 

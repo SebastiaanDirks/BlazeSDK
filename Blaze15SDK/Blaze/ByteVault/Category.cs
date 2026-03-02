@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class Category : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryName", "mCategoryName", 0x0C150000, TdfType.String, 0, true), // cat
-        new TdfMemberInfo("Configuration", "mConfiguration", 0x0CF38600, TdfType.Struct, 1, true), // conf
-        new TdfMemberInfo("CreationTime", "mCreationTime", 0x0D214100, TdfType.Int64, 2, true), // crea
-        new TdfMemberInfo("DeletedRecordCountByName", "mDeletedRecordCountByName", 0x10339400, TdfType.Map, 3, true), // dcnt
-        new TdfMemberInfo("Deleted", "mDeleted", 0x10530000, TdfType.Bool, 4, true), // del
-        new TdfMemberInfo("Description", "mDescription", 0x1054C300, TdfType.String, 5, true), // desc
-        new TdfMemberInfo("NumOfDeletedRecords", "mNumOfDeletedRecords", 0x10C51300, TdfType.Int64, 6, true), // dlts
-        new TdfMemberInfo("RecordCountByName", "mRecordCountByName", 0x48339400, TdfType.Map, 7, true), // rcnt
-        new TdfMemberInfo("NumOfRecords", "mNumOfRecords", 0x4850D300, TdfType.Int64, 8, true), // recs
-        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0x5124D400, TdfType.List, 9, true), // trst
-        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0x55011400, TdfType.Int64, 10, true), // updt
+        new TdfMemberInfo("CategoryName", "mCategoryName", 0x8E1D0000, TdfType.String, 0, true), // Tag: CAT
+        new TdfMemberInfo("Configuration", "mConfiguration", 0x8EFBA600, TdfType.Struct, 1, true), // Tag: CONF
+        new TdfMemberInfo("CreationTime", "mCreationTime", 0x8F296100, TdfType.Int64, 2, true), // Tag: CREA
+        new TdfMemberInfo("DeletedRecordCountByName", "mDeletedRecordCountByName", 0x923BB400, TdfType.Map, 3, true), // Tag: DCNT
+        new TdfMemberInfo("Deleted", "mDeleted", 0x925B0000, TdfType.Bool, 4, true), // Tag: DEL
+        new TdfMemberInfo("Description", "mDescription", 0x925CE300, TdfType.String, 5, true), // Tag: DESC
+        new TdfMemberInfo("NumOfDeletedRecords", "mNumOfDeletedRecords", 0x92CD3300, TdfType.Int64, 6, true), // Tag: DLTS
+        new TdfMemberInfo("RecordCountByName", "mRecordCountByName", 0xCA3BB400, TdfType.Map, 7, true), // Tag: RCNT
+        new TdfMemberInfo("NumOfRecords", "mNumOfRecords", 0xCA58F300, TdfType.Int64, 8, true), // Tag: RECS
+        new TdfMemberInfo("TrustedSources", "mTrustedSources", 0xD32CF400, TdfType.List, 9, true), // Tag: TRST
+        new TdfMemberInfo("LastUpdateTime", "mLastUpdateTime", 0xD7093400, TdfType.Int64, 10, true), // Tag: UPDT
     ];
     private ITdfMember[] __members;
 

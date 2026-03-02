@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInstanceError : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Messages", "mMessages", 0x3531D300, TdfType.List, 0, true), // msgs
+        new TdfMemberInfo("Messages", "mMessages", 0xB739F300, TdfType.List, 0, true), // Tag: MSGS
     ];
     private ITdfMember[] __members;
 

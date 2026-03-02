@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Association;
 public class CheckListContainsMembersRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("OwnerBlazeId", "mOwnerBlazeId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("MembersBlazeIds", "mMembersBlazeIds", 0x30224400, TdfType.Struct, 1, true), // lbid
-        new TdfMemberInfo("ListIdentification", "mListIdentification", 0x30910000, TdfType.Struct, 2, true), // lid
+        new TdfMemberInfo("OwnerBlazeId", "mOwnerBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("MembersBlazeIds", "mMembersBlazeIds", 0xB22A6400, TdfType.Struct, 1, true), // Tag: LBID
+        new TdfMemberInfo("ListIdentification", "mListIdentification", 0xB2990000, TdfType.Struct, 2, true), // Tag: LID
     ];
     private ITdfMember[] __members;
 

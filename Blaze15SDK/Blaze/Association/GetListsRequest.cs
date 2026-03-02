@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Association;
 public class GetListsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListInfoVector", "mListInfoVector", 0x04C4D400, TdfType.List, 0, true), // alst
-        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0x35848300, TdfType.UInt32, 1, true), // mxrc
-        new TdfMemberInfo("Offset", "mOffset", 0x3C648300, TdfType.UInt32, 2, true), // ofrc
+        new TdfMemberInfo("ListInfoVector", "mListInfoVector", 0x86CCF400, TdfType.List, 0, true), // Tag: ALST
+        new TdfMemberInfo("MaxResultCount", "mMaxResultCount", 0xB78CA300, TdfType.UInt32, 1, true), // Tag: MXRC
+        new TdfMemberInfo("Offset", "mOffset", 0xBE6CA300, TdfType.UInt32, 2, true), // Tag: OFRC
     ];
     private ITdfMember[] __members;
 

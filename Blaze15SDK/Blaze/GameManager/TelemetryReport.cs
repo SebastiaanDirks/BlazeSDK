@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class TelemetryReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConnTimeAfterDemangle", "mConnTimeAfterDemangle", 0x0D404400, TdfType.UInt32, 0, true), // ctad
-        new TdfMemberInfo("ConnTimeBeforeDemangle", "mConnTimeBeforeDemangle", 0x0D408400, TdfType.UInt32, 1, true), // ctbd
-        new TdfMemberInfo("ConnTimeDemangling", "mConnTimeDemangling", 0x0D410700, TdfType.UInt32, 2, true), // ctdg
-        new TdfMemberInfo("LatencyMs", "mLatencyMs", 0x30150300, TdfType.UInt32, 3, true), // latc
-        new TdfMemberInfo("PacketLossFloat", "mPacketLossFloat", 0x40B30600, TdfType.Float, 4, true), // pklf
-        new TdfMemberInfo("PacketLossPercent", "mPacketLossPercent", 0x40B50C00, TdfType.UInt8, 5, true), // pktl
-        new TdfMemberInfo("RemoteConnGroupId", "mRemoteConnGroupId", 0x48324400, TdfType.UInt64, 6, true), // rcid
-        new TdfMemberInfo("LocalPacketsReceived", "mLocalPacketsReceived", 0x48358400, TdfType.UInt32, 7, true), // rcvd
-        new TdfMemberInfo("ReportStats", "mReportStats", 0x49020200, TdfType.Struct, 8, true), // rphb
-        new TdfMemberInfo("RemotePacketsSent", "mRemotePacketsSent", 0x4C539400, TdfType.UInt32, 9, true), // sent
+        new TdfMemberInfo("ConnTimeAfterDemangle", "mConnTimeAfterDemangle", 0x8F486400, TdfType.UInt32, 0, true), // Tag: CTAD
+        new TdfMemberInfo("ConnTimeBeforeDemangle", "mConnTimeBeforeDemangle", 0x8F48A400, TdfType.UInt32, 1, true), // Tag: CTBD
+        new TdfMemberInfo("ConnTimeDemangling", "mConnTimeDemangling", 0x8F492700, TdfType.UInt32, 2, true), // Tag: CTDG
+        new TdfMemberInfo("LatencyMs", "mLatencyMs", 0xB21D2300, TdfType.UInt32, 3, true), // Tag: LATC
+        new TdfMemberInfo("PacketLossFloat", "mPacketLossFloat", 0xC2BB2600, TdfType.Float, 4, true), // Tag: PKLF
+        new TdfMemberInfo("PacketLossPercent", "mPacketLossPercent", 0xC2BD2C00, TdfType.UInt8, 5, true), // Tag: PKTL
+        new TdfMemberInfo("RemoteConnGroupId", "mRemoteConnGroupId", 0xCA3A6400, TdfType.UInt64, 6, true), // Tag: RCID
+        new TdfMemberInfo("LocalPacketsReceived", "mLocalPacketsReceived", 0xCA3DA400, TdfType.UInt32, 7, true), // Tag: RCVD
+        new TdfMemberInfo("ReportStats", "mReportStats", 0xCB0A2200, TdfType.Struct, 8, true), // Tag: RPHB
+        new TdfMemberInfo("RemotePacketsSent", "mRemotePacketsSent", 0xCE5BB400, TdfType.UInt32, 9, true), // Tag: SENT
     ];
     private ITdfMember[] __members;
 

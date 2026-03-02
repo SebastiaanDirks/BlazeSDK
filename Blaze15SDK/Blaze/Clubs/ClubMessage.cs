@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubMessage : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("ClubName", "mClubName", 0x0CC38D00, TdfType.String, 1, true), // clnm
-        new TdfMemberInfo("MessageId", "mMessageId", 0x24E24400, TdfType.UInt32, 2, true), // inid
-        new TdfMemberInfo("MessageType", "mMessageType", 0x24E59400, TdfType.Enum, 3, true), // invt
-        new TdfMemberInfo("Receiver", "mReceiver", 0x4850D200, TdfType.Struct, 4, true), // recr
-        new TdfMemberInfo("Sender", "mSender", 0x4C511200, TdfType.Struct, 5, true), // sedr
-        new TdfMemberInfo("TimeSent", "mTimeSent", 0x50934500, TdfType.UInt32, 6, true), // time
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("ClubName", "mClubName", 0x8ECBAD00, TdfType.String, 1, true), // Tag: CLNM
+        new TdfMemberInfo("MessageId", "mMessageId", 0xA6EA6400, TdfType.UInt32, 2, true), // Tag: INID
+        new TdfMemberInfo("MessageType", "mMessageType", 0xA6EDB400, TdfType.Enum, 3, true), // Tag: INVT
+        new TdfMemberInfo("Receiver", "mReceiver", 0xCA58F200, TdfType.Struct, 4, true), // Tag: RECR
+        new TdfMemberInfo("Sender", "mSender", 0xCE593200, TdfType.Struct, 5, true), // Tag: SEDR
+        new TdfMemberInfo("TimeSent", "mTimeSent", 0xD29B6500, TdfType.UInt32, 6, true), // Tag: TIME
     ];
     private ITdfMember[] __members;
 

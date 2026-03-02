@@ -7,18 +7,18 @@ namespace Blaze15SDK.Blaze.GameReporting.GameHistoryBasic;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Deaths", "deaths", 0x10550800, TdfType.UInt16, 0, true), // deth
-        new TdfMemberInfo("GlickoRd", "glickoRd", 0x1CC48400, TdfType.Int32, 1, true), // glrd
-        new TdfMemberInfo("GlickoSkillPoints", "glickoSkillPoints", 0x1D341400, TdfType.Int32, 2, true), // gspt
-        new TdfMemberInfo("Kills", "kills", 0x2C930C00, TdfType.UInt16, 3, true), // kill
-        new TdfMemberInfo("Loser", "loser", 0x30F4D200, TdfType.Bool, 4, true), // losr
-        new TdfMemberInfo("LobbySkillPoints", "lobbySkillPoints", 0x31341400, TdfType.Int32, 5, true), // lspt
-        new TdfMemberInfo("Money", "money", 0x34F39900, TdfType.UInt32, 6, true), // mony
-        new TdfMemberInfo("PlayerClass", "playerClass", 0x40331300, TdfType.Int32, 7, true), // pcls
-        new TdfMemberInfo("Rank", "rank", 0x48138B00, TdfType.Int32, 8, true), // rank
-        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0x50131600, TdfType.UInt32, 9, true), // talv
-        new TdfMemberInfo("WinnerByDNF", "winnerByDNF", 0x5C438600, TdfType.Bool, 10, true), // wdnf
-        new TdfMemberInfo("Winner", "winner", 0x5C939200, TdfType.Bool, 11, true), // winr
+        new TdfMemberInfo("Deaths", "deaths", 0x925D2800, TdfType.UInt16, 0, true), // Tag: DETH
+        new TdfMemberInfo("GlickoRd", "glickoRd", 0x9ECCA400, TdfType.Int32, 1, true), // Tag: GLRD
+        new TdfMemberInfo("GlickoSkillPoints", "glickoSkillPoints", 0x9F3C3400, TdfType.Int32, 2, true), // Tag: GSPT
+        new TdfMemberInfo("Kills", "kills", 0xAE9B2C00, TdfType.UInt16, 3, true), // Tag: KILL
+        new TdfMemberInfo("Loser", "loser", 0xB2FCF200, TdfType.Bool, 4, true), // Tag: LOSR
+        new TdfMemberInfo("LobbySkillPoints", "lobbySkillPoints", 0xB33C3400, TdfType.Int32, 5, true), // Tag: LSPT
+        new TdfMemberInfo("Money", "money", 0xB6FBB900, TdfType.UInt32, 6, true), // Tag: MONY
+        new TdfMemberInfo("PlayerClass", "playerClass", 0xC23B3300, TdfType.Int32, 7, true), // Tag: PCLS
+        new TdfMemberInfo("Rank", "rank", 0xCA1BAB00, TdfType.Int32, 8, true), // Tag: RANK
+        new TdfMemberInfo("LongestTimeAlive", "longestTimeAlive", 0xD21B3600, TdfType.UInt32, 9, true), // Tag: TALV
+        new TdfMemberInfo("WinnerByDNF", "winnerByDNF", 0xDE4BA600, TdfType.Bool, 10, true), // Tag: WDNF
+        new TdfMemberInfo("Winner", "winner", 0xDE9BB200, TdfType.Bool, 11, true), // Tag: WINR
     ];
     private ITdfMember[] __members;
 

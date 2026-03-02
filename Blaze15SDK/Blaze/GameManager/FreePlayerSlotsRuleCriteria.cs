@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class FreePlayerSlotsRuleCriteria : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxFreePlayerSlots", "mMaxFreePlayerSlots", 0x34161300, TdfType.UInt16, 0, true), // maxs
-        new TdfMemberInfo("MinFreePlayerSlots", "mMinFreePlayerSlots", 0x34939300, TdfType.UInt16, 1, true), // mins
+        new TdfMemberInfo("MaxFreePlayerSlots", "mMaxFreePlayerSlots", 0xB61E3300, TdfType.UInt16, 0, true), // Tag: MAXS
+        new TdfMemberInfo("MinFreePlayerSlots", "mMinFreePlayerSlots", 0xB69BB300, TdfType.UInt16, 1, true), // Tag: MINS
     ];
     private ITdfMember[] __members;
 

@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class DecrementUseCountRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DecrementCount", "mDecrementCount", 0x925D6300, TdfType.UInt32, 0, true), // DEUC
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 1, true), // ETAG
-        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 2, true), // GNAM
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 3, true), // PJID
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 4, true), // PRID
+        new TdfMemberInfo("DecrementCount", "mDecrementCount", 0x925D6300, TdfType.UInt32, 0, true), // Tag: DEUC
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0x97486700, TdfType.String, 1, true), // Tag: ETAG
+        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 2, true), // Tag: GNAM
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 3, true), // Tag: PJID
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 4, true), // Tag: PRID
     ];
     private ITdfMember[] __members;
     private TdfUInt32 _decrementCount = new(__typeInfos[0]);

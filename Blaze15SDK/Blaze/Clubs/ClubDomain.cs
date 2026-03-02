@@ -7,17 +7,17 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class ClubDomain : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AllowMemberToRetrievePassword", "mAllowMemberToRetrievePassword", 0x04D49000, TdfType.Bool, 0, true), // amrp
-        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x10D24400, TdfType.UInt32, 1, true), // dmid
-        new TdfMemberInfo("DomainName", "mDomainName", 0x10E04D00, TdfType.String, 2, true), // dnam
-        new TdfMemberInfo("TrackMembershipInUED", "mTrackMembershipInUED", 0x11514400, TdfType.Bool, 3, true), // dued
-        new TdfMemberInfo("MaxGMsPerClub", "mMaxGMsPerClub", 0x1181CD00, TdfType.UInt16, 4, true), // dxgm
-        new TdfMemberInfo("MaxInactiveDaysPerClub", "mMaxInactiveDaysPerClub", 0x11824100, TdfType.UInt16, 5, true), // dxia
-        new TdfMemberInfo("MaxInvitationsPerUserOrClub", "mMaxInvitationsPerUserOrClub", 0x11825600, TdfType.UInt16, 6, true), // dxiv
-        new TdfMemberInfo("MaxMembersPerClub", "mMaxMembersPerClub", 0x11834200, TdfType.UInt32, 7, true), // dxmb
-        new TdfMemberInfo("MaxMembershipsPerUser", "mMaxMembershipsPerUser", 0x11835300, TdfType.UInt16, 8, true), // dxms
-        new TdfMemberInfo("MaxNewsItemsPerClub", "mMaxNewsItemsPerClub", 0x11839700, TdfType.UInt16, 9, true), // dxnw
-        new TdfMemberInfo("ClubJumpingInterval", "mClubJumpingInterval", 0x28951600, TdfType.TimeValue, 10, true), // jitv
+        new TdfMemberInfo("AllowMemberToRetrievePassword", "mAllowMemberToRetrievePassword", 0x86DCB000, TdfType.Bool, 0, true), // Tag: AMRP
+        new TdfMemberInfo("ClubDomainId", "mClubDomainId", 0x92DA6400, TdfType.UInt32, 1, true), // Tag: DMID
+        new TdfMemberInfo("DomainName", "mDomainName", 0x92E86D00, TdfType.String, 2, true), // Tag: DNAM
+        new TdfMemberInfo("TrackMembershipInUED", "mTrackMembershipInUED", 0x93596400, TdfType.Bool, 3, true), // Tag: DUED
+        new TdfMemberInfo("MaxGMsPerClub", "mMaxGMsPerClub", 0x9389ED00, TdfType.UInt16, 4, true), // Tag: DXGM
+        new TdfMemberInfo("MaxInactiveDaysPerClub", "mMaxInactiveDaysPerClub", 0x938A6100, TdfType.UInt16, 5, true), // Tag: DXIA
+        new TdfMemberInfo("MaxInvitationsPerUserOrClub", "mMaxInvitationsPerUserOrClub", 0x938A7600, TdfType.UInt16, 6, true), // Tag: DXIV
+        new TdfMemberInfo("MaxMembersPerClub", "mMaxMembersPerClub", 0x938B6200, TdfType.UInt32, 7, true), // Tag: DXMB
+        new TdfMemberInfo("MaxMembershipsPerUser", "mMaxMembershipsPerUser", 0x938B7300, TdfType.UInt16, 8, true), // Tag: DXMS
+        new TdfMemberInfo("MaxNewsItemsPerClub", "mMaxNewsItemsPerClub", 0x938BB700, TdfType.UInt16, 9, true), // Tag: DXNW
+        new TdfMemberInfo("ClubJumpingInterval", "mClubJumpingInterval", 0xAA9D3600, TdfType.TimeValue, 10, true), // Tag: JITV
     ];
     private ITdfMember[] __members;
 

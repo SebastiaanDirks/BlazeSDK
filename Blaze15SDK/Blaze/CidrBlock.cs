@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze;
 public class CidrBlock : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Ip", "mIp", 0xA7000000, TdfType.String, 0, true), // IP
-        new TdfMemberInfo("PrefixLength", "mPrefixLength", 0xC2C96E00, TdfType.UInt32, 1, true), // PLEN
+        new TdfMemberInfo("Ip", "mIp", 0xA7000000, TdfType.String, 0, true), // Tag: IP
+        new TdfMemberInfo("PrefixLength", "mPrefixLength", 0xC2C96E00, TdfType.UInt32, 1, true), // Tag: PLEN
     ];
     private ITdfMember[] __members;
 

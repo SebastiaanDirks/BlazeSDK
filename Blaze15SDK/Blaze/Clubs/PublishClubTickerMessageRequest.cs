@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Clubs;
 public class PublishClubTickerMessageRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ClubId", "mClubId", 0x0CC24400, TdfType.UInt64, 0, true), // clid
-        new TdfMemberInfo("Message", "mMessage", 0x0D435300, TdfType.Struct, 1, true), // ctms
-        new TdfMemberInfo("ExcludeBlazeId", "mExcludeBlazeId", 0x15854900, TdfType.Int64, 2, true), // exui
-        new TdfMemberInfo("IncludeBlazeId", "mIncludeBlazeId", 0x24E54900, TdfType.Int64, 3, true), // inui
-        new TdfMemberInfo("Params", "mParams", 0x41235300, TdfType.String, 4, true), // prms
+        new TdfMemberInfo("ClubId", "mClubId", 0x8ECA6400, TdfType.UInt64, 0, true), // Tag: CLID
+        new TdfMemberInfo("Message", "mMessage", 0x8F4B7300, TdfType.Struct, 1, true), // Tag: CTMS
+        new TdfMemberInfo("ExcludeBlazeId", "mExcludeBlazeId", 0x978D6900, TdfType.Int64, 2, true), // Tag: EXUI
+        new TdfMemberInfo("IncludeBlazeId", "mIncludeBlazeId", 0xA6ED6900, TdfType.Int64, 3, true), // Tag: INUI
+        new TdfMemberInfo("Params", "mParams", 0xC32B7300, TdfType.String, 4, true), // Tag: PRMS
     ];
     private ITdfMember[] __members;
 

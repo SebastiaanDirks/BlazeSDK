@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonLeagueGameKeyscopes;
 public class Report : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DefensiveAthleteReports", "defensiveAthleteReports", 0x10519300, TdfType.Map, 0, true), // defs
-        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x1C134500, TdfType.Struct, 1, true), // game
-        new TdfMemberInfo("OffensiveAthleteReports", "offensiveAthleteReports", 0x3C619300, TdfType.Map, 2, true), // offs
-        new TdfMemberInfo("PlayerReports", "playerReports", 0x40C65200, TdfType.Map, 3, true), // plyr
+        new TdfMemberInfo("DefensiveAthleteReports", "defensiveAthleteReports", 0x9259B300, TdfType.Map, 0, true), // Tag: DEFS
+        new TdfMemberInfo("GameAttrs", "gameAttrs", 0x9E1B6500, TdfType.Struct, 1, true), // Tag: GAME
+        new TdfMemberInfo("OffensiveAthleteReports", "offensiveAthleteReports", 0xBE69B300, TdfType.Map, 2, true), // Tag: OFFS
+        new TdfMemberInfo("PlayerReports", "playerReports", 0xC2CE7200, TdfType.Map, 3, true), // Tag: PLYR
     ];
     private ITdfMember[] __members;
 

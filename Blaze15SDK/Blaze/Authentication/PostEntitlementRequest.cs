@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class PostEntitlementRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DeviceId", "mDeviceId", 0x925A6400, TdfType.UInt32, 0, true), // DEID
-        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 1, true), // GNAM
-        new TdfMemberInfo("WithPersona", "mWithPersona", 0xC25CB300, TdfType.Bool, 2, true), // PERS
-        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 3, true), // PJID
-        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 4, true), // PRID
-        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 5, true), // STAT
-        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 6, true), // TAG
+        new TdfMemberInfo("DeviceId", "mDeviceId", 0x925A6400, TdfType.UInt32, 0, true), // Tag: DEID
+        new TdfMemberInfo("GroupName", "mGroupName", 0x9EE86D00, TdfType.String, 1, true), // Tag: GNAM
+        new TdfMemberInfo("WithPersona", "mWithPersona", 0xC25CB300, TdfType.Bool, 2, true), // Tag: PERS
+        new TdfMemberInfo("ProjectId", "mProjectId", 0xC2AA6400, TdfType.String, 3, true), // Tag: PJID
+        new TdfMemberInfo("ProductId", "mProductId", 0xC32A6400, TdfType.String, 4, true), // Tag: PRID
+        new TdfMemberInfo("Status", "mStatus", 0xCF487400, TdfType.Enum, 5, true), // Tag: STAT
+        new TdfMemberInfo("EntitlementTag", "mEntitlementTag", 0xD219C000, TdfType.String, 6, true), // Tag: TAG
     ];
     private ITdfMember[] __members;
 

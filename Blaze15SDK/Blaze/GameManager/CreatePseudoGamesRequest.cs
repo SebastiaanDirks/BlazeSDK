@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class CreatePseudoGamesRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("PseudoGameVariantCountMap", "mPseudoGameVariantCountMap", 0x40758D00, TdfType.Map, 0, true), // pgvm
+        new TdfMemberInfo("PseudoGameVariantCountMap", "mPseudoGameVariantCountMap", 0xC27DAD00, TdfType.Map, 0, true), // Tag: PGVM
     ];
     private ITdfMember[] __members;
 

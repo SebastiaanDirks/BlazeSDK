@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyMatchmakingSessionConnectionValidated : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ConnectionValidatedResults", "mConnectionValidatedResults", 0x0CF39600, TdfType.Struct, 0, true), // conv
-        new TdfMemberInfo("DispatchSessionFinished", "mDispatchSessionFinished", 0x1094D000, TdfType.Bool, 1, true), // disp
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 2, true), // gid
-        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0x1D224400, TdfType.ObjectId, 3, true), // grid
-        new TdfMemberInfo("ScenarioId", "mScenarioId", 0x3530C400, TdfType.UInt64, 4, true), // mscd
-        new TdfMemberInfo("SessionId", "mSessionId", 0x35324400, TdfType.UInt64, 5, true), // msid
-        new TdfMemberInfo("QosValidationPerformed", "mQosValidationPerformed", 0x45359200, TdfType.Bool, 6, true), // qsvr
-        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0x55324400, TdfType.UInt64, 7, true), // usid
+        new TdfMemberInfo("ConnectionValidatedResults", "mConnectionValidatedResults", 0x8EFBB600, TdfType.Struct, 0, true), // Tag: CONV
+        new TdfMemberInfo("DispatchSessionFinished", "mDispatchSessionFinished", 0x929CF000, TdfType.Bool, 1, true), // Tag: DISP
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 2, true), // Tag: GID
+        new TdfMemberInfo("UserGroupId", "mUserGroupId", 0x9F2A6400, TdfType.ObjectId, 3, true), // Tag: GRID
+        new TdfMemberInfo("ScenarioId", "mScenarioId", 0xB738E400, TdfType.UInt64, 4, true), // Tag: MSCD
+        new TdfMemberInfo("SessionId", "mSessionId", 0xB73A6400, TdfType.UInt64, 5, true), // Tag: MSID
+        new TdfMemberInfo("QosValidationPerformed", "mQosValidationPerformed", 0xC73DB200, TdfType.Bool, 6, true), // Tag: QSVR
+        new TdfMemberInfo("UserSessionId", "mUserSessionId", 0xD73A6400, TdfType.UInt64, 7, true), // Tag: USID
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Association;
 public class Lists : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListMembersVector", "mListMembersVector", 0x30D05000, TdfType.List, 0, true), // lmap
+        new TdfMemberInfo("ListMembersVector", "mListMembersVector", 0xB2D87000, TdfType.List, 0, true), // Tag: LMAP
     ];
     private ITdfMember[] __members;
 

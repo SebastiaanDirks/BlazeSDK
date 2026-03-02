@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class JoinGameResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ExternalSessionIdentification", "mExternalSessionIdentification", 0x15324400, TdfType.Struct, 0, true), // esid
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("JoinState", "mJoinState", 0x2874C000, TdfType.Enum, 2, true), // jgs
-        new TdfMemberInfo("JoinedReservedPlayerIdentifications", "mJoinedReservedPlayerIdentifications", 0x48524000, TdfType.List, 3, true), // rei
+        new TdfMemberInfo("ExternalSessionIdentification", "mExternalSessionIdentification", 0x973A6400, TdfType.Struct, 0, true), // Tag: ESID
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("JoinState", "mJoinState", 0xAA7CC000, TdfType.Enum, 2, true), // Tag: JGS
+        new TdfMemberInfo("JoinedReservedPlayerIdentifications", "mJoinedReservedPlayerIdentifications", 0xCA5A4000, TdfType.List, 3, true), // Tag: REI
     ];
     private ITdfMember[] __members;
 

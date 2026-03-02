@@ -7,26 +7,26 @@ namespace Blaze15SDK.Blaze.Achievements;
 public class AchievementData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Cnt", "mCnt", 0x0CE50000, TdfType.UInt32, 0, true), // cnt
-        new TdfMemberInfo("Tc", "mTc", 0x0D549400, TdfType.Int8, 1, true), // curt
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 2, true), // desc
-        new TdfMemberInfo("D", "mD", 0x10558300, TdfType.String, 3, true), // devc
-        new TdfMemberInfo("E", "mE", 0x15841900, TdfType.Int64, 4, true), // expy
-        new TdfMemberInfo("Howto", "mHowto", 0x20F5D400, TdfType.String, 5, true), // howt
-        new TdfMemberInfo("Icons", "mIcons", 0x2433CE00, TdfType.Map, 6, true), // icon
-        new TdfMemberInfo("Img", "mImg", 0x24D1C000, TdfType.String, 7, true), // img
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 8, true), // name
-        new TdfMemberInfo("Tn", "mTn", 0x38561400, TdfType.List, 9, true), // next
-        new TdfMemberInfo("P", "mP", 0x4144C000, TdfType.Int64, 10, true), // pts
-        new TdfMemberInfo("Requirements", "mRequirements", 0x48544C00, TdfType.List, 11, true), // reql
-        new TdfMemberInfo("Rp", "mRp", 0x49051300, TdfType.Int64, 12, true), // rpts
-        new TdfMemberInfo("S", "mS", 0x4D449400, TdfType.Int64, 13, true), // strt
-        new TdfMemberInfo("U", "mU", 0x50934500, TdfType.Int64, 14, true), // time
-        new TdfMemberInfo("Tt", "mTt", 0x50F51400, TdfType.Int8, 15, true), // tott
-        new TdfMemberInfo("T", "mT", 0x51051300, TdfType.Int64, 16, true), // tpts
-        new TdfMemberInfo("UserProgressPoints", "mUserProgressPoints", 0x55051300, TdfType.Int64, 17, true), // upts
-        new TdfMemberInfo("Xpack", "mXpack", 0x61004300, TdfType.Struct, 18, true), // xpac
-        new TdfMemberInfo("Xp", "mXp", 0x61051300, TdfType.Int64, 19, true), // xpts
+        new TdfMemberInfo("Cnt", "mCnt", 0x8EED0000, TdfType.UInt32, 0, true), // Tag: CNT
+        new TdfMemberInfo("Tc", "mTc", 0x8F5CB400, TdfType.Int8, 1, true), // Tag: CURT
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 2, true), // Tag: DESC
+        new TdfMemberInfo("D", "mD", 0x925DA300, TdfType.String, 3, true), // Tag: DEVC
+        new TdfMemberInfo("E", "mE", 0x978C3900, TdfType.Int64, 4, true), // Tag: EXPY
+        new TdfMemberInfo("Howto", "mHowto", 0xA2FDF400, TdfType.String, 5, true), // Tag: HOWT
+        new TdfMemberInfo("Icons", "mIcons", 0xA63BEE00, TdfType.Map, 6, true), // Tag: ICON
+        new TdfMemberInfo("Img", "mImg", 0xA6D9C000, TdfType.String, 7, true), // Tag: IMG
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 8, true), // Tag: NAME
+        new TdfMemberInfo("Tn", "mTn", 0xBA5E3400, TdfType.List, 9, true), // Tag: NEXT
+        new TdfMemberInfo("P", "mP", 0xC34CC000, TdfType.Int64, 10, true), // Tag: PTS
+        new TdfMemberInfo("Requirements", "mRequirements", 0xCA5C6C00, TdfType.List, 11, true), // Tag: REQL
+        new TdfMemberInfo("Rp", "mRp", 0xCB0D3300, TdfType.Int64, 12, true), // Tag: RPTS
+        new TdfMemberInfo("S", "mS", 0xCF4CB400, TdfType.Int64, 13, true), // Tag: STRT
+        new TdfMemberInfo("U", "mU", 0xD29B6500, TdfType.Int64, 14, true), // Tag: TIME
+        new TdfMemberInfo("Tt", "mTt", 0xD2FD3400, TdfType.Int8, 15, true), // Tag: TOTT
+        new TdfMemberInfo("T", "mT", 0xD30D3300, TdfType.Int64, 16, true), // Tag: TPTS
+        new TdfMemberInfo("UserProgressPoints", "mUserProgressPoints", 0xD70D3300, TdfType.Int64, 17, true), // Tag: UPTS
+        new TdfMemberInfo("Xpack", "mXpack", 0xE3086300, TdfType.Struct, 18, true), // Tag: XPAC
+        new TdfMemberInfo("Xp", "mXp", 0xE30D3300, TdfType.Int64, 19, true), // Tag: XPTS
     ];
     private ITdfMember[] __members;
 

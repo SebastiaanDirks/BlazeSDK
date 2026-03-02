@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Association;
 public class GetMemberHashResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08910000, TdfType.Int64, 0, true), // bid
-        new TdfMemberInfo("MemberHash", "mMemberHash", 0x2014C800, TdfType.UInt32, 1, true), // hash
-        new TdfMemberInfo("ListType", "mListType", 0x51940500, TdfType.UInt16, 2, true), // type
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 0, true), // Tag: BID
+        new TdfMemberInfo("MemberHash", "mMemberHash", 0xA21CE800, TdfType.UInt32, 1, true), // Tag: HASH
+        new TdfMemberInfo("ListType", "mListType", 0xD39C2500, TdfType.UInt16, 2, true), // Tag: TYPE
     ];
     private ITdfMember[] __members;
 

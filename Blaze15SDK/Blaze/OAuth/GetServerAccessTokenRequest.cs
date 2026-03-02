@@ -7,19 +7,19 @@ namespace Blaze15SDK.Blaze.OAuth;
 public class GetServerAccessTokenRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x4D60CE00, TdfType.String, 0, true), // svcn
-        new TdfMemberInfo("AllowedScopes", "mAllowedScopes", 0x4C33D000, TdfType.String, 1, true), // scop
+        new TdfMemberInfo("AllowedScopes", "mAllowedScopes", 0xCE3BF000, TdfType.String, 0, true), // Tag: SCOP
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xCF68EE00, TdfType.String, 1, true), // Tag: SVCN
     ];
     private ITdfMember[] __members;
 
-    private TdfString _serviceName = new(__typeInfos[0]);
-    private TdfString _allowedScopes = new(__typeInfos[1]);
+    private TdfString _serviceName = new(__typeInfos[1]);
+    private TdfString _allowedScopes = new(__typeInfos[0]);
 
     public GetServerAccessTokenRequest()
     {
         __members = [
-            _serviceName,
             _allowedScopes,
+            _serviceName,
         ];
     }
 

@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class PersonaDetails : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 0, true), // DSNM
-        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB21CF400, TdfType.UInt32, 1, true), // LAST
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 2, true), // PID
-        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 3, true), // STAS
-        new TdfMemberInfo("ExtId", "mExtId", 0xE3296600, TdfType.Int64, 4, true), // XREF
+        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 0, true), // Tag: DSNM
+        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB21CF400, TdfType.UInt32, 1, true), // Tag: LAST
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 2, true), // Tag: PID
+        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 3, true), // Tag: STAS
+        new TdfMemberInfo("ExtId", "mExtId", 0xE3296600, TdfType.Int64, 4, true), // Tag: XREF
     ];
     private ITdfMember[] __members;
 

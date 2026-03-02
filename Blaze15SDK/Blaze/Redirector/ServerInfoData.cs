@@ -7,25 +7,25 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInfoData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AddressRemaps", "mAddressRemaps", 0x04D05000, TdfType.List, 0, true), // amap
-        new TdfMemberInfo("BuildTarget", "mBuildTarget", 0x0941D400, TdfType.String, 1, true), // btgt
-        new TdfMemberInfo("BuildTime", "mBuildTime", 0x09424D00, TdfType.String, 2, true), // btim
-        new TdfMemberInfo("ConfigVersion", "mConfigVersion", 0x0C759300, TdfType.String, 3, true), // cgvs
-        new TdfMemberInfo("CompatibleClientVersions", "mCompatibleClientVersions", 0x0D615200, TdfType.List, 4, true), // cver
-        new TdfMemberInfo("DepotLocation", "mDepotLocation", 0x10540F00, TdfType.String, 5, true), // depo
-        new TdfMemberInfo("Instances", "mInstances", 0x24E4D400, TdfType.List, 6, true), // inst
-        new TdfMemberInfo("IncompatibleClientVersions", "mIncompatibleClientVersions", 0x25615200, TdfType.List, 7, true), // iver
-        new TdfMemberInfo("BuildLocation", "mBuildLocation", 0x30F0CE00, TdfType.String, 8, true), // locn
-        new TdfMemberInfo("MasterInstance", "mMasterInstance", 0x35351200, TdfType.Struct, 9, true), // mstr
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 10, true), // name
-        new TdfMemberInfo("NameRemaps", "mNameRemaps", 0x38D05000, TdfType.List, 11, true), // nmap
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.String, 12, true), // plat
-        new TdfMemberInfo("ServiceNames", "mServiceNames", 0x4CE35300, TdfType.List, 13, true), // snms
-        new TdfMemberInfo("DefaultServiceId", "mDefaultServiceId", 0x4D624400, TdfType.UInt32, 14, true), // svid
-        new TdfMemberInfo("Version", "mVersion", 0x58549300, TdfType.String, 15, true), // vers
-        new TdfMemberInfo("DefaultDnsAddress", "mDefaultDnsAddress", 0x60439300, TdfType.UInt32, 16, true), // xdns
-        new TdfMemberInfo("AuxMasters", "mAuxMasters", 0x60D4D400, TdfType.List, 17, true), // xmst
-        new TdfMemberInfo("AuxSlaves", "mAuxSlaves", 0x61331600, TdfType.List, 18, true), // xslv
+        new TdfMemberInfo("AddressRemaps", "mAddressRemaps", 0x86D87000, TdfType.List, 0, true), // Tag: AMAP
+        new TdfMemberInfo("BuildTarget", "mBuildTarget", 0x8B49F400, TdfType.String, 1, true), // Tag: BTGT
+        new TdfMemberInfo("BuildTime", "mBuildTime", 0x8B4A6D00, TdfType.String, 2, true), // Tag: BTIM
+        new TdfMemberInfo("ConfigVersion", "mConfigVersion", 0x8E7DB300, TdfType.String, 3, true), // Tag: CGVS
+        new TdfMemberInfo("CompatibleClientVersions", "mCompatibleClientVersions", 0x8F697200, TdfType.List, 4, true), // Tag: CVER
+        new TdfMemberInfo("DepotLocation", "mDepotLocation", 0x925C2F00, TdfType.String, 5, true), // Tag: DEPO
+        new TdfMemberInfo("Instances", "mInstances", 0xA6ECF400, TdfType.List, 6, true), // Tag: INST
+        new TdfMemberInfo("IncompatibleClientVersions", "mIncompatibleClientVersions", 0xA7697200, TdfType.List, 7, true), // Tag: IVER
+        new TdfMemberInfo("BuildLocation", "mBuildLocation", 0xB2F8EE00, TdfType.String, 8, true), // Tag: LOCN
+        new TdfMemberInfo("MasterInstance", "mMasterInstance", 0xB73D3200, TdfType.Struct, 9, true), // Tag: MSTR
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 10, true), // Tag: NAME
+        new TdfMemberInfo("NameRemaps", "mNameRemaps", 0xBAD87000, TdfType.List, 11, true), // Tag: NMAP
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.String, 12, true), // Tag: PLAT
+        new TdfMemberInfo("ServiceNames", "mServiceNames", 0xCEEB7300, TdfType.List, 13, true), // Tag: SNMS
+        new TdfMemberInfo("DefaultServiceId", "mDefaultServiceId", 0xCF6A6400, TdfType.UInt32, 14, true), // Tag: SVID
+        new TdfMemberInfo("Version", "mVersion", 0xDA5CB300, TdfType.String, 15, true), // Tag: VERS
+        new TdfMemberInfo("DefaultDnsAddress", "mDefaultDnsAddress", 0xE24BB300, TdfType.UInt32, 16, true), // Tag: XDNS
+        new TdfMemberInfo("AuxMasters", "mAuxMasters", 0xE2DCF400, TdfType.List, 17, true), // Tag: XMST
+        new TdfMemberInfo("AuxSlaves", "mAuxSlaves", 0xE33B3600, TdfType.List, 18, true), // Tag: XSLV
     ];
     private ITdfMember[] __members;
 

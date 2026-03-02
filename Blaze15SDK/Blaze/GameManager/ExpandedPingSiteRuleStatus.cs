@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ExpandedPingSiteRuleStatus : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("MaxLatency", "mMaxLatency", 0x34C05400, TdfType.UInt32, 0, true), // mlat
-        new TdfMemberInfo("MatchedValues", "mMatchedValues", 0x58131500, TdfType.List, 1, true), // valu
+        new TdfMemberInfo("MaxLatency", "mMaxLatency", 0xB6C87400, TdfType.UInt32, 0, true), // Tag: MLAT
+        new TdfMemberInfo("MatchedValues", "mMatchedValues", 0xDA1B3500, TdfType.List, 1, true), // Tag: VALU
     ];
     private ITdfMember[] __members;
 

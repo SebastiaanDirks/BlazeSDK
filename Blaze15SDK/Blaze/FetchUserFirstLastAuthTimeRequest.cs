@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class FetchUserFirstLastAuthTimeRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 0, true), // UID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0xD6990000, TdfType.Int64, 0, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

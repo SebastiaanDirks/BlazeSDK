@@ -7,14 +7,14 @@ namespace Blaze15SDK.Blaze.Association;
 public class ListData : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Id", "mId", 0x24400000, TdfType.UInt16, 0, true), // id
-        new TdfMemberInfo("MutualAction", "mMutualAction", 0x35550100, TdfType.Bool, 1, true), // muta
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 2, true), // name
-        new TdfMemberInfo("LoadOfflineUED", "mLoadOfflineUED", 0x3C618C00, TdfType.Bool, 3, true), // offl
-        new TdfMemberInfo("PairId", "mPairId", 0x41224400, TdfType.UInt16, 4, true), // prid
-        new TdfMemberInfo("Rollover", "mRollover", 0x48F30C00, TdfType.Bool, 5, true), // roll
-        new TdfMemberInfo("Subscribe", "mSubscribe", 0x4C348900, TdfType.Bool, 6, true), // scri
-        new TdfMemberInfo("MaxSize", "mMaxSize", 0x4C968500, TdfType.UInt32, 7, true), // size
+        new TdfMemberInfo("Id", "mId", 0xA6400000, TdfType.UInt16, 0, true), // Tag: ID
+        new TdfMemberInfo("MutualAction", "mMutualAction", 0xB75D2100, TdfType.Bool, 1, true), // Tag: MUTA
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 2, true), // Tag: NAME
+        new TdfMemberInfo("LoadOfflineUED", "mLoadOfflineUED", 0xBE69AC00, TdfType.Bool, 3, true), // Tag: OFFL
+        new TdfMemberInfo("PairId", "mPairId", 0xC32A6400, TdfType.UInt16, 4, true), // Tag: PRID
+        new TdfMemberInfo("Rollover", "mRollover", 0xCAFB2C00, TdfType.Bool, 5, true), // Tag: ROLL
+        new TdfMemberInfo("Subscribe", "mSubscribe", 0xCE3CA900, TdfType.Bool, 6, true), // Tag: SCRI
+        new TdfMemberInfo("MaxSize", "mMaxSize", 0xCE9EA500, TdfType.UInt32, 7, true), // Tag: SIZE
     ];
     private ITdfMember[] __members;
 

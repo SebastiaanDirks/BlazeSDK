@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Association;
 public class UpdateListMembersRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttributesMask", "mAttributesMask", 0x05434B00, TdfType.Enum, 0, true), // atmk
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x08910000, TdfType.Int64, 1, true), // bid
-        new TdfMemberInfo("ListMemberIdVector", "mListMemberIdVector", 0x08910C00, TdfType.List, 2, true), // bidl
-        new TdfMemberInfo("MemberHash", "mMemberHash", 0x2014C800, TdfType.UInt32, 3, true), // hash
-        new TdfMemberInfo("ListIdentification", "mListIdentification", 0x30910000, TdfType.Struct, 4, true), // lid
-        new TdfMemberInfo("ValidateDelete", "validateDelete", 0x58130400, TdfType.Bool, 5, true), // vald
+        new TdfMemberInfo("AttributesMask", "mAttributesMask", 0x874B6B00, TdfType.Enum, 0, true), // Tag: ATMK
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8A990000, TdfType.Int64, 1, true), // Tag: BID
+        new TdfMemberInfo("ListMemberIdVector", "mListMemberIdVector", 0x8A992C00, TdfType.List, 2, true), // Tag: BIDL
+        new TdfMemberInfo("MemberHash", "mMemberHash", 0xA21CE800, TdfType.UInt32, 3, true), // Tag: HASH
+        new TdfMemberInfo("ListIdentification", "mListIdentification", 0xB2990000, TdfType.Struct, 4, true), // Tag: LID
+        new TdfMemberInfo("ValidateDelete", "validateDelete", 0xDA1B2400, TdfType.Bool, 5, true), // Tag: VALD
     ];
     private ITdfMember[] __members;
 

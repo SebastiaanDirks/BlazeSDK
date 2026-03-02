@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class NotifyHostedConnectivityAvailable : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("HostedConnectivityInfo", "mHostedConnectivityInfo", 0x0C34C900, TdfType.Struct, 0, true), // ccsi
-        new TdfMemberInfo("GameId", "mGameId", 0x1C910000, TdfType.UInt64, 1, true), // gid
-        new TdfMemberInfo("RemotePlayerId", "mRemotePlayerId", 0x40910000, TdfType.Int64, 2, true), // pid
+        new TdfMemberInfo("HostedConnectivityInfo", "mHostedConnectivityInfo", 0x8E3CE900, TdfType.Struct, 0, true), // Tag: CCSI
+        new TdfMemberInfo("GameId", "mGameId", 0x9E990000, TdfType.UInt64, 1, true), // Tag: GID
+        new TdfMemberInfo("RemotePlayerId", "mRemotePlayerId", 0xC2990000, TdfType.Int64, 2, true), // Tag: PID
     ];
     private ITdfMember[] __members;
 

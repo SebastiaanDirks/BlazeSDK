@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GenericRuleConfig : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AttributeName", "mAttributeName", 0x04E34500, TdfType.String, 0, true), // anme
-        new TdfMemberInfo("AttributeType", "mAttributeType", 0x05465000, TdfType.Enum, 1, true), // atyp
-        new TdfMemberInfo("PossibleValues", "mPossibleValues", 0x40F4D600, TdfType.List, 2, true), // posv
-        new TdfMemberInfo("RuleName", "mRuleName", 0x48E34500, TdfType.String, 3, true), // rnme
-        new TdfMemberInfo("ThresholdNames", "mThresholdNames", 0x50831300, TdfType.List, 4, true), // thls
-        new TdfMemberInfo("Weight", "mWeight", 0x5C721400, TdfType.UInt32, 5, true), // wght
+        new TdfMemberInfo("AttributeName", "mAttributeName", 0x86EB6500, TdfType.String, 0, true), // Tag: ANME
+        new TdfMemberInfo("AttributeType", "mAttributeType", 0x874E7000, TdfType.Enum, 1, true), // Tag: ATYP
+        new TdfMemberInfo("PossibleValues", "mPossibleValues", 0xC2FCF600, TdfType.List, 2, true), // Tag: POSV
+        new TdfMemberInfo("RuleName", "mRuleName", 0xCAEB6500, TdfType.String, 3, true), // Tag: RNME
+        new TdfMemberInfo("ThresholdNames", "mThresholdNames", 0xD28B3300, TdfType.List, 4, true), // Tag: THLS
+        new TdfMemberInfo("Weight", "mWeight", 0xDE7A3400, TdfType.UInt32, 5, true), // Tag: WGHT
     ];
     private ITdfMember[] __members;
 

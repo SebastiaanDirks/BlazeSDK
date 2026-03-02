@@ -7,12 +7,12 @@ namespace Blaze15SDK.Blaze.Stats;
 public class StatCategorySummary : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("CategoryType", "mCategoryType", 0x0D465000, TdfType.Enum, 0, true), // ctyp
-        new TdfMemberInfo("Desc", "mDesc", 0x1054C300, TdfType.String, 1, true), // desc
-        new TdfMemberInfo("EntityType", "mEntityType", 0x15465000, TdfType.ObjectType, 2, true), // etyp
-        new TdfMemberInfo("KeyScopes", "mKeyScopes", 0x2C565300, TdfType.List, 3, true), // keys
-        new TdfMemberInfo("Name", "mName", 0x38134500, TdfType.String, 4, true), // name
-        new TdfMemberInfo("PeriodTypes", "mPeriodTypes", 0x41465000, TdfType.List, 5, true), // ptyp
+        new TdfMemberInfo("CategoryType", "mCategoryType", 0x8F4E7000, TdfType.Enum, 0, true), // Tag: CTYP
+        new TdfMemberInfo("Desc", "mDesc", 0x925CE300, TdfType.String, 1, true), // Tag: DESC
+        new TdfMemberInfo("EntityType", "mEntityType", 0x974E7000, TdfType.ObjectType, 2, true), // Tag: ETYP
+        new TdfMemberInfo("KeyScopes", "mKeyScopes", 0xAE5E7300, TdfType.List, 3, true), // Tag: KEYS
+        new TdfMemberInfo("Name", "mName", 0xBA1B6500, TdfType.String, 4, true), // Tag: NAME
+        new TdfMemberInfo("PeriodTypes", "mPeriodTypes", 0xC34E7000, TdfType.List, 5, true), // Tag: PTYP
     ];
     private ITdfMember[] __members;
 

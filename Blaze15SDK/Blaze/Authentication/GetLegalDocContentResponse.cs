@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class GetLegalDocContentResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("LegalDocVersion", "mLegalDocVersion", 0xB24DA300, TdfType.String, 0, true), // LDVC
-        new TdfMemberInfo("LegalDocContentLength", "mLegalDocContentLength", 0xD23BEC00, TdfType.UInt32, 1, true), // TCOL
-        new TdfMemberInfo("LegalDocContent", "mLegalDocContent", 0xD23BF400, TdfType.String, 2, true), // TCOT
+        new TdfMemberInfo("LegalDocVersion", "mLegalDocVersion", 0xB24DA300, TdfType.String, 0, true), // Tag: LDVC
+        new TdfMemberInfo("LegalDocContentLength", "mLegalDocContentLength", 0xD23BEC00, TdfType.UInt32, 1, true), // Tag: TCOL
+        new TdfMemberInfo("LegalDocContent", "mLegalDocContent", 0xD23BF400, TdfType.String, 2, true), // Tag: TCOT
     ];
     private ITdfMember[] __members;
 

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Association;
 public class ConfigLists : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ListsInfo", "mListsInfo", 0x31311400, TdfType.List, 0, true), // lsdt
+        new TdfMemberInfo("ListsInfo", "mListsInfo", 0xB3393400, TdfType.List, 0, true), // Tag: LSDT
     ];
     private ITdfMember[] __members;
 

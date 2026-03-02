@@ -7,16 +7,16 @@ namespace Blaze15SDK.Blaze.ByteVault;
 public class DataRates : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("AverageGetRecordSize", "mAverageGetRecordSize", 0x1C158700, TdfType.UInt64, 0, true), // gavg
-        new TdfMemberInfo("MaximumGetRecordSize", "mMaximumGetRecordSize", 0x1CD05800, TdfType.UInt64, 1, true), // gmax
-        new TdfMemberInfo("MinimumGetRecordSize", "mMinimumGetRecordSize", 0x1CD24E00, TdfType.UInt64, 2, true), // gmin
-        new TdfMemberInfo("NumOfGetRecords", "mNumOfGetRecords", 0x1CE35200, TdfType.UInt32, 3, true), // gnmr
-        new TdfMemberInfo("BytesIn", "mBytesIn", 0x25205400, TdfType.UInt64, 4, true), // irat
-        new TdfMemberInfo("BytesOut", "mBytesOut", 0x3D205400, TdfType.UInt64, 5, true), // orat
-        new TdfMemberInfo("AverageUpsertRecordSize", "mAverageUpsertRecordSize", 0x54158700, TdfType.UInt64, 6, true), // uavg
-        new TdfMemberInfo("MaximumUpsertRecordSize", "mMaximumUpsertRecordSize", 0x54D05800, TdfType.UInt64, 7, true), // umax
-        new TdfMemberInfo("MinimumUpsertRecordSize", "mMinimumUpsertRecordSize", 0x54D24E00, TdfType.UInt64, 8, true), // umin
-        new TdfMemberInfo("NumOfUpsertRecords", "mNumOfUpsertRecords", 0x54E35200, TdfType.UInt32, 9, true), // unmr
+        new TdfMemberInfo("AverageGetRecordSize", "mAverageGetRecordSize", 0x9E1DA700, TdfType.UInt64, 0, true), // Tag: GAVG
+        new TdfMemberInfo("MaximumGetRecordSize", "mMaximumGetRecordSize", 0x9ED87800, TdfType.UInt64, 1, true), // Tag: GMAX
+        new TdfMemberInfo("MinimumGetRecordSize", "mMinimumGetRecordSize", 0x9EDA6E00, TdfType.UInt64, 2, true), // Tag: GMIN
+        new TdfMemberInfo("NumOfGetRecords", "mNumOfGetRecords", 0x9EEB7200, TdfType.UInt32, 3, true), // Tag: GNMR
+        new TdfMemberInfo("BytesIn", "mBytesIn", 0xA7287400, TdfType.UInt64, 4, true), // Tag: IRAT
+        new TdfMemberInfo("BytesOut", "mBytesOut", 0xBF287400, TdfType.UInt64, 5, true), // Tag: ORAT
+        new TdfMemberInfo("AverageUpsertRecordSize", "mAverageUpsertRecordSize", 0xD61DA700, TdfType.UInt64, 6, true), // Tag: UAVG
+        new TdfMemberInfo("MaximumUpsertRecordSize", "mMaximumUpsertRecordSize", 0xD6D87800, TdfType.UInt64, 7, true), // Tag: UMAX
+        new TdfMemberInfo("MinimumUpsertRecordSize", "mMinimumUpsertRecordSize", 0xD6DA6E00, TdfType.UInt64, 8, true), // Tag: UMIN
+        new TdfMemberInfo("NumOfUpsertRecords", "mNumOfUpsertRecords", 0xD6EB7200, TdfType.UInt32, 9, true), // Tag: UNMR
     ];
     private ITdfMember[] __members;
 

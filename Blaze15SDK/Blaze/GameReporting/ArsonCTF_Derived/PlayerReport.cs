@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameReporting.ArsonCTF_Derived;
 public class PlayerReport : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x18305000, TdfType.UInt32, 0, true), // fcap
-        new TdfMemberInfo("AccountLocale", "accountLocale", 0x30F0C000, TdfType.UInt32, 1, true), // loc
-        new TdfMemberInfo("LeavingReason", "leavingReason", 0x48D48000, TdfType.UInt32, 2, true), // rmr
+        new TdfMemberInfo("FlagsCaptured", "flagsCaptured", 0x9A387000, TdfType.UInt32, 0, true), // Tag: FCAP
+        new TdfMemberInfo("AccountLocale", "accountLocale", 0xB2F8C000, TdfType.UInt32, 1, true), // Tag: LOC
+        new TdfMemberInfo("LeavingReason", "leavingReason", 0xCADC8000, TdfType.UInt32, 2, true), // Tag: RMR
     ];
     private ITdfMember[] __members;
 

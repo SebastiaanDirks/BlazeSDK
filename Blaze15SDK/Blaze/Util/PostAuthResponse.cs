@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.Util;
 public class PostAuthResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("TelemetryServer", "mTelemetryServer", 0x50530500, TdfType.Struct, 0, true), // tele
-        new TdfMemberInfo("TickerServer", "mTickerServer", 0x5090CB00, TdfType.Struct, 1, true), // tick
-        new TdfMemberInfo("UserOptions", "mUserOptions", 0x5523D000, TdfType.Struct, 2, true), // urop
+        new TdfMemberInfo("TelemetryServer", "mTelemetryServer", 0xD25B2500, TdfType.Struct, 0, true), // Tag: TELE
+        new TdfMemberInfo("TickerServer", "mTickerServer", 0xD298EB00, TdfType.Struct, 1, true), // Tag: TICK
+        new TdfMemberInfo("UserOptions", "mUserOptions", 0xD72BF000, TdfType.Struct, 2, true), // Tag: UROP
     ];
     private ITdfMember[] __members;
 

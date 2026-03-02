@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class GetScenarioVariantsResponse : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("UserVariants", "mUserVariants", 0x55349600, TdfType.Map, 0, true), // usrv
-        new TdfMemberInfo("Variants", "mVariants", 0x58148900, TdfType.Map, 1, true), // vari
-        new TdfMemberInfo("DefaultVariant", "mDefaultVariant", 0x58149400, TdfType.String, 2, true), // vart
+        new TdfMemberInfo("UserVariants", "mUserVariants", 0xD73CB600, TdfType.Map, 0, true), // Tag: USRV
+        new TdfMemberInfo("Variants", "mVariants", 0xDA1CA900, TdfType.Map, 1, true), // Tag: VARI
+        new TdfMemberInfo("DefaultVariant", "mDefaultVariant", 0xDA1CB400, TdfType.String, 2, true), // Tag: VART
     ];
     private ITdfMember[] __members;
 

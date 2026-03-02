@@ -7,11 +7,11 @@ namespace Blaze15SDK.Blaze;
 public class SessionInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // BUID
-        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 1, true), // DSNM
-        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 2, true), // KEY
-        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 3, true), // MAIL
-        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 4, true), // UID
+        new TdfMemberInfo("BlazeId", "mBlazeId", 0x8B5A6400, TdfType.Int64, 0, true), // Tag: BUID
+        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 1, true), // Tag: DSNM
+        new TdfMemberInfo("SessionKey", "mSessionKey", 0xAE5E4000, TdfType.String, 2, true), // Tag: KEY
+        new TdfMemberInfo("Email", "mEmail", 0xB61A6C00, TdfType.String, 3, true), // Tag: MAIL
+        new TdfMemberInfo("AccountId", "mAccountId", 0xD6990000, TdfType.Int64, 4, true), // Tag: UID
     ];
     private ITdfMember[] __members;
 

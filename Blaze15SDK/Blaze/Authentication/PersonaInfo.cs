@@ -7,13 +7,13 @@ namespace Blaze15SDK.Blaze.Authentication;
 public class PersonaInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 0, true), // DSNM
-        new TdfMemberInfo("DateCreated", "mDateCreated", 0x9348F200, TdfType.String, 1, true), // DTCR
-        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB2193400, TdfType.UInt32, 2, true), // LADT
-        new TdfMemberInfo("NameSpaceName", "mNameSpaceName", 0xBB3BAD00, TdfType.String, 3, true), // NSNM
-        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 4, true), // PID
-        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 5, true), // STAS
-        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 6, true), // STRC
+        new TdfMemberInfo("DisplayName", "mDisplayName", 0x933BAD00, TdfType.String, 0, true), // Tag: DSNM
+        new TdfMemberInfo("DateCreated", "mDateCreated", 0x9348F200, TdfType.String, 1, true), // Tag: DTCR
+        new TdfMemberInfo("LastAuthenticated", "mLastAuthenticated", 0xB2193400, TdfType.UInt32, 2, true), // Tag: LADT
+        new TdfMemberInfo("NameSpaceName", "mNameSpaceName", 0xBB3BAD00, TdfType.String, 3, true), // Tag: NSNM
+        new TdfMemberInfo("PersonaId", "mPersonaId", 0xC2990000, TdfType.Int64, 4, true), // Tag: PID
+        new TdfMemberInfo("Status", "mStatus", 0xCF487300, TdfType.Enum, 5, true), // Tag: STAS
+        new TdfMemberInfo("StatusReasonCode", "mStatusReasonCode", 0xCF4CA300, TdfType.Enum, 6, true), // Tag: STRC
     ];
     private ITdfMember[] __members;
 

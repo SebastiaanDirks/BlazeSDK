@@ -7,28 +7,28 @@ namespace Blaze15SDK.Blaze;
 public class RateLimitInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("RateLimitNextAvailable", "mRateLimitNextAvailable", 0x49438100, TdfType.Float, 0, true), // rtna
-        new TdfMemberInfo("RateLimitTimePeriod", "mRateLimitTimePeriod", 0x49451000, TdfType.String, 1, true), // rttp
-        new TdfMemberInfo("RateLimitLimit", "mRateLimitLimit", 0x49430900, TdfType.UInt16, 2, true), // rtli
-        new TdfMemberInfo("RateLimitRemaining", "mRateLimitRemaining", 0x49448500, TdfType.UInt16, 3, true), // rtre
-        new TdfMemberInfo("Context", "mContext", 0x0CE51800, TdfType.String, 4, true), // cntx
+        new TdfMemberInfo("Context", "mContext", 0x8EED3800, TdfType.String, 0, true), // Tag: CNTX
+        new TdfMemberInfo("RateLimitLimit", "mRateLimitLimit", 0xCB4B2900, TdfType.UInt16, 1, true), // Tag: RTLI
+        new TdfMemberInfo("RateLimitNextAvailable", "mRateLimitNextAvailable", 0xCB4BA100, TdfType.Float, 2, true), // Tag: RTNA
+        new TdfMemberInfo("RateLimitRemaining", "mRateLimitRemaining", 0xCB4CA500, TdfType.UInt16, 3, true), // Tag: RTRE
+        new TdfMemberInfo("RateLimitTimePeriod", "mRateLimitTimePeriod", 0xCB4D3000, TdfType.String, 4, true), // Tag: RTTP
     ];
     private ITdfMember[] __members;
 
-    private TdfFloat _rateLimitNextAvailable = new(__typeInfos[0]);
-    private TdfString _rateLimitTimePeriod = new(__typeInfos[1]);
-    private TdfUInt16 _rateLimitLimit = new(__typeInfos[2]);
+    private TdfFloat _rateLimitNextAvailable = new(__typeInfos[2]);
+    private TdfString _rateLimitTimePeriod = new(__typeInfos[4]);
+    private TdfUInt16 _rateLimitLimit = new(__typeInfos[1]);
     private TdfUInt16 _rateLimitRemaining = new(__typeInfos[3]);
-    private TdfString _context = new(__typeInfos[4]);
+    private TdfString _context = new(__typeInfos[0]);
 
     public RateLimitInfo()
     {
         __members = [
-            _rateLimitNextAvailable,
-            _rateLimitTimePeriod,
-            _rateLimitLimit,
-            _rateLimitRemaining,
             _context,
+            _rateLimitLimit,
+            _rateLimitNextAvailable,
+            _rateLimitRemaining,
+            _rateLimitTimePeriod,
         ];
     }
 

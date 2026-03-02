@@ -7,9 +7,9 @@ namespace Blaze15SDK.Blaze.GameManager;
 public class ScenarioVariantConfig : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Criteria", "mCriteria", 0x0D225400, TdfType.String, 0, true), // crit
-        new TdfMemberInfo("SubSession", "mSubSession", 0x4D509300, TdfType.List, 1, true), // subs
-        new TdfMemberInfo("SubVariantOf", "mSubVariantOf", 0x4D63C600, TdfType.List, 2, true), // svof
+        new TdfMemberInfo("Criteria", "mCriteria", 0x8F2A7400, TdfType.String, 0, true), // Tag: CRIT
+        new TdfMemberInfo("SubSession", "mSubSession", 0xCF58B300, TdfType.List, 1, true), // Tag: SUBS
+        new TdfMemberInfo("SubVariantOf", "mSubVariantOf", 0xCF6BE600, TdfType.List, 2, true), // Tag: SVOF
     ];
     private ITdfMember[] __members;
 

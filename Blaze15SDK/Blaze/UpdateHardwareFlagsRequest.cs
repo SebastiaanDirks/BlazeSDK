@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze;
 public class UpdateHardwareFlagsRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("HardwareFlags", "mHardwareFlags", 0xA379A700, TdfType.Enum, 0, true), // HWFG
+        new TdfMemberInfo("HardwareFlags", "mHardwareFlags", 0xA379A700, TdfType.Enum, 0, true), // Tag: HWFG
     ];
     private ITdfMember[] __members;
 

@@ -7,8 +7,8 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class CACertificateRequest : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("ServiceName", "mServiceName", 0x38134500, TdfType.String, 0, true), // name
-        new TdfMemberInfo("Platform", "mPlatform", 0x40C05400, TdfType.Enum, 1, true), // plat
+        new TdfMemberInfo("ServiceName", "mServiceName", 0xBA1B6500, TdfType.String, 0, true), // Tag: NAME
+        new TdfMemberInfo("Platform", "mPlatform", 0xC2C87400, TdfType.Enum, 1, true), // Tag: PLAT
     ];
     private ITdfMember[] __members;
 

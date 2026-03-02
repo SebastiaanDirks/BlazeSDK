@@ -7,10 +7,10 @@ namespace Blaze15SDK.Blaze;
 public class QosCoordinatorInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("DefaultPingSitesPort", "mDefaultPingSitesPort", 0x930CF000, TdfType.UInt16, 0, true), // DPSP
-        new TdfMemberInfo("Address", "mAddress", 0xC6384000, TdfType.String, 1, true), // QCA
-        new TdfMemberInfo("Port", "mPort", 0xC63C0000, TdfType.UInt16, 2, true), // QCP
-        new TdfMemberInfo("Profile", "mProfile", 0xC70C8000, TdfType.String, 3, true), // QPR
+        new TdfMemberInfo("DefaultPingSitesPort", "mDefaultPingSitesPort", 0x930CF000, TdfType.UInt16, 0, true), // Tag: DPSP
+        new TdfMemberInfo("Address", "mAddress", 0xC6384000, TdfType.String, 1, true), // Tag: QCA
+        new TdfMemberInfo("Port", "mPort", 0xC63C0000, TdfType.UInt16, 2, true), // Tag: QCP
+        new TdfMemberInfo("Profile", "mProfile", 0xC70C8000, TdfType.String, 3, true), // Tag: QPR
     ];
     private ITdfMember[] __members;
 
