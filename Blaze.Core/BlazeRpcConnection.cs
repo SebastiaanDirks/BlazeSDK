@@ -85,7 +85,7 @@ public class BlazeRpcConnection
         {
             Frame = frame
         };
-        
+
         configure(packet);
 
         byte[] bytes;
@@ -94,6 +94,9 @@ public class BlazeRpcConnection
             bytes = Array.Empty<byte>();
         else
             bytes = _serializer.Serialize(packet.Data);
+
+        if (frame is Fire2Frame fire2Frame)
+            return new ProtoFire2Packet(fire2Frame, Array.Empty<byte>(), bytes);
 
         return new ProtoFirePacket(frame, bytes);
     }

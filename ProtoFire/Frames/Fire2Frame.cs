@@ -1,207 +1,180 @@
 namespace ProtoFire.Frames;
 
+/// <summary>
+/// Fire2 frame format — fixed 16-byte header.
+/// Wire layout:
+///   [0-3]  PayloadSize  (uint32, big-endian) — size of TDF body only (excludes metadata)
+///   [4-5]  MetadataSize (uint16, big-endian) — size of Heat2-encoded metadata
+///   [6-7]  Component    (uint16, big-endian)
+///   [8-9]  Command      (uint16, big-endian)
+///   [10-12] MessageNum  (24-bit, big-endian)
+///   [13]   MsgType(3 bits) | UserIndex(5 bits)
+///   [14]   Options
+///   [15]   Reserved (0)
+///
+/// After the header: [MetadataSize bytes] [PayloadSize bytes]
+/// </summary>
 public class Fire2Frame : IFireFrame
 {
-    public const byte MIN_HEADER_SIZE = 12;
-    public const byte MAX_HEADER_SIZE = MIN_HEADER_SIZE + EXTRA_HEADER_SIZE_MAX; //22
+    public const byte HEADER_SIZE = 16;
+    public const ushort METADATA_SIZE_MAX = 512;
 
-    private const byte JUMBO_SIZE = sizeof(ushort); //2
-    private const byte JUMBO_CONTEXT_SIZE = sizeof(ulong); //8
-    private const byte SMALL_CONTEXT_SIZE = sizeof(uint); //4
-    private const byte EXTRA_HEADER_SIZE_MAX = JUMBO_SIZE + JUMBO_CONTEXT_SIZE;
+    public const byte OPTION_NONE = 0x00;
+    public const byte OPTION_IMMEDIATE = 0x01;
 
-    private uint _totalLength; // Tracks the 4-byte prefix wrapper length
-
-    [Flags]
-    public enum Option
-    {
-        NONE = 0x0,
-        JUMBO_FRAME = 0x1,
-        HAS_CONTEXT = 0x2,
-        IMMEDIATE = 0x4,
-        JUMBO_CONTEXT = 0x8
-    }
+    public const uint MSGNUM_MASK = 0x00FFFFFF;
 
     public byte[] Frame { get; private set; }
 
+    // ErrorCode is not part of the Fire2 wire header.
+    private ushort _errorCode;
+
     public Fire2Frame()
     {
-        Frame = new byte[MAX_HEADER_SIZE];
+        Frame = new byte[HEADER_SIZE];
     }
 
     public void WriteTo(Stream stream)
     {
-        byte[] prefix = new byte[4];
-        prefix[0] = (byte)(_totalLength >> 24);
-        prefix[1] = (byte)(_totalLength >> 16);
-        prefix[2] = (byte)(_totalLength >> 8);
-        prefix[3] = (byte)_totalLength;
-
-        stream.Write(prefix, 0, 4);
-        stream.Write(Frame, 0, HeaderSize);
+        stream.Write(Frame, 0, HEADER_SIZE);
     }
 
     public async Task WriteToAsync(Stream stream)
     {
-        byte[] prefix = new byte[4];
-        prefix[0] = (byte)(_totalLength >> 24);
-        prefix[1] = (byte)(_totalLength >> 16);
-        prefix[2] = (byte)(_totalLength >> 8);
-        prefix[3] = (byte)_totalLength;
-
-        await stream.WriteAsync(prefix, 0, 4).ConfigureAwait(false);
-        await stream.WriteAsync(Frame, 0, HeaderSize).ConfigureAwait(false);
+        await stream.WriteAsync(Frame, 0, HEADER_SIZE).ConfigureAwait(false);
     }
 
-    public int HeaderSize => MIN_HEADER_SIZE + ExtraHeaderSize;
+    public int HeaderSize => HEADER_SIZE;
 
-    public uint Size
+    /// <summary>Bytes 0-3: size of the TDF payload (excludes metadata).</summary>
+    public uint PayloadSize
     {
-        get
-        {
-            // The true size of the payload is the Wrapper Length minus the Header Length
-            return _totalLength;
-        }
+        get => (uint)(Frame[0] << 24 | Frame[1] << 16 | Frame[2] << 8 | Frame[3]);
         set
         {
-            _totalLength = value;
-            
-            // EA "Fire2" protocol intentionally zeros out the legacy size fields
-            Frame[0] = 0;
-            Frame[1] = 0;
+            Frame[0] = (byte)(value >> 24);
+            Frame[1] = (byte)(value >> 16);
+            Frame[2] = (byte)(value >> 8);
+            Frame[3] = (byte)value;
         }
     }
 
-    public ushort Component
-    {
-        get => (ushort)(Frame[2] << 8 | Frame[3]);
-        set { Frame[2] = (byte)(value >> 8); Frame[3] = (byte)value; }
-    }
-
-    public ushort Command
+    /// <summary>Bytes 4-5: size of the Heat2-encoded metadata.</summary>
+    public ushort MetadataSize
     {
         get => (ushort)(Frame[4] << 8 | Frame[5]);
-        set { Frame[4] = (byte)(value >> 8); Frame[5] = (byte)value; }
+        set
+        {
+            Frame[4] = (byte)(value >> 8);
+            Frame[5] = (byte)value;
+        }
     }
 
-    public ushort ErrorCode
+    /// <summary>IFireFrame.Size maps to PayloadSize (TDF body only).</summary>
+    public uint Size
+    {
+        get => PayloadSize;
+        set => PayloadSize = value;
+    }
+
+    /// <summary>Total bytes after the 16-byte header (metadata + payload).</summary>
+    public uint BodySize => (uint)MetadataSize + PayloadSize;
+
+    public ushort Component
     {
         get => (ushort)(Frame[6] << 8 | Frame[7]);
         set { Frame[6] = (byte)(value >> 8); Frame[7] = (byte)value; }
     }
 
+    public ushort Command
+    {
+        get => (ushort)(Frame[8] << 8 | Frame[9]);
+        set { Frame[8] = (byte)(value >> 8); Frame[9] = (byte)value; }
+    }
+
+    /// <summary>Bytes 10-12: 24-bit message number.</summary>
+    public uint MessageNum
+    {
+        get => (uint)(Frame[10] << 16 | Frame[11] << 8 | Frame[12]);
+        set
+        {
+            Frame[10] = (byte)(value >> 16);
+            Frame[11] = (byte)(value >> 8);
+            Frame[12] = (byte)value;
+        }
+    }
+
+    /// <summary>Byte 13 upper 3 bits: message type.</summary>
     public MessageType MessageType
     {
-        get => (MessageType)(Frame[8] >> 4 & 0xF);
-        set => Frame[8] = (byte)(Frame[8] & 0xF | (byte)value << 4);
+        get => (MessageType)(Frame[13] >> 5);
+        set => Frame[13] = (byte)(((byte)value << 5) | (Frame[13] & 0x1F));
+    }
+
+    /// <summary>Byte 13 lower 5 bits: user index.</summary>
+    public byte UserIndex
+    {
+        get => (byte)(Frame[13] & 0x1F);
+        set => Frame[13] = (byte)((Frame[13] & 0xE0) | (value & 0x1F));
+    }
+
+    /// <summary>Byte 14: option flags.</summary>
+    public byte Options
+    {
+        get => Frame[14];
+        set => Frame[14] = value;
+    }
+
+    public bool IsImmediate => (Options & OPTION_IMMEDIATE) != 0;
+
+    /// <summary>
+    /// ErrorCode is NOT part of the Fire2 wire header.
+    /// </summary>
+    public ushort ErrorCode
+    {
+        get => _errorCode;
+        set => _errorCode = value;
     }
 
     public int FullErrorCode
     {
         get
         {
-            ushort errCode = ErrorCode;
-            if (errCode <= 0)
+            if (_errorCode <= 0)
                 return 0;
 
-            if ((errCode & 0x4000) != 0)
-                return errCode << 16; // global error
-            return errCode << 16 | Component; // component error
+            if ((_errorCode & 0x4000) != 0)
+                return _errorCode << 16; // global error
+            return _errorCode << 16 | Component; // component error
         }
     }
 
-    public byte UserIndex
-    {
-        get => (byte)(Frame[8] & 0xF);
-        set => Frame[8] = (byte)(Frame[8] & 0xF0 | (byte)(value & 0xF));
-    }
-
-    public uint MessageNum
-    {
-        get => (uint)((Frame[9] & 0xF) << 16 | Frame[10] << 8 | Frame[11]);
-        set
-        {
-            Frame[9] = (byte)(Frame[9] & 0xF0 | (byte)(value >> 16 & 0xF));
-            Frame[10] = (byte)(value >> 8);
-            Frame[11] = (byte)value;
-        }
-    }
-
-    public ulong Context
-    {
-        get
-        {
-            ulong context = 0;
-            if (OptionEnabled(Option.HAS_CONTEXT))
-            {
-                byte pos = MIN_HEADER_SIZE;
-                if (OptionEnabled(Option.JUMBO_FRAME)) pos += JUMBO_SIZE;
-                
-                context = (ulong)Frame[pos + 0] << 24 | (ulong)Frame[pos + 1] << 16 | (ulong)Frame[pos + 2] << 8 | (ulong)Frame[pos + 3] << 0;
-
-                if (OptionEnabled(Option.JUMBO_CONTEXT))
-                {
-                    context |= (ulong)Frame[pos + 4] << 56 | (ulong)Frame[pos + 5] << 48 | (ulong)Frame[pos + 6] << 40 | (ulong)Frame[pos + 7] << 32;
-                }
-            }
-            return context;
-        }
-        set
-        {
-            byte pos = MIN_HEADER_SIZE;
-            if (OptionEnabled(Option.JUMBO_FRAME)) pos += 2;
-
-            if (OptionEnabled(Option.HAS_CONTEXT))
-            {
-                Frame[pos + 0] = (byte)(value >> 24); Frame[pos + 1] = (byte)(value >> 16);
-                Frame[pos + 2] = (byte)(value >> 8);  Frame[pos + 3] = (byte)(value >> 0);
-                if (OptionEnabled(Option.JUMBO_CONTEXT))
-                {
-                    Frame[pos + 4] = (byte)(value >> 56); Frame[pos + 5] = (byte)(value >> 48);
-                    Frame[pos + 6] = (byte)(value >> 40); Frame[pos + 7] = (byte)(value >> 32);
-                }
-            }
-        }
-    }
-
-    public Option Options
-    {
-        get => (Option)(Frame[9] >> 4 & 0xF);
-        set => Frame[9] = (byte)(Frame[9] & 0xF | (byte)value << 4);
-    }
-
-    public ushort ExtraHeaderSize => 0;
+    /// <summary>
+    /// Context is NOT part of the Fire2 wire header.
+    /// </summary>
+    public ulong Context { get; set; }
 
     public FrameType Type => FrameType.Fire2Frame;
 
-    public bool OptionEnabled(Option option) => (Options & option) == option;
-
     public void Initialize(Stream stream)
     {
-        byte[] prefix = new byte[4];
-        stream.ReadExactly(prefix, 0, 4);
-        _totalLength = (uint)(prefix[0] << 24 | prefix[1] << 16 | prefix[2] << 8 | prefix[3]);
-
-        // Only read exactly the 12 byte header. Do not read extra context bytes.
-        stream.ReadExactly(Frame, 0, MIN_HEADER_SIZE);
+        stream.ReadExactly(Frame, 0, HEADER_SIZE);
     }
 
     public async Task InitializeAsync(Stream stream)
     {
-        byte[] prefix = new byte[4];
-        await stream.ReadExactlyAsync(prefix, 0, 4).ConfigureAwait(false);
-        _totalLength = (uint)(prefix[0] << 24 | prefix[1] << 16 | prefix[2] << 8 | prefix[3]);
-
-        // Only read exactly the 12 byte header. Do not read extra context bytes.
-        await stream.ReadExactlyAsync(Frame, 0, MIN_HEADER_SIZE).ConfigureAwait(false);
+        await stream.ReadExactlyAsync(Frame, 0, HEADER_SIZE).ConfigureAwait(false);
     }
 
     public IFireFrame CreateResponseFrame() => CreateResponseFrame(0);
-    
+
     public IFireFrame CreateResponseFrame(ushort errorCode)
     {
         Fire2Frame respFrame = new Fire2Frame();
-        Buffer.BlockCopy(Frame, 0, respFrame.Frame, 0, MAX_HEADER_SIZE);
+        respFrame.Component = Component;
+        respFrame.Command = Command;
+        respFrame.MessageNum = MessageNum;
+        respFrame.UserIndex = UserIndex;
         respFrame.MessageType = errorCode == 0 ? MessageType.Reply : MessageType.ErrorReply;
         respFrame.ErrorCode = errorCode;
         return respFrame;

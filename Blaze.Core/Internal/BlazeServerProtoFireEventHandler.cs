@@ -182,7 +182,9 @@ namespace Blaze.Core.Internal
                 responseStream.Dispose();
             }
 
-            ProtoFirePacket responsePacket = new ProtoFirePacket(responseFrame, responseData);
+            ProtoFirePacket responsePacket = responseFrame is Fire2Frame fire2ResponseFrame
+                ? new ProtoFire2Packet(fire2ResponseFrame, Array.Empty<byte>(), responseData)
+                : new ProtoFirePacket(responseFrame, responseData);
 
             logPacket(rpcConnection, responsePacket, rpcResult, false);
             await rpcConnection.SendAsync(responsePacket).ConfigureAwait(false);

@@ -152,7 +152,7 @@ public class ProtoFireConnection
             ProtoFirePacket? packet = FrameType switch
             {
                 FrameType.FireFrame => await ProtoFirePacket.ReadFromAsync<FireFrame>(_stream).ConfigureAwait(false),
-                FrameType.Fire2Frame => await ProtoFirePacket.ReadFromAsync<Fire2Frame>(_stream).ConfigureAwait(false),
+                FrameType.Fire2Frame => await ProtoFire2Packet.ReadFromAsync(_stream).ConfigureAwait(false),
                 _ => null,
             };
 
@@ -186,7 +186,10 @@ public class ProtoFireConnection
         sendLock.Wait();
         try
         {
-            packet.WriteTo(_stream);
+            if (packet is ProtoFire2Packet fire2Packet)
+                fire2Packet.WriteTo(_stream);
+            else
+                packet.WriteTo(_stream);
             _stream.Flush();
             EventHandler.OnPacketSentAsync(this, packet).GetAwaiter().GetResult();
             return true;
@@ -225,7 +228,10 @@ public class ProtoFireConnection
             // So the workaround is to use Task.Run with using sync methods, this might be an even better way, we are combining writing and flushing as one
             Task t2 = Task.Run(() =>
             {
-                packet.WriteTo(_stream);
+                if (packet is ProtoFire2Packet fire2Packet)
+                    fire2Packet.WriteTo(_stream);
+                else
+                    packet.WriteTo(_stream);
                 _stream.Flush();
             });
 
