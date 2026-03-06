@@ -96,9 +96,17 @@ public class BlazeRpcConnection
             bytes = _serializer.Serialize(packet.Data);
 
         if (frame is Fire2Frame fire2Frame)
-            return new ProtoFire2Packet(fire2Frame, Array.Empty<byte>(), bytes);
+        {
+            byte[] metadataBytes = encodeFire2Metadata(fire2Frame);
+            return new ProtoFire2Packet(fire2Frame, metadataBytes, bytes);
+        }
 
         return new ProtoFirePacket(frame, bytes);
+    }
+
+    private byte[] encodeFire2Metadata(Fire2Frame frame)
+    {
+        return Fire2MetadataHelper.Encode(frame.Context, frame.ErrorCode);
     }
 
     public override string ToString()

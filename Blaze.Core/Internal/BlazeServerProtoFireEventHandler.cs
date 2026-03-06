@@ -80,6 +80,12 @@ namespace Blaze.Core.Internal
             BlazeRpcConnection rpcConnection = getBlazeRpcConnection(connection);
             rpcConnection.LastActivityTime = DateTime.UtcNow;
 
+            // Decode Fire2 metadata (context, error code, session key, etc.)
+            if (packet is ProtoFire2Packet fire2Packet && fire2Packet.MetadataData.Length > 0)
+            {
+                decodeFire2Metadata(fire2Packet);
+            }
+
             await rpcConnection.BusyLock.EnterAsync();
 
             try
@@ -182,9 +188,16 @@ namespace Blaze.Core.Internal
                 responseStream.Dispose();
             }
 
-            ProtoFirePacket responsePacket = responseFrame is Fire2Frame fire2ResponseFrame
-                ? new ProtoFire2Packet(fire2ResponseFrame, Array.Empty<byte>(), responseData)
-                : new ProtoFirePacket(responseFrame, responseData);
+            ProtoFirePacket responsePacket;
+            if (responseFrame is Fire2Frame fire2ResponseFrame)
+            {
+                byte[] metadataBytes = encodeFire2Metadata(fire2ResponseFrame, context.Context);
+                responsePacket = new ProtoFire2Packet(fire2ResponseFrame, metadataBytes, responseData);
+            }
+            else
+            {
+                responsePacket = new ProtoFirePacket(responseFrame, responseData);
+            }
 
             logPacket(rpcConnection, responsePacket, rpcResult, false);
             await rpcConnection.SendAsync(responsePacket).ConfigureAwait(false);
@@ -287,6 +300,18 @@ namespace Blaze.Core.Internal
                 packet.Frame.UserIndex, componentName, commandName,
                 packet.Frame.Component, packet.Frame.Command,
                 errorStr, tdfStr);
+        }
+
+        void decodeFire2Metadata(ProtoFire2Packet packet)
+        {
+            Fire2MetadataHelper.Decode(packet.MetadataData, out ulong context, out int errorCode);
+            packet.Frame.Context = context;
+            packet.Frame.ErrorCode = (ushort)errorCode;
+        }
+
+        byte[] encodeFire2Metadata(Fire2Frame frame, ulong context)
+        {
+            return Fire2MetadataHelper.Encode(context, frame.ErrorCode);
         }
 
         private string getMsgTypeString(MessageType msgType)

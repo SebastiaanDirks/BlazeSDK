@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using EATDF.Visitors;
 
 namespace EATDF.Serialization;
 
@@ -12,11 +8,14 @@ public class XmlSerializer : TdfSerializer
 
     public override bool Deserialize(Stream stream, Tdf tdf)
     {
-        throw new NotImplementedException();
+        XmlDecoder decoder = new XmlDecoder(stream);
+        decoder.VisitTdf(tdf);
+        return decoder.Success;
     }
 
     public override void Serialize(Stream stream, Tdf tdf)
     {
-        throw new NotImplementedException();
+        XmlEncoder encoder = new XmlEncoder(stream);
+        encoder.VisitTdf(tdf);
     }
 }
