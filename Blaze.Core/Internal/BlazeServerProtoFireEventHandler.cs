@@ -239,13 +239,6 @@ namespace Blaze.Core.Internal
 
         void logPacket(BlazeRpcConnection connection, ProtoFirePacket packet, Tdf? deserializedContent, bool inbound)
         {
-            if(!logger.IsEnabled(LogLevel.Debug))
-                return;
-
-            string dir = Environment.NewLine + (inbound ? "<-" : "->");
-
-            string format = "Connection[{connId}]{dir} {type}: ID[{msgId}], UI[{userIdx}], {component}::{command} [0x{component:X4}::0x{command:X4}]{error}{tdf}";
-
             IBlazeComponent? component = _router.GetComponent(packet.Frame.Component);
             string componentName;
             string commandName;
@@ -261,7 +254,6 @@ namespace Blaze.Core.Internal
                     _ => packet.Frame.Command.ToString()
                 };
             }
-
             else
             {
                 componentName = packet.Frame.Component.ToString();
@@ -269,17 +261,41 @@ namespace Blaze.Core.Internal
             }
 
             int errorCode = Utilities.ToFullErrorCode(packet.Frame.ErrorCode, packet.Frame.Component);
-            string errorStr;
+            string? errorName = errorCode != 0 ? _router.GetErrorName(errorCode) : null;
 
+            // XML file logger
+            config.PacketLogger?.LogPacket(
+                "rpc",
+                inbound ? "request" : "response",
+                connection.Id,
+                componentName,
+                packet.Frame.Component,
+                commandName,
+                packet.Frame.Command,
+                getMsgTypeString(packet.Frame.MessageType),
+                packet.Frame.MessageNum,
+                packet.Frame.UserIndex,
+                packet.Frame.ErrorCode,
+                errorName,
+                deserializedContent);
+
+            // Console logger
+            if(!logger.IsEnabled(LogLevel.Debug))
+                return;
+
+            string dir = Environment.NewLine + (inbound ? "<-" : "->");
+            string format = "Connection[{connId}]{dir} {type}: ID[{msgId}], UI[{userIdx}], {component}::{command} [0x{component:X4}::0x{command:X4}]{error}{tdf}";
+
+            string errorStr;
             if (errorCode != 0)
-                errorStr = $", ERR[{_router.GetErrorName(errorCode)} (0x{errorCode:X8})]";
+                errorStr = $", ERR[{errorName} (0x{errorCode:X8})]";
             else
                 errorStr = "";
 
             if (!logger.IsEnabled(LogLevel.Trace))
             {
                 logger.LogDebug(format,
-                    connection.Id, dir, 
+                    connection.Id, dir,
                     getMsgTypeString(packet.Frame.MessageType), packet.Frame.MessageNum,
                     packet.Frame.UserIndex, componentName, commandName,
                     packet.Frame.Component, packet.Frame.Command,

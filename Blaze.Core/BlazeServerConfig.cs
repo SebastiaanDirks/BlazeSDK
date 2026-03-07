@@ -23,4 +23,5 @@ public class BlazeServerConfig
     public bool Secure { get; set; } = false;
     public ProtoSSLCertificate? Certificate { get; set; }
     public int Backlog { get; set; } = -1;
+    public BlazePacketLogger? PacketLogger { get; set; }
 }

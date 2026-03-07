@@ -114,4 +114,9 @@ public class BlazeServerContextOptions
     /// The certificate to use for secure connections if enabled
     /// </summary>
     public ProtoSSLCertificate? Certificate { get; set; }
+
+    /// <summary>
+    /// When set, all incoming and outgoing packets are logged to this file in XML format.
+    /// </summary>
+    public string? PacketLogFilePath { get; set; }
 }

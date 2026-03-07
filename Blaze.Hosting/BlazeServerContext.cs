@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Blaze.Hosting;
 
-public abstract class BlazeServerContext : IBlazeServerCallbacks
+public abstract class BlazeServerContext : IBlazeServerCallbacks, IDisposable
 {
     class ServerRouter(IDictionary<ushort, IBlazeComponent> components, Dictionary<ushort, string> errorNames) : IBlazeRouter
     {
@@ -87,6 +87,7 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
     private BlazeBackgroundService _hostingService = null!;
     private BlazeServerContextOptions? _options = null;
     private Dictionary<ushort, IBlazeComponent> _components = new();
+    private BlazePacketLogger? _packetLogger;
 
     public IEnumerable<IBlazeComponent> Components => _components.Values;
 
@@ -97,6 +98,10 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
         _hostingService = hostingService;
 
         _options = GetOptions();
+
+        if (_options.PacketLogFilePath != null)
+            _packetLogger = new BlazePacketLogger(_options.PacketLogFilePath);
+
         foreach (Type componentType in _options.MappedComponents)
         {
             IBlazeComponent component = (IBlazeComponent)ActivatorUtilities.CreateInstance(provider, componentType);
@@ -135,7 +140,8 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
                 Serializer = serializer,
                 Secure = options.Secure,
                 EndpointType = endpointType,
-                Router = router
+                Router = router,
+                PacketLogger = _packetLogger
             };
 
             BlazeServer blazeServer = new BlazeServer(rpcConfig, _serviceProvider.GetRequiredService<ILogger<BlazeServer>>());
@@ -156,7 +162,8 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
                 EndpointType = EndpointType.Rest,
                 Secure = options.Secure,
                 Certificate = options.Certificate,
-                Router = router
+                Router = router,
+                PacketLogger = _packetLogger
             };
 
             BlazeRestServer restServer = new BlazeRestServer(restConfig, _serviceProvider.GetRequiredService<ILogger<BlazeRestServer>>());
@@ -215,5 +222,10 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
     public virtual ProtoSSLCertificate? SelectCertificate(BlazeRpcConnection connection)
     {
         return GetOptions().Certificate;
+    }
+
+    public void Dispose()
+    {
+        _packetLogger?.Dispose();
     }
 }

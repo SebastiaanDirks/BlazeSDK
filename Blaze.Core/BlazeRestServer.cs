@@ -190,6 +190,22 @@ public class BlazeRestServer
             }
         }
 
+        // Log the incoming REST request
+        _config.PacketLogger?.LogPacket(
+            "rest",
+            "request",
+            connection.Id,
+            component.Name,
+            component.Id,
+            commandFunc.Name,
+            commandFunc.Id,
+            request.MethodString.ToLowerInvariant(),
+            0,
+            0,
+            0,
+            null,
+            requestTdf);
+
         uint seqNo = Interlocked.Increment(ref _nextSeqNo);
 
         request.Headers.TryGetValue("BLAZE-SESSION", out string? _);
@@ -241,6 +257,22 @@ public class BlazeRestServer
             responseSerializer.Serialize(responseStream, responseTdf);
             responseBody = responseStream.ToArray();
         }
+
+        // Log the outgoing REST response
+        _config.PacketLogger?.LogPacket(
+            "rest",
+            "response",
+            connection.Id,
+            component.Name,
+            component.Id,
+            commandFunc.Name,
+            commandFunc.Id,
+            errorCode == 0 ? "resp" : "err",
+            seqNo,
+            0,
+            errorCode,
+            null,
+            responseTdf);
 
         int httpStatus = errorCode == 0 ? 200 : GetHttpStatusForError(errorCode);
         string httpReason = errorCode == 0 ? "OK" : "Error";

@@ -134,6 +134,7 @@ public static class AuthenticationComponentBase
         getOriginPersona = 260,
         guestLogin = 290,
         getDecryptedBlazeIds = 300,
+        updateAccessToken = 310,
     }
 
     public enum AuthenticationComponentNotification : ushort
@@ -375,6 +376,14 @@ public static class AuthenticationComponentBase
                 Name = "getDecryptedBlazeIds",
                 IsSupported = IsCommandSupported(AuthenticationComponentCommand.getDecryptedBlazeIds),
                 Func = async (req, ctx) => await GetDecryptedBlazeIdsAsync(req, ctx).ConfigureAwait(false)
+            });
+
+            RegisterCommand(new RpcCommandFunc<UpdateAccessTokenRequest, UpdateAccessTokenResponse, EmptyMessage>()
+            {
+                Id = (ushort)AuthenticationComponentCommand.updateAccessToken,
+                Name = "updateAccessToken",
+                IsSupported = IsCommandSupported(AuthenticationComponentCommand.updateAccessToken),
+                Func = async (req, ctx) => await UpdateAccessTokenAsync(req, ctx).ConfigureAwait(false)
             });
 
         }
@@ -651,6 +660,16 @@ public static class AuthenticationComponentBase
         /// Error response type: <see cref="GetDecryptedBlazeIdsResponseError"/><br/>
         /// </summary>
         public virtual Task<GetDecryptedBlazeIdsResponse> GetDecryptedBlazeIdsAsync(GetDecryptedBlazeIdsRequest request, BlazeRpcContext context)
+        {
+            throw new AuthenticationException(ServerError.ERR_COMMAND_NOT_FOUND);
+        }
+
+        /// <summary>
+        /// This method is called when server receives a <b>AuthenticationComponent::updateAccessToken</b> command.<br/>
+        /// Request type: <see cref="UpdateAccessTokenRequest"/><br/>
+        /// Response type: <see cref="UpdateAccessTokenResponse"/><br/>
+        /// </summary>
+        public virtual Task<UpdateAccessTokenResponse> UpdateAccessTokenAsync(UpdateAccessTokenRequest request, BlazeRpcContext context)
         {
             throw new AuthenticationException(ServerError.ERR_COMMAND_NOT_FOUND);
         }
