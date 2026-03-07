@@ -72,6 +72,55 @@ public class BlazeRouter : IBlazeRouter
         return component;
     }
 
+    public (IBlazeComponent component, IRpcCommandFunc command)? ResolveRestCommand(HttpMethod method, string path)
+    {
+        // First: try explicit RestResourceInfo matching
+        foreach (var component in components.Values)
+        {
+            var commandFunc = component.GetRestCommandFunc(method, path);
+            if (commandFunc != null)
+                return (component, commandFunc);
+        }
+
+        // Second: convention-based matching (/{version}/{componentName}/{commandName})
+        return ResolveRestCommandByConvention(path);
+    }
+
+    private (IBlazeComponent component, IRpcCommandFunc command)? ResolveRestCommandByConvention(string path)
+    {
+        ReadOnlySpan<char> p = path.AsSpan();
+        if (p.Length > 0 && p[0] == '/') p = p[1..];
+
+        int qIdx = p.IndexOf('?');
+        if (qIdx >= 0) p = p[..qIdx];
+
+        // Extract component prefix and command name (/{componentName}/{commandName})
+        int firstSlash = p.IndexOf('/');
+        if (firstSlash < 0) return null;
+
+        string componentPrefix = p[..firstSlash].ToString();
+        string commandName = p[(firstSlash + 1)..].ToString();
+
+        // Strip any trailing path segments
+        int secondSlash = commandName.IndexOf('/');
+        if (secondSlash >= 0) commandName = commandName[..secondSlash];
+
+        if (componentPrefix.Length == 0 || commandName.Length == 0)
+            return null;
+
+        foreach (var component in components.Values)
+        {
+            if (component.RestBasePath.Equals(componentPrefix, StringComparison.OrdinalIgnoreCase))
+            {
+                var cmd = component.GetCommandByName(commandName);
+                if (cmd != null)
+                    return (component, cmd);
+            }
+        }
+
+        return null;
+    }
+
     public string GetErrorName(int errorCode)
     {
         ushort error = (ushort)(errorCode >> 16);

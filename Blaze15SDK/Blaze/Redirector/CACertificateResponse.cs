@@ -23,7 +23,7 @@ public class CACertificateResponse : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "CACertificateResponse";
-    public override string GetFullClassName() => "Blaze::GameManager::CACertificateResponse";
+    public override string GetFullClassName() => "Blaze::Redirector::CACertificateResponse";
 
     public IList<byte[]> CertificateList
     {

@@ -23,7 +23,7 @@ public class ServiceRemoveInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServiceRemoveInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::ServiceRemoveInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::ServiceRemoveInfo";
 
     public string ServiceName
     {

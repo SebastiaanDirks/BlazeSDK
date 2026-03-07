@@ -25,7 +25,7 @@ public class ServerAddressInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerAddressInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerAddressInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerAddressInfo";
 
     public Blaze15SDK.Blaze.Redirector.ServerAddress? Address
     {

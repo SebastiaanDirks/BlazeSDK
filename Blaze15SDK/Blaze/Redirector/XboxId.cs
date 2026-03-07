@@ -27,7 +27,7 @@ public class XboxId : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "XboxId";
-    public override string GetFullClassName() => "Blaze::GameManager::XboxId";
+    public override string GetFullClassName() => "Blaze::Redirector::XboxId";
 
     public string Gamertag
     {

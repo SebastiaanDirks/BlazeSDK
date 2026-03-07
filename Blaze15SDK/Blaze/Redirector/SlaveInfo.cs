@@ -29,7 +29,7 @@ public class SlaveInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "SlaveInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::SlaveInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::SlaveInfo";
 
     public Blaze15SDK.Blaze.Redirector.ServerInstance? Instance
     {

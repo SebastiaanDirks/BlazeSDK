@@ -31,7 +31,7 @@ public class AddressRemapEntry : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "AddressRemapEntry";
-    public override string GetFullClassName() => "Blaze::GameManager::AddressRemapEntry";
+    public override string GetFullClassName() => "Blaze::Redirector::AddressRemapEntry";
 
     public ushort DstPort
     {

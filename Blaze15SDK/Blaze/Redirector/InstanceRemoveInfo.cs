@@ -31,7 +31,7 @@ public class InstanceRemoveInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "InstanceRemoveInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::InstanceRemoveInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::InstanceRemoveInfo";
 
     public int InstanceId
     {

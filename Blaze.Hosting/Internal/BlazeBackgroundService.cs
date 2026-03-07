@@ -10,7 +10,7 @@ namespace Blaze.Hosting.Internal;
 
 public class BlazeBackgroundService : BackgroundService
 {
-    Channel<BlazeServer> _serverChannelChannel = Channel.CreateUnbounded<BlazeServer>();
+    Channel<Func<CancellationToken, Task>> _serverChannel = Channel.CreateUnbounded<Func<CancellationToken, Task>>();
     IList<Task> tasks = new List<Task>();
     ILogger<BlazeBackgroundService> _logger;
     IServiceProvider _provider;
@@ -33,18 +33,18 @@ public class BlazeBackgroundService : BackgroundService
 
         while (!stoppingToken.IsCancellationRequested)
         {
-            Task<BlazeServer> deqequeTask = _serverChannelChannel.Reader.ReadAsync(stoppingToken).AsTask();
-            IEnumerable<Task> allTasks = tasks.Concat([deqequeTask]);
+            Task<Func<CancellationToken, Task>> dequeueTask = _serverChannel.Reader.ReadAsync(stoppingToken).AsTask();
+            IEnumerable<Task> allTasks = tasks.Concat([dequeueTask]);
 
             try
             {
                 Task finishedTask = await Task.WhenAny(allTasks).ConfigureAwait(false);
 
-                if (finishedTask == deqequeTask)
+                if (finishedTask == dequeueTask)
                 {
-                    BlazeServer newServer = await deqequeTask.ConfigureAwait(false);
-                    Task newServerTask = newServer.StartAsync(stoppingToken);
-                    tasks.Add(newServerTask); // add the result of the task
+                    Func<CancellationToken, Task> startServer = await dequeueTask.ConfigureAwait(false);
+                    Task newServerTask = startServer(stoppingToken);
+                    tasks.Add(newServerTask);
                 }
                 else
                 {
@@ -63,6 +63,11 @@ public class BlazeBackgroundService : BackgroundService
 
     public void AddBlazeServer(BlazeServer server)
     {
-        _serverChannelChannel.Writer.WriteAsync(server).GetAwaiter().GetResult();
+        _serverChannel.Writer.TryWrite(ct => server.StartAsync(ct));
+    }
+
+    public void AddRestServer(BlazeRestServer server)
+    {
+        _serverChannel.Writer.TryWrite(ct => server.StartAsync(ct));
     }
 }

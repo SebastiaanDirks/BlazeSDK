@@ -7,6 +7,7 @@ public class RpcCommandFunc<TRequest, TResponse, TErrorResponse> : IRpcCommandFu
     public required ushort Id { get; init; }
     public required string Name { get; init; }
     public required bool IsSupported { get; init; }
+    public RestResourceInfo? RestResourceInfo { get; init; }
     public required Func<TRequest, BlazeRpcContext, Task<Tdf>> Func { get; init; }
     public TRequest CreateRequestStruct() => new TRequest();
     Tdf IRpcCommandFunc.CreateRequestTdf() => CreateRequestStruct();

@@ -19,6 +19,8 @@ public class BlazeServerConfig
     public ITdfSerializer Serializer { get; set; } = new Heat2Serializer();
     public IBlazeRouter Router { get; set; } = new BlazeRouter();
     public IBlazeServerCallbacks CallbackHandler { get; set; } = new DefaultServerCallbacks();
+    public EndpointType EndpointType { get; set; } = EndpointType.Rpc;
     public bool Secure { get; set; } = false;
+    public ProtoSSLCertificate? Certificate { get; set; }
     public int Backlog { get; set; } = -1;
 }

@@ -59,7 +59,7 @@ public class ServerInfoData : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerInfoData";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerInfoData";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerInfoData";
 
     public IList<Blaze15SDK.Blaze.Redirector.AddressRemapEntry> AddressRemaps
     {

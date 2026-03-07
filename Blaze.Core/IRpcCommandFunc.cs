@@ -7,6 +7,7 @@ public interface IRpcCommandFunc
     ushort Id { get; }
     string Name { get; }
     bool IsSupported { get; }
+    RestResourceInfo? RestResourceInfo { get; }
     Tdf CreateRequestTdf();
     Tdf CreateResponseTdf();
     Tdf CreateErrorResponseTdf();

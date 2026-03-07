@@ -31,7 +31,7 @@ public class NameRemapEntry : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "NameRemapEntry";
-    public override string GetFullClassName() => "Blaze::GameManager::NameRemapEntry";
+    public override string GetFullClassName() => "Blaze::Redirector::NameRemapEntry";
 
     public ushort DstPort
     {

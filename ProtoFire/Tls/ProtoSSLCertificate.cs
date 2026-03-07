@@ -12,6 +12,7 @@ public class ProtoSSLCertificate
 {
     public AsymmetricKeyParameter PrivateKey { get; }
     public Certificate Certificate { get; }
+    public X509Certificate2? X509Certificate { get; }
 
     public ProtoSSLCertificate(AsymmetricKeyParameter privateKey, Certificate certificate)
     {
@@ -21,6 +22,8 @@ public class ProtoSSLCertificate
 
     public ProtoSSLCertificate(X509Certificate2 certificate)
     {
+        X509Certificate = certificate;
+
         AsymmetricAlgorithm? privateKey = getPrivateKey(certificate);
         if (privateKey == null)
             throw new ArgumentException("Certificate does not contain a private key");
@@ -38,11 +41,7 @@ public class ProtoSSLCertificate
 
     public static ProtoSSLCertificate FromX509Certificate2(X509Certificate2 certificate) => new ProtoSSLCertificate(certificate);
 
-    public X509Certificate2 AsX509Certificate2()
-    {
-        // TODO
-        throw new NotImplementedException();
-    }
+    public X509Certificate2? AsX509Certificate2() => X509Certificate;
 
     static AsymmetricAlgorithm? getPrivateKey(X509Certificate2 certificate)
     {

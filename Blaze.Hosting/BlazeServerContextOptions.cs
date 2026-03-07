@@ -17,6 +17,7 @@ public class BlazeServerContextOptions
     internal Dictionary<ushort, string> BaseErrorNames { get; set; } = new Dictionary<ushort, string>();
 
     internal List<Type> MappedComponents { get; } = new List<Type>();
+    internal Dictionary<IPEndPoint, EndpointType> EndpointTypes { get; } = new();
 
     /// <summary>
     /// Configures the base server errors.
@@ -58,12 +59,13 @@ public class BlazeServerContextOptions
         return this;
     }
 
-    public BlazeServerContextOptions UseEndpoint(IPEndPoint localEndPoint)
+    public BlazeServerContextOptions UseEndpoint(IPEndPoint localEndPoint, EndpointType endpointType = EndpointType.Rpc)
     {
         if (localEndPoint == null)
             throw new ArgumentNullException(nameof(localEndPoint));
 
         EndPoints.Add(localEndPoint);
+        EndpointTypes[localEndPoint] = endpointType;
         return this;
     }
 

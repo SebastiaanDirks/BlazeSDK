@@ -27,7 +27,7 @@ public class XboxServerAddress : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "XboxServerAddress";
-    public override string GetFullClassName() => "Blaze::GameManager::XboxServerAddress";
+    public override string GetFullClassName() => "Blaze::Redirector::XboxServerAddress";
 
     public ushort Port
     {

@@ -13,6 +13,11 @@ namespace Blaze.Hosting.Extensions;
 public static class BlazeServicesExtensions
 {
 
+    public static IServiceCollection AddBlazeContext<TCtx>(this IServiceCollection services) where TCtx : BlazeServerContext
+    {
+        return AddBlazeContext<TCtx>(services, (_, _) => { });
+    }
+
     public static IServiceCollection AddBlazeContext<TCtx>(this IServiceCollection services, Action<BlazeServerContextOptions, IServiceProvider> configure) where TCtx : BlazeServerContext
     {
         // check if such a context is already registered

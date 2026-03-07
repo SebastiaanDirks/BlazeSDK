@@ -25,7 +25,7 @@ public class CACertificateRequest : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "CACertificateRequest";
-    public override string GetFullClassName() => "Blaze::GameManager::CACertificateRequest";
+    public override string GetFullClassName() => "Blaze::Redirector::CACertificateRequest";
 
     public string ServiceName
     {

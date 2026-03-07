@@ -53,7 +53,7 @@ public class ServerInstanceRequest : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerInstanceRequest";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerInstanceRequest";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerInstanceRequest";
 
     public string BlazeSDKVersion
     {

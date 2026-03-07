@@ -37,7 +37,7 @@ public class ServerInstance : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerInstance";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerInstance";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerInstance";
 
     public IList<Blaze15SDK.Blaze.ClientType> ClientTypes
     {

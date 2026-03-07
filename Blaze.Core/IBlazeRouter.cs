@@ -10,5 +10,6 @@ namespace Blaze.Core;
 public interface IBlazeRouter
 {
     IBlazeComponent? GetComponent(ushort id);
+    (IBlazeComponent component, IRpcCommandFunc command)? ResolveRestCommand(HttpMethod method, string path);
     string GetErrorName(int errorCode);
 }

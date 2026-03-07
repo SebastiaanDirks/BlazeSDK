@@ -29,7 +29,7 @@ public class SunsetData : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "SunsetData";
-    public override string GetFullClassName() => "Blaze::GameManager::SunsetData";
+    public override string GetFullClassName() => "Blaze::Redirector::SunsetData";
 
     public string DownDate
     {

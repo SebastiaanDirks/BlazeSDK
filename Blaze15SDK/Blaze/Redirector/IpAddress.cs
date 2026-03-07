@@ -27,7 +27,7 @@ public class IpAddress : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "IpAddress";
-    public override string GetFullClassName() => "Blaze::GameManager::IpAddress";
+    public override string GetFullClassName() => "Blaze::Redirector::IpAddress";
 
     public string Hostname
     {

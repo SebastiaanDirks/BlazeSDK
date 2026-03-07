@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Blaze.Core;
 
-public class BlazeRpcConnection
+public class BlazeRpcConnection : IBlazeConnection
 {
     private ProtoFireConnection _baseConnection { get; }
     private ITdfSerializer _serializer { get; }

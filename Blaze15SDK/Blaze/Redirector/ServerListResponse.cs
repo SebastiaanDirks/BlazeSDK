@@ -23,7 +23,7 @@ public class ServerListResponse : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerListResponse";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerListResponse";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerListResponse";
 
     public IList<Blaze15SDK.Blaze.Redirector.ServerInfoData> Servers
     {

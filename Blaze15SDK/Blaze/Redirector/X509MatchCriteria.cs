@@ -35,7 +35,7 @@ public class X509MatchCriteria : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "X509MatchCriteria";
-    public override string GetFullClassName() => "Blaze::GameManager::X509MatchCriteria";
+    public override string GetFullClassName() => "Blaze::Redirector::X509MatchCriteria";
 
     public int PublicKeyBits
     {

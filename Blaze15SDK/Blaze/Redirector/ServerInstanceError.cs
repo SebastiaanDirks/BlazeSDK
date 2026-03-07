@@ -23,7 +23,7 @@ public class ServerInstanceError : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerInstanceError";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerInstanceError";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerInstanceError";
 
     public IList<string> Messages
     {

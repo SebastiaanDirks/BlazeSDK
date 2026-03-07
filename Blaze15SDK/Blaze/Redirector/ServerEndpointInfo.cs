@@ -39,7 +39,7 @@ public class ServerEndpointInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerEndpointInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerEndpointInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerEndpointInfo";
 
     public IList<Blaze15SDK.Blaze.Redirector.ServerAddressInfo> Addresses
     {

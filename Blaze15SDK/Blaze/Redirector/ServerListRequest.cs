@@ -31,7 +31,7 @@ public class ServerListRequest : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerListRequest";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerListRequest";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerListRequest";
 
     public uint Count
     {

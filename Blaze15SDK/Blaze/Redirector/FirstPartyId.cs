@@ -27,7 +27,7 @@ public class FirstPartyId : Union
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "FirstPartyId";
-    public override string GetFullClassName() => "Blaze::GameManager::FirstPartyId";
+    public override string GetFullClassName() => "Blaze::Redirector::FirstPartyId";
 
     public override ITdfMember? GetActiveMember()
     {

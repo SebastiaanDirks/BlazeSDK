@@ -23,7 +23,7 @@ public class SunsetListResponse : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "SunsetListResponse";
-    public override string GetFullClassName() => "Blaze::GameManager::SunsetListResponse";
+    public override string GetFullClassName() => "Blaze::Redirector::SunsetListResponse";
 
     public IDictionary<string, Blaze15SDK.Blaze.Redirector.SunsetData> Titles
     {

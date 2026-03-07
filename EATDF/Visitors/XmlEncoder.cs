@@ -184,14 +184,22 @@ public class XmlEncoder : ITdfVisitor
     {
         if (visitHeader && !value.IsSet()) return false;
         if (value.Value == null) return false;
-
-        string elementName = value.TdfInfo.Name.ToLowerInvariant();
+        
+        bool insideValuUnion = _stateStack[_stateDepth].State == State.Union
+                               && _stateStack[_stateDepth].EncodeMemberIndex;
 
         PushStack(State.Normal);
-        _writer.WriteStartElement(elementName);
-        _writer.WriteNewLine();
+        if (!insideValuUnion)
+        {
+            string elementName = value.TdfInfo.Name.ToLowerInvariant();
+            _writer.WriteStartElement(elementName);
+            _writer.WriteNewLine();
+        }
         VisitMembers(value.Value);
-        _writer.WriteEndElement();
+        if (!insideValuUnion)
+        {
+            _writer.WriteEndElement();
+        }
         PopStack();
         return true;
     }

@@ -7,7 +7,7 @@ namespace Blaze15SDK.Blaze.Redirector;
 public class ServerInstanceInfo : Tdf
 {
     static readonly TdfMemberInfo[] __typeInfos = [
-        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Struct, 0, true), // Tag: ADDR
+        new TdfMemberInfo("Address", "mAddress", 0x86493200, TdfType.Union, 0, true), // Tag: ADDR
         new TdfMemberInfo("AddressRemaps", "mAddressRemaps", 0x86D87000, TdfType.List, 1, true), // Tag: AMAP
         new TdfMemberInfo("CertificateList", "mCertificateList", 0x8E5CB400, TdfType.List, 2, true), // Tag: CERT
         new TdfMemberInfo("Messages", "mMessages", 0xB739F300, TdfType.List, 3, true), // Tag: MSGS
@@ -18,7 +18,7 @@ public class ServerInstanceInfo : Tdf
     ];
     private ITdfMember[] __members;
 
-    private TdfStruct<Blaze15SDK.Blaze.Redirector.ServerAddress?> _address = new(__typeInfos[0]);
+    private TdfUnion<Blaze15SDK.Blaze.Redirector.ServerAddress> _address = new(__typeInfos[0]);
     private TdfList<Blaze15SDK.Blaze.Redirector.AddressRemapEntry> _addressRemaps = new(__typeInfos[1]);
     private TdfList<byte[]> _certificateList = new(__typeInfos[2]);
     private TdfList<string> _messages = new(__typeInfos[3]);
@@ -37,9 +37,9 @@ public class ServerInstanceInfo : Tdf
     public override TdfMemberInfo[] GetMemberInfos() => __typeInfos;
     public static TdfMemberInfo[] GetTdfMemberInfos() => __typeInfos;
     public override string GetClassName() => "ServerInstanceInfo";
-    public override string GetFullClassName() => "Blaze::GameManager::ServerInstanceInfo";
+    public override string GetFullClassName() => "Blaze::Redirector::ServerInstanceInfo";
 
-    public Blaze15SDK.Blaze.Redirector.ServerAddress? Address
+    public Blaze15SDK.Blaze.Redirector.ServerAddress Address
     {
         get => _address.Value;
         set => _address.Value = value;

@@ -1,5 +1,6 @@
 ﻿using Blaze.Core;
 using Blaze.Hosting.Internal;
+using HttpMethod = Blaze.Core.HttpMethod;
 using EATDF;
 using EATDF.Serialization;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +23,40 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
         public IBlazeComponent? GetComponent(ushort id)
         {
             return components.TryGetValue(id, out IBlazeComponent? component) ? component : null;
+        }
+
+        public (IBlazeComponent component, IRpcCommandFunc command)? ResolveRestCommand(HttpMethod method, string path)
+        {
+            foreach (var component in components.Values)
+            {
+                var commandFunc = component.GetRestCommandFunc(method, path);
+                if (commandFunc != null)
+                    return (component, commandFunc);
+            }
+
+            ReadOnlySpan<char> p = path.AsSpan();
+            if (p.Length > 0 && p[0] == '/') p = p[1..];
+            int qIdx = p.IndexOf('?');
+            if (qIdx >= 0) p = p[..qIdx];
+            int firstSlash = p.IndexOf('/');
+            if (firstSlash < 0) return null;
+            string componentPrefix = p[..firstSlash].ToString();
+            string commandName = p[(firstSlash + 1)..].ToString();
+            int secondSlash = commandName.IndexOf('/');
+            if (secondSlash >= 0) commandName = commandName[..secondSlash];
+            if (componentPrefix.Length == 0 || commandName.Length == 0) return null;
+
+            foreach (var component in components.Values)
+            {
+                if (component.RestBasePath.Equals(componentPrefix, StringComparison.OrdinalIgnoreCase))
+                {
+                    var cmd = component.GetCommandByName(commandName);
+                    if (cmd != null)
+                        return (component, cmd);
+                }
+            }
+
+            return null;
         }
 
         public string GetErrorName(int errorCode)
@@ -70,40 +105,66 @@ public abstract class BlazeServerContext : IBlazeServerCallbacks
         }
 
         foreach (IPEndPoint endPoint in _options.EndPoints)
-            UseEndpoint(endPoint);
+        {
+            EndpointType endpointType = _options.EndpointTypes.GetValueOrDefault(endPoint, EndpointType.Rpc);
+            UseEndpoint(endPoint, endpointType);
+        }
     }
 
-    internal void UseEndpoint(IPEndPoint localEndPoint)
+    internal void UseEndpoint(IPEndPoint localEndPoint, EndpointType endpointType = EndpointType.Rpc)
     {
         BlazeServerContextOptions options = GetOptions();
+        IBlazeRouter router = new ServerRouter(_components, options.BaseErrorNames);
 
-        ITdfSerializer serializer = options.TdfSerializer switch
+        if (endpointType is EndpointType.Rpc or EndpointType.Both)
         {
-            TdfSerializerType.Heat => new HeatSerializer(),
-            TdfSerializerType.Heat2 => new Heat2Serializer(options.TdfRegistry, options.Heat1BackCompatibility),
-            TdfSerializerType.Xml => new XmlSerializer(),
-            _ => throw new ArgumentException("Invalid serializer type")
-        };
+            ITdfSerializer serializer = options.TdfSerializer switch
+            {
+                TdfSerializerType.Heat => new HeatSerializer(),
+                TdfSerializerType.Heat2 => new Heat2Serializer(options.TdfRegistry, options.Heat1BackCompatibility),
+                TdfSerializerType.Xml => new XmlSerializer(),
+                _ => throw new ArgumentException("Invalid serializer type")
+            };
 
-        BlazeServerConfig config = new BlazeServerConfig()
+            BlazeServerConfig rpcConfig = new BlazeServerConfig()
+            {
+                Backlog = options.Backlog,
+                CallbackHandler = this,
+                LocalEndpoint = localEndPoint,
+                PacketFrameEncoding = options.FrameEncoding,
+                Serializer = serializer,
+                Secure = options.Secure,
+                EndpointType = endpointType,
+                Router = router
+            };
+
+            BlazeServer blazeServer = new BlazeServer(rpcConfig, _serviceProvider.GetRequiredService<ILogger<BlazeServer>>());
+            _hostingService.AddBlazeServer(blazeServer);
+        }
+
+        if (endpointType is EndpointType.Rest or EndpointType.Both)
         {
-            Backlog = options.Backlog,
-            CallbackHandler = this,
-            LocalEndpoint = localEndPoint,
-            PacketFrameEncoding = options.FrameEncoding,
-            Serializer = serializer,
-            Secure = options.Secure,
-            Router = new ServerRouter(_components, options.BaseErrorNames)
-        };
+            IPEndPoint restEndPoint = endpointType == EndpointType.Both
+                ? new IPEndPoint(localEndPoint.Address, localEndPoint.Port == 0 ? 0 : localEndPoint.Port + 1)
+                : localEndPoint;
 
-        BlazeServer blazeServer = new BlazeServer(config, _serviceProvider.GetRequiredService<ILogger<BlazeServer>>());
-        _hostingService.AddBlazeServer(blazeServer);
+            BlazeServerConfig restConfig = new BlazeServerConfig()
+            {
+                Backlog = options.Backlog,
+                CallbackHandler = this,
+                LocalEndpoint = restEndPoint,
+                EndpointType = EndpointType.Rest,
+                Secure = options.Secure,
+                Certificate = options.Certificate,
+                Router = router
+            };
+
+            BlazeRestServer restServer = new BlazeRestServer(restConfig, _serviceProvider.GetRequiredService<ILogger<BlazeRestServer>>());
+            _hostingService.AddRestServer(restServer);
+        }
     }
 
-    protected virtual void OnConfiguring(BlazeServerContextOptions options, IServiceProvider provider)
-    {
-        
-    }
+    protected virtual void OnConfiguring(BlazeServerContextOptions options, IServiceProvider provider) { }
 
     BlazeServerContextOptions GetOptions()
     {
