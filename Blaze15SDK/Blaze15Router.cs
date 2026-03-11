@@ -10,7 +10,7 @@ public class Blaze15Router : BlazeRouter
         ConfigureServerErrors<ServerError>();
         ConfigureSdkErrors<SdkError>();
 
-        // Register all 18 Blaze v15 components
+        // Register all 19 Blaze v15 components
         AddComponent(new AuthenticationComponentBase.Server());      // Id = 1
         AddComponent(new ExampleComponentBase.Server());             // Id = 3
         AddComponent(new GameManagerComponentBase.Server());         // Id = 4
@@ -29,5 +29,7 @@ public class Blaze15Router : BlazeRouter
         AddComponent(new FriendsComponentBase.Server());             // Id = 1031
         AddComponent(new UserSessionsBase.Server());                 // Id = 30722
         AddComponent(new DynamicInetFilterComponentBase.Server());   // Id = 30732
+        AddComponent(new OSDKSettingsComponentBase.Server());        // Id = 2249 (custom/201)
+        AddComponent(new SponsoredEventsComponentBase.Server());    // Id = 2076 (custom/28)
     }
 }

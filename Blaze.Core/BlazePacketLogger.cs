@@ -8,11 +8,14 @@ namespace Blaze.Core;
 /// <summary>
 /// Logs all incoming and outgoing Blaze packets to an XML file.
 /// Thread-safe: multiple connections can log concurrently.
-/// Each packet entry is flushed immediately so data is preserved even on crash.
+/// The file is always valid XML — the closing tag is written after every entry
+/// and overwritten when the next entry is appended.
 /// </summary>
 public sealed class BlazePacketLogger : IDisposable
 {
-    private readonly StreamWriter _writer;
+    private static readonly byte[] ClosingTag = Encoding.UTF8.GetBytes("</blazelog>" + Environment.NewLine);
+
+    private readonly FileStream _fs;
     private readonly object _lock = new();
     private readonly ITdfSerializer _xmlSerializer = new XmlSerializer();
     private bool _disposed;
@@ -27,11 +30,11 @@ public sealed class BlazePacketLogger : IDisposable
         if (directory != null)
             Directory.CreateDirectory(directory);
 
-        FileStream fs = new FileStream(expandedPath, FileMode.Create, FileAccess.Write, FileShare.Read);
-        _writer = new StreamWriter(fs, new UTF8Encoding(false));
-        _writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-        _writer.WriteLine("<blazelog>");
-        _writer.Flush();
+        _fs = new FileStream(expandedPath, FileMode.Create, FileAccess.Write, FileShare.Read);
+        WriteRaw("<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + Environment.NewLine);
+        WriteRaw("<blazelog>" + Environment.NewLine);
+        _fs.Write(ClosingTag);
+        _fs.Flush();
     }
 
     /// <summary>
@@ -65,43 +68,50 @@ public sealed class BlazePacketLogger : IDisposable
             }
 
             string timestamp = DateTime.UtcNow.ToString("o");
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("    <packet");
+            AppendAttr(sb, "timestamp", timestamp);
+            AppendAttr(sb, "protocol", protocol);
+            AppendAttr(sb, "direction", direction);
+            AppendAttr(sb, "connection", connectionId.ToString());
+            AppendAttr(sb, "component", componentName);
+            AppendAttr(sb, "componentId", $"0x{componentId:X4}");
+            AppendAttr(sb, "command", commandName);
+            AppendAttr(sb, "commandId", $"0x{commandId:X4}");
+            AppendAttr(sb, "messageType", messageType);
+            AppendAttr(sb, "messageNum", messageNum.ToString());
+            AppendAttr(sb, "userIndex", userIndex.ToString());
+
+            if (errorCode != 0)
+            {
+                AppendAttr(sb, "errorCode", $"0x{errorCode:X4}");
+                if (errorName != null)
+                    AppendAttr(sb, "errorName", errorName);
+            }
+
+            if (string.IsNullOrEmpty(tdfXml))
+            {
+                sb.AppendLine(" />");
+            }
+            else
+            {
+                sb.AppendLine(">");
+                sb.Append(tdfXml);
+                sb.AppendLine("    </packet>");
+            }
+
+            byte[] entryBytes = Encoding.UTF8.GetBytes(sb.ToString());
 
             lock (_lock)
             {
                 if (_disposed) return;
 
-                _writer.Write("    <packet");
-                WriteAttr("timestamp", timestamp);
-                WriteAttr("protocol", protocol);
-                WriteAttr("direction", direction);
-                WriteAttr("connection", connectionId.ToString());
-                WriteAttr("component", componentName);
-                WriteAttr("componentId", $"0x{componentId:X4}");
-                WriteAttr("command", commandName);
-                WriteAttr("commandId", $"0x{commandId:X4}");
-                WriteAttr("messageType", messageType);
-                WriteAttr("messageNum", messageNum.ToString());
-                WriteAttr("userIndex", userIndex.ToString());
-
-                if (errorCode != 0)
-                {
-                    WriteAttr("errorCode", $"0x{errorCode:X4}");
-                    if (errorName != null)
-                        WriteAttr("errorName", errorName);
-                }
-
-                if (string.IsNullOrEmpty(tdfXml))
-                {
-                    _writer.WriteLine(" />");
-                }
-                else
-                {
-                    _writer.WriteLine(">");
-                    _writer.Write(tdfXml);
-                    _writer.WriteLine("    </packet>");
-                }
-
-                _writer.Flush();
+                // Seek back over the previous closing tag, write the entry, then re-write the closing tag
+                _fs.Seek(-ClosingTag.Length, SeekOrigin.Current);
+                _fs.Write(entryBytes);
+                _fs.Write(ClosingTag);
+                _fs.Flush();
             }
         }
         catch
@@ -110,9 +120,9 @@ public sealed class BlazePacketLogger : IDisposable
         }
     }
 
-    private void WriteAttr(string name, string value)
+    private static void AppendAttr(StringBuilder sb, string name, string value)
     {
-        _writer.Write($" {name}=\"{EscapeAttribute(value)}\"");
+        sb.Append($" {name}=\"{EscapeAttribute(value)}\"");
     }
 
     private string SerializeTdf(Tdf? tdf)
@@ -139,6 +149,12 @@ public sealed class BlazePacketLogger : IDisposable
         return sb.ToString();
     }
 
+    private void WriteRaw(string text)
+    {
+        byte[] bytes = Encoding.UTF8.GetBytes(text);
+        _fs.Write(bytes);
+    }
+
     private static string EscapeAttribute(string value)
     {
         if (value.AsSpan().IndexOfAny("&<>\"'") < 0) return value;
@@ -156,9 +172,8 @@ public sealed class BlazePacketLogger : IDisposable
         {
             if (_disposed) return;
             _disposed = true;
-            _writer.WriteLine("</blazelog>");
-            _writer.Flush();
-            _writer.Dispose();
+            _fs.Flush();
+            _fs.Dispose();
         }
     }
 }

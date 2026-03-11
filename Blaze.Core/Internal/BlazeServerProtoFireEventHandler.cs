@@ -93,6 +93,7 @@ namespace Blaze.Core.Internal
                 Task task = packet.Frame.MessageType switch
                 {
                     MessageType.Message => onMessagePacketAsync(rpcConnection, packet),
+                    MessageType.Ping => onPingPacketAsync(rpcConnection, packet),
                     _ => _handler.OnUnhandledAsync(rpcConnection, packet, false)
                 };
 
@@ -118,6 +119,25 @@ namespace Blaze.Core.Internal
             rpcConnection = new BlazeRpcConnection(fireConnection, _serializer);
             fireConnection.State = rpcConnection;
             return rpcConnection;
+        }
+
+        async Task onPingPacketAsync(BlazeRpcConnection rpcConnection, ProtoFirePacket packet)
+        {
+            IFireFrame responseFrame = packet.Frame.CreateResponseFrame(0);
+            responseFrame.MessageType = MessageType.PingReply;
+
+            ProtoFirePacket responsePacket;
+            if (responseFrame is Fire2Frame fire2ResponseFrame)
+            {
+                byte[] metadataBytes = encodeFire2Metadata(fire2ResponseFrame, 0);
+                responsePacket = new ProtoFire2Packet(fire2ResponseFrame, metadataBytes, Array.Empty<byte>());
+            }
+            else
+            {
+                responsePacket = new ProtoFirePacket(responseFrame, Array.Empty<byte>());
+            }
+
+            await rpcConnection.SendAsync(responsePacket).ConfigureAwait(false);
         }
 
         async Task onMessagePacketAsync(BlazeRpcConnection rpcConnection, ProtoFirePacket packet)
